@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    {
+      "scheme": "doi",
+      "value": "10.1007/s11199-018-0922-8"
+    }
+  ],
+  "readings": [
+    {
+      "completeness": "complete",
+      "contributor": "cam",
+      "normalizerVersion": "normalizer.v3",
+      "readingId": "reading:00134f374a3fbc12b2ca471a7de544b9d5b22bbd6e1cdc9c50e2b93bc45e4123",
+      "sourceVersion": "cc38a28ccb722191d0489c265feab48d408f2b4a74b2e0a5bad3d90e8d3244cd",
+      "submittedOn": "2026-09-09",
+      "workId": "work:a7af05c48b6b120937835679c158cfad6aff67ce6f96d805a5c4205734c8d9d6"
+    }
+  ],
+  "workId": "work:a7af05c48b6b120937835679c158cfad6aff67ce6f96d805a5c4205734c8d9d6"
+}

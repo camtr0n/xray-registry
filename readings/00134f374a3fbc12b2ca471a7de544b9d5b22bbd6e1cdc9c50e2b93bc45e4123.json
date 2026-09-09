@@ -1,0 +1,1358 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "cc38a28ccb722191d0489c265feab48d408f2b4a74b2e0a5bad3d90e8d3244cd",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C2",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C3",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C4",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C5",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C6",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C7",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C8",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C9",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions",
+            "flagged",
+            "attacked"
+          ],
+          "claimId": "C10",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "no-dimensions"
+          ],
+          "claimId": "C11",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "no-dimensions"
+          ],
+          "claimId": "C12",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "no-dimensions"
+          ],
+          "claimId": "C13",
+          "level": "unsupported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "id": "e2",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C5",
+        "id": "e3",
+        "note": "Offered as the Black Caribbean side of the ethnic-differences finding.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C4",
+        "id": "e4",
+        "note": "The penalty that C2 explains half of is the net difference established in C4.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C6",
+        "id": "e5",
+        "note": "The generational gap C3 explains is the one established in C6.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C7",
+        "id": "e6",
+        "note": "Qualifies which groups carry a net penalty: the Indian raw gap disappears with age and cohort.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "C8",
+        "id": "e7",
+        "note": "Uniform association justifies using one pooled attitude coefficient to decompose the ethnic gap.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C9",
+        "id": "e8",
+        "note": "The 'three South Asian groups' claim holds less fully for Indian women, where a significant gap remains.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "E1",
+        "id": "e9",
+        "note": "Raw descriptive differences, before any controls.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E1",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "E2",
+        "id": "e11",
+        "note": "Baseline raw differences from which the net penalties are derived.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E3",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "E4",
+        "id": "e13",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "E4",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "E5",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E6",
+        "id": "e16",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "E7",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "E7",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "E8",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E9",
+        "id": "e20",
+        "note": "Prior findings the source says its results are consistent with.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E10",
+        "id": "e21",
+        "note": "Offered as corroboration of the generational attitude shift.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "C11",
+        "id": "e22",
+        "note": "Weakens the causal 'impeding' reading; the source states this limitation and then uses causal wording anyway.",
+        "relation": "undercuts",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C11",
+        "id": "e23",
+        "note": "Policy claims that services would alter attitudes presuppose causal direction the design cannot test.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C10"
+      },
+      {
+        "from": "C12",
+        "id": "e24",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C13",
+        "id": "e25",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "M1",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M1",
+        "id": "e27",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M1",
+        "id": "e28",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M1",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M1",
+        "id": "e30",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M1",
+        "id": "e31",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M1",
+        "id": "e32",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M1",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M2",
+        "id": "e34",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M2",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M2",
+        "id": "e36",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M2",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M2",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e39",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M2",
+        "id": "e40",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M2",
+        "id": "e41",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M3",
+        "id": "e42",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M3",
+        "id": "e43",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M3",
+        "id": "e44",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M3",
+        "id": "e45",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M3",
+        "id": "e46",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M3",
+        "id": "e47",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M3",
+        "id": "e48",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M3",
+        "id": "e49",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M4",
+        "id": "e50",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M4",
+        "id": "e51",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M4",
+        "id": "e52",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M4",
+        "id": "e53",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M5",
+        "id": "e54",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M5",
+        "id": "e55",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M5",
+        "id": "e56",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M5",
+        "id": "e57",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M5",
+        "id": "e58",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M5",
+        "id": "e59",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M5",
+        "id": "e60",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      }
+    ],
+    "id": "control-labour-force-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b129",
+            "end": 429,
+            "exact": "gender role attitudes play an important role in explaining differences in women’s LFP rates across different ethnic groups and within South Asian minorities",
+            "start": 273
+          },
+          {
+            "blockId": "b171",
+            "end": 502,
+            "exact": "traditional gender role attitudes are a crucial factor impeding women’s LFP, especially for Pakistani and Bangladeshi women",
+            "start": 379
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The design is a single cross-sectional wave (2010–2011), and the source itself says it cannot explore causal effects, yet the conclusion uses causal wording ('impeding') and the abstract proposes policies to 'alter' attitudes. The analysis cannot rule out reverse causation (women outside the labor force adopting attitudes that justify that position) or a common cause (e.g., partner's preferences, community norms) driving both attitudes and LFP. Panel data or a design with attitudes measured before labor-market entry would be needed.",
+        "flagKind": "causal-language-without-design",
+        "id": "C1",
+        "kind": "claim",
+        "label": "Net of demographic characteristics and education, gender role attitudes play an important role in explaining LFP differences across British ethnic groups and within South Asian minorities; the conclusion phrases this as traditional attitudes being a crucial factor impeding women's LFP.",
+        "main": true,
+        "note": "The 'explains' language throughout refers to how much an ethnic or generational coefficient shrinks when the attitude score is added to a logistic regression. The learner should read 'explained' as 'statistically accounted for' rather than as a demonstrated mechanism.",
+        "short": "Gender role attitudes explain ethnic LFP differences",
+        "where": "Discussion and Conclusions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 790,
+            "exact": "about half of the ethnic gap can be explained by differences in gender role attitudes",
+            "start": 705
+          },
+          {
+            "blockId": "b123",
+            "end": 398,
+            "exact": "including gender role attitudes reduces around half of the ethnic differences for Pakistani and Bangladeshi women, although their LFP rates are still 8% (p = .006) and 9% (p = .012) points lower than that of White British women",
+            "start": 171
+          },
+          {
+            "blockId": "b157",
+            "end": 842,
+            "exact": "about half of the ethnic penalties of Pakistanis and Bangladeshis can be explained by relatively traditional gender role attitudes",
+            "start": 712
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C2",
+        "kind": "claim",
+        "label": "About half of the ethnic LFP penalty of Pakistani and Bangladeshi women relative to White British women (net of demographics and education) is explained by their more traditional gender role attitudes (Hypothesis 1).",
+        "note": "'Half' is the drop from −.16 (Model 4) to −.08/−.09 (Model 5) in Table 2. The source states the hypothesis is 'strongly supported' while an 8–9 point penalty remains unexplained; it attributes the remainder to language, local labor-market familiarity and networks, which are not measured.",
+        "short": "Half of Pakistani/Bangladeshi gap explained by attitudes",
+        "where": "Abstract, Regression Analysis, Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 1159,
+            "exact": "the higher LFP rates of second generation South Asian women can be largely explained by their relatively less traditional gender role attitudes",
+            "start": 1016
+          },
+          {
+            "blockId": "b165",
+            "end": 595,
+            "exact": "gender role attitudes can explain a large proportion of generational differences in women’s LFP for the three South Asian groups",
+            "start": 467
+          },
+          {
+            "blockId": "b165",
+            "end": 731,
+            "exact": "Especially for Pakistanis and Bangladeshis with gender role attitudes entered, the net generational differences become nonsignificant.",
+            "start": 597
+          },
+          {
+            "blockId": "b171",
+            "end": 982,
+            "exact": "these less traditional attitudes largely explain their higher LFP rates",
+            "start": 911
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "'Becomes nonsignificant' is read as the gap being largely explained, but the generational coefficients fall from .15 to .07 (Pakistani, p = .119) and .18 to .06 (Bangladeshi, p = .220) in samples of 441 and 226 women. A 6–7 point residual that fails significance in samples this small is as consistent with limited power as with the gap being eliminated. Confidence intervals on the reduction, or a formal mediation test, would be needed to support 'largely explained'. The source also reads the result as 'integrating into the host society', which requires that generation differences reflect assimilation rather than cohort or period differences the cross-sectional design cannot separate.",
+        "flagKind": "other",
+        "id": "C3",
+        "kind": "claim",
+        "label": "The higher LFP of second generation South Asian women relative to first generation women is largely explained by their less traditional gender role attitudes; for Pakistani and Bangladeshi women the generational difference becomes nonsignificant once attitudes are included (Hypothesis 2).",
+        "note": "Second generation is defined to include anyone who arrived before age 7, and second and later generations cannot be separated (b57).",
+        "short": "Generational LFP gain largely explained by attitudes",
+        "where": "Abstract, Regression Analysis (Table 3), Discussion, Conclusions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 700,
+            "exact": "LFP rates of Pakistani and Bangladeshi women are significantly lower than that of White British women",
+            "start": 599
+          },
+          {
+            "blockId": "b122",
+            "end": 625,
+            "exact": "the ethnic differences net of important demographic characteristics and education are −16% for Pakistanis and Bangladeshis (p < .001), and 7% for Black Caribbeans (p = .014)",
+            "start": 452
+          },
+          {
+            "blockId": "b157",
+            "end": 494,
+            "exact": "Pakistani and Bangladeshi women have significantly lower LFP rates than White British women do and suffer significant ethnic penalties, whereas Black Caribbean women have significantly higher LFP rates than White British women do",
+            "start": 265
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C4",
+        "kind": "claim",
+        "label": "Net of age, cohort, partnership, preschool children and education, Pakistani and Bangladeshi women have LFP rates 16 points lower than White British women (an ethnic penalty), while Black Caribbean women are 7 points higher; Indian and Black African women show no net difference.",
+        "note": "Controls are limited to age, age squared, generation, partnership, presence of preschool children and a three-category education variable; the source's own definition of ethnic penalty treats the residual as due to language, networks, norms and discrimination, none of which is measured here.",
+        "short": "Net ethnic penalties for Pakistani and Bangladeshi women",
+        "where": "Abstract, Regression Analysis, Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b123",
+            "end": 704,
+            "exact": "an important reason for Caribbean women’s higher LFP rate relative to White British is their relatively egalitarian gender role attitudes",
+            "start": 567
+          },
+          {
+            "blockId": "b162",
+            "end": 236,
+            "exact": "the higher LFP rate of Black Caribbean relative to White British women is primarily due to the former’s more egalitarian gender role attitudes",
+            "start": 94
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "The basis for 'primarily due to' is that the Black Caribbean coefficient moves from .07 (p = .014) to .05 (p = .102) when attitudes enter. The coefficient shrinks by roughly two points out of seven and crosses the significance threshold; the source does not show that most of the advantage is accounted for, only that the remainder is no longer significant with n = 367.",
+        "flagKind": "other",
+        "id": "C5",
+        "kind": "claim",
+        "label": "The higher LFP rate of Black Caribbean women relative to White British women is primarily due to their more egalitarian gender role attitudes.",
+        "short": "Caribbean advantage due to egalitarian attitudes",
+        "where": "Regression Analysis and Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 1001,
+            "exact": "second generation Pakistani, Bangladeshi, and Indian women whose LFP rates are significantly higher than those of their first generation counterparts",
+            "start": 852
+          },
+          {
+            "blockId": "b126",
+            "end": 401,
+            "exact": "all three South Asian groups experience a significant improvement in women’s LFP over generations",
+            "start": 304
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C6",
+        "kind": "claim",
+        "label": "After controlling for demographics and education, second generation Pakistani, Bangladeshi and Indian women have significantly higher LFP rates than first generation women (by 15, 18 and 16 points respectively).",
+        "short": "Second generation South Asians have higher LFP",
+        "where": "Abstract, Regression Analysis (Table 3), Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b121",
+            "end": 265,
+            "exact": "the lower LFP rate of Indian women relative to White British women is mainly due to the age and cohort effects",
+            "start": 155
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 3
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "The lower raw LFP rate of Indian women relative to White British women is mainly due to age and cohort effects, since the Indian coefficient becomes nonsignificant once age and generation are controlled.",
+        "short": "Indian raw gap due to age and cohort",
+        "where": "Regression Analysis"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b124",
+            "end": 404,
+            "exact": "the association between gender role attitudes and women’s LFP did not vary across different ethnic groups",
+            "start": 299
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 3
+        },
+        "id": "C8",
+        "kind": "claim",
+        "label": "The association between gender role attitudes and LFP does not differ across ethnic groups, so a single pooled coefficient is appropriate.",
+        "note": "Based on nonsignificant ethnicity × attitude interaction terms reported in supplementary Table 1s, which is not in the source text; minority group sizes (226–563) limit the power of interaction tests, so 'not significant' does not establish equality.",
+        "short": "Attitude–LFP association uniform across groups",
+        "where": "Regression Analysis (robustness checks)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b165",
+            "end": 1128,
+            "exact": "the generational difference remains significant for Indian women even after taking into account gender role attitudes",
+            "start": 1011
+          },
+          {
+            "blockId": "b165",
+            "end": 1337,
+            "exact": "other unobserved characteristics of the second generation Indian women may also contribute to their higher LFP rate such as better language proficiency and residence in less deprived areas",
+            "start": 1149
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "For Indian women the generational LFP difference remains significant after including gender role attitudes, which the source attributes to unobserved characteristics such as language proficiency and area deprivation.",
+        "note": "The suggested unobserved characteristics are speculation the source offers without measurement; they are named as possibilities, not tested.",
+        "short": "Indian generational gap remains after attitudes",
+        "where": "Regression Analysis and Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 1381,
+            "exact": "public policies could provide appropriate childcare services and flexible work arrangements to alter traditional gender role attitudes, thereby improving minority women’s labor market opportunities",
+            "start": 1184
+          },
+          {
+            "blockId": "b167",
+            "end": 1048,
+            "exact": "ensuring flexible and part-time employment opportunities could help them juggle work-and-life balance and increase their LFP rates",
+            "start": 918
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "None of the recommended interventions (childcare provision, flexible work, language training, anti-discrimination rules) is measured or tested in the study. The claim that such services would 'alter' attitudes rests on the premise that attitudes are malleable and causally prior to LFP, which the cross-sectional analysis does not establish. Evidence from evaluations of such programs would be needed.",
+        "flagKind": "scope-leap",
+        "id": "C10",
+        "kind": "claim",
+        "label": "Policy should provide skill and language training, anti-discrimination regulation, flexible and part-time work and culturally sensitive childcare, which could alter traditional gender role attitudes and raise minority women's LFP.",
+        "short": "Policy: childcare, flexible work, training",
+        "where": "Abstract and Practice Implications"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b169",
+            "end": 1375,
+            "exact": "my study used cross-sectional data and therefore is unable to explore causal and dynamic effects of gender role attitudes on women’s LFP",
+            "start": 1239
+          }
+        ],
+        "id": "C11",
+        "kind": "claim",
+        "label": "Limitation: the study uses cross-sectional data and cannot explore causal or dynamic effects of gender role attitudes on LFP.",
+        "note": "Stated by the source; recorded because the conclusions and policy section nonetheless use causal language.",
+        "short": "Cross-sectional data cannot show causation",
+        "where": "Limitations and Future Research Directions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b169",
+            "end": 784,
+            "exact": "the measure of gender role attitudes used in my study primarily focuses on whether women should do paid work and may not reflect the total sum of gender relations and gender role division",
+            "start": 597
+          }
+        ],
+        "id": "C12",
+        "kind": "claim",
+        "label": "Limitation: the gender role attitude measure focuses on whether women should do paid work and may not reflect gender relations more broadly.",
+        "note": "The three items ask whether a mother's or wife's employment harms children and family life; agreement with them is conceptually close to the outcome (not participating in paid work), which bears on how much 'explanation' an attitude score can add.",
+        "short": "Attitude measure narrow, close to outcome",
+        "where": "Limitations and Future Research Directions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b169",
+            "end": 291,
+            "exact": "the current ethnic classifications used in my study may conceal some important within-group diversity in terms of religious affiliations and migration histories",
+            "start": 131
+          }
+        ],
+        "id": "C13",
+        "kind": "claim",
+        "label": "Limitation: the ethnic classifications may conceal within-group diversity in religion and migration history, which could lead to inaccurate generalizations across ethnic groups.",
+        "short": "Ethnic categories hide within-group diversity",
+        "where": "Limitations and Future Research Directions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b90",
+            "end": 366,
+            "exact": "all second generation minorities have higher LFP rates than their first generations",
+            "start": 283
+          },
+          {
+            "blockId": "b90",
+            "end": 1023,
+            "exact": "all second generation minorities have less traditional attitudes than their first generation counterparts",
+            "start": 918
+          },
+          {
+            "blockId": "b90",
+            "end": 746,
+            "exact": "both first and second generation South Asian women have more traditional gender role attitudes than White British women",
+            "start": 627
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "Descriptive statistics (Table 1) show first generation South Asian women have lower LFP than White British women, all second generation groups have higher LFP and less traditional attitudes than their first generations, and South Asian women have more traditional attitudes than White British women.",
+        "note": "The numeric rows of Table 1 in the source are garbled (b70–b83); the text description is relied on here. Group sizes range from 100 (second generation Indian) to 15,635 (White British).",
+        "short": "Table 1 descriptive ethnic and generational patterns",
+        "where": "Descriptive Statistics"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b93",
+            "end": 343,
+            "exact": "the LFP rates of Pakistani, Bangladeshi, and Indian women are 26, 26, and 7% points lower than that of White British women (p < .001)",
+            "start": 210
+          },
+          {
+            "blockId": "b99",
+            "end": 12,
+            "exact": "−.09*** −.02",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "The text reports the Indian raw difference as 7 points, but the Table 2 Model 1 entry for Indian is −.09. One of the two is in error; the discrepancy does not affect the main results but signals that reported numbers should be checked against the tables.",
+        "flagKind": "other",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "Model 1 raw differences: Pakistani, Bangladeshi and Indian women's LFP rates are 26, 26 and 7 points lower than White British women's; Black Caribbean women are 9 points higher; Black African women do not differ.",
+        "short": "Model 1 raw ethnic LFP differences",
+        "where": "Regression Analysis, Table 2"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b118",
+            "end": 22,
+            "exact": "−.20*** −.16*** −.08**",
+            "start": 0
+          },
+          {
+            "blockId": "b121",
+            "end": 598,
+            "exact": "ethnic differences in LFP decrease by 5% points for Pakistanis and Bangladeshis, as well as 1% point for Black Caribbeans",
+            "start": 477
+          },
+          {
+            "blockId": "b122",
+            "end": 338,
+            "exact": "ethnic differences in LFP further decrease by 4 and 3% points for Pakistanis and Bangladeshis, and 1% point for Black Caribbeans",
+            "start": 210
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "Models 2–4 add age, generation, partnership, preschool children and education stepwise; the Pakistani and Bangladeshi coefficients fall from −.25/−.24 to −.16 and the Black Caribbean coefficient to .07 (p = .014).",
+        "short": "Models 2–4 net ethnic coefficients",
+        "where": "Regression Analysis, Table 2"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b123",
+            "end": 156,
+            "exact": "Model 5 includes gender role attitudes and shows that traditional gender role attitudes are significantly associated with lower women’s LFP rates (p < .001)",
+            "start": 0
+          },
+          {
+            "blockId": "b123",
+            "end": 538,
+            "exact": "with gender role attitudes entered, the ethnic difference between Black Caribbean and White British women becomes nonsignificant",
+            "start": 410
+          },
+          {
+            "blockId": "b123",
+            "end": 747,
+            "exact": "the R2 increases from 19% to 23%",
+            "start": 715
+          },
+          {
+            "blockId": "b119",
+            "end": 127,
+            "exact": "−.03*** (.00) .000 17,614 17,614 17,614 .16 .19 .23",
+            "start": 76
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Model 5 adds the attitude score (AME −.03 per point, p < .001); Pakistani and Bangladeshi coefficients fall to −.08 and −.09, the Black Caribbean coefficient to .05 (p = .102), and R² rises from .19 to .23.",
+        "note": "The attitude score is standardized 0–10, so −.03 per point implies roughly a 30-point LFP difference between the least and most traditional scores, holding controls constant.",
+        "short": "Model 5 with gender role attitudes",
+        "where": "Regression Analysis, Table 2"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b124",
+            "end": 281,
+            "exact": "None of the interaction effects were significant",
+            "start": 233
+          },
+          {
+            "blockId": "b124",
+            "end": 675,
+            "exact": "the results remain similar to those reported here, but ethnic differences are more pronounced for Pakistani and",
+            "start": 564
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "Robustness checks: ethnicity × attitude interaction terms were all nonsignificant, and restricting to partnered women gave similar results with larger Pakistani and Bangladeshi differences (online supplement Tables 1s–2s).",
+        "note": "The supplementary tables are not included in the source; the results are reported only in summary. The source interprets the larger gap among partnered women as partnership impeding LFP more for these groups.",
+        "short": "Interaction and partnered-only robustness checks",
+        "where": "Regression Analysis"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b120",
+            "end": 120,
+            "exact": "second generation minority women have significantly higher LFP rates than the first generation (p < .001)",
+            "start": 15
+          },
+          {
+            "blockId": "b126",
+            "end": 569,
+            "exact": "the generational difference in LFP rate is 15% for Pakistani women (p = .001), 18% for Bangladeshi women (p = .006), and 16% for Indian women (p = .001)",
+            "start": 417
+          },
+          {
+            "blockId": "b134",
+            "end": 9,
+            "exact": ".15** .07",
+            "start": 0
+          },
+          {
+            "blockId": "b160",
+            "end": 20,
+            "exact": ".18** .06 .16** .09*",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "Table 2 Model 2 and Table 3 Models A1/B1/C1 show second generation minority women have higher LFP than first generation, with generational AMEs of .15 (Pakistani), .18 (Bangladeshi) and .16 (Indian) net of controls.",
+        "short": "Generational LFP coefficients before attitudes",
+        "where": "Regression Analysis, Tables 2 and 3"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b127",
+            "end": 338,
+            "exact": "Models A2 and B2 show that generational differences for Pakistani and Bangladeshi women become nonsignificant",
+            "start": 229
+          },
+          {
+            "blockId": "b127",
+            "end": 521,
+            "exact": "for Indian women, including gender role attitudes reduces generational difference by 7% points, although the difference remains significant (p = .022)",
+            "start": 371
+          },
+          {
+            "blockId": "b160",
+            "end": 64,
+            "exact": ".006 .220 .001 .022",
+            "start": 45
+          },
+          {
+            "blockId": "b161",
+            "end": 209,
+            "exact": "−.02** −.02** (.01) (.01) .001 .001 226 226 563 563 .20 .24 .18 .21",
+            "start": 142
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "Table 3 Models A2/B2/C2 add attitudes (AME −.02, p ≤ .024 in each group): the generational coefficient falls to .07 (p = .119) for Pakistani and .06 (p = .220) for Bangladeshi women, and to .09 (p = .022) for Indian women; R² rises 3–4 points.",
+        "note": "Within-group samples are 441 Pakistani, 226 Bangladeshi and 563 Indian women. A partnered-only re-run (supplement Table 3s) is described as similar.",
+        "short": "Generational coefficients after adding attitudes",
+        "unlocated": [
+          {
+            "blockId": "b134",
+            "exact": ".001 .119 Age",
+            "reason": "not-found"
+          }
+        ],
+        "where": "Regression Analysis, Table 3"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b121",
+            "end": 134,
+            "exact": "in Model 2 the regression coefficient becomes nonsignificant for Indian women, but remains similar for other minority groups",
+            "start": 10
+          },
+          {
+            "blockId": "b99",
+            "end": 41,
+            "exact": "(SE) (.02) (.02) p .000 .309",
+            "start": 13
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "In Model 2, adding age, age squared and generation makes the Indian coefficient nonsignificant (−.02, p = .309) while other groups' coefficients remain similar.",
+        "short": "Indian coefficient nonsignificant in Model 2",
+        "where": "Regression Analysis, Table 2"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b24",
+            "end": 458,
+            "exact": "after controlling for demographic characteristics and education levels, some South Asian women, in particular Pakistani and Bangladeshi women, still have significantly lower LFP rates than their White British counterparts do (Dale and Ahmed 2010; Dale et al. 2008)",
+            "start": 194
+          },
+          {
+            "blockId": "b17",
+            "end": 237,
+            "exact": "research suggests that South Asian women (defined as Pakistanis, Bangladeshis, and Indians) often have traditional gender role attitudes characterized by a clear household division of labor between a male breadwinner and female homemaker",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "Prior British research is cited showing that Pakistani and Bangladeshi women have lower LFP than White British women even after controlling for demographics and education, and that South Asian women hold more traditional attitudes.",
+        "short": "Prior research on ethnic LFP penalties",
+        "where": "Introduction and background"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b46",
+            "end": 573,
+            "exact": "there are a number of qualitative studies, which show that there is a value shift over generations within these communities such that the younger generations who were grew up in Britain having increasingly less traditional gender role attitudes than their parental-generation counterparts (Aston et al. 2007; Dale et al. 2002)",
+            "start": 247
+          },
+          {
+            "blockId": "b165",
+            "end": 841,
+            "exact": "these results are consistent with previous qualitative studies (Aston et al. 2007; Dale et al. 2002)",
+            "start": 741
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "Qualitative studies are cited reporting a generational value shift toward less traditional attitudes in some South Asian communities, with which the source says its results are consistent.",
+        "note": "The source itself notes these studies cover particular communities and asks whether they generalize; they are offered as corroboration rather than as independent grounds.",
+        "short": "Qualitative studies of generational value shift",
+        "where": "Background and Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b51",
+            "end": 123,
+            "exact": "second wave (2010– 2011) of the United Kingdom Household Longitudinal Study (UKHLS)",
+            "start": 40
+          },
+          {
+            "blockId": "b51",
+            "end": 680,
+            "exact": "The inter-view response rates in this wave were 61% and 46% for the GP and EMB samples respectively",
+            "start": 581
+          },
+          {
+            "blockId": "b52",
+            "end": 742,
+            "exact": "the final estimation sample contained 17,614 women of whom 15,635 were White British; 441, Pakistani; 226, Bangladeshi; 563 Indian; 382 Black African; and 367 Black Caribbean",
+            "start": 568
+          }
+        ],
+        "id": "M1",
+        "kind": "method",
+        "label": "Data come from wave 2 (2010–2011) of the UK Household Longitudinal Study with its Ethnic Minority Boost sample; response rates were 61% (GP) and 46% (EMB), with 89% and 72% completing the self-completion questionnaire; cross-sectional weights adjust for non-response; the analytic sample is 17,614 women aged 18–65 excluding students and other minority groups.",
+        "note": "Deposit: UKHLS (Understanding Society) data are distributed by the UK Data Service; supplementary Tables 1s–3s are in the online supplement at the DOI. No analysis code is named. The EMB attitude items reach roughly a third of the boost sample (46% × 72%); weights are used to address this.",
+        "short": "UKHLS wave 2 sample and weighting",
+        "where": "Method: Data and Sample"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b56",
+            "end": 178,
+            "exact": "the questionnaire asked respondents to select from a list of 18 ethnic categories the ethnic group to which they think they belong",
+            "start": 48
+          },
+          {
+            "blockId": "b57",
+            "end": 662,
+            "exact": "first (born overseas) and second or later generation (born in or arrived in the UK before the age of 7)",
+            "start": 559
+          },
+          {
+            "blockId": "b57",
+            "end": 964,
+            "exact": "I was unable to further distinguish between second and later generations",
+            "start": 892
+          }
+        ],
+        "id": "M2",
+        "kind": "method",
+        "label": "Ethnicity is self-identified from 18 census categories; minorities are split into first generation (born overseas) and second-or-later generation (born in the UK or arrived before age 7), with no ability to separate second from later generations.",
+        "short": "Ethnicity and generation coding",
+        "where": "Method: Measures, Ethnicity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b59",
+            "end": 266,
+            "exact": "refers to the proportion of the population (excluding full-time students) who is either employed or unemployed, but has looked for a job during the last 2 weeks or could start to work within 2 weeks",
+            "start": 68
+          }
+        ],
+        "id": "M3",
+        "kind": "method",
+        "label": "LFP is a binary indicator of being employed or unemployed-and-seeking (looked for work in the last 2 weeks or could start within 2 weeks), excluding full-time students.",
+        "short": "Binary labor force participation measure",
+        "where": "Method: Measures, LFP"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b61",
+            "end": 89,
+            "exact": "Gender role attitudes are derived from responses to three self-completed survey questions",
+            "start": 0
+          },
+          {
+            "blockId": "b62",
+            "end": 264,
+            "exact": "the polychoric factor analysis using polychoric correlations was employed to extract one factor from these three variables, which explained 71.7% of the total vari-ance with eigenvalue >1 and α = .83",
+            "start": 65
+          },
+          {
+            "blockId": "b62",
+            "end": 556,
+            "exact": "the factor score was standard-ized to range from 0 to 10, where a higher score refers to more traditional gender role attitudes",
+            "start": 429
+          }
+        ],
+        "id": "M4",
+        "kind": "method",
+        "label": "Gender role attitudes are a single polychoric factor score from three 5-point items on whether a mother's or wife's employment harms children and family and whether the husband should earn while the wife keeps home; the factor explains 71.7% of variance (α = .83) and is scaled 0–10 with higher scores more traditional.",
+        "note": "Reliability is reported as consistent across ethnic groups (α .81–.85). Attitudes and LFP are measured in the same wave.",
+        "short": "Three-item traditional attitude factor score",
+        "where": "Method: Measures, Gender Role Attitudes"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b66",
+            "end": 375,
+            "exact": "I follow Mood (2010) to use Average Marginal Effects (AME) that could effectively solve this problem.",
+            "start": 274
+          },
+          {
+            "blockId": "b64",
+            "end": 156,
+            "exact": "A range of individual variables include age, age squared, and partnership that is coded as a binary variable to indicate whether individuals have a partner.",
+            "start": 0
+          },
+          {
+            "blockId": "b66",
+            "end": 849,
+            "exact": "I then add age and generation cohort, demographic characteristics, and education levels stepwise into the models in order to explore net ethnic differences or ethnic penalties",
+            "start": 674
+          }
+        ],
+        "id": "M5",
+        "kind": "method",
+        "label": "Logistic regressions reported as average marginal effects (following Mood 2010), entering age, age squared, generation, partnership, preschool children, education and then attitudes stepwise; Table 3 repeats the last two steps within each South Asian group.",
+        "note": "'Explained' throughout means the reduction in an ethnic or generational AME between adjacent models; no formal decomposition or mediation test with uncertainty is reported.",
+        "short": "Stepwise logistic regression with AMEs",
+        "where": "Method: Control Variables and Analytic Strategy"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1",
+      "readingMode": "evidentiary",
+      "readingModeUsed": "evidentiary",
+      "recipeHash": "8ce2d9a3fc62ac3b65ee51cf2012304417bd74c7585b199d1d35dab76020b494",
+      "sourceVersion": "cc38a28ccb722191d0489c265feab48d408f2b4a74b2e0a5bad3d90e8d3244cd"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "control-labour-force"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 8233,
+    "ratio": 0.13686765414858776,
+    "sourceCharacters": 60153
+  },
+  "readingId": "reading:00134f374a3fbc12b2ca471a7de544b9d5b22bbd6e1cdc9c50e2b93bc45e4123",
+  "source": {
+    "authors": [
+      "Senhu Wang"
+    ],
+    "format": "pdf-text",
+    "id": "control-labour-force",
+    "identifier": "doi:10.1007/s11199-018-0922-8",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "CC BY 4.0 version of record",
+    "stage": "unknown",
+    "title": "The Role of Gender Role Attitudes and Immigrant Generation in Ethnic Minority Women’s Labor Force Participation in Britain",
+    "url": "https://link.springer.com/content/pdf/10.1007/s11199-018-0922-8.pdf",
+    "venue": "Sex Roles",
+    "version": "cc38a28ccb722191d0489c265feab48d408f2b4a74b2e0a5bad3d90e8d3244cd",
+    "year": 2019
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "doi",
+        "value": "10.1007/s11199-018-0922-8"
+      }
+    ],
+    "workId": "work:a7af05c48b6b120937835679c158cfad6aff67ce6f96d805a5c4205734c8d9d6"
+  }
+}
