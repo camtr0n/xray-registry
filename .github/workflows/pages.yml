@@ -11,28 +11,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           persist-credentials: false
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           repository: camtr0n/xray-specs
-          # Publish this release tag with the site package before enabling Pages.
-          ref: registry-hosting-v1
+          ref: registry-toolchain-v1
           path: .xray-specs
           persist-credentials: false
-      - uses: actions/setup-node@v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
-          node-version: 24.13.0
+          node-version: 24
           cache: npm
           cache-dependency-path: .xray-specs/package-lock.json
       - run: npm ci && npm run build
         working-directory: .xray-specs
       - name: Build admitted registry
         run: |
-          export PATH="$PWD/.xray-specs/node_modules/.bin:$PATH"
-          xray-site build . _site
-      - uses: actions/upload-pages-artifact@v3.0.1
+          mkdir -p readings works
+          node .xray-specs/packages/cli/dist/main.js registry-check .
+          node .xray-specs/packages/site/dist/bin.js build . _site
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
         with:
           path: _site
   deploy:
@@ -45,5 +45,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4.0.5
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5
         id: deployment
