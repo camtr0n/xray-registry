@@ -1,0 +1,1019 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "c1b006932eedd3009f955fdab8b705dfd96d8ab14b0d275bf963db2265645398",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C2",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C3",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "partial-strength-only"
+          ],
+          "claimId": "C4",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions"
+          ],
+          "claimId": "C5",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C6",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C7",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C8",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions"
+          ],
+          "claimId": "C9",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C10",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only"
+          ],
+          "claimId": "C11",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C12",
+          "level": "unsupported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "note": "The critique of choice feminism is the problem the solidarity proposal answers.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "id": "e2",
+        "note": "Authors say Snyder-Hall's pluralism becomes stronger 'in an intersectional light'.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "C3",
+        "id": "e3",
+        "note": "Snyder-Hall defends what Ferguson condemns.",
+        "relation": "contradicts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C4",
+        "id": "e4",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C5",
+        "id": "e5",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C6",
+        "id": "e6",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C7",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C8",
+        "id": "e8",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C9",
+        "id": "e9",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "C10",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "C11",
+        "id": "e11",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "C12",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "E1",
+        "id": "e13",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E5",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "E2",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "E3",
+        "id": "e16",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C7"
+      },
+      {
+        "from": "E4",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E6",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C8"
+      },
+      {
+        "from": "E7",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C8"
+      },
+      {
+        "from": "E8",
+        "id": "e20",
+        "note": "Bears on step two (sacrifices).",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "E9",
+        "id": "e21",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C10"
+      },
+      {
+        "from": "E10",
+        "id": "e22",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C11"
+      },
+      {
+        "from": "M1",
+        "id": "e23",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "M1",
+        "id": "e24",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "M1",
+        "id": "e25",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "M2",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "M3",
+        "id": "e27",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "M3",
+        "id": "e28",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "M4",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C6"
+      }
+    ],
+    "id": "solidarity-feminism-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b3",
+            "end": 54,
+            "exact": "Intersectional Reply to Neoliberal and Choice Feminism",
+            "start": 0
+          },
+          {
+            "blockId": "b7",
+            "end": 1367,
+            "exact": "this paper forwards a framework for solidarity feminism—that is, an approach to feminism that centers solidarity against oppression—by favoring inclusive values-based allyship over choice feminism as an intersectional means to address one aspect of the enduring universalism problem within the feminist movement.",
+            "start": 1055
+          },
+          {
+            "blockId": "b25",
+            "end": 1671,
+            "exact": "For this, we argue, we need to center feminism on the concept of solidarity rooted in values-based allyship.",
+            "start": 1563
+          },
+          {
+            "blockId": "b82",
+            "end": 154,
+            "exact": "the call for feminism is a call to allyship and internal solidarity to stand against privilege, oppression, and dominance in all its forms.",
+            "start": 15
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C1",
+        "kind": "claim",
+        "label": "Gonzalez and Jones (the authors) claim that feminism should be re-centered on solidarity against oppression, enacted through inclusive values-based allyship, as an intersectional reply to neoliberal and choice feminism and to the universalism problem.",
+        "main": true,
+        "note": "This is a normative, theoretical argument. The support the authors offer is conceptual synthesis of cited scholarship (Ferguson, Rottenberg, hooks, Edwards, Russell & Bohan), not empirical observation; scores reflect that the argument is built from endorsed positions rather than tested outcomes.",
+        "short": "Solidarity feminism replaces choice feminism",
+        "where": "Title, abstract, end of Neoliberal Feminism section, conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b10",
+            "end": 158,
+            "exact": "the central problem with choice feminism is that it allows for sidestepping demanding political work of feminism to dismantle gender roles",
+            "start": 20
+          },
+          {
+            "blockId": "b12",
+            "end": 570,
+            "exact": "choice feminism maintains the dominant system for the sake of individualistic goals and pleasures",
+            "start": 473
+          },
+          {
+            "blockId": "b13",
+            "end": 53,
+            "exact": "critique is significant and largely sound.",
+            "start": 11
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C2",
+        "kind": "claim",
+        "label": "Michaele Ferguson, endorsed by the authors as 'largely sound', claims that choice feminism lets feminists sidestep political work, maintains the dominant system for individualistic ends, and renders collective action all but impossible.",
+        "note": "The authors adopt Ferguson's critique with the caveat that universalism concerns (Marso, Snyder-Hall) remain. Motive attributions (fear of offending, fear of getting hands dirty) are Ferguson's interpretive claims, relayed rather than demonstrated.",
+        "short": "Choice feminism sidesteps politics, blocks collective action",
+        "where": "Introduction, b10–b13"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b13",
+            "end": 564,
+            "exact": "Snyder-Hall (2010, p. 260) argued for the empowering potential of pluralism, self-determination, and non-judgmentalness",
+            "start": 445
+          },
+          {
+            "blockId": "b25",
+            "end": 1044,
+            "exact": "our point of departure is in her arguing for choice feminism and claiming this entails that feminism cannot be collectivist (p. 260).",
+            "start": 911
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "Snyder-Hall and Ferguson (relayed by the authors) disagree directly over whether choice feminism is empowering or anti-political. The authors side with Ferguson on collectivism but keep Snyder-Hall's pluralism; the source presents neither position with evidence beyond assertion, so the learner sees a contest of interpretations rather than a settled finding.",
+        "flagKind": "speaker-conflict",
+        "id": "C3",
+        "kind": "claim",
+        "label": "Claire Snyder-Hall claims that pluralism, self-determination and non-judgmentalness are empowering, and that choice feminism entails feminism cannot be collectivist.",
+        "note": "The authors report that Snyder-Hall herself acknowledges her position is individualistic and inhibits collective action, then reinterpret her pluralism through intersectionality.",
+        "short": "Snyder-Hall: choice feminism is empowering pluralism",
+        "where": "Introduction b13; Neoliberal Feminism b25"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b13",
+            "end": 991,
+            "exact": "feminism should seek inclusion of all marginalized groups and solidarity against oppression—not universality",
+            "start": 883
+          },
+          {
+            "blockId": "b14",
+            "end": 227,
+            "exact": "not all women have the same experiences of oppression —there is no universal woman.",
+            "start": 144
+          },
+          {
+            "blockId": "b39",
+            "end": 935,
+            "exact": "standing in solidarity against oppression in all its forms remains one such transformative idea.",
+            "start": 839
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C4",
+        "kind": "claim",
+        "label": "The authors claim that feminism should seek inclusion of all marginalized groups and solidarity against oppression rather than universality, because there is no universal woman and experiences of oppression vary by intersecting identities.",
+        "note": "Grounded in Collins (1990) and the intersectionality literature; the authors also note that intersectionality has been read as divisive by some critics (Carbin & Edenheim, Davis, McCall, Nash) and call that reading unfair.",
+        "short": "Inclusion and solidarity, not universality",
+        "where": "Introduction b13–b14; The Individuating Role of Privilege b39"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b16",
+            "end": 525,
+            "exact": "not of liberalism but of unrecognized privilege accorded those who benefit from neoliberalism.",
+            "start": 431
+          },
+          {
+            "blockId": "b23",
+            "end": 188,
+            "exact": "The focus of neoliberal feminism, as Rottenberg (2014) notes, is on achieving happiness by balancing work and family life in a highly individualized, responsibilized, status-quo-preserving",
+            "start": 0
+          },
+          {
+            "blockId": "b41",
+            "end": 817,
+            "exact": "Individuated neoliberal and choice feminism cannot accomplish these goals.",
+            "start": 743
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C5",
+        "kind": "claim",
+        "label": "Catherine Rottenberg, with whom the authors explicitly agree, claims that the selfishness in choice feminism stems from neoliberalism and unrecognized privilege rather than liberalism, and that neoliberal feminism converts structural inequality into an individual affair that cannot address oppression.",
+        "note": "The authors mention a dissenting voice: Brooks (1997) argues accommodation to neoliberal realities can produce a non-hegemonic feminism voicing local and post-colonial feminisms (b24). They report that 'more have not' taken this view, citing McRobbie, but do not engage Brooks's argument.",
+        "short": "Neoliberalism, not liberalism, individualizes feminism",
+        "where": "b16; Neoliberal Feminism b20–b25; b41"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b16",
+            "end": 1883,
+            "exact": "we conclude by offering an eight-point framework toward renewing feminist solidarity.",
+            "start": 1798
+          },
+          {
+            "blockId": "b53",
+            "end": 78,
+            "exact": "eight basic points to outline inclusive allyship feminism follow.",
+            "start": 13
+          },
+          {
+            "blockId": "b50",
+            "end": 47,
+            "exact": "Eight Steps Toward Renewing Feminist Solidarity",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The eight points are stated to derive from the authors' own analyses and experiences, refined by three cited allyship models. No case, application, or external check of the framework is offered, so a learner has only the authors' reasoning to judge whether the steps would work as described.",
+        "flagKind": "single-observer",
+        "id": "C6",
+        "kind": "claim",
+        "label": "The authors propose an eight-point framework toward renewing feminist solidarity, moving potential allies from self-interest through guilt to principled values-based commitment.",
+        "main": true,
+        "note": "The framework is prescriptive. Steps 1, 2, 5, 7 and the closing section are recorded as separate claims (C9–C12) where they make distinct assertions a reader might test.",
+        "short": "Eight-step framework for renewing solidarity",
+        "where": "b16; Eight Steps section b50–b74"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b28",
+            "end": 700,
+            "exact": "That is, the type of allyship taken up by feminists matters.",
+            "start": 640
+          },
+          {
+            "blockId": "b30",
+            "end": 144,
+            "exact": "Allyship, as such, routinely manifests problems in that it intrinsically assumes a power dynamic of a superior ally to oppressed/inferior others",
+            "start": 0
+          },
+          {
+            "blockId": "b31",
+            "end": 665,
+            "exact": "principled values-based allyship should progress, per Edwards (2006), away from self-interest, guilt, and self-designation and toward principled solidarity with all advocates for social justice.",
+            "start": 471
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "The authors, drawing on Edwards, Gibson and Russell & Bohan, claim that allyship is inherently problematic (assumes a superior ally, invites self-designation and tokenizing), so the type of allyship matters and values-based allyship should progress toward principled solidarity.",
+        "note": "The authors treat 'solidarity' as distinguished from allyship by being active, principled and apositional (b31); this distinction is asserted with citations, not derived.",
+        "short": "Allyship is problematic; values-based type matters",
+        "where": "Allyship and Solidarity Feminism b27–b34"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b46",
+            "end": 742,
+            "exact": "oppression lingers because dominant groups have exploited the oppressed",
+            "start": 671
+          },
+          {
+            "blockId": "b47",
+            "end": 101,
+            "exact": "The solidarity in inclusive allyship is the best means by which anti-oppressive goals can be achieved",
+            "start": 0
+          },
+          {
+            "blockId": "b64",
+            "end": 693,
+            "exact": "today we would very likely have equality.",
+            "start": 652
+          },
+          {
+            "blockId": "b73",
+            "end": 146,
+            "exact": "the capacity for feminism to effect change is exclusively guaranteed by its ability to achieve inner solidarity through allyship.",
+            "start": 17
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "This is a historical-causal claim (why oppression persists; what would have produced equality by now) supported only by an authority quotation and a social-psychology citation. No historical comparison of solidaristic versus fragmented movements is offered, and alternatives (resource asymmetries, repression, economic structure) are not ruled out. The counterfactual 'we would very likely have equality' has no stated basis.",
+        "flagKind": "causal-language-without-design",
+        "id": "C8",
+        "kind": "claim",
+        "label": "The authors claim that feminism has limited its own success because it failed to stand in solidarity, that oppression lingers because dominant groups exploited the oppressed's lack of solidarity, and that solidarity through inclusive allyship is the best—indeed exclusive—guarantee of feminism's capacity to effect change.",
+        "short": "Lack of solidarity explains feminism's limited success",
+        "where": "Feminism Divided b46–b49; b64; b73"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b55",
+            "end": 178,
+            "exact": "there is room for a limited choice feminism within a feminist movement that recognizes feminism must be organized through allyship and around solidarity against oppression",
+            "start": 7
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "The authors claim (step one) that there is room for a limited choice feminism within a movement organized through allyship and solidarity, provided its limitations are articulated.",
+        "note": "This tempers the strong critique in C2: the authors do not reject individual focuses outright, citing Kirkpatrick and Snyder-Hall that allyship need not mean renouncing them.",
+        "short": "Limited choice feminism can coexist with solidarity",
+        "where": "Eight Steps, first point b55"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b68",
+            "end": 601,
+            "exact": "they possess little understanding of abstract theoretical knowledge, and this directs their opinions toward the affective",
+            "start": 480
+          },
+          {
+            "blockId": "b68",
+            "end": 753,
+            "exact": "individuals are receptive to appeals in one direction or the other but never to a",
+            "start": 672
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The only cited support is a study that few people consider themselves feminists. From this the authors infer low theoretical understanding, affect-driven opinion, and a categorical 'never' about receptiveness to nuance. None of these follow from self-identification data; a study of persuasion or attitude change would be needed.",
+        "flagKind": "scope-leap",
+        "id": "C10",
+        "kind": "claim",
+        "label": "The authors claim (step five) that because most people are not scholars or activists, their opinions are driven by affect, so individuals are receptive to appeals in one direction or the other but never to a nuanced halfway point.",
+        "short": "People respond to affect, never nuance",
+        "where": "Eight Steps, fifth point b68–b69"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b71",
+            "end": 586,
+            "exact": "It is a common but significant error to believe that feminism can be strengthened by merely forming a coalition with some other similar movement",
+            "start": 442
+          },
+          {
+            "blockId": "b72",
+            "end": 311,
+            "exact": "such a coalition usually leads to internal disagreements and inner weakening that will later render it ineffective",
+            "start": 197
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "'Historically ... usually leads to' is a general claim about coalitions supported by a single example (broader feminism and Black feminism), itself interpreted through the authors' own frame. No comparison with coalitions that held together is offered, and the source elsewhere cites Walters on 'complex and successful political coalitions' (b35), which sits uneasily with this step.",
+        "flagKind": "unsupported-generalization",
+        "id": "C11",
+        "kind": "claim",
+        "label": "The authors claim (step seven) that coalitions between feminism and similar movements usually lead to internal disagreement and weakening, so solidarity must mean one movement rather than movements in coalition.",
+        "short": "Coalitions weaken; solidarity means one movement",
+        "where": "Eight Steps, seventh point b71–b73"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b76",
+            "end": 578,
+            "exact": "is evoking the privilege-preserving hostility, pushback, and outrage from positions of privilege",
+            "start": 482
+          },
+          {
+            "blockId": "b78",
+            "end": 529,
+            "exact": "every assertion of privilege made against a feminist standing in solidarity against oppression—especially every misrepresentation made against the unmaking of oppression and dominance—can be interpreted a mark of honor upon she who stands in solidarity.",
+            "start": 276
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "Treating opposition as confirmation of effectiveness gives no way to distinguish warranted criticism from privilege-preserving pushback; the source does not state how a feminist would tell the two apart. The authors themselves hedge that material barriers make it 'go too far' to read lack of reproach as shortchanged feminism, yet rely on the measure anyway.",
+        "flagKind": "other",
+        "id": "C12",
+        "kind": "claim",
+        "label": "The authors claim that, for activists, evoking privilege-preserving hostility and pushback is among the best measures of the impact of one's feminism, and that every assertion of privilege against a feminist in solidarity can be read as a mark of honor.",
+        "note": "Grounded in Bailey's and DiAngelo's concepts of privilege-preserving pushback and fragility, which are cited, not demonstrated here.",
+        "short": "Pushback from privilege measures feminist impact",
+        "where": "Feminism and Solidarity b76–b78"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b11",
+            "end": 261,
+            "exact": "Park et al. (2017) raise concerns that some feminist social work scholars use the term “feminist” for their work without any engagement with feminist theory or scholarship.",
+            "start": 89
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "The authors cite Park et al. (2017) and Bay-Cheng (2012) as further critics: some social work scholars use 'feminist' without engaging feminist theory, and popular empowerment discourse departs from collective social change.",
+        "note": "Offered to show Ferguson 'is not alone'; it establishes breadth of concern, not the truth of the critique.",
+        "short": "Other scholars echo Ferguson's critique",
+        "where": "Introduction b11"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b21",
+            "end": 442,
+            "exact": "The neoliberal feminist subject is thus mobilized to convert continued gender inequality from a structural problem into an individual affair.",
+            "start": 301
+          },
+          {
+            "blockId": "b20",
+            "end": 154,
+            "exact": "In practical terms, neoliberalism translates into less accessibility for many women, for example, poor women who cannot easily afford or access childcare.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "The authors quote Rottenberg that the neoliberal feminist subject converts gender inequality from a structural problem into an individual affair, and illustrate with poor women who cannot afford childcare.",
+        "short": "Rottenberg: structural inequality made individual",
+        "where": "Neoliberal Feminism b20–b21"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b30",
+            "end": 1461,
+            "exact": "In our effort to be anti-racist allies, the white clergy in the group had in many ways set up this African American leader to fail by outwardly endorsing her proposal even though we lacked the enthusiasm necessary to implement it",
+            "start": 1232
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "The authors relay Julie Greenberg's self-reported experience that identity-based allyship led white clergy to endorse an African American leader's proposal without the enthusiasm to implement it, setting her up to fail.",
+        "note": "A single first-person reflection offered as illustration of how presumptive allyship can harm those it intends to help.",
+        "short": "Greenberg's allyship failure anecdote",
+        "where": "Allyship and Solidarity Feminism b30"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b32",
+            "end": 409,
+            "exact": "The latter argue that a relationship- or identity-based allyship frequently results in paternalistic “rescue missions” that treat oppressed groups in tokenistic ways.",
+            "start": 243
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "The authors cite Russell and Bohan's argument that relationship- or identity-based allyship frequently produces paternalistic rescue missions and tokenism, while values-based allyship enables collective action.",
+        "short": "Russell & Bohan on paternalistic allyship",
+        "where": "b32–b33"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b41",
+            "end": 1303,
+            "exact": "Choice feminism will continue to have broad appeal to feminists because it gives us an easy way out of the dilemmas of politicizing the personal",
+            "start": 1159
+          },
+          {
+            "blockId": "b81",
+            "end": 464,
+            "exact": "Choice feminism will continue to have broad appeal to feminists because it gives us an easy way out of the dilemmas of politicizing the personal",
+            "start": 320
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "The authors quote Ferguson that choice feminism will keep its broad appeal because it offers an easy way out of the dilemmas of politicizing the personal.",
+        "short": "Ferguson: choice feminism is the easy way out",
+        "where": "b41; repeated b81"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b46",
+            "end": 925,
+            "exact": "Clearly we cannot dismantle a system as long as we engage in collective denial about its impact on our lives",
+            "start": 817
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "The authors quote bell hooks that a system cannot be dismantled while people engage in collective denial about its impact on their lives.",
+        "short": "hooks on collective denial",
+        "where": "Feminism Divided b46"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b47",
+            "end": 1169,
+            "exact": "movements derive their success less from performativity than from a clearly recognizable moral orientation (Reicher et al., 2006).",
+            "start": 1039
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "The authors cite Reicher et al. (2006) for the proposition that movements derive success less from performativity than from a clearly recognizable moral orientation.",
+        "note": "Reicher et al. is a social-psychology analysis of one historical case (the title in the reference list concerns Bulgaria's Jews); the source does not describe how it generalizes to feminism.",
+        "short": "Reicher et al.: moral orientation drives movements",
+        "where": "Feminism Divided b47"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b58",
+            "end": 369,
+            "exact": "collective action may require some suppression of the individual autonomy of at least some of its participants. Group solidarity can sometimes be antithetical to autonomy",
+            "start": 199
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "The authors quote Marilyn Friedman that collective action may require suppressing some participants' individual autonomy and that group solidarity can be antithetical to autonomy.",
+        "note": "Offered to support the second step (sacrifices are necessary). Friedman is described as a liberal feminist, so the authors use her as a concession from the other side.",
+        "short": "Friedman: solidarity may suppress autonomy",
+        "where": "Eight Steps b58"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b68",
+            "end": 470,
+            "exact": "Most people are neither scholars nor activists—indeed, few even consider them - selves feminists (Houvouras & Carter, 2008).",
+            "start": 346
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "The authors cite Houvouras and Carter (2008) that most people are neither scholars nor activists and few consider themselves feminists.",
+        "short": "Few people self-identify as feminists",
+        "where": "Eight Steps b68"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b72",
+            "end": 676,
+            "exact": "Take, for example, the case of the deep struggles between broader feminism and Black feminism that initiated the need for intersectionality, which arose under insufficiently articulated allyship and porosity instead of solidarity in feminism",
+            "start": 435
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "The authors offer the historical struggle between broader feminism and Black feminism as an example of a coalition that weakened because it rested on insufficiently articulated allyship rather than solidarity.",
+        "note": "The example is cited to Collins and hooks but the causal reading (failure due to lack of solidarity) is the authors' interpretation.",
+        "short": "Black feminism split as coalition example",
+        "where": "Eight Steps b72"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b9",
+            "end": 293,
+            "exact": "For Hirshman, choice feminism claims that whatever a woman freely chooses is (intrinsically) feminist.",
+            "start": 191
+          }
+        ],
+        "id": "M1",
+        "kind": "method",
+        "label": "The source defines choice feminism, following Hirshman, as the view that whatever a woman freely chooses is intrinsically feminist, with Ferguson's and Snyder-Hall's variants.",
+        "note": "Three definitions are given (Hirshman, Ferguson, Snyder-Hall) that differ in tone; the authors mostly work with Ferguson's critical version.",
+        "short": "Definition of choice feminism",
+        "where": "Introduction b9"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b18",
+            "end": 116,
+            "exact": "Rottenberg (2014) accurately describes individualistic choice-feminism approaches as neoliberal feminism, defined as",
+            "start": 0
+          },
+          {
+            "blockId": "b19",
+            "end": 407,
+            "exact": "the casting of every human endeavor and activity in entrepreneurial terms.",
+            "start": 333
+          }
+        ],
+        "id": "M2",
+        "kind": "method",
+        "label": "The source adopts Rottenberg's definition of neoliberal feminism as a political rationality casting every endeavor in entrepreneurial terms.",
+        "short": "Definition of neoliberal feminism",
+        "where": "Neoliberal Feminism b18–b19"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b29",
+            "end": 393,
+            "exact": "Edwards characterizes allyship in three fundamental stages, that based in self-interest, on guilt, and upon a philosophical commitment to the values of social justice.",
+            "start": 226
+          },
+          {
+            "blockId": "b29",
+            "end": 596,
+            "exact": "Russell and Bohan offer a refinement that considers allyship in terms of relationship-based versus values-based allyship, on the one hand, or identity-based versus opinions-based allyship, on the other.",
+            "start": 394
+          }
+        ],
+        "id": "M3",
+        "kind": "method",
+        "label": "The source adopts Edwards's three-stage model of allyship (self-interest, guilt, commitment to justice) and Russell and Bohan's relationship/values and identity/opinions taxonomy as its analytic scheme.",
+        "short": "Edwards and Russell & Bohan allyship taxonomy",
+        "where": "Allyship and Solidarity Feminism b29"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b53",
+            "end": 140,
+            "exact": "These have been derived from our own analyses and experiences",
+            "start": 79
+          }
+        ],
+        "id": "M4",
+        "kind": "method",
+        "label": "The authors state the eight points were derived from their own analyses and experiences, then refined and prioritized using Edwards's, Mullaly's and Gibson's allyship models.",
+        "short": "Framework derived from authors' own experience",
+        "where": "Eight Steps b53–b54"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a",
+      "readingMode": "conversational",
+      "readingModeUsed": "conversational",
+      "recipeHash": "908873a3e58b8ab6a7b3672dff53f4c18a125fb7c36c519dd3a50e6b6d4385de",
+      "sourceVersion": "c1b006932eedd3009f955fdab8b705dfd96d8ab14b0d275bf963db2265645398"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "solidarity-feminism"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 6347,
+    "ratio": 0.09013064470320932,
+    "sourceCharacters": 70420
+  },
+  "readingId": "reading:7d60f1d6208e2ca8aa850035c3b285ff3e45823ef5545eaaff359c0c464c0212",
+  "source": {
+    "authors": [
+      "Maria Gonzalez",
+      "Lisa A. Jones"
+    ],
+    "format": "pdf-text",
+    "id": "solidarity-feminism",
+    "identifier": "url:https://drive.google.com/uc?export=download&id=18DoO44m2G5tvJcQaMdau6d8CSrdKDRBf",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "stage": "unknown",
+    "title": "Our Struggle Is My Struggle: Solidarity Feminism as an Intersectional Reply to Neoliberal and Choice Feminism",
+    "url": "https://drive.google.com/uc?export=download&id=18DoO44m2G5tvJcQaMdau6d8CSrdKDRBf",
+    "venue": "Affilia",
+    "version": "c1b006932eedd3009f955fdab8b705dfd96d8ab14b0d275bf963db2265645398",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "url",
+        "value": "https://drive.google.com/uc?export=download&id=18doo44m2g5tvjcqamdau6d8csrdkdrbf"
+      }
+    ],
+    "workId": "work:e0cd68b0a7e9ebff9662023454134c433e8f6572f37de16595671980ae875086"
+  }
+}
