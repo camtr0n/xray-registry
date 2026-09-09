@@ -1202,12 +1202,14 @@
     "authors": [
       "Helen Wilson"
     ],
+    "collection": "grievance-studies-affair-2018",
     "format": "pdf-text",
     "id": "dog-park",
     "identifier": "doi:10.1080/0966369X.2018.1475346",
     "medium": "article",
     "normalizerVersion": "normalizer.v3",
     "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "sourceStatus": "retracted",
     "stage": "unknown",
     "title": "Human reactions to rape culture and queer performativity at urban dog parks in Portland, Oregon",
     "url": "https://drive.google.com/file/d/1Gdb3QAJtyixuNTvDFBBvh__LQD4gLTJj/view",

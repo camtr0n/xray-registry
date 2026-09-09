@@ -964,12 +964,14 @@
     "authors": [
       "Carol Miller"
     ],
+    "collection": "grievance-studies-affair-2018",
     "format": "pdf-text",
     "id": "moon-meetings",
     "identifier": "url:https://drive.google.com/uc?export=download&id=1Q70Ttx_MKFrg2J-riShwQOWnVrB4G9-6",
     "medium": "article",
     "normalizerVersion": "normalizer.v3",
     "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "sourceStatus": "accepted-not-published",
     "stage": "unknown",
     "title": "Moon Meetings and the Meaning of Sisterhood: A Poetic Portrayal of Lived Feminist Spirituality",
     "url": "https://drive.google.com/file/d/1Q70Ttx_MKFrg2J-riShwQOWnVrB4G9-6/view",

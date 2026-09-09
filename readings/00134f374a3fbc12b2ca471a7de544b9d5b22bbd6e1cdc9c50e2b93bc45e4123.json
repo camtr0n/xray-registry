@@ -1332,12 +1332,14 @@
     "authors": [
       "Senhu Wang"
     ],
+    "collection": "controls-2018-2022",
     "format": "pdf-text",
     "id": "control-labour-force",
     "identifier": "doi:10.1007/s11199-018-0922-8",
     "medium": "article",
     "normalizerVersion": "normalizer.v3",
     "provenance": "CC BY 4.0 version of record",
+    "sourceStatus": "published",
     "stage": "unknown",
     "title": "The Role of Gender Role Attitudes and Immigrant Generation in Ethnic Minority Women’s Labor Force Participation in Britain",
     "url": "https://link.springer.com/content/pdf/10.1007/s11199-018-0922-8.pdf",

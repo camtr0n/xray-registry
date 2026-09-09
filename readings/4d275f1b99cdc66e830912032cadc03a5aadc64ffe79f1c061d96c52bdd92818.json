@@ -1776,12 +1776,14 @@
     "authors": [
       "Richard Baldwin"
     ],
+    "collection": "grievance-studies-affair-2018",
     "format": "pdf-text",
     "id": "breastaurant",
     "identifier": "doi:10.1007/s11199-018-0962-0",
     "medium": "article",
     "normalizerVersion": "normalizer.v3",
     "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "sourceStatus": "retracted",
     "stage": "unknown",
     "title": "An Ethnography of Breastaurant Masculinity: Themes of Objectification, Sexual Conquest, Male Control, and Masculine Toughness in a Sexually Objectifying Restaurant",
     "url": "https://drive.google.com/file/d/1P7iCbvdsvdkuFYw_ibEfg__B7HHPKTkc/view",

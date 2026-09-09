@@ -1028,12 +1028,14 @@
     "authors": [
       "Richard Baldwin"
     ],
+    "collection": "grievance-studies-affair-2018",
     "format": "pdf-text",
     "id": "fat-bodybuilding",
     "identifier": "doi:10.1080/21604851.2018.1453622",
     "medium": "article",
     "normalizerVersion": "normalizer.v3",
     "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "sourceStatus": "retracted",
     "stage": "unknown",
     "title": "Who are they to judge? Overcoming anthropometry through fat bodybuilding",
     "url": "https://drive.google.com/file/d/1Dl2AeQX9ZXmCYBVfKEmDvT-BHcghc9sr/view",
