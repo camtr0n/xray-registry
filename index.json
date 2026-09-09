@@ -14,6 +14,15 @@
       "completeness": "complete",
       "contributor": "cam",
       "normalizerVersion": "normalizer.v3",
+      "readingId": "reading:62333990d40dc06d1606df39967eacc4918c8e30d563ad1f49542f7fbe41b4ee",
+      "sourceVersion": "c98c6f93c00f07f760c7a2e75c8cfb4209bf7952e62d70f133e454a544dd4bc1",
+      "submittedOn": "2026-09-09",
+      "workId": "work:f2ded798deb5e2c71bf82c74cf23b462ec832c876a55423c7a4c1a97cfa560a0"
+    },
+    {
+      "completeness": "complete",
+      "contributor": "cam",
+      "normalizerVersion": "normalizer.v3",
       "readingId": "reading:78b484d8e81cb99899858a8e651af6ef2fcb470e53328b4acf42ae6272eaf267",
       "sourceVersion": "3cc9adadec7bef6f511a0d2ed4eb02737628c97e56913488c5e91da3b4fb6675",
       "submittedOn": "2026-09-09",
@@ -36,6 +45,15 @@
       "sourceVersion": "3cc9adadec7bef6f511a0d2ed4eb02737628c97e56913488c5e91da3b4fb6675",
       "submittedOn": "2026-09-09",
       "workId": "work:8477807f226d417d27577ffaccf77755b694bdb48a3c3bb825dd36a9b0b3ff31"
+    },
+    {
+      "completeness": "complete",
+      "contributor": "cam",
+      "normalizerVersion": "normalizer.v3",
+      "readingId": "reading:dadc3918104c30fbb706bc2efe6f6aa95a82561800ae8e18c64dbd8778e84e73",
+      "sourceVersion": "c98c6f93c00f07f760c7a2e75c8cfb4209bf7952e62d70f133e454a544dd4bc1",
+      "submittedOn": "2026-09-09",
+      "workId": "work:f2ded798deb5e2c71bf82c74cf23b462ec832c876a55423c7a4c1a97cfa560a0"
     }
   ],
   "works": [
@@ -96,6 +114,35 @@
         }
       ],
       "workId": "work:a2b05ce98cf59f6cd8ded3630548cc0415076290d4ddb4264ad210aaed6496a7"
+    },
+    {
+      "aliases": [
+        {
+          "scheme": "doi",
+          "value": "10.1007/s12119-018-9536-0"
+        }
+      ],
+      "readings": [
+        {
+          "completeness": "complete",
+          "contributor": "cam",
+          "normalizerVersion": "normalizer.v3",
+          "readingId": "reading:62333990d40dc06d1606df39967eacc4918c8e30d563ad1f49542f7fbe41b4ee",
+          "sourceVersion": "c98c6f93c00f07f760c7a2e75c8cfb4209bf7952e62d70f133e454a544dd4bc1",
+          "submittedOn": "2026-09-09",
+          "workId": "work:f2ded798deb5e2c71bf82c74cf23b462ec832c876a55423c7a4c1a97cfa560a0"
+        },
+        {
+          "completeness": "complete",
+          "contributor": "cam",
+          "normalizerVersion": "normalizer.v3",
+          "readingId": "reading:dadc3918104c30fbb706bc2efe6f6aa95a82561800ae8e18c64dbd8778e84e73",
+          "sourceVersion": "c98c6f93c00f07f760c7a2e75c8cfb4209bf7952e62d70f133e454a544dd4bc1",
+          "submittedOn": "2026-09-09",
+          "workId": "work:f2ded798deb5e2c71bf82c74cf23b462ec832c876a55423c7a4c1a97cfa560a0"
+        }
+      ],
+      "workId": "work:f2ded798deb5e2c71bf82c74cf23b462ec832c876a55423c7a4c1a97cfa560a0"
     }
   ]
 }
