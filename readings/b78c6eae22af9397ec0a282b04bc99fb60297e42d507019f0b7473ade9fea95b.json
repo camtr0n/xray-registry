@@ -1,0 +1,1317 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "a7341fe9ccfacb6f8b309f86dfcd954f1ae264c8925f53ebc3d4c66172ba07b0",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "attacked"
+          ],
+          "claimId": "C2",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "high-dimensions"
+          ],
+          "claimId": "C3",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C4",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C5",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions"
+          ],
+          "claimId": "C7",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C8",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C9",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "attacked"
+          ],
+          "claimId": "C10",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "low-dimensions",
+            "partial-strength-only"
+          ],
+          "claimId": "C11",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C12",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions"
+          ],
+          "claimId": "C13",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C14",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C15",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions"
+          ],
+          "claimId": "C16",
+          "level": "unsupported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "id": "e2",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C5",
+        "id": "e3",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C4",
+        "id": "e4",
+        "note": "Because White people are unaware, a White-authored autoethnography is offered as the needed tool.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "C7",
+        "id": "e5",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C8",
+        "id": "e6",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C9",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C10",
+        "id": "e8",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "C11",
+        "id": "e9",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "C12",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C13",
+        "id": "e11",
+        "note": "Offered as showing the acknowledgement and desire C2 requires are absent.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C15",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C16",
+        "id": "e13",
+        "note": "If a White person can never be rescued from privilege and the how-from-within question is left open, the title's project of dismantling one's own Whiteness is limited by the source's own statement.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C14",
+        "id": "e14",
+        "relation": "contradicts",
+        "strength": "partial",
+        "to": "C12"
+      },
+      {
+        "from": "E1",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "E2",
+        "id": "e16",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E3",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E4",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E5",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E15",
+        "id": "e20",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C7"
+      },
+      {
+        "from": "E6",
+        "id": "e21",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C8"
+      },
+      {
+        "from": "E12",
+        "id": "e22",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E7",
+        "id": "e23",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "E8",
+        "id": "e24",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "E9",
+        "id": "e25",
+        "note": "The source's own cited poll points the other way; the source dismisses it as misleading.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C10"
+      },
+      {
+        "from": "E10",
+        "id": "e26",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C11"
+      },
+      {
+        "from": "E11",
+        "id": "e27",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C11"
+      },
+      {
+        "from": "E16",
+        "id": "e28",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C12"
+      },
+      {
+        "from": "E13",
+        "id": "e29",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C13"
+      },
+      {
+        "from": "E14",
+        "id": "e30",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "E17",
+        "id": "e31",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C15"
+      },
+      {
+        "from": "E18",
+        "id": "e32",
+        "note": "The author's own early judgment that the literature was unrigorous weakens the later reliance on that literature as 'fact-based'.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "M1",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "M1",
+        "id": "e34",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "M1",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C10"
+      },
+      {
+        "from": "M1",
+        "id": "e36",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "M1",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C15"
+      },
+      {
+        "from": "M1",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M1",
+        "id": "e39",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M1",
+        "id": "e40",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E12"
+      },
+      {
+        "from": "M2",
+        "id": "e41",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M2",
+        "id": "e42",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M2",
+        "id": "e43",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M2",
+        "id": "e44",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E13"
+      },
+      {
+        "from": "M2",
+        "id": "e45",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E15"
+      },
+      {
+        "from": "M2",
+        "id": "e46",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E17"
+      }
+    ],
+    "id": "whiteness-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b1",
+            "end": 101,
+            "exact": "My Struggle to Dismantle My Whiteness: A Critical-Race Examination of Whiteness from within Whiteness",
+            "start": 0
+          },
+          {
+            "blockId": "b3",
+            "end": 675,
+            "exact": "This autoethnographical account of a White woman problematizing her own Whiteness seeks to fill that gap.",
+            "start": 570
+          },
+          {
+            "blockId": "b9",
+            "end": 40,
+            "exact": "This paper broaches different territory.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "The claim that 'little autoethnographic research has documented the white subject's discovery of her own complicity' is asserted without a literature search or examples beyond McIntosh; a reader cannot tell how the gap was established.",
+        "flagKind": "unsourced",
+        "id": "C1",
+        "kind": "claim",
+        "label": "Miller (author) claims that little autoethnographic research documents a white subject discovering her own complicity in Whiteness, and that this account of her struggle to dismantle her Whiteness fills that gap.",
+        "main": true,
+        "note": "The title frames the paper as a struggle to dismantle the author's own Whiteness; the closing paragraph (b60) leaves the question of how to do so from within explicitly open.",
+        "short": "This autoethnography fills a Whiteness-studies gap",
+        "where": "Title; Abstract; b9"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b61",
+            "end": 615,
+            "exact": "Whiteness, then, must be dismantled",
+            "start": 580
+          },
+          {
+            "blockId": "b7",
+            "end": 1325,
+            "exact": "In order to dismantle Whiteness, then, there must be acknowledgement and recognition, but there must also be the desire to utilize that recognition to overcome the cultural persistence of White supremacy.",
+            "start": 1121
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C2",
+        "kind": "claim",
+        "label": "Miller claims that Whiteness must be dismantled, and that dismantling it requires White acknowledgement, recognition, and the desire to act on that recognition.",
+        "main": true,
+        "note": "This is a normative claim; the support the source offers is a chain of personal observations and cited authorities rather than a single argument. The conclusion in b61 is stated in a prophetic register ('its crown will be the funeral wreath of mankind').",
+        "short": "Whiteness must be dismantled; requires acknowledgement",
+        "where": "b7; b61"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b24",
+            "end": 593,
+            "exact": "This is the Whiteness I participated in without even realizing how racist I was as a young White woman in hyper-w/White Scottsdale, Arizona, in the early 2000s.",
+            "start": 433
+          },
+          {
+            "blockId": "b57",
+            "end": 524,
+            "exact": "And to think: this had been me; I am complicit in this!",
+            "start": 469
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 3
+        },
+        "id": "C3",
+        "kind": "claim",
+        "label": "Miller claims that she herself participated in 'soft' Whiteness and was complicit in racism without realizing it as a young White woman in Scottsdale.",
+        "main": true,
+        "note": "This is the autobiographical core of the paper. Its support is the author's retrospective self-description read through McIntosh, DiAngelo and Coates; no external observer of her earlier conduct is cited.",
+        "short": "Author was unknowingly complicit in soft Whiteness",
+        "where": "b24; b57"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b5",
+            "end": 169,
+            "exact": "most White people remain unaware of this history, their White privilege, and its array of attendant consequences.",
+            "start": 56
+          },
+          {
+            "blockId": "b11",
+            "end": 549,
+            "exact": "This kind of obliviousness is typical for White people",
+            "start": 495
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The generalization to 'most White people' rests on a remark by hooks, an undated classroom exercise, and McIntosh's personal admission; no population-level data on White awareness is offered, so 'most' and 'typical' are not measured.",
+        "flagKind": "unsupported-generalization",
+        "id": "C4",
+        "kind": "claim",
+        "label": "Miller, drawing on hooks and McIntosh, claims that most White people remain unaware of Whiteness, their privilege, and its consequences, and that this obliviousness is typical.",
+        "main": false,
+        "short": "Most White people unaware of their privilege",
+        "where": "b5; b11"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 1030,
+            "exact": "In this vein, autoethnography is a valuable tool for communicating to White people what they should perceive, address, and ultimately work toward to remediate Whiteness.",
+            "start": 861
+          },
+          {
+            "blockId": "b6",
+            "end": 617,
+            "exact": "Authoethnography has provided an opportunity and a venue to speak despite dominant discourses of Whiteness",
+            "start": 511
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C5",
+        "kind": "claim",
+        "label": "Miller claims that autoethnography is a valuable tool for communicating to White people what they should perceive and address in order to remediate Whiteness.",
+        "main": false,
+        "note": "Supported by citations to Boylorn, McIntosh and Ellingson and Ellis; the source also concedes in b8 that autoethnography 'may not be able to dismantle Whiteness itself'.",
+        "short": "Autoethnography valuable for reaching White people",
+        "where": "b6; b8"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b19",
+            "end": 315,
+            "exact": "These Whites did not appear to be racist—and I did not think they were—but their racism was all the worse for the fact of its seeming gentleness and near-invisibility.",
+            "start": 148
+          },
+          {
+            "blockId": "b24",
+            "end": 238,
+            "exact": "Whites in thrall to soft Whiteness can be wolves in sheep's clothing because the disguise (of not being overtly racist) has fooled even themselves and prevented them from working against racism",
+            "start": 45
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "Miller claims that the 'soft' Whiteness of the privileged elite is worse than overt racism because of its near-invisibility, and that White Fragility compounds the problem when it is challenged.",
+        "main": false,
+        "note": "The support is authority (McIntosh, DiAngelo, hooks, Sue et al.) plus one workplace anecdote; the 'worse than overt racism' comparison is asserted rather than argued against overt racism's effects.",
+        "short": "Soft Whiteness worse for its invisibility",
+        "where": "b19; b22; b24"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b26",
+            "end": 620,
+            "exact": "White supremacy all but defines Jackson despite some fewer than 20% of its population being w/White",
+            "start": 521
+          },
+          {
+            "blockId": "b51",
+            "end": 730,
+            "exact": "Mississippi as a political entity is also Whiteness as a political entity",
+            "start": 657
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The support is city demographics and a list of six white statewide officeholders; the leap from 'white people hold these offices' to 'White supremacy defines Jackson' is not bridged by any account of policies, practices, or outcomes in Jackson itself.",
+        "flagKind": "scope-leap",
+        "id": "C8",
+        "kind": "claim",
+        "label": "Miller claims that White supremacy all but defines Jackson, Mississippi, and that Mississippi as a political entity is Whiteness as a political entity, despite fewer than 20% of Jackson's population being white.",
+        "main": false,
+        "short": "White supremacy defines Jackson and Mississippi",
+        "where": "b26; b51"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b29",
+            "end": 949,
+            "exact": "their very claim to “objective truth” came from a position situated within Whiteness.",
+            "start": 864
+          },
+          {
+            "blockId": "b28",
+            "end": 680,
+            "exact": "the exploitative ways in which the media made a ratings-based spectacle out of the suffering of People of Color",
+            "start": 569
+          },
+          {
+            "blockId": "b52",
+            "end": 1100,
+            "exact": "w/Whites occupied the leadership of all minor and major political parties and every single mainstream media outlet",
+            "start": 986
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "'Every single mainstream media outlet' and 'all minor and major political parties' are universal claims supported by the author recalling faces and 'attempting to learn something' about publishers; no roster, count, or source listing leadership is given, and Painter 2011 is a history of Whiteness rather than a media census.",
+        "flagKind": "unsupported-generalization",
+        "id": "C9",
+        "kind": "claim",
+        "label": "Miller claims that the American political-media machine commodifies the suffering of People of Color, that its claim to objectivity is situated within Whiteness, and that w/Whites occupy the leadership of every party and mainstream outlet.",
+        "main": false,
+        "short": "Media and parties are led from within Whiteness",
+        "where": "b28; b29; b47; b52"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b43",
+            "end": 1256,
+            "exact": "Thus there was no genuine rift in the internal solidarity of Whiteness or reduction in its othering of People of Color. There was no push to dismantle Whiteness from within Whiteness itself.",
+            "start": 1066
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The source cites a poll showing most white people repudiated the supremacists, then says 'a deeper and more probing investigation showed that those outward appearances were intentionally and numerically misleading' without describing that investigation, its data, or who conducted it; Birt 2004 and Delgado and Stefancic 2017 predate or do not concern the 2017 events.",
+        "flagKind": "unsourced",
+        "id": "C10",
+        "kind": "claim",
+        "label": "Miller claims that after Charlottesville there was no genuine rift within Whiteness, because self-described Liberals saw the supremacists as fellow Whites rather than disowning them.",
+        "main": false,
+        "short": "No genuine rift in Whiteness after Charlottesville",
+        "where": "b43"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b49",
+            "end": 764,
+            "exact": "Liberalism carries the seeds and defenses of perpetual racism and exploitation.",
+            "start": 685
+          },
+          {
+            "blockId": "b48",
+            "end": 734,
+            "exact": "part of a reprehensible way of deceiving the populace with regard to privilege while consistently reestablishing Whiteness as normative",
+            "start": 599
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "id": "C11",
+        "kind": "claim",
+        "label": "Miller claims that Liberalism, including the Liberal press, carries the seeds and defenses of perpetual racism and re-establishes Whiteness as normative while claiming the moral high ground.",
+        "main": false,
+        "note": "'Liberalism' is used to cover both the political-philosophical tradition and self-described Liberal newspapers and voters; the source does not separate these senses. Support is a Giroux quotation on neoliberalism and two New York Times headlines.",
+        "short": "Liberalism perpetuates racism and White normativity",
+        "where": "b48; b49"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b45",
+            "end": 927,
+            "exact": "In America today we must recognize there is no limit to the number of such people and all w/White people are complicit.",
+            "start": 808
+          },
+          {
+            "blockId": "b46",
+            "end": 682,
+            "exact": "Though my feelings might be in revolt, theory now led me to ineluctable, fact-based conclusions.",
+            "start": 586
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 0
+        },
+        "flag": "A universal claim about all white people is supported by examples of columnists, senators, film-industry figures and cultural artifacts, plus an Eddo-Lodge opinion column; the source does not say what would count as a non-complicit white person or rule that possibility out, so the move from elite examples to 'all' is not argued.",
+        "flagKind": "unsupported-generalization",
+        "id": "C12",
+        "kind": "claim",
+        "label": "Miller claims that all w/White people in America are complicit in Whiteness and are destined by that complicity to play a shameful part.",
+        "main": false,
+        "short": "All white Americans complicit in Whiteness",
+        "where": "b45; b46"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b54",
+            "end": 604,
+            "exact": "The moment the catastrophic effect of Whiteness and its application became evident, the stronger became their denial",
+            "start": 488
+          },
+          {
+            "blockId": "b55",
+            "end": 940,
+            "exact": "When confronted with this, they would obfuscate, sometimes becoming angry and confused, and demonstrate the phenomenon DiAngelo describes as White Fragility.",
+            "start": 783
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C13",
+        "kind": "claim",
+        "label": "Miller claims that when she confronted Whites she knew, their denial grew stronger as the effects of Whiteness became evident, displaying White Fragility, privilege-preserving epistemic pushback, and epistemic resilience.",
+        "main": false,
+        "note": "The author applies DiAngelo's, Bailey's and Dotson's concepts to her own conversations; she is both the challenger in those conversations and the sole reporter of how they went.",
+        "short": "Confronted Whites responded with fragility and denial",
+        "where": "b54–b57"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b54",
+            "end": 1278,
+            "exact": "People of Color already have equal opportunities in America, or that a poor Black is better off here than in Africa",
+            "start": 1163
+          }
+        ],
+        "dimensions": {
+          "directness": 0,
+          "inferentialGap": 3,
+          "scopeMatch": 0
+        },
+        "flag": "The interlocutors' position conflicts with Miller's claim that all white people are complicit in a system of domination; the source reports their statements only in Miller's paraphrase, labels them naive, and says they were 'shown to not be based upon sufficient evidence' without giving the counter-evidence, so the reader sees neither side's grounds.",
+        "flagKind": "speaker-conflict",
+        "id": "C14",
+        "kind": "claim",
+        "label": "Miller's White interlocutors (as reported by Miller) claim that People of Color already have equal opportunities in America and that a poor Black person is better off here than in Africa.",
+        "main": false,
+        "note": "Recorded as a separate speaker's claim because the source reports it as an opposing position; no support for it is offered by anyone in the source.",
+        "short": "Interlocutors: equal opportunity already exists",
+        "where": "b54"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b59",
+            "end": 849,
+            "exact": "w/White people (and males in particular) use language for the purpose of disguising their thought or at least veiling it, all the while constructing the social, political, and economic hegemony of Whiteness.",
+            "start": 642
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 0
+        },
+        "flag": "The claim is about w/White people generally but the stated basis is a reading of three named figures (Spencer, Peterson, Bannon) chosen as leaders of a 'White supremacy movement'; nothing in the source extends the finding from those texts to white speakers at large.",
+        "flagKind": "scope-leap",
+        "id": "C15",
+        "kind": "claim",
+        "label": "Miller claims that w/White people, and males in particular, use language to disguise or veil their thought while constructing the hegemony of Whiteness.",
+        "main": false,
+        "short": "Whites use language to veil hegemony-building",
+        "where": "b59"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b53",
+            "end": 600,
+            "exact": "A White person in a White society, however, can never be rescued from privilege",
+            "start": 521
+          },
+          {
+            "blockId": "b60",
+            "end": 910,
+            "exact": "but what can be done do dismantle Whiteness from within?",
+            "start": 854
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C16",
+        "kind": "claim",
+        "label": "Miller claims that society can be remade with time and patience, but that a White person in a White society can never be rescued from privilege, and she leaves open what can be done to dismantle Whiteness from within.",
+        "main": false,
+        "note": "Supported by citations to Bailey, Leonardo and Wallis. This sits in tension with the title's framing of a struggle to dismantle one's own Whiteness; the source does not reconcile the two.",
+        "short": "Whites can never escape privilege; how-from-within open",
+        "where": "b53; b60"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b5",
+            "end": 567,
+            "exact": "many white folks active in anti-racist struggle today are able to acknowledge that all whites (as well as everyone else within white supremacist culture) have learned to overvalue ‘whiteness’ even as they simultaneously learn to devalue blackness",
+            "start": 321
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "Miller quotes bell hooks asserting that all whites within white supremacist culture have learned to overvalue whiteness and devalue blackness.",
+        "short": "hooks: whites learn to overvalue whiteness",
+        "where": "b5"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b7",
+            "end": 560,
+            "exact": "Invariably, white males are chosen most often and black females are chosen least often.",
+            "start": 473
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "Miller reports hooks's classroom reincarnation exercise, in which students invariably choose white male most and black female least and then explain the choice with an analysis of privilege.",
+        "note": "Reported second-hand from hooks 2003 with no numbers, cohort sizes, or years; the option list as printed in the source ('white male, white female, black male, or white female') repeats 'white female', which appears to be a typographical error.",
+        "short": "hooks's reincarnation exercise shows privilege understood",
+        "where": "b7"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b12",
+            "end": 141,
+            "exact": "My schooling gave me no training in seeing myself as an oppressor, as an unfairly advantaged person or as a participant in a damaged culture.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "Miller quotes McIntosh's admission that her schooling gave her no training in seeing herself as an oppressor or unfairly advantaged person.",
+        "short": "McIntosh: schooling hid oppressor role",
+        "where": "b12"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b20",
+            "end": 293,
+            "exact": "I have come to see white privilege as an invisible package of unearned assets which I can count on cashing in each day, but about which I was 'meant' to remain oblivious.",
+            "start": 123
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Miller quotes McIntosh describing white privilege as an invisible package of unearned assets about which she was meant to remain oblivious.",
+        "short": "McIntosh: invisible knapsack of unearned assets",
+        "where": "b20"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b23",
+            "end": 443,
+            "exact": "White Fragility is a state in which even a minimum amount of racial stress becomes intolerable, triggering a range of defensive moves.",
+            "start": 309
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "Miller quotes DiAngelo's definition of White Fragility as a state in which minimal racial stress triggers defensive moves.",
+        "short": "DiAngelo's definition of White Fragility",
+        "where": "b23"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b25",
+            "end": 452,
+            "exact": "Nearly 90% of Scottsdale is w/White, with approximately 5% People of Color, and these factors are nearly reversed in Jackson",
+            "start": 328
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "Miller cites Statistical Atlas figures that Scottsdale is nearly 90% white with about 5% People of Color, and that Jackson's proportions are nearly reversed.",
+        "short": "Scottsdale ~90% white; Jackson reversed",
+        "where": "b25"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b28",
+            "end": 462,
+            "exact": "Another Black youth murdered; another political attack on the suffrage of People of Color; another attempt to deport Latinx people, this being prominent in the political culture; and so on, day after day, week after week",
+            "start": 242
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "flag": "No specific stories, outlets, or dates are named; the reader cannot check which events are meant or how the author judged them to be exploitative rather than reported.",
+        "flagKind": "single-observer",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "Miller recounts analyzing near-daily news stories of Black youths murdered, attacks on voting rights, and deportation attempts during her time in Jackson.",
+        "short": "Author's daily news observations in Jackson",
+        "where": "b28"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b52",
+            "end": 502,
+            "exact": "From the publisher to the producer on down, virtually everyone was w/White",
+            "start": 428
+          },
+          {
+            "blockId": "b47",
+            "end": 697,
+            "exact": "in virtually every instance their leadership was occupied by economically privileged white people who are by their very natures also White",
+            "start": 559
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "flag": "No count, list, or sampling frame is given: which outlets, how many people, and how race was determined ('recalled the faces') are unstated, and the examples offered (Nikki Haley, 'Antifa') are neither party leaders nor media executives.",
+        "flagKind": "no-denominator",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "Miller reports that when she looked into who published mainstream content and recalled the faces of officials and media figures, virtually everyone was w/White.",
+        "short": "Author found media and party leaders white",
+        "where": "b47; b52"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b43",
+            "end": 441,
+            "exact": "the great majority of w/White people, and even respectable-seeming “soft” Whites, disapproved or repudiated the open expression of a new American White supremacy (Ipsos Public Affairs 2017)",
+            "start": 252
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "Miller cites an Ipsos poll indicating that the great majority of white people, including 'soft' Whites, disapproved or repudiated the open expression of White supremacy after Charlottesville.",
+        "note": "The source introduces this poll as 'outward appearances' and then declares it misleading; it is the only quantitative source offered on the Charlottesville reaction and it points against the claim it precedes.",
+        "short": "Ipsos poll: most whites repudiated supremacists",
+        "where": "b43"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b49",
+            "end": 239,
+            "exact": "the content of feuilletons in Liberal papers like the New York Times was trivial and banal (e.g., “The Best TV Shows of 2017” or “Gentlemen of the Road: On Discord Arising From Excessive Love of a Hat”)",
+            "start": 37
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "flag": "Two lifestyle headlines are selected from a newspaper's entire output; the source does not say how they were chosen, what the comparison set is, or how a headline about a hat demonstrates a tone 'implicitly derogatory to People of Color'.",
+        "flagKind": "cherry-picked",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "Miller offers two New York Times feature headlines as showing that Liberal-press content is trivial and carries the accent of a colonizing people.",
+        "short": "Two NYT headlines as Liberal-press evidence",
+        "where": "b49"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b44",
+            "end": 1077,
+            "exact": "Racism survives through the guise of neoliberalism, a kind of repartee that imagines human agency as simply a matter of individualized choices, the only obstacle to effective citizenship and agency being the lack of principled self-help and moral responsibility",
+            "start": 816
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E11",
+        "kind": "evidence",
+        "label": "Miller quotes Giroux arguing that racism survives through the guise of neoliberalism, which reduces agency to individualized choices.",
+        "note": "Quoted as Giroux 2010 in the text; the reference list entry is dated 2003.",
+        "short": "Giroux: racism survives via neoliberalism",
+        "where": "b44"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b51",
+            "end": 613,
+            "exact": "e.g., Governor Phil Bryant, Lieutenant Governor Tate Reeves, Secretary of State Delbert Hosemann, State Auditor Stacey Pickering, Commissioner of Agriculture Cindy Hyde-Smith, Commissioner of Insurance Mike Chaney",
+            "start": 400
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E12",
+        "kind": "evidence",
+        "label": "Miller lists six white Mississippi statewide officeholders as showing that whites control all political positions in the state.",
+        "note": "The list covers statewide executive offices only; the source says 'all aspects of the political parties and positions in Mississippi' but does not address legislative, municipal, or Jackson city offices.",
+        "short": "Six white Mississippi statewide officials listed",
+        "where": "b51"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b54",
+            "end": 253,
+            "exact": "Within my small circle I talked with an open heart to Whites I knew until my voice became hoarse and my throat sore.",
+            "start": 137
+          },
+          {
+            "blockId": "b56",
+            "end": 596,
+            "exact": "The White person would be utterly oblivious (or pretend to be) to what just happened, and he would once again begin to repeat his former racist and privileged notions, as if nothing had happened.",
+            "start": 401
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "flag": "The author is both a party to these arguments and the only reporter of them; no number of conversations, no verbatim exchanges, and no account of any interlocutor who changed their view is given, so the reader cannot separate the phenomenon from the author's reading of it.",
+        "flagKind": "single-observer",
+        "id": "E13",
+        "kind": "evidence",
+        "label": "Miller recounts conversations with Whites in her small circle in which they denied, deflected, switched topics, and later repeated their prior views as if nothing had happened.",
+        "short": "Author's debates with Whites she knew",
+        "where": "b54–b57"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b41",
+            "end": 299,
+            "exact": "They were people turned to fuel for the American machine.",
+            "start": 242
+          },
+          {
+            "blockId": "b41",
+            "end": 684,
+            "exact": "Suddenly, informed by Coates, Jackson’s inhabitants appeared to me in a different light.",
+            "start": 596
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E14",
+        "kind": "evidence",
+        "label": "Miller quotes Coates on the enslaved as people turned to fuel for the American machine, and says this reading made Jackson's white inhabitants appear to her as Whites.",
+        "short": "Coates quotation reframed author's perception",
+        "where": "b41"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b50",
+            "end": 563,
+            "exact": "I was treated far better than People of Color and yet expected to be servile to Whiteness",
+            "start": 474
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E15",
+        "kind": "evidence",
+        "label": "Miller recounts serving cocktails at an elite White family's wedding, where she was treated better than People of Color yet expected to be servile to Whiteness.",
+        "note": "The source does not describe how People of Color at the event were treated or by whom; the comparison is stated, not shown.",
+        "short": "Wedding cocktail-server experience",
+        "where": "b50"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b46",
+            "end": 363,
+            "exact": "White Jesus, White Santa Claus, Superman, Batman, television shows with token People of Color (of which South Park has reminded us), games, movies, the ubiquity of culinary preferences, and even facial recognition software",
+            "start": 141
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E16",
+        "kind": "evidence",
+        "label": "Miller lists cultural artifacts (White Jesus, White Santa, Superman, Batman, token characters, facial-recognition software) as fabricated by w/Whites and ubiquitous in public life.",
+        "short": "List of White cultural artifacts",
+        "where": "b46"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b58",
+            "end": 294,
+            "exact": "I began to study contemporary White thought leaders such as Richard Spencer, Jordan Peterson, and Steve Bannon, with a goal of understanding the overall principles of the emergent White supremacy movement. I was able to attain my objective more quickly than I expected.",
+            "start": 25
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "flag": "No text, speech, or passage by any of the three is cited or quoted; the reader is told the reading was done and what it yielded but sees none of the material.",
+        "flagKind": "unsourced",
+        "id": "E17",
+        "kind": "evidence",
+        "label": "Miller reports studying Spencer, Peterson, and Bannon through a critical-race lens and comparing them against Coates to grasp the principles of the emergent White supremacy movement.",
+        "short": "Author's reading of Spencer, Peterson, Bannon",
+        "where": "b58"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b38",
+            "end": 844,
+            "exact": "many of the arguments and appeals made were somewhat superficial and the proofs unscientific and lacking rigor",
+            "start": 734
+          },
+          {
+            "blockId": "b39",
+            "end": 257,
+            "exact": "I soon returned to my old way of thinking despite having seen the problem of Whiteness with my eyes and felt it within my lived experience.",
+            "start": 118
+          }
+        ],
+        "evidenceKind": "reasoning",
+        "id": "E18",
+        "kind": "evidence",
+        "label": "Miller states that when she first read deeply in the Social Justice and critical-race literature she found many arguments superficial and the proofs unscientific and lacking rigor, and briefly returned to her old way of thinking.",
+        "note": "The same body of literature is later described as leading to 'ineluctable, fact-based conclusions' (b46); the source does not say what changed its assessment of rigor.",
+        "short": "Author found the literature unrigorous at first",
+        "where": "b38; b39"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b14",
+            "end": 611,
+            "exact": "Lower-case-w white people are white people, for whom their Whiteness—and their privilege—seems not an issue because their whiteness is the happenstance condition of having been born as a white person. Capital-W White, however, is another matter. Capital-W Whiteness is the outgrowth of a toxic racial consciousness upon the fact of being white",
+            "start": 268
+          }
+        ],
+        "flag": "The source gives no rule for deciding when a given person is white versus White; in b37 the author says she 'never answered the central question' for the group she observed, and in b47 asserts that economically privileged white people are White 'by their very natures', so the category can be applied by inference from status rather than by any observed consciousness.",
+        "flagKind": "undefined-term",
+        "id": "M1",
+        "kind": "method",
+        "label": "Miller adopts Young's distinction between lower-case white (the happenstance of being born white) and capital-W White (a toxic racial consciousness built on being white), and uses 'w/White' where both apply.",
+        "short": "white vs. White coding distinction",
+        "where": "b14"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b9",
+            "end": 703,
+            "exact": "It thus weaves together evocative (Muncey 2010) and analytical (Anderson 2006) autoethnography in order to achieve the affective/narratorial element and a rigorous cultural critique",
+            "start": 522
+          }
+        ],
+        "id": "M2",
+        "kind": "method",
+        "label": "Miller uses an autoethnographic method that weaves evocative and analytical autoethnography, balancing personal story with cultural critique drawn from decades of reading People of Color and allies.",
+        "note": "The method rests on the author's own memory and interpretation; the source does not describe field notes, dates, a timeline, or any check on recall.",
+        "short": "Evocative plus analytical autoethnography",
+        "where": "b9"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a",
+      "readingMode": "conversational",
+      "readingModeUsed": "conversational",
+      "recipeHash": "908873a3e58b8ab6a7b3672dff53f4c18a125fb7c36c519dd3a50e6b6d4385de",
+      "sourceVersion": "a7341fe9ccfacb6f8b309f86dfcd954f1ae264c8925f53ebc3d4c66172ba07b0"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "whiteness"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 7341,
+    "ratio": 0.11585260001578158,
+    "sourceCharacters": 63365
+  },
+  "readingId": "reading:b78c6eae22af9397ec0a282b04bc99fb60297e42d507019f0b7473ade9fea95b",
+  "source": {
+    "authors": [
+      "Carol Miller"
+    ],
+    "format": "pdf-text",
+    "id": "whiteness",
+    "identifier": "url:https://drive.google.com/uc?export=download&id=1l0CgQqnlwLWcbHI6f0D9g7aVfADbTPNQ",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "stage": "unknown",
+    "title": "My Struggle to Dismantle My Whiteness: A Critical-Race Examination of Whiteness from within Whiteness",
+    "url": "https://drive.google.com/uc?export=download&id=1l0CgQqnlwLWcbHI6f0D9g7aVfADbTPNQ",
+    "venue": "Sociology of Race and Ethnicity",
+    "version": "a7341fe9ccfacb6f8b309f86dfcd954f1ae264c8925f53ebc3d4c66172ba07b0",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "url",
+        "value": "https://drive.google.com/uc?export=download&id=1l0cgqqnlwlwcbhi6f0d9g7avfadbtpnq"
+      }
+    ],
+    "workId": "work:16eec5689efb59c1b5f382dd5462ed9f184941c20479b67a1be97ddf12cb002e"
+  }
+}
