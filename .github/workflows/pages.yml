@@ -1,0 +1,49 @@
+name: Registry Pages
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: registry-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4.2.2
+        with:
+          repository: camtr0n/xray-specs
+          # Publish this release tag with the site package before enabling Pages.
+          ref: registry-hosting-v1
+          path: .xray-specs
+          persist-credentials: false
+      - uses: actions/setup-node@v4.4.0
+        with:
+          node-version: 24.13.0
+          cache: npm
+          cache-dependency-path: .xray-specs/package-lock.json
+      - run: npm ci && npm run build
+        working-directory: .xray-specs
+      - name: Build admitted registry
+        run: |
+          export PATH="$PWD/.xray-specs/node_modules/.bin:$PATH"
+          xray-site build . _site
+      - uses: actions/upload-pages-artifact@v3.0.1
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4.0.5
+        id: deployment

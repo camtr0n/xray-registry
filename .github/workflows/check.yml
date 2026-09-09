@@ -1,0 +1,23 @@
+name: Registry admission
+on: [pull_request, push]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: camtr0n/xray-specs
+          ref: registry-hosting-v1
+          path: .xray-specs
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci && npm run build
+        working-directory: .xray-specs
+      - run: |
+          export PATH="$PWD/.xray-specs/node_modules/.bin:$PATH"
+          npx --no-install xray registry-check .
