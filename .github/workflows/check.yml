@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           repository: camtr0n/xray-specs
-          ref: 6d846c436d6cdb1d17de6e28bb84c9a317489d81 # collection/status metadata and venues
+          ref: registry-toolchain-v1
           path: .xray-specs
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
