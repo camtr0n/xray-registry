@@ -1,0 +1,1246 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "fe9a40380869216a305e665a3defe0b089de94e5d591fc796ff01f076c556deb",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C2",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C3",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "high-dimensions"
+          ],
+          "claimId": "C4",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "high-dimensions"
+          ],
+          "claimId": "C6",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions"
+          ],
+          "claimId": "C7",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C8",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C9",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C10",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions",
+            "attacked"
+          ],
+          "claimId": "C11",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions",
+            "flagged"
+          ],
+          "claimId": "C12",
+          "level": "unsupported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C9",
+        "id": "e2",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "id": "e3",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "C4",
+        "id": "e4",
+        "note": "Perceived agency in 'degrading' scenes is the observation the authors use to argue such scenes can be feminist.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "C6",
+        "id": "e5",
+        "note": "Shows immersive viewing affects attitudes but not the friendly/degrading direction.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C7",
+        "id": "e6",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C8",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "C10",
+        "id": "e8",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C11",
+        "id": "e9",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C8"
+      },
+      {
+        "from": "C12",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C8"
+      },
+      {
+        "from": "C12",
+        "id": "e11",
+        "note": "Source reports Subject 1 later agreed with Subject 2.",
+        "relation": "contradicts",
+        "strength": "partial",
+        "to": "C11"
+      },
+      {
+        "from": "E1",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E2",
+        "id": "e13",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "E3",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E4",
+        "id": "e15",
+        "note": "The designed pre/post IAT test did not show the hypothesised session-level change.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E5",
+        "id": "e16",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E6",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "E7",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E8",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "E9",
+        "id": "e20",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E11",
+        "id": "e21",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "E12",
+        "id": "e22",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "M1",
+        "id": "e23",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M1",
+        "id": "e24",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M1",
+        "id": "e25",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M2",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M2",
+        "id": "e27",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M2",
+        "id": "e28",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M2",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M2",
+        "id": "e30",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e31",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M2",
+        "id": "e32",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M2",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M2",
+        "id": "e34",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M2",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E12"
+      },
+      {
+        "from": "M3",
+        "id": "e36",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M3",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M3",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M3",
+        "id": "e39",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M3",
+        "id": "e40",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M3",
+        "id": "e41",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M3",
+        "id": "e42",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M4",
+        "id": "e43",
+        "note": "E2's restricted analyses use the arousal and agency/authenticity ratings.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M4",
+        "id": "e44",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M4",
+        "id": "e45",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M4",
+        "id": "e46",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M4",
+        "id": "e47",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M4",
+        "id": "e48",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      }
+    ],
+    "id": "feminist-porn-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b2",
+            "end": 56,
+            "exact": "Agency as an Elephant Test for Feminist Porn: Impacts on",
+            "start": 0
+          },
+          {
+            "blockId": "b3",
+            "end": 54,
+            "exact": "Male Explicit and Implicit Associations about Women in",
+            "start": 0
+          },
+          {
+            "blockId": "b4",
+            "end": 44,
+            "exact": "Society by Immersive Pornography Consumption",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "id": "C1",
+        "kind": "claim",
+        "label": "The authors' title asserts that female agency serves as an 'elephant test' for feminist porn and that immersive pornography consumption impacts male explicit and implicit associations about women in society.",
+        "note": "Title-level claim; the two main claims (C2, C9) are offered as its grounds.",
+        "short": "Agency is elephant test; porn impacts associations",
+        "where": "Title (b2–b4)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 775,
+            "exact": "Further mixed-method analyses indicate these hypotheses are broadly supported but suboptimal for addressing important questions in critical porn research.",
+            "start": 621
+          },
+          {
+            "blockId": "b8",
+            "end": 457,
+            "exact": "This study initially hypothesizes female-friendly pornography improves implicit and explicit male attitudes about women in society while female-degrading pornography damages them.",
+            "start": 278
+          },
+          {
+            "blockId": "b47",
+            "end": 106,
+            "exact": "In this sense, female-friendly pornography led participants to subjectively improved attitudes about women",
+            "start": 0
+          },
+          {
+            "blockId": "b57",
+            "end": 109,
+            "exact": "It is likely that immersive consumption of varying types of pornography can have significant impacts upon men",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The claim is stated about men's attitudes generally and about implicit association, but the participants are four men, two of whom are the authors, and the source's own quantitative result (E4) says IAT scores across a viewing session 'rarely changed'. The 'broadly supported' verdict therefore rests mainly on the four participants' self-described feelings, with no non-pornography control condition to compare against. Closing the gap would require an independent sample, a control condition and reported IAT change statistics.",
+        "flagKind": "unsupported-generalization",
+        "id": "C2",
+        "kind": "claim",
+        "label": "The authors claim that immersive consumption of female-friendly pornography improves, and female-degrading pornography damages, male implicit and explicit associations about women in society, and that the data broadly support this hypothesis.",
+        "main": true,
+        "short": "Friendly porn improves, degrading porn damages attitudes",
+        "where": "Abstract (b8), Results (b47), Concluding Remark (b57)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 1053,
+            "exact": "the variable of female agency is shown to produce statistically significant semi-paradoxical results which challenge the assumptions underlying a facile categorization of pornography into female-friendly and female-degrading subtypes.",
+            "start": 819
+          },
+          {
+            "blockId": "b52",
+            "end": 909,
+            "exact": "Overall, the data indicate that apparent female agency and scene authenticity seem to be the most relevant variables with regard to pornography",
+            "start": 766
+          },
+          {
+            "blockId": "b57",
+            "end": 696,
+            "exact": "This seems intrinsically linked to that which theoretically renders pornography feminist in orientation, including highly authentic scenes and those depicting high levels of female agency (cf. Stoya 2014, 202).",
+            "start": 486
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The abstract says the agency variable produced 'statistically significant' results, but the body reports no test statistic, p-value, effect size or sample-restricted numbers for the agency/authenticity analysis; the only statistics given anywhere are two correlation coefficients between subjective ratings and arousal (E3), and the referenced Figure is absent. The Results section also states the quantitative data are 'presented in brief' as benchmarks. A reader cannot check the significance claim from what is shown.",
+        "flagKind": "unsourced",
+        "id": "C3",
+        "kind": "claim",
+        "label": "The authors claim that apparent female agency and scene authenticity, together with the sexual arousal they produce, are the most relevant variables governing pornography's influence on how men view women, producing 'statistically significant' semi-paradoxical results.",
+        "note": "The 'statistically weak' remark in b45 refers to the female-friendly/female-degrading contrast, not to the agency variable, so the two statements are about different analyses.",
+        "short": "Agency and authenticity are the operative variables",
+        "where": "Abstract (b8), Discussion (b52), Concluding Remark (b57)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b48",
+            "end": 194,
+            "exact": "Nevertheless, qualitative analysis revealed a pronounced theme of seeing ‘degraded’ pornographic actresses as exhibiting more personal agency than their female-friendly peers (cf. Moorman 2017).",
+            "start": 0
+          },
+          {
+            "blockId": "b54",
+            "end": 286,
+            "exact": "participants indicated that female-friendly porn scenes often depicted women acting in ways that are societally scripted as feminine, which did not enhance their perceptions of agenticity in female pornographic characters.",
+            "start": 64
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C4",
+        "kind": "claim",
+        "label": "The authors claim that qualitative analysis revealed a consistent theme, in all four subjects, of perceiving 'degraded' performers as exhibiting more personal agency than performers in female-friendly scenes, who appeared led by gendered scripts.",
+        "note": "This is a claim about the viewers' perceptions, not about the performers' actual circumstances; the authors themselves call it a 'meta-level assessment of the agential choice of the performer'.",
+        "short": "Degraded performers perceived as more agentic",
+        "where": "Results, Qualitative (b48); Discussion (b54)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b44",
+            "end": 327,
+            "exact": "led them to hold more objectifying perceptions of women. These attitudes were associated with reduced perceptions that women are suited to professional careers, particularly in the sciences.",
+            "start": 137
+          },
+          {
+            "blockId": "b44",
+            "end": 1037,
+            "exact": "immersive pornography viewing induced an objectifying sexism in him.",
+            "start": 969
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C6",
+        "kind": "claim",
+        "label": "The authors claim that all four participants subjectively assessed that immersive two-hour viewing blocks led them to more objectifying perceptions of women and reduced perceptions that women suit professional and scientific careers.",
+        "note": "Self-assessment by participants who include the two investigators; 'induced' is the authors' interpretive gloss on Subject 3's remarks (E6).",
+        "short": "Immersive viewing induced objectifying sexism",
+        "where": "Results, Qualitative (b44)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b45",
+            "end": 180,
+            "exact": "Consistent with this, though results were statistically weak, female-friendly pornographic films typically left the participants reporting feeling warmly and positively about women",
+            "start": 0
+          },
+          {
+            "blockId": "b45",
+            "end": 765,
+            "exact": "On the other hand, female-degrading pornography elicited mostly negative responses on these subjective measures.",
+            "start": 653
+          },
+          {
+            "blockId": "b47",
+            "end": 432,
+            "exact": "an objectively worse person where it comes to what I wanna do with women",
+            "start": 360
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "The authors claim that female-friendly viewing left participants feeling warmly and supportively toward women, while female-degrading viewing elicited mostly negative responses, with three of four participants saying it made them worse toward women.",
+        "note": "The source notes the fourth participant states a strong preference for female-degrading pornography; the 'subjective measures' are the participants' recorded feelings, not the IAT.",
+        "short": "Friendly warms, degrading sours self-reported attitudes",
+        "where": "Results, Qualitative (b45–b47)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b49",
+            "end": 133,
+            "exact": "High sexual arousal during viewing generally amplified these sorts of assessments in all four participants (cf. Paasonen 2011, 2014).",
+            "start": 0
+          },
+          {
+            "blockId": "b52",
+            "end": 765,
+            "exact": "Further, levels of sexual arousal while viewing, which strongly correlate with levels of perceived female agency and scene authenticity, seem to be variables that may lead pornography consumption to influence gendered attitudes in men.",
+            "start": 530
+          },
+          {
+            "blockId": "b57",
+            "end": 485,
+            "exact": "That these influence male biases about women at the level of implicit association is also likely, especially when the consumption of pornography creates high levels of sexual arousal.",
+            "start": 302
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C8",
+        "kind": "claim",
+        "label": "The authors claim that high sexual arousal during viewing amplified attitude effects in all four participants, that arousal strongly correlates with perceived agency and authenticity, and that low-arousal sessions did not change explicit attitudes.",
+        "note": "Arousal was self-rated on a 0–5 scale by the same person making the agency/authenticity ratings (M4).",
+        "short": "Arousal amplifies effects; tracks agency/authenticity",
+        "where": "Results (b49–b50), Discussion (b52), Concluding Remark (b57)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b55",
+            "end": 757,
+            "exact": "Similarly, at least some pornography that appears ‘female-degrading’ (say by depicting scenes of male dominance or female depersonalization [cf. Cowan and Dunn 1994]) can actually be feminist in orientation if it preserves female agency in production and enables a perception of female agency in the viewer.",
+            "start": 450
+          },
+          {
+            "blockId": "b52",
+            "end": 1796,
+            "exact": "This tells us that the existing social-scientific paradigms for classifying pornography are woefully inadequate and deeply problematic.",
+            "start": 1661
+          },
+          {
+            "blockId": "b58",
+            "end": 450,
+            "exact": "the data here indicate significant overlaps in certain themes such as female agenticity and scene authenticity that may not be readily apparent by a coarse categorization into ‘female-friendly’ and ‘female-degrading’ typologies.",
+            "start": 222
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The study's data are viewers' impressions of on-screen agency and authenticity (M4), yet the conclusion invokes 'agency in production' and, in b58, whether a performer 'finds veridical sexual fulfillment'. Nothing in the design observes performers, production conditions or performer intent, so the source cannot distinguish genuine agency from a convincing performance of it—an alternative the authors themselves raise in b55 ('when she is faking her enthusiasm') but do not resolve.",
+        "flagKind": "scope-leap",
+        "id": "C9",
+        "kind": "claim",
+        "label": "The authors claim that some pornography appearing female-degrading can be feminist if it preserves female agency in production and enables perceived agency in the viewer, so the female-friendly/female-degrading paradigm for classifying pornography is inadequate.",
+        "main": true,
+        "short": "Degrading porn can be feminist; paradigm inadequate",
+        "where": "Discussion (b52, b55), Future research (b58)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b18",
+            "end": 1151,
+            "exact": "illustrate by example how deep, self-reflective feminist engagement with pornography can potentially help its consumers identify latent sexist themes.",
+            "start": 1001
+          },
+          {
+            "blockId": "b47",
+            "end": 1219,
+            "exact": "a vital theme of the study becomes apparent: by simultaneously inhabiting the two conflicting subject positions, aroused subject and objective researcher",
+            "start": 1066
+          },
+          {
+            "blockId": "b55",
+            "end": 1738,
+            "exact": "Finally, identifying and questioning this distinction can lead self-reflective (male) pornography consumers to identify, challenge, and disrupt elements of their own sexism.",
+            "start": 1565
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The only grounds offered are the two authors' account of their own change in outlook; the claim is stated for '(male) pornography consumers' generally. No participant other than the PIs is reported to have disrupted sexism, and no measure of sexism before and after reflection is given.",
+        "flagKind": "unsupported-generalization",
+        "id": "C10",
+        "kind": "claim",
+        "label": "The authors claim that deep, self-reflective feminist engagement with pornography can help male consumers identify, challenge and disrupt their own sexism, as illustrated by their recognition that both their scientific paradigm and they themselves took a sexist view of women's sexuality.",
+        "short": "Self-reflective viewing can disrupt male sexism",
+        "where": "Introduction (b18), Results (b47), Discussion (b55)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b50",
+            "end": 429,
+            "exact": "degrading scenes really turn me on, I just want to fuck her like a bimbo, to absolutely wreck her.",
+            "start": 331
+          },
+          {
+            "blockId": "b50",
+            "end": 570,
+            "exact": "who cares what she wants?",
+            "start": 545
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C11",
+        "kind": "claim",
+        "label": "Subject 1 claims that when female-degrading scenes arouse him he wants to use the performer without regard to who she is or what she wants.",
+        "note": "The authors label this 'usual sexism'. The source reports that Subject 1 'ultimately' agreed with Subject 2's alternative reading (C12).",
+        "short": "Subject 1: arousal erases concern for her wants",
+        "where": "Results, Qualitative (b50)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b50",
+            "end": 754,
+            "exact": "cases knowing she wants to be treated like an object, where the guy fucks her like he doesn",
+            "start": 663
+          },
+          {
+            "blockId": "b50",
+            "end": 804,
+            "exact": "wants—but she really wants that.",
+            "start": 772
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "flag": "Subject 1 says of the performer 'who cares what she wants?' while Subject 2 says the arousal depends on 'she really wants that'. The source reports Subject 1 then agreed with Subject 2, but both positions are presented as the participants' own readings of the same scenes; the source does not adjudicate which reading, if either, describes the performers, and the graph records both.",
+        "flagKind": "speaker-conflict",
+        "id": "C12",
+        "kind": "claim",
+        "label": "Subject 2 claims, against Subject 1, that what is arousing in female-degrading scenes is knowing the woman genuinely wants to be treated like an object, so her wants are central rather than irrelevant.",
+        "note": "Subject 2 is identified in b48 as the participant who prefers female-degrading pornography.",
+        "short": "Subject 2: her wanting it is what arouses",
+        "where": "Results, Qualitative (b50)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b38",
+            "end": 860,
+            "exact": "This resulted in a total of 2,328 IAT results corresponding to approximately 2,328 hours of pornographic viewing.",
+            "start": 747
+          },
+          {
+            "blockId": "b38",
+            "end": 1115,
+            "exact": "This yielded 1,164 observations of how IAT results changed (or did not change) after two-hour blocks of immersive pornography viewing, with half (528) of these observations applying to female-friendly pornography and half to female-degrading pornography.",
+            "start": 861
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "The stated numbers do not agree: half of 1,164 is 582, not 528 (528 is half of PI1's 1,056 tests alone). Either the total or the per-category count is wrong, and no per-participant or per-category IAT change results are reported that would let a reader tell which.",
+        "flagKind": "other",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "The protocol produced 2,328 IAT results and 1,164 pre/post change observations, which the authors say split evenly ('half (528)') between female-friendly and female-degrading viewing.",
+        "short": "2,328 IATs; 1,164 change observations",
+        "where": "Methods (b38)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b43",
+            "end": 392,
+            "exact": "PI1 saw a general decrease in all of his IAT scores as the study proceeded. This corresponded with his increased levels of arousal in viewing female-degrading scenes, which he ‘got a taste for.’",
+            "start": 198
+          },
+          {
+            "blockId": "b43",
+            "end": 617,
+            "exact": "PI2, by contrast, saw a general increase in all of his IAT scores over the course of the study, and this corresponded most clearly with increased levels of sexual arousal corresponding to highly authentic scenes of any type.",
+            "start": 393
+          },
+          {
+            "blockId": "b43",
+            "end": 1305,
+            "exact": "Indeed, the clearest results were obtained when considering only those viewing sessions for which participants subjectively rated high levels of apparent female agency and scene authenticity (values of 4 or 5), regardless of the type of scene.",
+            "start": 1062
+          },
+          {
+            "blockId": "b52",
+            "end": 529,
+            "exact": "For instance, having developed ‘a taste’ for female-degrading scenes seemed to impact attitudes about women negatively while coming to enjoy authentic scenes, regardless of their content, seemed to improve these attitudes longitudinally (cf. Liberman 2015).",
+            "start": 272
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "Two individuals drifted in opposite directions over a year, and each drift is attributed to a different viewing-related cause ('taste' for degrading scenes vs. enjoyment of authentic scenes). With n=2, no control period, and a year of other life events and repeated IAT practice unaccounted for, the design cannot separate these attributions from coincidence or from post hoc explanation. The Figure the text refers to is not present.",
+        "flagKind": "causal-language-without-design",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "Over the year, PI1's IAT scores drifted downward as he 'got a taste for' female-degrading scenes, while PI2's drifted upward with arousal at highly authentic scenes; effects were clearest when sessions were restricted to arousal or agency/authenticity ratings of 4–5.",
+        "short": "PI IAT drift tracks taste and authenticity",
+        "where": "Results, Quantitative (b43); Discussion (b52)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b43",
+            "end": 1535,
+            "exact": "consistent with a very strong correlation observed between these variables and sexual arousal levels (r=0.96 and r=0.92, respectively).",
+            "start": 1400
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "All three ratings were made by the same viewer during or right after the same session on 0–5 scales. Correlations this close to 1 are consistent with the agency and authenticity ratings simply re-expressing how aroused the viewer felt, rather than measuring a distinct property of the scene; the source does not test this alternative (for example with independent raters).",
+        "flagKind": "other",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "Subjective agency and authenticity ratings correlated very strongly with subjective arousal ratings (r=0.96 and r=0.92).",
+        "short": "Agency/authenticity ratings correlate 0.96/0.92 with arousal",
+        "where": "Results, Quantitative (b43)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b43",
+            "end": 196,
+            "exact": "While IAT scores spanning any one viewing session rarely changed",
+            "start": 132
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "The authors report that IAT scores measured before and after any single viewing session rarely changed.",
+        "note": "This is the study's designed quantitative test of the immersive-viewing hypothesis; the pre/post protocol (M1) was built to detect exactly this change.",
+        "short": "Within-session IAT scores rarely changed",
+        "where": "Results, Quantitative (b43)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b45",
+            "end": 60,
+            "exact": "though results were statistically weak",
+            "start": 22
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "The authors state that results for the female-friendly versus female-degrading contrast were statistically weak.",
+        "short": "Friendly/degrading results 'statistically weak'",
+        "where": "Results, Qualitative (b45)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b44",
+            "end": 470,
+            "exact": "you just see so much of it [porn] that it all runs together",
+            "start": 411
+          },
+          {
+            "blockId": "b44",
+            "end": 958,
+            "exact": "You just see the setup for a porno everywhere you look.",
+            "start": 903
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "Subject 3 reported that after prolonged viewing bodies 'all run together' and he sees 'the setup for a porno everywhere', which the authors read as porn-conditioned thinking about women.",
+        "short": "Subject 3: bodies run together, porno everywhere",
+        "where": "Results, Qualitative (b44)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b45",
+            "end": 591,
+            "exact": "I just want to make sure she",
+            "start": 563
+          },
+          {
+            "blockId": "b45",
+            "end": 961,
+            "exact": "I honestly have a hard time picturing",
+            "start": 924
+          },
+          {
+            "blockId": "b46",
+            "end": 239,
+            "exact": "I think it",
+            "start": 229
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "Subject 1 said after female-friendly viewing he wanted to make sure 'she's pleased', while Subject 4 said after two hours of doctor-office gangbang porn he could not picture a woman doing anything scientific and felt it was 'warping' his mind.",
+        "note": "Quotations are truncated because the block text is garbled around apostrophes.",
+        "short": "Subjects' warm vs. negative post-viewing remarks",
+        "where": "Results, Qualitative (b45–b46)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b48",
+            "end": 617,
+            "exact": "In female-degrading scenes, you just have this sense that the women involved actively signed up for what",
+            "start": 513
+          },
+          {
+            "blockId": "b48",
+            "end": 1452,
+            "exact": "I have this weird feeling like the women in female-friendly scenes are just kind of being led around by social expectations of what sex is “supposed” to be like between men and women whereas the women in female-degrading pornography are really choosing what",
+            "start": 1195
+          },
+          {
+            "blockId": "b48",
+            "end": 1630,
+            "exact": "I totally get that. I feel exactly the same way. I love it.",
+            "start": 1571
+          },
+          {
+            "blockId": "b48",
+            "end": 2257,
+            "exact": "when the scene is more pro-woman overall, regardless of content, it feels more like she",
+            "start": 2170
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "Subjects 4, 1 and 2 said that women in female-degrading scenes seem to have 'actively signed up' and be 'really choosing', whereas women in female-friendly scenes seem led by social expectations; Subject 4 added the sense arises whenever a scene feels 'pro-woman overall'.",
+        "short": "Subjects: degraded women seem to be choosing",
+        "where": "Results, Qualitative (b48)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b50",
+            "end": 105,
+            "exact": "female-friendly stuff is my girlfriend, and I want the best stuff for her, not just to have sex with her,",
+            "start": 0
+          },
+          {
+            "blockId": "b50",
+            "end": 1058,
+            "exact": "all participants noted that in sessions whereupon they experienced little or no sexual arousal (rated 1 or 2), they did not find the material engaging enough to change their explicit attitudes",
+            "start": 866
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "Subject 1 said that when highly aroused by female-friendly scenes the performer feels like 'my girlfriend' whom he wants the best for, and all participants said low-arousal sessions (rated 1 or 2) were too boring to change their explicit attitudes.",
+        "note": "The authors characterize the 'girlfriend' remark as 'a benevolent sexism born of self-reported ‘raging’ sexual desire, but only for very pretty performers.'",
+        "short": "Arousal-dependent remarks; low arousal changes nothing",
+        "where": "Results, Qualitative (b50)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b53",
+            "end": 627,
+            "exact": "sexual agency is the ability to make individual sexual choices, to vocalize individual desires, and to direct, demonstrate, and experience personal pleasure",
+            "start": 471
+          },
+          {
+            "blockId": "b53",
+            "end": 1047,
+            "exact": "films behave passively during sex and portray an image of vulnerability.",
+            "start": 975
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E11",
+        "kind": "evidence",
+        "label": "The authors cite Fritz and Paul's definition of sexual agency and Hambleton's finding that actresses in female-friendly Silk Labo films behave passively during sex, as consistent with their participants' observations.",
+        "short": "Fritz & Paul, Hambleton on agency and passivity",
+        "where": "Discussion (b53)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b52",
+            "end": 1660,
+            "exact": "after viewing many hundreds of hours of it ourselves and reflecting upon the experience, we recognize there is the possibility for powerful female agency in these practices (Moorman 2017).",
+            "start": 1472
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "flag": "This is the two investigators reporting a shift in their own impressions; they are also the principal data-generating subjects, and the shift is offered as grounds for a conclusion about classification paradigms. An alternative the source does not rule out is that a year of immersive exposure habituated the viewers (PI1 'got a taste for' degrading scenes) rather than revealing something about the performers.",
+        "flagKind": "single-observer",
+        "id": "E12",
+        "kind": "evidence",
+        "label": "The authors report that, having entered assuming women in extremely hardcore pornography were being abused, after viewing many hundreds of hours themselves they came to recognize the possibility of powerful female agency in these practices.",
+        "short": "Authors' own change of view after viewing",
+        "where": "Discussion (b52)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b31",
+            "end": 257,
+            "exact": "we used the Harvard Project Implicit Gender-Science implicit association test (IAT) as a proxy for attitudes about women in society.",
+            "start": 125
+          },
+          {
+            "blockId": "b33",
+            "end": 198,
+            "exact": "Quantitative data for this study were obtained by taking the Harvard Project Implicit Gender-Science IAT test both before and after immersively viewing pornographic videos of each experimental type.",
+            "start": 0
+          },
+          {
+            "blockId": "b37",
+            "end": 232,
+            "exact": "each took the Harvard Project Implicit Gender-Science IAT test to achieve a baseline measurement",
+            "start": 136
+          }
+        ],
+        "flag": "A single gender–science association test stands in for 'attitudes about women in society' and, in the title, for 'explicit and implicit associations'. The source names it a proxy but then reads IAT drift as change in how men 'view women in science/society' generally; whether gender–science sorting speed captures objectification or sexism is not addressed. Repeated administration (over 1,000 times per PI) as a possible source of drift is also not discussed.",
+        "flagKind": "scope-leap",
+        "id": "M1",
+        "kind": "method",
+        "label": "Attitudes were measured with the Harvard Project Implicit Gender-Science IAT, used as a proxy for attitudes about women in society, taken before and after each roughly two-hour viewing block and coded from -3 to +3.",
+        "short": "Gender-Science IAT pre/post, coded -3 to +3",
+        "where": "Implicit Association (b31), Methods (b33, b37)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b33",
+            "end": 792,
+            "exact": "similar data were obtained from two male volunteers trained in the experimental method and instructed on how to record and report their results. These volunteers were recruited directly by the PIs from among their peer group.",
+            "start": 567
+          },
+          {
+            "blockId": "b37",
+            "end": 130,
+            "exact": "From February 6, 2017, through February 9, 2018, each of the PIs undertook the following protocol approximately five days per week",
+            "start": 0
+          },
+          {
+            "blockId": "b38",
+            "end": 115,
+            "exact": "PI1 viewing roughly 1056 hours of pornographic videos",
+            "start": 62
+          }
+        ],
+        "flag": "The investigators are also the main subjects: 2,048 of 2,328 IAT results come from the two PIs, who knew the hypotheses, chose and filtered the stimuli, rated their own arousal and agency perceptions, interviewed each other and coded the transcripts. Volunteer data were self-recorded and self-reported. There is no blinding, no independent rater and no participant outside the authors' circle, so expectancy effects cannot be separated from findings.",
+        "flagKind": "single-observer",
+        "id": "M2",
+        "kind": "method",
+        "label": "Participants were the two male principal investigators, who ran the protocol on themselves about five days a week from February 2017 to February 2018, plus two male volunteers recruited from the PIs' peer group who self-reported 60 and 220 hours respectively.",
+        "short": "Two PIs as subjects plus two peer volunteers",
+        "where": "Methods (b33, b37, b38)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b34",
+            "end": 435,
+            "exact": "Videos were classified into two broad experimental types, ‘female-friendly’ and ‘female-degrading,’ by applying two filters, one gross and one fine.",
+            "start": 287
+          },
+          {
+            "blockId": "b34",
+            "end": 506,
+            "exact": "The gross filter selected pornographic videos from online ‘tube’ sites",
+            "start": 436
+          },
+          {
+            "blockId": "b34",
+            "end": 2596,
+            "exact": "A finer filter was then applied to videos by a real-time subjective assessment of the content: If a video was insufficiently female-friendly or female-degrading in the subjective determina-tion of the viewer, that scene would be terminated, and the viewer would progress to a new video within the experimental category.",
+            "start": 2277
+          }
+        ],
+        "flag": "The category a scene ended up in depended on the same viewer's in-the-moment judgment that is later analysed as an outcome (perceived agency, arousal). Scenes that felt insufficiently 'degrading' were dropped, so the female-degrading sample is pre-selected toward scenes the viewer found convincingly degrading—and, given E3, possibly arousing. The source also notes in b20 that tube-site tags are largely a marketing tool, yet uses them as the gross filter without reporting how many scenes each filter discarded.",
+        "flagKind": "other",
+        "id": "M3",
+        "kind": "method",
+        "label": "Heterosexual videos were assigned to 'female-friendly' or 'female-degrading' first by tube-site tags and then by a real-time subjective judgment of the viewer, who abandoned any scene he felt did not sufficiently fit its category.",
+        "short": "Tag-based then subjective category filtering",
+        "where": "Methods (b34)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b35",
+            "end": 339,
+            "exact": "subjective levels of arousal, including compulsive impulses to masturbate, were recorded and coded on a scale from zero to five",
+            "start": 212
+          },
+          {
+            "blockId": "b36",
+            "end": 348,
+            "exact": "Third, subjects were encouraged to note their subjective assessments of portrayals of apparent female agency and scene authenticity (desire to be involved in the scene and apparent chemistry between/among performers).",
+            "start": 131
+          },
+          {
+            "blockId": "b36",
+            "end": 614,
+            "exact": "subjects met with the PIs, who also met with each other, once per week during experimental periods for semi-structured interviews/discussions",
+            "start": 473
+          },
+          {
+            "blockId": "b39",
+            "end": 630,
+            "exact": "This led to the incorporation of agency and authenticity as pertinent subjective variables after four weeks.",
+            "start": 522
+          }
+        ],
+        "id": "M4",
+        "kind": "method",
+        "label": "Qualitative data comprised participants' notes on attitudes, self-rated arousal (0–5), self-rated apparent female agency and scene authenticity (0–5, added after four weeks), and weekly semi-structured interviews transcribed and coded thematically with a grounded-theory approach.",
+        "note": "'Authenticity' is operationalised partly as the viewer's own 'desire to be involved in the scene', which overlaps by definition with arousal. Agency/authenticity ratings do not exist for the first four weeks of viewing.",
+        "short": "Self-ratings and interviews, thematically coded",
+        "where": "Methods (b35, b36, b39)"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a",
+      "readingMode": "conversational",
+      "readingModeUsed": "conversational",
+      "recipeHash": "908873a3e58b8ab6a7b3672dff53f4c18a125fb7c36c519dd3a50e6b6d4385de",
+      "sourceVersion": "fe9a40380869216a305e665a3defe0b089de94e5d591fc796ff01f076c556deb"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "feminist-porn"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 9165,
+    "ratio": 0.16645175350974373,
+    "sourceCharacters": 55061
+  },
+  "readingId": "reading:1c94c52cb864f56986e0696336581012cf226fc14d6a3389aef6acc3c4f9b8af",
+  "source": {
+    "authors": [
+      "Richard Baldwin",
+      "Brandon Williams"
+    ],
+    "format": "pdf-text",
+    "id": "feminist-porn",
+    "identifier": "url:https://drive.google.com/uc?export=download&id=1l6MDFezlYgGqL_3uhhyGfu-rgj7z11HQ",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "stage": "unknown",
+    "title": "Agency as an Elephant Test for Feminist Porn: Impacts on Male Explicit and Implicit Associations about Women in Society by Immersive Pornography Consumption",
+    "url": "https://drive.google.com/uc?export=download&id=1l6MDFezlYgGqL_3uhhyGfu-rgj7z11HQ",
+    "venue": "Porn Studies",
+    "version": "fe9a40380869216a305e665a3defe0b089de94e5d591fc796ff01f076c556deb",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "url",
+        "value": "https://drive.google.com/uc?export=download&id=1l6mdfezlyggql_3uhhygfu-rgj7z11hq"
+      }
+    ],
+    "workId": "work:2977d656e5731be60c470d0d6fbb3dbab98b3fb5c7f25ffc70ca3ac37015be06"
+  }
+}
