@@ -1,0 +1,1420 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "82e2731dee26acd9a13d2cdb22c48cf936c763022cf419b3ac2731cc428012c6",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "flagged"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C2",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C3",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C4",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "no-dimensions"
+          ],
+          "claimId": "C5",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "partial-strength-only"
+          ],
+          "claimId": "C6",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions"
+          ],
+          "claimId": "C7",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions"
+          ],
+          "claimId": "C8",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "high-dimensions"
+          ],
+          "claimId": "C9",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "flagged",
+            "partial-strength-only"
+          ],
+          "claimId": "C10",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "high-dimensions"
+          ],
+          "claimId": "C11",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "high-dimensions"
+          ],
+          "claimId": "C12",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C13",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only"
+          ],
+          "claimId": "C14",
+          "level": "weakly-supported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C4",
+        "id": "e1",
+        "note": "Stigmatizing effect of pathologization is the stated motive for the intervention.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C10",
+        "id": "e2",
+        "note": "Bloggers' own rejection of the pedophilia link is offered as practitioner counter-knowledge.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "C6",
+        "id": "e3",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C7",
+        "id": "e4",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C8",
+        "id": "e5",
+        "note": "Affective intensities from transgression are the substance of 'play' as variation in pleasure.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C9",
+        "id": "e6",
+        "note": "Elaborates the first (autobiographical) figure of the child.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C8"
+      },
+      {
+        "from": "C11",
+        "id": "e7",
+        "note": "Doing/being as difference in degree is the article's core illustration of the play framework.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C12",
+        "id": "e8",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C11"
+      },
+      {
+        "from": "C13",
+        "id": "e9",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "C14",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C5",
+        "id": "e11",
+        "note": "The source's own disclaimer of generalization weighs against the broad claims about sexuality.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E1",
+        "id": "e12",
+        "note": "Shows pathologizing runs against the manual, not that it is widespread.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E2",
+        "id": "e13",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "E3",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "E4",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "E5",
+        "id": "e16",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E6",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E7",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "E8",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "E9",
+        "id": "e20",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E10",
+        "id": "e21",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E11",
+        "id": "e22",
+        "note": "One example of a rebuttal; does not show frequency or reuse.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C10"
+      },
+      {
+        "from": "E12",
+        "id": "e23",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C11"
+      },
+      {
+        "from": "E13",
+        "id": "e24",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C13"
+      },
+      {
+        "from": "E14",
+        "id": "e25",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "E15",
+        "id": "e26",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C13"
+      },
+      {
+        "from": "E16",
+        "id": "e27",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C13"
+      },
+      {
+        "from": "E17",
+        "id": "e28",
+        "note": "Describes the 'precious' state, not the aftercare comparison.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C14"
+      },
+      {
+        "from": "M1",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "M2",
+        "id": "e30",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M2",
+        "id": "e31",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M2",
+        "id": "e32",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M2",
+        "id": "e34",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M2",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M2",
+        "id": "e36",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M2",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M2",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E11"
+      },
+      {
+        "from": "M2",
+        "id": "e39",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E12"
+      },
+      {
+        "from": "M2",
+        "id": "e40",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E14"
+      },
+      {
+        "from": "M2",
+        "id": "e41",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E15"
+      },
+      {
+        "from": "M2",
+        "id": "e42",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E16"
+      },
+      {
+        "from": "M2",
+        "id": "e43",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E17"
+      }
+    ],
+    "id": "control-littles-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b6",
+            "end": 346,
+            "exact": "rather than being fixed in one single position, our study participants move between a range of roles varying across their different scenes",
+            "start": 208
+          },
+          {
+            "blockId": "b34",
+            "end": 249,
+            "exact": "rather than being fixed in one single position or identity, they move between a range of roles in various scenes of play involving different partners",
+            "start": 100
+          },
+          {
+            "blockId": "b44",
+            "end": 177,
+            "exact": "such a diversity of positions, relations, and practices of pleasure com-plicates conceptualizations of age-play through or within the categories of sexual identity",
+            "start": 14
+          },
+          {
+            "blockId": "b114",
+            "end": 1372,
+            "exact": "We found their play practices to emerge as relational and situational.",
+            "start": 1302
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 1
+        },
+        "flag": "The claim is stated for 'our study participants' generally, but the extended illustration comes from a single woman in her 30s. The participant table (b28) lists most others only 'As Little girl to a male Daddy', with a few noting switches; the text does not say how many participants actually move between roles. A per-participant account would be needed to support the plural.",
+        "flagKind": "unsupported-generalization",
+        "id": "C1",
+        "kind": "claim",
+        "label": "Rather than being fixed in one position or identity, the study participants move between a range of roles (Little, Daddy, Domme, sub) across different scenes and partners, and this diversity complicates placing age-play within categories of sexual identity.",
+        "main": true,
+        "short": "Participants move between many play roles",
+        "where": "Abstract; Being Little; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b6",
+            "end": 780,
+            "exact": "a focus on play as exploration of corporeal possibilities allows for conceptualizing sexual preferences and practices, such as age-play, as irreducible to distinct categories of sexual identity",
+            "start": 587
+          },
+          {
+            "blockId": "b19",
+            "end": 2707,
+            "exact": "We argue that the concept of play, when applied to sexuality, makes it possible to rethink sexuality as connected to, and as constantly transformed by the contingency of tastes and the affective registers involved in practices of pleasure.",
+            "start": 2468
+          },
+          {
+            "blockId": "b114",
+            "end": 1119,
+            "exact": "Conceptualizing sexuality in the framework of play unfixes sexual practices from categorical notions of sexual identity that can be used to stigmatize people’s sexual preferences and experiences.",
+            "start": 924
+          },
+          {
+            "blockId": "b116",
+            "end": 354,
+            "exact": "Playful experimentation can therefore be seen as fundamental to how one’s sexual preferences and identifica-tions shift and transform",
+            "start": 221
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The empirical material concerns eight to nine self-identified female Littles from one Tumblr community, yet the conclusion extends the play framework to 'sexuality in a broader sense' and to how anyone's preferences 'shift and transform'. The source disclaims generalization to any population (C5) but then makes general claims about human sexuality; these are offered as a conceptual proposal, and nothing in the data tests whether the framework applies beyond this group.",
+        "flagKind": "scope-leap",
+        "id": "C2",
+        "kind": "claim",
+        "label": "Approached as play (exploration of corporeal possibilities motivated by pleasure), sexuality and age-play can be understood as variations in affective intensity and attachment (differences in degree) that need not be classified into categories of sexual identity; playful experimentation is fundamental to how sexual preferences shift.",
+        "main": true,
+        "note": "This is primarily a theoretical proposal; the authors draw on Sicart's definition of play (M1), Bergson's differences in degree and Foucault/Weiss (E2), and Tomkins' affect theory (E13) rather than on the interview data alone.",
+        "short": "Play lens replaces sexual-identity taxonomy",
+        "where": "Abstract; Introduction; Doing and Being; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b15",
+            "end": 1473,
+            "exact": "we aim to intervene in the pathologized framing of age-play as paraphilic infantilism",
+            "start": 1388
+          },
+          {
+            "blockId": "b19",
+            "end": 2100,
+            "exact": "propose conceptualizing age-play outside both its pathologization as paraphilic infantilism and its fixing as an identity category",
+            "start": 1970
+          },
+          {
+            "blockId": "b114",
+            "end": 673,
+            "exact": "This leads us to propose conceptualizing age-play outside both its pathologization as paraphilic infantilism, and its fixity as an identity category.",
+            "start": 524
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C3",
+        "kind": "claim",
+        "label": "Age-play should be conceptualized outside both its pathologization as paraphilic infantilism and its fixing as a sexual identity category.",
+        "main": true,
+        "note": "Stated as a proposal ('propose', 'aim to intervene') rather than as an empirical finding; the grounds are C4 (the stigmatizing effect of pathologization) and, partially, the bloggers' own refutations of pedophilia accusations (C10).",
+        "short": "De-pathologize and de-categorize age-play",
+        "where": "Introduction; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b15",
+            "end": 1912,
+            "exact": "When the widespread ten-dency to pathologize age-play intersects with the still prevalent normative notion of coherent and categorical sexual identity",
+            "start": 1762
+          },
+          {
+            "blockId": "b16",
+            "end": 243,
+            "exact": "It also follows that the explanatory power of popular, scholarly, and therapeutic narratives about human sexuality diminishes while definitions of, and attitudes towards age-play get locked into conceptions of a flawed self",
+            "start": 20
+          },
+          {
+            "blockId": "b114",
+            "end": 209,
+            "exact": "is a fairly under-researched and often misunderstood sexual subculture that is com-monly ridiculed and pathologized in popular media",
+            "start": 77
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "'Widespread tendency' and 'commonly ridiculed and pathologized in popular media' rest on a single example of pathologizing scholarship (Doshi et al. 2018), one therapeutic source (Nichols 2014) and one author's own book (Paasonen 2018). No survey of literature or media is offered, so the reader cannot judge how widespread the tendency is.",
+        "flagKind": "unsourced",
+        "id": "C4",
+        "kind": "claim",
+        "label": "There is a widespread tendency to pathologize age-play which, combined with normative categorical notions of sexual identity, stigmatizes people's preferences and diminishes the explanatory power of popular, scholarly and therapeutic narratives about sexuality.",
+        "short": "Pathologizing age-play stigmatizes and weakens explanation",
+        "where": "Introduction; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b24",
+            "end": 1920,
+            "exact": "We acknowledge its limitations, and do not seek to generalize to any population",
+            "start": 1841
+          },
+          {
+            "blockId": "b114",
+            "end": 523,
+            "exact": "Our sample is limited, but our data is thick and nuanced, allowing us to offer a rich glimpse at one way of doing DD/lg sexual role-play.",
+            "start": 386
+          }
+        ],
+        "id": "C5",
+        "kind": "claim",
+        "label": "The sample is small and limited, and the authors do not seek to generalize to any population.",
+        "note": "A limitation stated by the source itself; recorded because the conclusion nonetheless extends its framework to sexuality in general (see C2).",
+        "short": "Sample limited; no generalization sought",
+        "where": "Research Context and Material; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b46",
+            "end": 244,
+            "exact": "For our participants, aesthetics is an important element of age-play: they emphasize the need to find a style of engagement, interaction, and bodily stylization that fit the situation and allow the players to engineer its affective intensities.",
+            "start": 0
+          },
+          {
+            "blockId": "b50",
+            "end": 127,
+            "exact": "By BDSM standards, the Littles we studied may play hard: a preference for juvenile aesthetics does not imply less intense play.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C6",
+        "kind": "claim",
+        "label": "Aesthetics is an important element of age-play for participants, who seek a style of engagement and bodily stylization that lets them engineer affective intensities; a preference for juvenile aesthetics does not imply less intense play.",
+        "note": "The 'may play hard' assertion is supported only by the authors' summary ('while still enjoying intense pain and humiliation'); the quoted blog outtake addresses finding a fitting aesthetic, not intensity.",
+        "short": "Aesthetics matter; juvenile style still intense",
+        "where": "The Aesthetics of Being Little"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b53",
+            "end": 979,
+            "exact": "these women do not necessarily commit to one style of being Little. Rather, their positions shift depending on the mood, the partner, as well as a myriad of personal aspects connected to headspace",
+            "start": 783
+          },
+          {
+            "blockId": "b53",
+            "end": 1283,
+            "exact": "stability within these positions comes across less as an issue of identity than as a dynamic of bonding and play with a particular partner",
+            "start": 1145
+          },
+          {
+            "blockId": "b58",
+            "end": 707,
+            "exact": "We suggest that these roles emerge from, and belong to the play dynamic between the partners in question, and do not necessarily extend beyond them as a more firm sense of what one is, or does",
+            "start": 515
+          },
+          {
+            "blockId": "b58",
+            "end": 1189,
+            "exact": "This suggests that the practitioners’ sexual preferences, routines, and practices—and not merely their relations with partners—come into being in a process of play.",
+            "start": 1025
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "Participants do not commit to one style of being Little; their positions shift with mood, partner and headspace, stability is a matter of bonding with a particular partner rather than identity, and Little roles emerge from and belong to the play dynamic between partners, so preferences themselves come into being through play.",
+        "note": "The typology 'Princess Little', 'Pet Little', 'Daddy's girl' is presented by the authors as illustrative and 'obviously not an encompassing list'.",
+        "short": "Little roles belong to partner dynamics",
+        "where": "Multiple Littles"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b60",
+            "end": 1367,
+            "exact": "age-play dynamics draw some of their appeal and some of their affective intensity from the conceptual separation of childhood, as a realm of sexual inexperience, from adult sexuality. Here, at least three figures of the child emerge.",
+            "start": 1134
+          },
+          {
+            "blockId": "b67",
+            "end": 236,
+            "exact": "Scenes derive some of their affective intensity from this sense of incompatibility and transgression.",
+            "start": 135
+          },
+          {
+            "blockId": "b71",
+            "end": 323,
+            "exact": "The productive tension and the affective intensity involved in “badwrong” contrib-utes to, and even organizes one’s sexual fantasy, and fuels scenes of play",
+            "start": 167
+          },
+          {
+            "blockId": "b73",
+            "end": 637,
+            "exact": "Both the anxiety of breaching the use of age-play-specific titles in sexual role-play and the affective intensity from being able to use such language is fed by the discussed friction between the figures of child and the perceptions of adult sexuality.",
+            "start": 385
+          },
+          {
+            "blockId": "b114",
+            "end": 1622,
+            "exact": "their experiences and articulations illuminate how important aesthetics, and the frictions between adult, sexual practices and the cultural figures of child are for getting into and maintaining a mood often called “headspace” or “badwrong.”",
+            "start": 1382
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C8",
+        "kind": "claim",
+        "label": "Age-play draws much of its affective intensity from the friction between figures of the child (autobiographical, fantasy, and symbolic-cultural) and adult sexuality; this transgressive 'badwrong' tension organizes fantasy and fuels scenes, including the charged act of calling a partner 'Daddy'.",
+        "note": "The three-figure scheme is the authors' analytic construct drawing on Kincaid, Edelman and Bauer; the interview and blog excerpts are read through it rather than stating it.",
+        "short": "Child/adult friction fuels 'badwrong' intensity",
+        "where": "Figures of Childhood; Badwrong; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b60",
+            "end": 1567,
+            "exact": "First, there is the autobiographical, recollected child that once was one’s self, and that can be reconnected with through acts of role-play while also possibly affectively re-attuning these memories",
+            "start": 1368
+          },
+          {
+            "blockId": "b63",
+            "end": 625,
+            "exact": "Our age-playing participants also talked about the earlier life events feeding into their routines and scenes, and it functioning as self-care",
+            "start": 483
+          },
+          {
+            "blockId": "b65",
+            "end": 214,
+            "exact": "The early life dynamics can make age play a means of revisiting and refiguring childhood, the actual experiences of which were marked by parental distance or irre-sponsibility in ways that cut childhood play short.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "Through play the autobiographical child can be reconnected with and memories re-attuned; participants describe earlier life events feeding into their scenes, with age-play functioning as self-care and a means of revisiting and refiguring childhood.",
+        "note": "The authors situate this within cited literature on BDSM as 'trauma play' (Weiss, Barker, Lindemann, Hammers); the therapeutic effect is the participant's self-report, and the authors phrase their own claim as 'can make'.",
+        "short": "Age-play revisits childhood as self-care",
+        "where": "Figures of Childhood"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b75",
+            "end": 697,
+            "exact": "People who maintain age-play related blogs or address their preference for this type of play routinely receive comments trying to position their preference as deviant",
+            "start": 531
+          },
+          {
+            "blockId": "b78",
+            "end": 57,
+            "exact": "such critiques link DD/lg to pedophilia",
+            "start": 18
+          },
+          {
+            "blockId": "b81",
+            "end": 127,
+            "exact": "Accusations of pedophilia are responded to with great detail and reflexivity, even with references to scholarship on the topic.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 1
+        },
+        "flag": "'Routinely', 'typically' and 'often reused' are frequency claims with no counts of blogs, comments or responses observed, and one blog outtake is shown. The ethnographic fieldnotes might contain this, but the reader cannot see how common such exchanges are.",
+        "flagKind": "no-denominator",
+        "id": "C10",
+        "kind": "claim",
+        "label": "Age-play bloggers routinely receive comments framing their preference as deviant or linked to pedophilia, and these accusations are refused with detailed, reflexive responses that are reused as FAQ posts.",
+        "short": "Bloggers routinely rebut pedophilia accusations",
+        "where": "Rejection of Pedophilia"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b83",
+            "end": 350,
+            "exact": "a distinction is made between age-play as role-play and more substantial, forms of being Little connected to immersion and fullness of experience",
+            "start": 205
+          },
+          {
+            "blockId": "b94",
+            "end": 427,
+            "exact": "For our informants, age-play entails variations in intensity from doing Little (as titillation, or as part of a sexual routine) to being Little when sexual play grows central to their self-definition.",
+            "start": 227
+          },
+          {
+            "blockId": "b94",
+            "end": 1271,
+            "exact": "It then follows that we conceptualize ways doing and being Little as an issue of variations in intensity—and as ranging from experimentation and interest to routine and self-definition—without beginning from, or finishing with, their classification as a sexual identity.",
+            "start": 1001
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C11",
+        "kind": "claim",
+        "label": "Participants distinguish doing Little (age-play as role-play, titillation or routine) from being Little (immersion, real emotion, self-definition); this range is a variation in intensity and attachment, a difference in degree, rather than a sexual identity.",
+        "short": "Doing versus being Little as degree",
+        "where": "Doing and Being"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b96",
+            "end": 1583,
+            "exact": "Our participants describe their experiences with DD/lg headspace as gradations of experience, within which truly intense experiences of littlespace were described as “sacred,”",
+            "start": 1408
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 2
+        },
+        "id": "C12",
+        "kind": "claim",
+        "label": "Participants experience DD/lg headspace as gradations, with the most intense experiences of littlespace described as 'sacred' and as an accessible part of the self rather than a role.",
+        "note": "The authors characterize 'headspace' and 'subspace' via Busbee (2008) and Wignall and McCormack (2017), not via their own measurement.",
+        "short": "Headspace gradations; 'sacred Little' space",
+        "where": "Affective Intensities"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b99",
+            "end": 622,
+            "exact": "other negative affective intensities like shame, fear, disgust, or guilt can—perhaps counter-intuitively— intensify and amplify sexual desire and arousal",
+            "start": 469
+          },
+          {
+            "blockId": "b101",
+            "end": 391,
+            "exact": "For our participants, this complexity and heterogeneity of affective intensities, addressed above as “badwrong,” is particularly intense in the case of DD/lg, where, due to its normative associations, an element of shame is ever present.",
+            "start": 154
+          },
+          {
+            "blockId": "b103",
+            "end": 140,
+            "exact": "The shame or embarrassment of the DD/lg “badwrong” is perceived as being different from the humiliation associated with “conventional” BDSM:",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C13",
+        "kind": "claim",
+        "label": "Negative affects such as shame, fear, disgust or guilt can intensify sexual desire; in DD/lg an element of shame is ever present, and its 'blushy embarrassed' shame is perceived as different from the humiliation of conventional BDSM.",
+        "short": "Shame amplifies desire; DD/lg shame differs",
+        "where": "Affective Intensities; Shame and Humiliation"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b109",
+            "end": 999,
+            "exact": "our informants experience the DD/lg dynamic as coming with a higher perceived need for, and intensity of aftercare, which they pair with the higher affective intensity involved in this kind of play",
+            "start": 802
+          },
+          {
+            "blockId": "b109",
+            "end": 579,
+            "exact": "As described by our Littles, during play, their caregivers are able to coax out intense vulnerability on the basis of trust.",
+            "start": 455
+          },
+          {
+            "blockId": "b112",
+            "end": 159,
+            "exact": "This group of practitioners often uses the term “precious” to describe the affective state sought in DD/lg play that differentiates it from other types of play",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The comparative claim (higher need for aftercare than other BDSM) is reported as the authors' summary of informants' views; the only quoted material describes a desire to surrender and be 'precious', not a comparison with aftercare in other play. No excerpt shows a participant making the comparison.",
+        "flagKind": "missing-comparison",
+        "id": "C14",
+        "kind": "claim",
+        "label": "Participants experience DD/lg as coming with a higher perceived need for and intensity of aftercare than other BDSM, paired with higher affective intensity, and use 'precious' to name the cared-for affective state that differentiates DD/lg from conventional BDSM.",
+        "short": "DD/lg needs more aftercare; 'precious' state",
+        "where": "Comfort and Care"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b15",
+            "end": 1760,
+            "exact": "the Diagnostic and Statistical Manual of Mental Disorders-V stating that “most people with atypical sexual interests do not have a mental disorder,” and paraphilic infantilism not being classified as a paraphilic disorder within the manual",
+            "start": 1521
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "The DSM-V states that most people with atypical sexual interests do not have a mental disorder and does not classify paraphilic infantilism as a paraphilic disorder, yet pathologizing framings persist.",
+        "short": "DSM-V does not classify infantilism disorder",
+        "where": "Introduction"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b19",
+            "end": 545,
+            "exact": "Weiss’ separation between doing and being, between proclivity and essence, echoes Michel Foucault’s critique of 19th century scientific study of sex that mapped individuals as representatives of sexual types characterized by their inner qualities.",
+            "start": 298
+          },
+          {
+            "blockId": "b19",
+            "end": 1495,
+            "exact": "Conceptualized as differences in degree, sexuality involves fields of variation that necessitate no classification based on distinct categories.",
+            "start": 1351
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "Weiss's doing/being distinction, Foucault's account of the invention of sexual 'species', and Bergson's differences in degree versus kind are cited as grounds that sexuality can be conceived as fields of variation needing no categorical classification.",
+        "note": "Theoretical citation, not empirical evidence; the reader should weigh it as a conceptual framework the data are read through.",
+        "short": "Weiss, Foucault, Bergson on doing/being",
+        "where": "Introduction"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b34",
+            "end": 678,
+            "exact": "One study participant, a woman in her 30s, plays as a Little girl to a long-term Daddy, who is male; as a Femme Daddy (not Mommy) to her female Little, whom she calls Kitten",
+            "start": 505
+          },
+          {
+            "blockId": "b38",
+            "end": 111,
+            "exact": "I don’t top him in front of the girls. We tried once but he wasn’t comfortable. I top him alone every time now.",
+            "start": 0
+          },
+          {
+            "blockId": "b41",
+            "end": 71,
+            "exact": "It’s not age-play outright. More humiliation of being put in his place.",
+            "start": 0
+          },
+          {
+            "blockId": "b43",
+            "end": 80,
+            "exact": "At the start of our relationship, we switched. I learned topping by topping him!",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "flag": "The whole section's illustration of role mobility comes from a single participant; no second participant is quoted on moving between roles.",
+        "flagKind": "single-observer",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "One woman in her 30s is described and interviewed as playing Little to a male Daddy, Femme Daddy to a female Little, one-off sub and Domme at parties, both Domme and Little sub to another Dom, and poly wife; she recounts topping her Dom privately and having switched with her Daddy early on.",
+        "short": "One participant's many shifting roles",
+        "where": "Being Little"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b47",
+            "end": 203,
+            "exact": "The typical black leather, serious mean Dom and a lowly slave didn’t speak to my tastes and desires at all.",
+            "start": 96
+          },
+          {
+            "blockId": "b47",
+            "end": 855,
+            "exact": "So I was able to find an aes-thetis and a dynamic that suited me, appealed to my senses and felt right.",
+            "start": 752
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "A participant's blog post says leather-and-slave BDSM imagery did not appeal to her, that Tumblr exposed her to women-made kink content, and that she was then able to find an aesthetic and dynamic that suited her.",
+        "note": "Also the only excerpt bearing on the authors' assertion (b32) that all informants found Tumblr blogs an important resource for making sense of their sexuality.",
+        "short": "Blog: finding a fitting kink aesthetic",
+        "where": "The Aesthetics of Being Little"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b55",
+            "end": 83,
+            "exact": "He is always my Daddy. I am always baby, little, dolly, pet. Some Little variation.",
+            "start": 0
+          },
+          {
+            "blockId": "b55",
+            "end": 657,
+            "exact": "But Little submission is the money spot for me personally.",
+            "start": 599
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "A participant explains that with her partner she is always some Little variation, that topping is an easier, less vulnerable space, and that Little submission is what she most wants.",
+        "short": "'He is always my Daddy' interview",
+        "where": "Multiple Littles"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b58",
+            "end": 1023,
+            "exact": "the woman stated that she felt like there was no longer an outlet for Bunny, a Little which she only played with one partner, and which she missed terribly",
+            "start": 868
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "After a partnership dissolved, one interviewee said there was no longer an outlet for 'Bunny', a Little she played only with that partner and missed terribly, though she still played Little with others.",
+        "short": "'Bunny' lost with one partner",
+        "where": "Multiple Littles"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b61",
+            "end": 255,
+            "exact": "I just want to put that girl in pigtails and give her some bubbles and send her outside to frolic. But I wouldn’t have frolicked; I would have taken care of my siblings",
+            "start": 87
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "A participant reflects on childhood photos of herself looking serious, wanting to send that girl outside to frolic, but recalling she would instead have cared for siblings and fretted.",
+        "short": "Interview on serious childhood photos",
+        "where": "Figures of Childhood"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b64",
+            "end": 136,
+            "exact": "Personally, having a stable, loving, healthy relationship with my Daddy Dom is helping me to repair some pretty heavy childhood traumas.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "A participant reports that her relationship with her Daddy Dom is helping her repair heavy childhood traumas and has been healing for him too.",
+        "short": "Interview: DD/lg repairing childhood trauma",
+        "where": "Figures of Childhood"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b66",
+            "end": 201,
+            "exact": "I like feigning innocence in the midst of doing something depraved.",
+            "start": 134
+          },
+          {
+            "blockId": "b66",
+            "end": 332,
+            "exact": "I enjoy feeling impressionable and cor-ruptible.",
+            "start": 284
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "A blog outtake describes enjoying pastels and bridal lingerie at kink parties, feigning innocence while doing something depraved, and feeling impressionable and corruptible.",
+        "short": "Blog: innocence feels more perverse",
+        "where": "Figures of Childhood"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b72",
+            "end": 302,
+            "exact": "and then also vulnerability, fear and a certain kind of wrongness—like being taken advantage of, or used. And I just started feeling like I was gonna say it, like it was just gonna come out of me—Daddy!",
+            "start": 100
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "A participant recounts the first time she called her partner 'Daddy', in a space of love, arousal, vulnerability, fear and a sense of wrongness.",
+        "short": "Interview: first saying 'Daddy!'",
+        "where": "Badwrong"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b80",
+            "end": 80,
+            "exact": "I am a little, but I am perfectly happy with my age. I don’t want to be younger.",
+            "start": 0
+          },
+          {
+            "blockId": "b80",
+            "end": 388,
+            "exact": "DD/lg allows me to feel weak, or small, or feminine, or silly and emotionally young, when I want to.",
+            "start": 288
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E11",
+        "kind": "evidence",
+        "label": "A blog outtake states the writer is happy with her age and does not want to be younger, being turned on instead by the contrast of innocence and maturity, power dynamics and role-play.",
+        "short": "Blog: 'I don't want to be younger'",
+        "where": "Rejection of Pedophilia"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b84",
+            "end": 248,
+            "exact": "But I’m me when I’m Little, I’m only a different age if we’re doing some age play stuff.",
+            "start": 160
+          },
+          {
+            "blockId": "b86",
+            "end": 148,
+            "exact": "For me Littleness is a deeper level of giving up control. Like there’s being submissive, and then being Little is a level down from there.",
+            "start": 10
+          },
+          {
+            "blockId": "b87",
+            "end": 75,
+            "exact": "And Little is not always pretty/fun. Whereas age-play is for fun.",
+            "start": 10
+          },
+          {
+            "blockId": "b91",
+            "end": 60,
+            "exact": "Little is crying for real, accessing real emotion.",
+            "start": 10
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E12",
+        "kind": "evidence",
+        "label": "In a group interview, participants say they are themselves when Little but 'put on' age-play, that Little is a deeper level of giving up control than submission, and that Little is not always fun and involves crying for real.",
+        "short": "Group interview: Little versus age-play",
+        "where": "Doing and Being"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b96",
+            "end": 752,
+            "exact": "For Tomkins (2008, p. 188), the affective amplifier of excitement, in particular, is perquisite for sexual desire to push through mundane events and obligations",
+            "start": 592
+          },
+          {
+            "blockId": "b107",
+            "end": 940,
+            "exact": "Positive affect has been invested in pain and every kind of human misery, and negative affect has been experienced as a consequence of pleasure and every kind of triumph of the human spirit.",
+            "start": 750
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E13",
+        "kind": "evidence",
+        "label": "Tomkins' affect theory is cited for excitement as the amplifier prerequisite to sexual desire and for the claim that positive affect has been invested in pain and negative affect experienced as a consequence of pleasure.",
+        "short": "Tomkins: affects attach to any object",
+        "where": "Affective Intensities; Shame and Humiliation"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b98",
+            "end": 64,
+            "exact": "I think littleness is a really sacred and important space for me",
+            "start": 0
+          },
+          {
+            "blockId": "b98",
+            "end": 803,
+            "exact": "So it’s not a role I step into, it’s more like a space of myself I’m allowed to access.",
+            "start": 716
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E14",
+        "kind": "evidence",
+        "label": "A participant describes littleness as a sacred space of letting go of control and stripped-down vulnerability, not a role she steps into but a part of herself she is allowed to access.",
+        "short": "Interview: littleness as sacred space",
+        "where": "Affective Intensities"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b102",
+            "end": 164,
+            "exact": "I think I was imprinted when I was young to link shame with my sexuality. Shame and a power dynamic. And the Little thing feels like a safer way to experience that.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E15",
+        "kind": "evidence",
+        "label": "A group-interview participant says she was imprinted young to link shame with sexuality and that the Little dynamic feels a safer way to experience and almost rewrite that.",
+        "short": "Group interview: shame safely rewritten",
+        "where": "Shame and Humiliation"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b104",
+            "end": 107,
+            "exact": "I don’t go for slave style humiliation that I would associate with that tag in BDSM, like it feels too mean",
+            "start": 0
+          },
+          {
+            "blockId": "b106",
+            "end": 92,
+            "exact": "Like, when someone realizes you’re really wet from some depraved shit.",
+            "start": 22
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E16",
+        "kind": "evidence",
+        "label": "A group-interview participant rejects slave-style BDSM humiliation as too mean but likes blushy, embarrassed shame.",
+        "short": "Group interview: blushy embarrassment, not humiliation",
+        "where": "Shame and Humiliation"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b110",
+            "end": 308,
+            "exact": "I want to succumb to caring hands, soothing sounds, full attention, good intentions. Let me be something precious.",
+            "start": 194
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E17",
+        "kind": "evidence",
+        "label": "A blog outtake expresses a wish to surrender all choices and thinking to caring hands and be 'something precious'.",
+        "short": "Blog: 'Let me be something precious'",
+        "where": "Comfort and Care"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b15",
+            "end": 1374,
+            "exact": "Taking on this definition of play as variations of pleasure, this article sets out to examine age-play as play, namely as autotelic activity practiced for its own sake.",
+            "start": 1206
+          },
+          {
+            "blockId": "b114",
+            "end": 834,
+            "exact": "play—defined as autotelic activity that entails variations of pleasure not necessarily submissive to enjoyment (Sicart 2014, p. 3)—",
+            "start": 703
+          }
+        ],
+        "id": "M1",
+        "kind": "method",
+        "label": "The article adopts Sicart's definition of play as autotelic activity practiced for its own sake, entailing variations of pleasure not necessarily submissive to enjoyment, and examines age-play as play in that sense.",
+        "note": "Because 'play' is defined broadly enough to cover any pleasure-motivated exploration, much of the argument that sexuality 'is' play follows from the definition; a reader should consider what would fall outside it.",
+        "short": "Play defined as autotelic pleasure variation",
+        "where": "Introduction; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b24",
+            "end": 1373,
+            "exact": "we used data from eight female-identifying informants gathered through a combination of snow-ball and purposive sampling methods",
+            "start": 1245
+          },
+          {
+            "blockId": "b24",
+            "end": 1695,
+            "exact": "The condition of inclusion was that the people had to practice age-play and not just blog about it.",
+            "start": 1596
+          },
+          {
+            "blockId": "b24",
+            "end": 1840,
+            "exact": "This is a small, all-female, highly educated, hetero-, and bi-sexual, international, mixed-race sample involving people of different body-sizes.",
+            "start": 1696
+          },
+          {
+            "blockId": "b24",
+            "end": 371,
+            "exact": "Our empirical data is generated via long-term ethnographic immersion in an online community on the platform Tumblr",
+            "start": 257
+          },
+          {
+            "blockId": "b24",
+            "end": 2354,
+            "exact": "All interviews were semi-structured, allowing for emergent questions on a person-by-person basis and, like all data used here, it was subject to thematic qualitative analysis.",
+            "start": 2179
+          },
+          {
+            "blockId": "b24",
+            "end": 2549,
+            "exact": "After Tiidenberg open-coded interviews, blog outtakes, and fieldnotes from 2011–2017 (extracted for the virtue of addressing age-play and kink), both authors collaborated on analytical memo-ing.",
+            "start": 2355
+          },
+          {
+            "blockId": "b30",
+            "end": 89,
+            "exact": "30s, white, highly educated, bi-sexual, married, non-monogamous, Canadian",
+            "start": 16
+          },
+          {
+            "blockId": "b32",
+            "end": 96,
+            "exact": "asked for and gave their informed consent for their experiences to be included in this analysis.",
+            "start": 0
+          }
+        ],
+        "flag": "The text states eight informants, but the participant table (b30) appears to list nine demographic rows, and the text also mentions 'two additional individual interviews with two more people' after the first group interview. The table is garbled by PDF extraction, so this may be an artefact, but the exact number and which participants supplied which quotes cannot be reconstructed. Excerpts are attributed only as 'interview 2017' or 'blog outtake', so the reader cannot tell how many distinct participants the quoted evidence represents.",
+        "flagKind": "other",
+        "id": "M2",
+        "kind": "method",
+        "label": "Data come from eight female-identifying age-players recruited by snowball and purposive sampling from a long-term Tumblr NSFW ethnography (2011–2017, interviews, fieldnotes, blog outtakes) plus 2017 individual and two group interviews; inclusion required practising age-play; all data were open-coded and thematically analysed with iterative emic/etic memo-ing by both authors, with informed consent.",
+        "note": "No data deposit or code is named; the raw material is interviews, fieldnotes and blog outtakes held by Tiidenberg. Selection of excerpts 'for the virtue of addressing age-play and kink' is the only stated extraction rule. The authors also note that all informants are at least 'internet friends', which they treat as justifying group interviews.",
+        "short": "Tumblr ethnography, eight informants, thematic analysis",
+        "where": "Research Context and Material"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1",
+      "readingMode": "evidentiary",
+      "readingModeUsed": "evidentiary",
+      "recipeHash": "8ce2d9a3fc62ac3b65ee51cf2012304417bd74c7585b199d1d35dab76020b494",
+      "sourceVersion": "82e2731dee26acd9a13d2cdb22c48cf936c763022cf419b3ac2731cc428012c6"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "control-littles"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 12086,
+    "ratio": 0.21293914514253498,
+    "sourceCharacters": 56758
+  },
+  "readingId": "reading:9e637dc4edc997b2f21fc5b0d0bed8b888444d58afc5f9aa728713fe2e16383c",
+  "source": {
+    "authors": [
+      "Katrin Tiidenberg",
+      "Susanna Paasonen"
+    ],
+    "collection": "controls-2018-2022",
+    "format": "pdf-text",
+    "id": "control-littles",
+    "identifier": "doi:10.1007/s12119-018-09580-5",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "CC BY 4.0 version of record",
+    "sourceStatus": "published",
+    "stage": "unknown",
+    "title": "Littles: Affects and Aesthetics in Sexual Age-Play",
+    "url": "https://link.springer.com/content/pdf/10.1007/s12119-018-09580-5.pdf",
+    "venue": "Sexuality & Culture",
+    "version": "82e2731dee26acd9a13d2cdb22c48cf936c763022cf419b3ac2731cc428012c6",
+    "year": 2019
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "doi",
+        "value": "10.1007/s12119-018-09580-5"
+      }
+    ],
+    "workId": "work:09eaceb05236ad365a9128cb620257e34d08b8adcc5c2e8762d4167a144462c2"
+  }
+}

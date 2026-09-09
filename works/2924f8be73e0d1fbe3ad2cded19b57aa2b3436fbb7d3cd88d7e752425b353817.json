@@ -1,0 +1,29 @@
+{
+  "aliases": [
+    {
+      "scheme": "doi",
+      "value": "10.1007/s11199-018-0962-0"
+    }
+  ],
+  "readings": [
+    {
+      "completeness": "complete",
+      "contributor": "cam",
+      "normalizerVersion": "normalizer.v3",
+      "readingId": "reading:4d275f1b99cdc66e830912032cadc03a5aadc64ffe79f1c061d96c52bdd92818",
+      "sourceVersion": "32162baa3e23b92f538b8834a06eea0be2c53a1a73427738cc998f20ddbad97f",
+      "submittedOn": "2026-09-09",
+      "workId": "work:2924f8be73e0d1fbe3ad2cded19b57aa2b3436fbb7d3cd88d7e752425b353817"
+    },
+    {
+      "completeness": "complete",
+      "contributor": "cam",
+      "normalizerVersion": "normalizer.v3",
+      "readingId": "reading:9b9672a95ae3632bc2a846290b99ada35812871b2bd5b39dda2aaebe57976aa6",
+      "sourceVersion": "32162baa3e23b92f538b8834a06eea0be2c53a1a73427738cc998f20ddbad97f",
+      "submittedOn": "2026-09-09",
+      "workId": "work:2924f8be73e0d1fbe3ad2cded19b57aa2b3436fbb7d3cd88d7e752425b353817"
+    }
+  ],
+  "workId": "work:2924f8be73e0d1fbe3ad2cded19b57aa2b3436fbb7d3cd88d7e752425b353817"
+}

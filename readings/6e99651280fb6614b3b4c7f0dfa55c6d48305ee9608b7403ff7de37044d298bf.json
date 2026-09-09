@@ -1,0 +1,1108 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "c5e11e4b4b7503cd1e288a4665b6e9b0be55e90595f2cff5a37e9b8bc68008d4",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "high-dimensions",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "attacked"
+          ],
+          "claimId": "C2",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C3",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C4",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged"
+          ],
+          "claimId": "C5",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "high-dimensions"
+          ],
+          "claimId": "C6",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C7",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "flagged"
+          ],
+          "claimId": "C8",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "attacked"
+          ],
+          "claimId": "C9",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions",
+            "flagged"
+          ],
+          "claimId": "C10",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "flagged",
+            "partial-strength-only"
+          ],
+          "claimId": "C11",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions",
+            "attacked"
+          ],
+          "claimId": "C12",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C13",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C14",
+          "level": "unsupported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "id": "e2",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C4",
+        "id": "e3",
+        "note": "The title names strategies; the practice recommendation extends beyond it.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C5",
+        "id": "e4",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C6",
+        "id": "e5",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C7",
+        "id": "e6",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C8",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C9",
+        "id": "e8",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C10",
+        "id": "e9",
+        "note": "Peter denies the pressure the author says he colludes to cope with.",
+        "relation": "contradicts",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "C11",
+        "id": "e10",
+        "note": "The author offers John's statement as grounds for reading him as colluding out of fear.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "C11",
+        "id": "e11",
+        "note": "John and Ashley disagree on whether challenging language every time helps or harms trans people.",
+        "relation": "contradicts",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "C12",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "C13",
+        "id": "e13",
+        "note": "The conclusion explains the dominance of self-protection by the vigor of discursive enforcement.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "C14",
+        "id": "e14",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E1",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "E1",
+        "id": "e16",
+        "note": "The author states 'John’s fears are not unfounded' (b87), pointing to the disrupters' ostracism.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C11"
+      },
+      {
+        "from": "E2",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "E3",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E4",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E5",
+        "id": "e20",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "E6",
+        "id": "e21",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C7"
+      },
+      {
+        "from": "E7",
+        "id": "e22",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C13"
+      },
+      {
+        "from": "M1",
+        "id": "e23",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M1",
+        "id": "e24",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M1",
+        "id": "e25",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M1",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M1",
+        "id": "e27",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M1",
+        "id": "e28",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "M2",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M2",
+        "id": "e30",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M2",
+        "id": "e31",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M2",
+        "id": "e32",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M2",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e34",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C5"
+      }
+    ],
+    "id": "cisnormative-aggression-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b1",
+            "end": 135,
+            "exact": "Strategies for Dealing with Cisnormative Discursive Aggression in the Workplace: Disruption, Criticism, Self-Enforcement, and Collusion",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C1",
+        "kind": "claim",
+        "label": "The title (author) asserts that trans and gender-nonconforming workers deal with cisnormative discursive aggression through four strategies: disruption, criticism, self-enforcement, and collusion.",
+        "main": false,
+        "short": "Four workplace strategies named in title",
+        "where": "Title"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b3",
+            "end": 709,
+            "exact": "develops a four-category framework for categorizing their reactions to cisnormativity and its enforcement in the workplace",
+            "start": 587
+          },
+          {
+            "blockId": "b38",
+            "end": 150,
+            "exact": "Four main themes emerged in the form of strategies which were interpretable along a continuum of challenge/disruption and resignation/self-protection.",
+            "start": 0
+          },
+          {
+            "blockId": "b97",
+            "end": 311,
+            "exact": "These reactions can be categorized as “disrupting,” “critiquing,” “self-enforcing,” and “colluding”",
+            "start": 212
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C2",
+        "kind": "claim",
+        "label": "The author (Miller) claims that participants' responses to workplace cisnormativity fall into a four-category typology—disrupting, critiquing, self-enforcing, and colluding—arranged along a continuum from challenge to self-protection.",
+        "main": true,
+        "note": "The author states (b35, b94) that the coding began from themes already outlined by shuster (2017) and Hollander (2013); the typology is thus partly derived from prior literature and partly from these 18 interviews.",
+        "short": "Responses form four-category typology",
+        "where": "Abstract; Results; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b91",
+            "end": 477,
+            "exact": "This was, by far, the most common response",
+            "start": 435
+          },
+          {
+            "blockId": "b97",
+            "end": 693,
+            "exact": "the need for self-protection considerably outweighs the fortitude needed to politically challenge discursive aggression and disrupt the dominant system",
+            "start": 542
+          },
+          {
+            "blockId": "b97",
+            "end": 904,
+            "exact": "Cisnormative entrenchment is so profound, the epistemic system so resilient, and the amount of emotional labor required to deal with it so great that acceptance and resignation proved the most common reactions",
+            "start": 695
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The conclusion is phrased about trans and gender-nonconforming people generally ('the need for self-protection considerably outweighs'), but the count behind it is 11 of 18 snowball-recruited participants in one city, and the 11 were placed in the self-enforcing category only after interviewer prompting (see C8). The source acknowledges the small sample (C14) but then generalizes anyway; a larger, independently recruited sample would be needed to support the general statement.",
+        "flagKind": "unsupported-generalization",
+        "id": "C3",
+        "kind": "claim",
+        "label": "The author (Miller) claims that acceptance, resignation and self-protection were by far the most common reactions, because the need for self-protection outweighs the fortitude needed to challenge cisnormativity.",
+        "main": true,
+        "short": "Self-protection is by far most common",
+        "where": "Discussion; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b95",
+            "end": 560,
+            "exact": "This four-part typology of discursive strategies therefore can be useful in helping managers better identify and intervene upon problematic cisnormativity in the workplace",
+            "start": 389
+          },
+          {
+            "blockId": "b95",
+            "end": 387,
+            "exact": "should not be expected to bear the burden of remediating cisnormativity and trans-exclusion in their workplaces",
+            "start": 276
+          },
+          {
+            "blockId": "b96",
+            "end": 234,
+            "exact": "Managers who identify these patterns within their organizations would be encouraged to investigate and then shoulder the responsibilities of minimizing cisnormativity and transmisogyny in their departments and organizational cultures.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The study interviewed employees only and collected no data on managers, organizations, or the effect of any intervention or training. The claim that the typology 'can be useful' to managers and that training would reduce cisnormativity follows from the author's reasoning, not from anything observed; evidence on managerial identification or training outcomes would be needed to close the gap.",
+        "flagKind": "scope-leap",
+        "id": "C4",
+        "kind": "claim",
+        "label": "The author (Miller) recommends that managers, not trans employees, shoulder the responsibility of remediating cisnormativity, and that the four-part typology can help managers identify and intervene on it, including through sensitivity training.",
+        "main": true,
+        "short": "Typology should guide managerial intervention",
+        "where": "Limitations, Practice Implications, and Conclusions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b90",
+            "end": 217,
+            "exact": "It is significant that all 18 subjects identify cisnormativity and discursive aggression in their workplaces as outlined by shuster (2017) and Hollander (2013), but they differ widely in how they choose to address it.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "'All 18' includes the eleven who, by the author's own account (b68, b70), initially answered that they felt no pressure and 'identified' discursive aggression only after the interviewer clarified questions and explained the term. Peter (b80) explicitly denies experiencing microaggressions. What is missing is a statement of the criterion by which a participant counts as 'identifying' the phenomenon.",
+        "flagKind": "other",
+        "id": "C5",
+        "kind": "claim",
+        "label": "The author (Miller) claims that all 18 participants identify cisnormativity and discursive aggression in their workplaces, while differing widely in how they address it.",
+        "main": false,
+        "short": "All 18 identify workplace discursive aggression",
+        "where": "Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b39",
+            "end": 161,
+            "exact": "Two participants, for whom the enforcement of binary concepts of gender is most explicit, actively resist and attempt to disrupt cisnormativity in the workplace.",
+            "start": 0
+          },
+          {
+            "blockId": "b52",
+            "end": 712,
+            "exact": "For Mal and Ashley, their strategy of disrupting cisnormativity is socially costly and exhausting",
+            "start": 615
+          },
+          {
+            "blockId": "b90",
+            "end": 397,
+            "exact": "They experience hostility and ostracism for their refusal to allow cisnormativity to be discursively constructed by others",
+            "start": 275
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 3
+        },
+        "id": "C6",
+        "kind": "claim",
+        "label": "The author (Miller) claims that two participants (Mal and Ashley) actively disrupt cisnormativity at work and that this strategy is socially costly, bringing hostility and ostracism.",
+        "main": false,
+        "short": "Two disrupters face hostility and ostracism",
+        "where": "Results: Disrupting Cisnormativity; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b53",
+            "end": 239,
+            "exact": "Three more subjects were explicit about the ways in which cisnormativity is enforced in their workplace via discursive aggression and how difficult it makes their working lives. However, they reported only rarely raising the issue at work.",
+            "start": 0
+          },
+          {
+            "blockId": "b67",
+            "end": 685,
+            "exact": "As a result, these subjects ultimately became exhausted and often engaged in self-enforcement (shuster, 2017) to avoid conflict. Moreover, all three voiced a fear of implicit or explicit professional repercussions if they fought workplace cisnormativity too vigorously",
+            "start": 417
+          },
+          {
+            "blockId": "b90",
+            "end": 819,
+            "exact": "These subjects have been worn down by their failure to penetrate the cisnormative epistemic system in which they are forced to operate.",
+            "start": 684
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 3
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "The author (Miller) claims that three participants (Miranda, Iona, Tom) recognize and critique discursive aggression but have become worn down, mostly self-enforce, and fear professional repercussions if they challenge cisnormativity vigorously.",
+        "main": false,
+        "short": "Three critics resigned, fearing repercussions",
+        "where": "Results: Critiquing Cisnormativity; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b68",
+            "end": 216,
+            "exact": "most subjects seemed unaware",
+            "start": 188
+          },
+          {
+            "blockId": "b73",
+            "end": 251,
+            "exact": "Holly, Stephen, and Dan accept dominant cisnormative language and assumptions as being normative, thus appropriate, and do so to the extent that they did not immediately recognize them as cisnormative.",
+            "start": 50
+          },
+          {
+            "blockId": "b91",
+            "end": 152,
+            "exact": "Eleven subjects feel forced to self-enforce cisnormativity and discursive aggression to the extent that they are not consciously aware of its existence.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "The eleven were placed in this category after first answering 'no' to feeling pressured; the reclassification followed the interviewer 'clarifying my questions' (b70) and explaining the concept of discursive aggression (b73), and the author states she 'wanted to draw out evidence of themes including self-enforcement and collusion' (b33). The alternative not ruled out is that these participants accurately reported low pressure and then agreed with a term presented by the interviewer. A second coder or non-leading probes would be needed to distinguish unconscious self-enforcement from interviewer-induced agreement.",
+        "flagKind": "other",
+        "id": "C8",
+        "kind": "claim",
+        "label": "The author (Miller) claims that eleven participants self-enforce cisnormativity to the extent that they are not consciously aware of it, initially denying any pressure but recognizing it once prompted.",
+        "main": false,
+        "short": "Eleven self-enforce without conscious awareness",
+        "where": "Results: Self-Enforcing Cisnormativity; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b79",
+            "end": 403,
+            "exact": "Thus, an attitude of colluding with cisnormativity, far exceeding the mere acceptance of benefit exhibited by Samuel, presented in two of my subjects, though it manifested differently in each case.",
+            "start": 206
+          },
+          {
+            "blockId": "b82",
+            "end": 419,
+            "exact": "This can only be explained in terms of a strategy of collusion with cisnormativity to deal with cisnormative discursive aggression.",
+            "start": 288
+          },
+          {
+            "blockId": "b88",
+            "end": 409,
+            "exact": "He is well aware, in fact, that standing up for his identity and demanding equal status would have high social, thus professional, costs, and so he self-enforces cisnormativity, colludes, and perpetuates it while misdirecting his anger at those attempting to address the problem.",
+            "start": 130
+          },
+          {
+            "blockId": "b93",
+            "end": 320,
+            "exact": "Peter’s overt hostility may indicate a form of self-protection through performing his masculinity in an aggressive, masculinist way so that it might be accepted as genuine by other men and their female sympathizers.",
+            "start": 105
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "The author (Miller) claims that two participants (Peter and John) collude with cisnormativity: Peter through an aggressive, masculinist performance to protect his identity as a man, and John through fear-driven acquiescence that misdirects anger at those challenging cisnormativity.",
+        "main": false,
+        "note": "The author hedges the Peter interpretation in the Discussion ('may indicate') but states it categorically in Results ('can only be explained'). Both participants' own accounts (C10, C11) reject the framing the author applies to them.",
+        "short": "Peter and John collude with cisnormativity",
+        "where": "Results: Colluding with Cisnormativity; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b80",
+            "end": 313,
+            "exact": "Nope. No microaggressions and no need for safe spaces, trigger warnings, and diversity training.",
+            "start": 217
+          },
+          {
+            "blockId": "b80",
+            "end": 948,
+            "exact": "Language is not violence. Nothing is forced on me. People talk in terms of male and female because this is how the species is perpetuated. It’s not a conspiracy.",
+            "start": 787
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "Peter states he experiences no discursive aggression; the author characterizes his stance as collusion 'to deal with' discursive aggression and writes that it 'can only be explained' that way (b82). The source resolves the disagreement by treating Peter's denial as itself evidence of collusion, which leaves no observation that could distinguish collusion from a participant who genuinely experiences no pressure. The learner should read both accounts side by side.",
+        "flagKind": "speaker-conflict",
+        "id": "C10",
+        "kind": "claim",
+        "label": "Peter (participant) claims that he experiences no microaggressions or pressure at work, that language is not violence, and that people speak in male/female terms because that is how the species is perpetuated.",
+        "main": false,
+        "short": "Peter: no pressure; language not violence",
+        "where": "Results: Colluding with Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b85",
+            "end": 693,
+            "exact": "If you get in their faces, that will change. You’ll just make life harder for trans people.",
+            "start": 602
+          },
+          {
+            "blockId": "b86",
+            "end": 238,
+            "exact": "It makes cis people wary of talking to trans people if they think they’re gonna be called out on their language every five minutes.",
+            "start": 107
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "John asserts that calling out cisnormative language harms trans people; Ashley (C12) asserts that challenging it every time is the only way to change it. The author partly credits John ('John’s fears are not unfounded', b87, pointing to the disrupters' ostracism) yet categorizes his view as collusion and fear rather than as a strategic judgement. The source does not adjudicate which participant is right, and neither position is tested beyond the two disrupters' reports.",
+        "flagKind": "speaker-conflict",
+        "id": "C11",
+        "kind": "claim",
+        "label": "John (participant) claims that most cis colleagues are accommodating and that confronting them about their language would make cis people wary and make life harder for trans people.",
+        "main": false,
+        "short": "John: confrontation makes trans lives harder",
+        "where": "Results: Colluding with Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b40",
+            "end": 473,
+            "exact": "I will call out binary language when I hear it. It’s all over everyday speech, and the only way to change that is to challenge it every time.",
+            "start": 332
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "id": "C12",
+        "kind": "claim",
+        "label": "Ashley (participant) claims that binary language pervades everyday speech and that the only way to change it is to challenge it every time it is heard.",
+        "main": false,
+        "note": "Ashley's 'only way to change' is a general assertion offered without support beyond personal conviction; it is in direct tension with John's position (C11).",
+        "short": "Ashley: challenge binary language every time",
+        "where": "Results: Disrupting Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b6",
+            "end": 1341,
+            "exact": "the overwhelming pervasiveness of cisnormativity—the assumption that being cisgender is natural and universal—in general discourse proves resistant to change and limits non-cisgender agency",
+            "start": 1152
+          },
+          {
+            "blockId": "b7",
+            "end": 89,
+            "exact": "This resistance to change arises mainly from discursive enforcement in everyday contexts.",
+            "start": 0
+          },
+          {
+            "blockId": "b26",
+            "end": 715,
+            "exact": "That is, cisnormativity requires constant discursive work and the compliance of trans people to maintain the appearance of its naturalness (see Butler, 2011).",
+            "start": 557
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C13",
+        "kind": "claim",
+        "label": "The author (Miller) claims that cisnormativity persists because it is enforced discursively in everyday contexts and requires constant discursive work, including trans people's compliance, to appear natural.",
+        "main": false,
+        "note": "This is the theoretical frame the study adopts from prior scholarship; the author uses it in the conclusion (b97) to explain why self-protection dominates. The extension from Coates's account of heteronormativity to cisnormativity is made by analogy ('It follows that').",
+        "short": "Cisnormativity maintained by everyday discursive enforcement",
+        "where": "Introduction; Discursive Enforcement of Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b94",
+            "end": 318,
+            "exact": "One significant limitation of this study was the relatively small sample size, which may have proven too small to have clearly derived this four-part typology for strategies used to endure and navigate workplace cisnormativity had those not been previously outlined in Hollander (2013) and developed by shuster (2017).",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C14",
+        "kind": "claim",
+        "label": "The author (Miller) acknowledges that the sample was small enough that the four-part typology might not have been clearly derivable had it not already been outlined by Hollander (2013) and shuster (2017).",
+        "main": false,
+        "short": "Small sample; typology leaned on prior work",
+        "where": "Limitations, Practice Implications, and Conclusions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b52",
+            "end": 309,
+            "exact": "If I go to join in a conversation, people go quiet and then separate. No one asks me to go to lunch with them.",
+            "start": 199
+          },
+          {
+            "blockId": "b52",
+            "end": 506,
+            "exact": "They just stop talking when I come into the room, and if I sit with someone at break and start conversation with them, I get one-word answers until I give up.",
+            "start": 348
+          },
+          {
+            "blockId": "b51",
+            "end": 339,
+            "exact": "They noted their manager has indicated that their confrontational nature makes the workplace a hostile environment on three separate occasions",
+            "start": 197
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "Mal and Ashley report being ostracized at work (conversations stopping, one-word answers, being ignored at a bar), and Ashley reports being told three times by their manager that their confrontational nature creates a hostile environment.",
+        "short": "Disrupters' reports of workplace ostracism",
+        "where": "Results: Disrupting Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b49",
+            "end": 142,
+            "exact": "In one email about taking time off before the holidays, there were eleven binary gender references!",
+            "start": 43
+          },
+          {
+            "blockId": "b49",
+            "end": 427,
+            "exact": "Once, I listed twenty-six cis microaggressions I had experienced in a single week. Most people ignore my emails or just blandly thank me for raising the issues without addressing the issues!",
+            "start": 237
+          },
+          {
+            "blockId": "b48",
+            "end": 260,
+            "exact": "These, ze once sent to all 36 members of staff in zir own department and to zir managers.",
+            "start": 171
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "Mal reports counting eleven binary gender references in one work email and listing twenty-six 'cis microaggressions' in a single week, sending these to 36 department staff and managers, with most recipients ignoring or blandly acknowledging them.",
+        "note": "The counts are the participant's own tallies as reported in interview; the author did not examine the emails.",
+        "short": "Mal's counted microaggressions emailed to staff",
+        "where": "Results: Disrupting Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b65",
+            "end": 510,
+            "exact": "There’s no point with the little things. I feel like I’ve got to pick my battles and if I can’t get anyone to take explicit abuse seriously, they’re not going to care much about binary language.",
+            "start": 316
+          },
+          {
+            "blockId": "b66",
+            "end": 328,
+            "exact": "I should speak up more. I used to, and I still do sometimes but I need to work with these guys and some of them are my friends.",
+            "start": 201
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "Miranda says there is no point raising 'the little things' if explicit abuse is not taken seriously, and Tom says he should speak up more but needs to work with colleagues who are friends.",
+        "short": "Critics explain why they rarely object",
+        "where": "Results: Critiquing Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b70",
+            "end": 263,
+            "exact": "all originally said “no” to being under any pressure to conform to gender norms, but this changed subsequent to clarifying my questions.",
+            "start": 127
+          },
+          {
+            "blockId": "b72",
+            "end": 198,
+            "exact": "I just think people understand better if you use the language they are used to.",
+            "start": 119
+          },
+          {
+            "blockId": "b74",
+            "end": 707,
+            "exact": "No, it’s pretty cool. I’ve got a good team. They don’t really put pressure on me",
+            "start": 627
+          },
+          {
+            "blockId": "b76",
+            "end": 348,
+            "exact": "Oh, yeah, we say ‘he and she’ and we talk about ‘the girls in the office’ and ‘the men on the floor’",
+            "start": 248
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Holly, Stephen, Dan, Leah and Samuel initially said they felt no pressure to conform, then after clarifying questions described binary language at work and, in Dan's case, using colleagues' habitual language because 'people understand better'.",
+        "note": "The author presents five of the eleven as illustrative examples; the other six are not described.",
+        "short": "Initial denials followed by descriptions of binary language",
+        "where": "Results: Self-Enforcing Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b79",
+            "end": 889,
+            "exact": "He spoke over me repeatedly and redirected the conversation. He sat with legs spread taking up as much space as possible, spoke aggressively, and frequently leaned forward, as if to intimidate.",
+            "start": 696
+          },
+          {
+            "blockId": "b83",
+            "end": 416,
+            "exact": "He became upset at the suggestion that he could be marginalized or constrained as a trans man and presented himself with an expectation to verbally dominate me (as a woman) and explain gender to/over me.",
+            "start": 213
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "flag": "The reading of Peter's posture, tone and intent ('as if to intimidate', 'expectation to verbally dominate me') is the interviewer's own, from an interview she describes as contentious, with no second observer, video, or independent coding reported. The alternative that Peter was responding to being told his experience is oppression he denies is not weighed. Interpretation by someone other than the party to the dispute would be needed.",
+        "flagKind": "single-observer",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "The author reports that Peter spoke over her, sat with legs spread, leaned forward as if to intimidate, became upset at the suggestion he could be marginalized, and sought to verbally dominate her as a woman.",
+        "short": "Interviewer's account of Peter's demeanor",
+        "where": "Results: Colluding with Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b67",
+            "end": 939,
+            "exact": "shuster found the same phenomenon in their interviews, “Some… may at first attempt to address the mistakes that are made. But most of the interviewees eventually acquiesced to the power structure.",
+            "start": 743
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "The author cites shuster (2017) as finding that most of shuster's interviewees eventually acquiesced to the power structure after initially addressing mistakes.",
+        "short": "shuster found similar acquiescence pattern",
+        "where": "Results: Critiquing Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b6",
+            "end": 382,
+            "exact": "Foucault’s (1979) ground-breaking work examining the role of power in defining sexuality, in particular, strongly influenced Butler’s (1990) work on gender identity as performance",
+            "start": 203
+          },
+          {
+            "blockId": "b11",
+            "end": 92,
+            "exact": "Despite decades of scholarship showing that gender categories are neither stable nor natural",
+            "start": 0
+          },
+          {
+            "blockId": "b26",
+            "end": 133,
+            "exact": "Coates identifies that “[h]eterosexuality is a cultural construction relying on strictly enforced norms for its continuing dominance”",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "The author cites Foucault, Butler, West and Zimmerman, Coates and others as establishing that gender and heterosexuality are socially constructed, performed, and maintained through enforced norms and language.",
+        "short": "Literature on gender as discursively constructed",
+        "where": "Introduction; Discursive Enforcement of Cisnormativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b30",
+            "end": 257,
+            "exact": "This study is based on in-depth, semi-structured interviews with eighteen individuals who identify as trans or gender nonconforming or who have a more fluid understanding of gender. They took place between February and August of 2017 in Ann Arbor, Michigan.",
+            "start": 0
+          },
+          {
+            "blockId": "b31",
+            "end": 100,
+            "exact": "Seven self-identified as trans men, six as trans women, and five as non-binary or gender-fluid.",
+            "start": 5
+          },
+          {
+            "blockId": "b32",
+            "end": 177,
+            "exact": "To recruit subjects, I placed a call in a small local newspaper and, having obtained two positive responses, used snowball sampling to recruit the remainder of the interviewees.",
+            "start": 0
+          }
+        ],
+        "id": "M1",
+        "kind": "method",
+        "label": "The study's sample was 18 trans, gender-nonconforming or gender-fluid individuals (7 trans men, 6 trans women, 5 non-binary/gender-fluid) interviewed in Ann Arbor, Michigan, in 2017, recruited via a newspaper call yielding two respondents and snowball sampling for the rest.",
+        "note": "Sixteen of eighteen participants were reached through the social networks of two initial respondents, which shapes who is represented.",
+        "short": "Eighteen snowball-recruited interviewees, Ann Arbor 2017",
+        "where": "Methods"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b33",
+            "end": 104,
+            "exact": "As a white, cisgender, bisexual woman, I frequently did not share a common identity with my participants",
+            "start": 0
+          },
+          {
+            "blockId": "b33",
+            "end": 942,
+            "exact": "Nevertheless, because I wanted to draw out evidence of themes including self-enforcement and collusion, I often asked follow-up questions that inquired about their views of specific experience in light of existing scholarship of which they may not be aware (especially discursive aggression).",
+            "start": 650
+          },
+          {
+            "blockId": "b35",
+            "end": 467,
+            "exact": "I then used selective thematic coding on the themes derived from shuster (2017) and Hollander (2013), while remaining open to additional themes, which were open-coded until theoretical saturation was recognized",
+            "start": 257
+          },
+          {
+            "blockId": "b35",
+            "end": 756,
+            "exact": "Coding was performed by hand in a word processor on interview transcripts.",
+            "start": 682
+          }
+        ],
+        "flag": "All coding and category assignment was done by the sole author, who also conducted the interviews and states she sought evidence of particular themes. No second coder, inter-rater check, or participant validation of the assigned categories is reported, so there is no way to tell how much of the typology reflects the transcripts versus the coder's expectations.",
+        "flagKind": "single-observer",
+        "id": "M2",
+        "kind": "method",
+        "label": "Interviews were semi-structured and open-ended, but the author, a cisgender interviewer, asked follow-up questions designed to draw out self-enforcement and collusion in light of scholarship participants might not know; transcripts were coded by hand by the author using selective thematic coding on themes from shuster and Hollander.",
+        "short": "Theme-seeking follow-ups; solo hand coding",
+        "where": "Methods"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a",
+      "readingMode": "conversational",
+      "readingModeUsed": "conversational",
+      "recipeHash": "908873a3e58b8ab6a7b3672dff53f4c18a125fb7c36c519dd3a50e6b6d4385de",
+      "sourceVersion": "c5e11e4b4b7503cd1e288a4665b6e9b0be55e90595f2cff5a37e9b8bc68008d4"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "cisnormative-aggression"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 8949,
+    "ratio": 0.13695841814480952,
+    "sourceCharacters": 65341
+  },
+  "readingId": "reading:6e99651280fb6614b3b4c7f0dfa55c6d48305ee9608b7403ff7de37044d298bf",
+  "source": {
+    "authors": [
+      "Carol Miller"
+    ],
+    "collection": "grievance-studies-affair-2018",
+    "format": "pdf-text",
+    "id": "cisnormative-aggression",
+    "identifier": "url:https://drive.google.com/uc?export=download&id=1mTTDiLyqSzFZ2OXF-wHQTF-TCvZcjyzD",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "stage": "unknown",
+    "title": "Strategies for Dealing with Cisnormative Discursive Aggression in the Workplace: Disruption, Criticism, Self-Enforcement, and Collusion",
+    "url": "https://drive.google.com/file/d/1mTTDiLyqSzFZ2OXF-wHQTF-TCvZcjyzD/view",
+    "venue": "Gender, Work & Organization",
+    "version": "c5e11e4b4b7503cd1e288a4665b6e9b0be55e90595f2cff5a37e9b8bc68008d4",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "url",
+        "value": "https://drive.google.com/uc?export=download&id=1mttdilyqszfz2oxf-whqtf-tcvzcjyzd"
+      }
+    ],
+    "workId": "work:ea4f3670a03baeb8d4280b9622e5106303287138aa3d010cfceadcf168d6f776"
+  }
+}

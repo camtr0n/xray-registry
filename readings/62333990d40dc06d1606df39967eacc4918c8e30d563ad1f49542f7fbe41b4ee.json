@@ -1,0 +1,1208 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "c98c6f93c00f07f760c7a2e75c8cfb4209bf7952e62d70f133e454a544dd4bc1",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "soft-evidence-only",
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "attacked",
+            "partial-strength-only"
+          ],
+          "claimId": "C2",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C3",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C4",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C5",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C6",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C7",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C8",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C9",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C10",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C11",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C12",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions"
+          ],
+          "claimId": "C13",
+          "level": "unsupported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "note": "The correlational finding is the empirical ground for the remedial proposal.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C11",
+        "id": "e2",
+        "note": "Theoretical mechanism offered before the data.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "E10",
+        "id": "e3",
+        "note": "Offered as 'bolstering' the remedial conclusion.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C13",
+        "id": "e4",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C4",
+        "id": "e5",
+        "note": "Bears on the gender-norms component.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C5",
+        "id": "e6",
+        "note": "Bears on the partner-sensitivity and feminism/rape components.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C7",
+        "id": "e7",
+        "note": "Bears on the transphobia component, which the source calls its clearest result.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C6",
+        "id": "e8",
+        "note": "Weakens the rape-awareness component only.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C9",
+        "id": "e9",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C10",
+        "id": "e10",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C8",
+        "id": "e11",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E1",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E4",
+        "id": "e13",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "E5",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E6",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "E7",
+        "id": "e16",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "E8",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E9",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "E2",
+        "id": "e19",
+        "note": "Offered as grounds that transphobia and homophobia are linked in straight men, which motivates the parallel concept.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "E3",
+        "id": "e20",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C11"
+      },
+      {
+        "from": "C3",
+        "id": "e21",
+        "note": "The definition of transhysteria fixes what the transphobia/hysteria coding means.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "C12",
+        "id": "e22",
+        "note": "Unwillingness to date trans women is coded as transphobia only if this premise holds.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "M1",
+        "id": "e23",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M1",
+        "id": "e24",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M1",
+        "id": "e25",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M1",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M1",
+        "id": "e27",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M1",
+        "id": "e28",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M1",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M2",
+        "id": "e30",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M2",
+        "id": "e31",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e32",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M2",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M2",
+        "id": "e34",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M2",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M2",
+        "id": "e36",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M3",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M3",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M3",
+        "id": "e39",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M3",
+        "id": "e40",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M3",
+        "id": "e41",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M3",
+        "id": "e42",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M3",
+        "id": "e43",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      }
+    ],
+    "id": "back-door-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b3",
+            "end": 52,
+            "exact": "Homohysteria, Transhysteria, and Transphobia Through",
+            "start": 0
+          },
+          {
+            "blockId": "b4",
+            "end": 33,
+            "exact": "Receptive Penetrative Sex Toy Use",
+            "start": 0
+          },
+          {
+            "blockId": "b8",
+            "end": 1041,
+            "exact": "This analysis recognizes potential socially remedial value for encouraging male anal eroticism with sex toys.",
+            "start": 932
+          },
+          {
+            "blockId": "b122",
+            "end": 1318,
+            "exact": "These data are therefore suggestive that education, destigmatization, and encouragement of receptive penetrative anal eroticism in straight men could partially remediate some significant problems under the transphobic umbrella",
+            "start": 1092
+          },
+          {
+            "blockId": "b123",
+            "end": 949,
+            "exact": "intentional anal penetration in “safe” environments may remediate them.",
+            "start": 878
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The design is a single round of cross-sectional interviews; nothing was changed or followed over time. The remedial claim is causal (encouraging anal receptivity would reduce transphobia) but the data can only show that, among thirteen men, those already comfortable with receptivity also reported less transphobia. The source does not rule out that a prior disposition (e.g., political orientation, which it says is associated with both) produces both attitudes; an intervention or longitudinal design would be needed.",
+        "flagKind": "causal-language-without-design",
+        "id": "C1",
+        "kind": "claim",
+        "label": "Education about, destigmatization of, and encouragement of receptive penetrative anal eroticism (sex toy use, pegging) in straight men could partially remediate homohysteria, transhysteria and transphobia.",
+        "main": true,
+        "note": "The source hedges throughout ('may', 'could', 'suggestive'), but the title and conclusion present the remedial direction as the paper's contribution. The paper names no data deposit or code; interviews were not recorded (see M3), so no re-run of the raw material is possible.",
+        "short": "Sex toy receptivity could remediate straight transphobia",
+        "where": "Title; abstract; discussion; conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b123",
+            "end": 271,
+            "exact": "this qualitative study suggests that men who report greater comfort with receptive penetrative anal eroticism also report less transphobia, less obedience to masculine gender norms, greater partner sensitivity, and potentially greater awareness about rape.",
+            "start": 15
+          },
+          {
+            "blockId": "b117",
+            "end": 94,
+            "exact": "These qualitative data offer suggestive tentative conclusions about the hypotheses posed here.",
+            "start": 0
+          },
+          {
+            "blockId": "b8",
+            "end": 655,
+            "exact": "“Do men who report greater comfort with receptive penetrative anal eroticism also report less transphobia, less obedience to masculine gender norms, greater partner sensitivity, and greater awareness about rape?”",
+            "start": 443
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "id": "C2",
+        "kind": "claim",
+        "label": "Men who report greater comfort with receptive penetrative anal eroticism also report less transphobia, less obedience to masculine gender norms, greater partner sensitivity and potentially greater awareness about rape.",
+        "main": true,
+        "note": "The conclusion is stated for 'men' generally; the sample is thirteen men in one Portland social network, eight of them straight. The source itself limits the claim (C10) and the rape-awareness component (C6).",
+        "short": "Anal receptivity co-occurs with less transphobia",
+        "where": "Abstract (as research question); discussion; conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b33",
+            "end": 546,
+            "exact": "homohysteria naturally generalizes, with the same straight-male paranoia as its source, to transhysteria, which can be defined in parallel as heterosexual men’s fear of losing masculinity as a result of (potentially) accepting trans women’s penises.",
+            "start": 297
+          },
+          {
+            "blockId": "b63",
+            "end": 153,
+            "exact": "transhysteria presents a significant difference from homohysteria: the latter is a paranoia about the self while the former is about the other.",
+            "start": 10
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "id": "C3",
+        "kind": "claim",
+        "label": "Transhysteria is a concept parallel to homohysteria, defined as heterosexual men's fear of losing masculinity as a result of accepting trans women's penises; unlike homohysteria it is a paranoia about the other rather than the self.",
+        "note": "This is a concept the paper introduces. In the results and discussion the source often writes 'transphobia/hysteria' as a single compound, so the reader cannot always tell which of the two the coded theme refers to.",
+        "short": "Transhysteria defined parallel to homohysteria",
+        "where": "Male Anal Pleasure; Relationship of Anal Eroticism section"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b117",
+            "end": 215,
+            "exact": "homo/transhysteria seems to explain some of the observed resistance to receptive penetrative anal eroticism",
+            "start": 108
+          },
+          {
+            "blockId": "b117",
+            "end": 576,
+            "exact": "self-perceived importance of adhering to hegemonic masculine gender roles over inclusive ones was strongly aligned with this attitude.",
+            "start": 442
+          },
+          {
+            "blockId": "b123",
+            "end": 513,
+            "exact": "unwillingness to engage in receptive penetrative anal eroticism seems to arise most commonly (especially in straight men) alongside masculinity features such as heteronormativity, hegemonic masculinity, and trans/ homohysteria.",
+            "start": 286
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C4",
+        "kind": "claim",
+        "label": "Homo/transhysteria and adherence to hegemonic masculine gender roles explain some of the observed resistance to receptive penetrative anal eroticism, especially in straight men.",
+        "note": "This is the 'less obedience to masculine gender norms' component of C2. The source notes one straight subject (Subject 7) who refused receptivity while showing no homohysteria, attributing his aversion to hygiene.",
+        "short": "Hysteria and hegemonic norms explain anal resistance",
+        "where": "Discussion; conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b107",
+            "end": 352,
+            "exact": "those more engaged in self-medi-ated penetrative anal play seemed generally more feminist and more concerned about rape culture than others.",
+            "start": 212
+          },
+          {
+            "blockId": "b118",
+            "end": 554,
+            "exact": "men who reported penetrating themselves anally most frequently and who derive the most pleasure from it seemed to understand receptive sexual roles better than their anal non-receptive peers and were more likely to self-describe as feminists.",
+            "start": 312
+          },
+          {
+            "blockId": "b120",
+            "end": 151,
+            "exact": "thematically exhibited the most partner sensitivity were also those most aware of (and able to enjoy) what it feels like to receive sexual penetration.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The partner-sensitivity pattern is asserted only in the discussion. The Responses section reports no answers to the partner-sensitivity prompt (Question 11), so the reader cannot see which subjects 'self-assessed and thematically exhibited' sensitivity or how that was judged. Only self-report by the men was gathered; the source itself notes that partners' evaluations were not collected.",
+        "flagKind": "unsourced",
+        "id": "C5",
+        "kind": "claim",
+        "label": "Men most engaged in self-mediated receptive anal play seemed more feminist, better understood receptive sexual roles, and (with one exception) showed the most partner sensitivity.",
+        "note": "Subject 8 is the anchoring case for both 'most feminist' and 'most receptive'; the feminism data (E6) show the other regular toy users less clearly.",
+        "short": "Anal-receptive men more feminist, partner-sensitive",
+        "where": "Responses; discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b107",
+            "end": 126,
+            "exact": "The interview data delineated less obvious relationships between anal dildo use and attitudes about rape culture and feminism.",
+            "start": 0
+          },
+          {
+            "blockId": "b121",
+            "end": 80,
+            "exact": "Where it comes to sensitivity about rape culture, the data are barely suggestive",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C6",
+        "kind": "claim",
+        "label": "Regarding rape culture, the data are barely suggestive and the relationship between anal dildo use and attitudes about rape culture and feminism is less obvious.",
+        "note": "A limitation the source states itself; recorded because the conclusion (C2) still lists 'potentially greater awareness about rape' among the findings.",
+        "short": "Rape-culture data are barely suggestive",
+        "where": "Responses; discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b122",
+            "end": 540,
+            "exact": "Straight subjects exhibited far more transphobic attitudes and transhysteria (especially in being unwilling to date trans women with penises) than the gay or bisexual subjects. Furthermore, receptivity to penetrative anal eroticism consistently arose in the least transphobic/hysterical subjects.",
+            "start": 244
+          },
+          {
+            "blockId": "b114",
+            "end": 184,
+            "exact": "reinforcing the notion that transhysteria/phobia may largely be other-centered and penis/genital-centric.",
+            "start": 79
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "The source's own responses include cases that cut against 'consistently': Subject 4 regularly uses penetrative toys yet would not date a trans woman with a penis; Subject 6 tried receptivity yet remained unambiguously opposed; Subject 7 refused receptivity yet is listed among those open to a trans woman with a penis. The discussion does not reconcile these with the stated pattern. With eight straight men, the comparison rests on two or three cases per side.",
+        "flagKind": "cherry-picked",
+        "id": "C7",
+        "kind": "claim",
+        "label": "Straight subjects exhibited far more transphobia and transhysteria than gay or bisexual subjects, receptivity to penetrative anal eroticism consistently arose in the least transphobic subjects, and straight transhysteria is penis/genital-centric.",
+        "note": "The orientation contrast (straight vs. gay/bisexual) and the receptivity contrast are run together here; the gay subjects who declined trans women are explicitly treated as possibly not transphobic.",
+        "short": "Transphobia tracks orientation and anal receptivity",
+        "where": "Responses; discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b110",
+            "end": 720,
+            "exact": "This (latent) homophobia presented alongside clear trends of having not anally penetrated themselves.",
+            "start": 619
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C8",
+        "kind": "claim",
+        "label": "Latent homophobia detected through probing in four straight subjects presented alongside their not having anally penetrated themselves.",
+        "note": "All eight straight subjects denied being homophobic; the 'latent' attribution is the interviewer's coding of their language. Subject 3, coded as latently homophobic, had tried a dildo once, so the co-occurrence is 'not regular use' rather than 'never'.",
+        "short": "Latent homophobia co-occurs with non-receptivity",
+        "where": "Responses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b101",
+            "end": 485,
+            "exact": "the political orientations of participants still skew generally toward what would be described as “progressive” on sociosexual issues.",
+            "start": 351
+          },
+          {
+            "blockId": "b101",
+            "end": 1168,
+            "exact": "This necessarily raises questions about how information of this kind could be obtained from socially conservative straight men.",
+            "start": 1041
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "The sample skews progressive because most invited socially conservative men declined, raising questions about whether such information can be obtained from socially conservative straight men.",
+        "note": "The source says political orientation is known to be associated with attitudes about male anality, so the skew removes much of the variation the study needs. The single social conservative (Subject 1) anchors the most negative end of nearly every pattern reported.",
+        "short": "Sample skews progressive; conservatives declined",
+        "where": "Responses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b18",
+            "end": 781,
+            "exact": "Of course, this sample is small and should not be understood to establish concrete conclusions on these issues.",
+            "start": 670
+          },
+          {
+            "blockId": "b70",
+            "end": 520,
+            "exact": "The sample is small and naturally limits the breadth of conclusions that can be drawn",
+            "start": 435
+          },
+          {
+            "blockId": "b117",
+            "end": 866,
+            "exact": "the small sample size limits the strength of these suggestive observations.",
+            "start": 791
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C10",
+        "kind": "claim",
+        "label": "The sample is small and qualitative, limiting reliability and the strength and breadth of conclusions that can be drawn.",
+        "note": "Stated plainly by the source and recorded because the conclusion still generalizes to 'men' and to remedial policy.",
+        "short": "Small qualitative sample limits conclusions",
+        "where": "Introduction; methodology; discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b46",
+            "end": 604,
+            "exact": "straight men could overcome some homo/transhysterical anxiety about receptive penetrative anal eroticism in safe “straight” environments through penetrative anal masturbation with sex toys and/or pegging",
+            "start": 401
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The mechanism is borrowed from clinical exposure therapy for phobic anxiety and applied to a socially constructed fear of being perceived as gay or of trans women's bodies. The source offers no evidence that homohysteria behaves like a clinical phobia, and the exposure proposed (self-penetration) is not exposure to the feared object (another man's or a trans woman's penis).",
+        "flagKind": "scope-leap",
+        "id": "C11",
+        "kind": "claim",
+        "label": "By analogy with exposure therapy, straight men could overcome homo/transhysterical anxiety about receptive anal eroticism through penetrative anal masturbation with sex toys or pegging in safe 'straight' environments.",
+        "short": "Sex toy use as exposure therapy",
+        "where": "Sex Toys and Straight Anal Eroticism"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b61",
+            "end": 147,
+            "exact": "Ultimately, there are few, if any, non-transphobic/hysteric reasons for straight men to exclude trans women from their dating and sexual interests.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 0,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "Asserted without argument or citation, yet it is the premise by which unwillingness to date a trans woman (Question 14) is coded as transphobia/transhysteria in the results. If a reader does not accept the premise, the transphobia measurements in E8 change meaning. The source applies a different standard to gay subjects, whose refusal is said 'not necessarily' to indicate transphobia.",
+        "flagKind": "unsupported-generalization",
+        "id": "C12",
+        "kind": "claim",
+        "label": "There are few, if any, non-transphobic reasons for straight men to exclude trans women from their dating and sexual interests.",
+        "short": "Excluding trans women is transphobic",
+        "where": "Relationship of Anal Eroticism section"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b64",
+            "end": 350,
+            "exact": "exploring anal pleasure does not automatically transform straight men’s politics or their treatment of sexual and gender minorities.",
+            "start": 218
+          },
+          {
+            "blockId": "b64",
+            "end": 602,
+            "exact": "this decoupling may simply free straight men to explore it without critically questioning their own oppressive beliefs about gender and sexuality.",
+            "start": 456
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C13",
+        "kind": "claim",
+        "label": "Exploring anal pleasure does not automatically transform straight men's politics or treatment of sexual and gender minorities; decoupling it from homosexuality may free straight men to explore it without questioning oppressive beliefs.",
+        "note": "A caveat the source relays from Branfman et al. (2017) and says informs the study; it directly limits the remedial claim C1.",
+        "short": "Anal pleasure need not transform politics",
+        "where": "Relationship of Anal Eroticism section (quoting Branfman et al.)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b34",
+            "end": 176,
+            "exact": "The data presented by Branfman et al. (2017) support Anderson’s hypothesized roles of homohysteria, homosexualization, and transhysteria in shaping straight male anal sexuality",
+            "start": 0
+          },
+          {
+            "blockId": "b35",
+            "end": 428,
+            "exact": "heterosexual men who wish to avoid stigma must penetrate women, not stimulate or penetrate their own orifices, or allow their orifices to be stimulated or penetrated by others—even if those others are women.",
+            "start": 221
+          }
+        ],
+        "evidenceKind": "citation",
+        "flag": "Transhysteria is a concept this paper introduces; the passage quoted from Branfman et al. concerns homohysteria and sex roles and says nothing about trans women. The citation is offered as supporting all three roles, but on the source's own quotation it bears only on homohysteria and homosexualization.",
+        "flagKind": "other",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "The source cites Branfman et al. (2017) as presenting data supporting the roles of homohysteria, homosexualization and transhysteria in shaping straight male anal sexuality.",
+        "short": "Branfman et al. data on homohysteria",
+        "where": "Male Anal Pleasure"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b60",
+            "end": 510,
+            "exact": "Nagoshi et al. (2008), who performed a detailed study linking transphobia and homophobia across multiple demographics. They found that these are, indeed, linked, especially in (straight) men.",
+            "start": 319
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "The source cites Nagoshi et al. (2008) as finding transphobia and homophobia linked across demographics, especially in straight men.",
+        "short": "Nagoshi links transphobia and homophobia",
+        "where": "Relationship of Anal Eroticism section"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b46",
+            "end": 382,
+            "exact": "Such “exposure therapy” can success-fully address phobic anxieties by inducing carefully controlled exposure to anxiety triggers in safe environments (cf. Foa et al. 1999).",
+            "start": 210
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "The source cites Foa et al. (1999) for the claim that exposure therapy successfully addresses phobic anxieties through controlled exposure in safe environments.",
+        "note": "The reference list describes the cited study as a comparison of treatments for posttraumatic stress disorder in female assault victims; the source gives no bridge from that population to straight men's anxiety about anal eroticism.",
+        "short": "Exposure therapy citation (Foa 1999)",
+        "where": "Sex Toys and Straight Anal Eroticism"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b105",
+            "end": 682,
+            "exact": "Among the four straight subjects who had not used a dildo on themselves (Subjects 1[31S], 2[36S], 5[41S], 7[27S]), two mentioned being willing to try it under the right circumstances (Subjects 2, 5) while two adamantly refused (Subjects 1, 7).",
+            "start": 439
+          },
+          {
+            "blockId": "b105",
+            "end": 216,
+            "exact": "Two gay subjects (Subjects 11[40G] and 13[33G]), both bisexual men, and two straight subjects (Subjects 4[54S] and 8[52S]) intentionally had used or regularly use penetrative sex toys for masturbatory anal eroticism.",
+            "start": 0
+          },
+          {
+            "blockId": "b106",
+            "end": 480,
+            "exact": "Most straight subjects (Subjects 1–6) and one gay subject (Subject 12[42G]) expressed this perspective in greater or lesser degree.",
+            "start": 349
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Among the eight straight men, two regularly used penetrative toys, two had tried once, two were willing to try and two adamantly refused; most straight subjects (1–6) and one gay subject said self-penetration diminishes a man's masculinity.",
+        "note": "Subjects 4 and 8, the regular straight users, are included among 'Subjects 1–6' who said self-penetration diminishes masculinity in 'greater or lesser degree'; the source does not separate them.",
+        "short": "Straight toy use and masculinity responses",
+        "where": "Responses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b110",
+            "end": 618,
+            "exact": "Through careful probing with follow-up questions, it became clear that Subjects 1[31S], 2[36S], 3[29S] and 5[41S] appear, as revealed through thematic analysis of language about non-straight orientations (cf. Braun and Clarke 2012, 62–68), more homophobic than they are willing to admit.",
+            "start": 331
+          },
+          {
+            "blockId": "b110",
+            "end": 1022,
+            "exact": "He exhibited no signs of homohysteria unless one counts the unwillingness to be anally penetrated, for which he attributed his aversion entirely to “hygiene.”",
+            "start": 864
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "'Latent' homophobia is an interpretive judgment by the sole interviewer, made from unrecorded interviews, against subjects' explicit denials, with no coding scheme, second coder or example language reported. What would close the gap: the language that was coded and an independent rating of it.",
+        "flagKind": "single-observer",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "All eight straight subjects denied being homophobic, but the interviewer's thematic analysis of their language judged Subjects 1, 2, 3 and 5 more homophobic than they admitted; Subject 7 refused receptivity without showing homohysteria.",
+        "short": "Latent homophobia coded in four subjects",
+        "where": "Responses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b107",
+            "end": 1033,
+            "exact": "Views about feminism were generally supportive but somewhat mixed, except in Subjects 1[31S] and 5[41S], who were also the most socially conservative.",
+            "start": 883
+          },
+          {
+            "blockId": "b107",
+            "end": 1199,
+            "exact": "All subjects expressed strongly negative views on rape, but six (Subjects 1[31S], 3[29S], 5[41S], 6[34S], 9[43B], 10[34B]) doubted the pervasiveness of rape culture.",
+            "start": 1034
+          },
+          {
+            "blockId": "b109",
+            "end": 295,
+            "exact": "these co-presented with strong negative attitudes about feminism, which he called “man-hating,” and rape culture, which he labelled a “liberal myth.”",
+            "start": 146
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "Views on feminism were generally supportive but mixed except in the two most conservative subjects; all subjects opposed rape, but six (including bisexual subjects and straight subjects who had tried dildos once) doubted the pervasiveness of rape culture.",
+        "note": "Two of the six rape-culture skeptics are bisexual regular or intentional toy users (9, 10), which is why the source calls the rape-culture data barely suggestive.",
+        "short": "Feminism and rape-culture responses",
+        "where": "Responses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b107",
+            "end": 882,
+            "exact": "“Yeah, it can make you realize how bad a rape has to be, especially anally.”",
+            "start": 806
+          },
+          {
+            "blockId": "b107",
+            "end": 520,
+            "exact": "Subject 8[52S], who consistently expressed staunchly feminist attitudes, was also the most open to and enthusiastic about receptive penetrative anal play.",
+            "start": 366
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "Subject 8, the most feminist and most anally receptive straight subject, said his experience of injuring himself with toys made him realize how bad a rape must be.",
+        "note": "A single subject's response to a direct prompt ('When asked if this bears any associations with rape for him').",
+        "short": "Subject 8 links toy injury to rape awareness",
+        "where": "Responses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b111",
+            "end": 206,
+            "exact": "Only five subjects (Subjects 4[54S], 8[52S], 9[43B], 10[34B], 13[33G]) were clearly willing to date or have sex with a trans woman",
+            "start": 76
+          },
+          {
+            "blockId": "b111",
+            "end": 1281,
+            "exact": "Subject 4[54S], who would date a trans woman, said he would not do so if she had a penis, thereby indicating the genitals/penis to be central to his transhysteric concerns.",
+            "start": 1109
+          },
+          {
+            "blockId": "b114",
+            "end": 493,
+            "exact": "Subjects 3[39S], 6[34S], 7[27S], and 8[52S], however, were more open to dating or having sex with a trans woman, including one with a penis.",
+            "start": 353
+          },
+          {
+            "blockId": "b115",
+            "end": 324,
+            "exact": "Subject 6[34S], who had tried receptive dildo eroticism but did not enjoy it, remained unambiguously opposed to dating or having sex with a trans woman, especially if she had a penis.",
+            "start": 141
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "The reporting of Subjects 3 and 6 is internally inconsistent: they are first listed among those for whom 'the presence of a penis was unacceptable', then in the next sentence among those 'more open to dating or having sex with a trans woman, including one with a penis', and Subject 6 is later 'unambiguously opposed'. Subject 3 is also labelled 3[39S] here but 3[29S] elsewhere. The reader cannot tell which subjects fall on which side of the key comparison.",
+        "flagKind": "other",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "Only five of thirteen subjects (two straight, two bisexual, one gay) were clearly willing to date a trans woman; several straight subjects found a penis unacceptable; Subject 1 refused entirely; Subject 6, who had tried a dildo, remained opposed.",
+        "short": "Willingness to date trans women responses",
+        "where": "Responses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b101",
+            "end": 582,
+            "exact": "Only four of the thirteen subjects self-described by terms other than “liberal” or “progressive”",
+            "start": 486
+          },
+          {
+            "blockId": "b101",
+            "end": 904,
+            "exact": "Of note, I invited six socially conservative men to participate, but five declined",
+            "start": 822
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "Only four of thirteen subjects described themselves by terms other than liberal or progressive; five of six invited socially conservative men declined to participate.",
+        "short": "Political composition and refusals",
+        "where": "Responses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b114",
+            "end": 882,
+            "exact": "“I guess if I was used to it and liked getting it up the butt from someone, I could probably enjoy it from a trans woman if I found her really hot. But it would still be weird.”",
+            "start": 705
+          },
+          {
+            "blockId": "b122",
+            "end": 728,
+            "exact": "Bolstering this conclusion, subjects who presented transphobic/hysterical themes expressed that receptive penetrative anal eroticism is likely to evoke less-transphobic attitudes for them",
+            "start": 541
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "Subject 3 said that if he were used to and liked being anally penetrated he could probably enjoy it from a trans woman, which the source takes as subjects reporting that receptivity would evoke less transphobic attitudes.",
+        "note": "This is the response to Question 15, which asks directly whether willingness would increase with comfort about receptive eroticism; only one subject's answer is quoted, though the discussion speaks of 'subjects'.",
+        "short": "Subject 3 hypothetical on receptivity",
+        "where": "Responses; discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b68",
+            "end": 118,
+            "exact": "This study utilizes long-form, semi-structured, in-person casual interviews to gather qualitative data on thirteen men",
+            "start": 0
+          },
+          {
+            "blockId": "b72",
+            "end": 93,
+            "exact": "Most interviews lasted ninety minutes to two hours and were based upon fifteen core questions",
+            "start": 0
+          },
+          {
+            "blockId": "b100",
+            "end": 138,
+            "exact": "Interview subjects included eight straight men (Subjects 1–8), two bisexual men (Subjects 9–10), and three homosexual men (Subjects 11–13)",
+            "start": 0
+          }
+        ],
+        "id": "M1",
+        "kind": "method",
+        "label": "Thirteen men (eight straight, two bisexual, three gay), aged 27–54, were interviewed in long semi-structured in-person conversations of about ninety minutes to two hours around fifteen core questions in or near Portland, Oregon, between August and November 2017.",
+        "note": "Question 15 asks subjects directly whether their willingness to date a trans woman with a penis would increase if they were more comfortable with receptive anal eroticism, so E10 is a response to the study's hypothesis put to the subject. The one social conservative's interview lasted barely thirty minutes.",
+        "short": "Semi-structured interviews with thirteen men",
+        "where": "Methodology; Responses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b71",
+            "end": 221,
+            "exact": "subjects were recruited through word-of-mouth via a snowball sampling method extending from a social network in Portland, Oregon, in which I am situated.",
+            "start": 68
+          },
+          {
+            "blockId": "b71",
+            "end": 548,
+            "exact": "To minimize bias, I recruited few of my own acquaintances and relied more heavily on snowball sampling while specifically seeking diversity of (political) views",
+            "start": 388
+          }
+        ],
+        "id": "M2",
+        "kind": "method",
+        "label": "Subjects were recruited by snowball sampling through the author's own Portland social network, with an attempt to seek diversity of political views.",
+        "short": "Snowball sampling from author's network",
+        "where": "Methodology"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b97",
+            "end": 572,
+            "exact": "Thus, to encourage openness, and in the interest of fair and ethical treatment across all subjects, interviews were not recorded",
+            "start": 444
+          },
+          {
+            "blockId": "b97",
+            "end": 909,
+            "exact": "All direct quotations were noted as they were spoken and confirmed by subjects for accuracy.",
+            "start": 817
+          },
+          {
+            "blockId": "b72",
+            "end": 1314,
+            "exact": "the data were analyzed thematically for indications of trans/homohysteria/phobia (Anderson 2008), feminist attitudes, attitudes about rape and rape culture, partner sensitivity, and inclusive versus hegemonic masculinity",
+            "start": 1094
+          }
+        ],
+        "flag": "One person conducted, noted, and thematically coded every interview from unrecorded notes, and the source states the researcher is situated in the social network sampled. No coding scheme, inter-rater check or excerpt of coded language is presented, so the thematic judgments (latent homophobia, partner sensitivity, transhysteria) cannot be inspected by another reader. The source explains why recording was dropped but then relies on thematic analysis of language for its key results.",
+        "flagKind": "single-observer",
+        "id": "M3",
+        "kind": "method",
+        "label": "Interviews were not recorded; the interviewer kept typed notes, confirmed quotations with subjects, and analyzed the notes thematically for homo/transhysteria, feminist attitudes, rape-culture attitudes, partner sensitivity and hegemonic versus inclusive masculinity.",
+        "short": "Unrecorded interviews, notes, thematic coding",
+        "where": "Methodology"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1",
+      "readingMode": "evidentiary",
+      "readingModeUsed": "evidentiary",
+      "recipeHash": "8ce2d9a3fc62ac3b65ee51cf2012304417bd74c7585b199d1d35dab76020b494",
+      "sourceVersion": "c98c6f93c00f07f760c7a2e75c8cfb4209bf7952e62d70f133e454a544dd4bc1"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "back-door"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 9058,
+    "ratio": 0.14746918906598505,
+    "sourceCharacters": 61423
+  },
+  "readingId": "reading:62333990d40dc06d1606df39967eacc4918c8e30d563ad1f49542f7fbe41b4ee",
+  "source": {
+    "authors": [
+      "M. Smith"
+    ],
+    "collection": "grievance-studies-affair-2018",
+    "format": "pdf-text",
+    "id": "back-door",
+    "identifier": "doi:10.1007/s12119-018-9536-0",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "sourceStatus": "retracted",
+    "stage": "unknown",
+    "title": "Going in Through the Back Door: Challenging Straight Male Homohysteria, Transhysteria, and Transphobia Through Receptive Penetrative Sex Toy Use",
+    "url": "https://drive.google.com/file/d/141woxIn50hWnorA5p4A3mYhxeI9qpq42/view",
+    "venue": "Sexuality & Culture",
+    "version": "c98c6f93c00f07f760c7a2e75c8cfb4209bf7952e62d70f133e454a544dd4bc1",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "doi",
+        "value": "10.1007/s12119-018-9536-0"
+      }
+    ],
+    "workId": "work:f2ded798deb5e2c71bf82c74cf23b462ec832c876a55423c7a4c1a97cfa560a0"
+  }
+}

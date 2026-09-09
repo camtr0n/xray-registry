@@ -1,0 +1,1267 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "5a83bf732a6b664e490d777cba450a2c61c38cca203a6285135a051afcd10cd0",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "low-dimensions",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked"
+          ],
+          "claimId": "C2",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C3",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C4",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C5",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C6",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C7",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C8",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked",
+            "partial-strength-only"
+          ],
+          "claimId": "C9",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C10",
+          "level": "partially-supported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C9",
+        "id": "e2",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "id": "e3",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C5",
+        "id": "e4",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C7",
+        "id": "e5",
+        "note": "Offered as attenuation of boys' bias; only a within-condition gender difference is shown.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C4",
+        "id": "e6",
+        "note": "Null on own toy preferences limits the breadth of 'increases gender flexibility'.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C6",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C10"
+      },
+      {
+        "from": "C10",
+        "id": "e8",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "C8",
+        "id": "e9",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "E1",
+        "id": "e10",
+        "note": "Power claim offered as reason the null can be read as no effect.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E2",
+        "id": "e11",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "E3",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "E4",
+        "id": "e13",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "E5",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "E6",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E7",
+        "id": "e16",
+        "note": "No cross-condition change for either gender undermines the 'attenuated' reading.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C7"
+      },
+      {
+        "from": "E8",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C8"
+      },
+      {
+        "from": "E9",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C10"
+      },
+      {
+        "from": "E10",
+        "id": "e19",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E11",
+        "id": "e20",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "E12",
+        "id": "e21",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "E13",
+        "id": "e22",
+        "note": "Small sample weakens the reading of the null as absence of effect.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E13",
+        "id": "e23",
+        "note": "Results say all analyses were sufficiently powered; limitations say the sample was too small to detect small and moderate effects.",
+        "relation": "contradicts",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "E14",
+        "id": "e24",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "E14",
+        "id": "e25",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C7"
+      },
+      {
+        "from": "M1",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M1",
+        "id": "e27",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M1",
+        "id": "e28",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M1",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M1",
+        "id": "e30",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M1",
+        "id": "e31",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M1",
+        "id": "e32",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M2",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M2",
+        "id": "e34",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M2",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M2",
+        "id": "e36",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M2",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M3",
+        "id": "e39",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M4",
+        "id": "e40",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M5",
+        "id": "e41",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M5",
+        "id": "e42",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M6",
+        "id": "e43",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M6",
+        "id": "e44",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M7",
+        "id": "e45",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M7",
+        "id": "e46",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M7",
+        "id": "e47",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M7",
+        "id": "e48",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M7",
+        "id": "e49",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M7",
+        "id": "e50",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      }
+    ],
+    "id": "control-toy-play-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b3",
+            "end": 59,
+            "exact": "Peer Toy Play as a Gateway to Children’s Gender Flexibility",
+            "start": 0
+          },
+          {
+            "blockId": "b159",
+            "end": 1237,
+            "exact": "these results suggest that the observed play style and toy preferences of others could be used as a gateway to gender desegregation in children",
+            "start": 1094
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "id": "C1",
+        "kind": "claim",
+        "label": "Peer toy play, as observed in others, can serve as a gateway to children's gender flexibility and gender desegregation.",
+        "main": false,
+        "note": "The title asserts the framing thesis; the conclusion restates it as a suggestion. It rests on the two main claims (C2, C9).",
+        "short": "Peer toy play gateway to flexibility",
+        "where": "Title; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b159",
+            "end": 116,
+            "exact": "Exposure to gender counter-stereotypic peers in a magazine format increases gender flexibility among young children.",
+            "start": 0
+          },
+          {
+            "blockId": "b9",
+            "end": 1089,
+            "exact": "Results revealed significantly greater gender flexibility around toy play and playmate choices among children in the counter-stereotypic condition compared to the stereotypic condition",
+            "start": 905
+          },
+          {
+            "blockId": "b138",
+            "end": 424,
+            "exact": "our findings suggest that exposure to counter-stereotypic content that chal-lenges gender-typed toy play may be a useful strategy for attenuating gender-typed attitudes and behavior in young children",
+            "start": 225
+          },
+          {
+            "blockId": "b135",
+            "end": 334,
+            "exact": "Most of the hypotheses were fully supported",
+            "start": 291
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The design has only two conditions (stereotypic vs. counter-stereotypic) and no neutral or no-exposure baseline, so the data cannot distinguish counter-stereotypic exposure raising flexibility from stereotypic exposure lowering it; the conclusion nonetheless uses the directional word 'increases'. The source names this gap in its limitations but the conclusion and practice implications rely on the directional reading anyway.",
+        "flagKind": "missing-comparison",
+        "id": "C2",
+        "kind": "claim",
+        "label": "Exposure to counter-stereotypic peers pictured in a magazine format increases gender flexibility among young children, compared with exposure to stereotypic peers.",
+        "main": true,
+        "note": "The discussion says most hypotheses were fully supported; by the results section's own count, Hypotheses 1b, 2a, 3b and 4a were not supported and 1a, 2b, 3a, 3c and 4b were. The discussion also narrows the claim to 'at least' flexibility about other children's toy play (b138).",
+        "short": "Counter-stereotypic magazine peers increase flexibility",
+        "where": "Abstract; Discussion; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b116",
+            "end": 472,
+            "exact": "attitudes toward gender-typed toy play were significantly more flexible among participants in the counter-stereotypic condition (M = 3.64, SD = 2.70) compared to the stereotypic condition (M = 2.60, SD = 2.45)",
+            "start": 263
+          },
+          {
+            "blockId": "b135",
+            "end": 764,
+            "exact": "participants in the counter-stereotypic condition did demonstrate more gender flexible attitudes toward the toy play of other boys and girls",
+            "start": 624
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C3",
+        "kind": "claim",
+        "label": "Children who viewed counter-stereotypic peers were more likely to say toys are for both boys and girls than children who viewed stereotypic peers.",
+        "main": false,
+        "note": "The effect is about one point on a 0–8 scale with p = .042 and ηp2 = .05; the expected gender difference (Hypothesis 2a) was not found (p = .086).",
+        "short": "Counter-stereotypic condition more flexible toy attitudes",
+        "where": "Results; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b103",
+            "end": 1087,
+            "exact": "condition did not affect children’s gender flexibility around toy preferences",
+            "start": 1010
+          },
+          {
+            "blockId": "b9",
+            "end": 1373,
+            "exact": "there was no difference in children’s own toy preferences between the stereotypic and counter-stereotypic condition, with children preferring more gender-typed toys overall",
+            "start": 1201
+          },
+          {
+            "blockId": "b135",
+            "end": 495,
+            "exact": "Participants did not demonstrate more gender flexible attitudes in their own preferences for gender-typed toys",
+            "start": 385
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 2
+        },
+        "id": "C4",
+        "kind": "claim",
+        "label": "Condition did not change children's own toy preferences; girls preferred feminine toys and boys preferred masculine toys regardless of what they viewed.",
+        "main": false,
+        "note": "A null result the source states plainly. It is recorded as weakening the broad main claim because the conclusion's 'increases gender flexibility' does not extend to children's own preferences.",
+        "short": "No condition effect on own toy preferences",
+        "where": "Abstract; Results; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b136",
+            "end": 287,
+            "exact": "we observed a strong preference for same-gender playmates over other-gender playmates among participants in the stereotypic condition, but we observed no preference for same-gender playmates over other-gender playmates among participants in the counter-stereotypic condition",
+            "start": 13
+          },
+          {
+            "blockId": "b159",
+            "end": 313,
+            "exact": "were more likely to choose an other-gender playmate",
+            "start": 262
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C5",
+        "kind": "claim",
+        "label": "In the stereotypic condition children strongly chose a same-gender playmate, whereas in the counter-stereotypic condition they showed no same-gender preference.",
+        "main": false,
+        "note": "The choice was between the two children pictured on the page. In the counter-stereotypic condition the other-gender child is also the one holding the toy typed for the participant's own gender, so gender-of-playmate and toy-of-playmate are swapped together; the source interprets this as play style driving choice (C6). The predicted boy–girl difference (Hypothesis 3b) was not found.",
+        "short": "Same-gender playmate preference disappears counter-stereotypic",
+        "where": "Results; Discussion; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b136",
+            "end": 455,
+            "exact": "This choice of playmate in the counter-stereotypic condition appeared to be driven more by the type of toy play being modeled by the child than by the child’s gender.",
+            "start": 289
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C6",
+        "kind": "claim",
+        "label": "Playmate choice in the counter-stereotypic condition was driven more by the toy the child was playing with than by the child's gender.",
+        "main": false,
+        "note": "Based on children's stated reasons after choosing; reasons coded as 'other' were dropped before analysis.",
+        "short": "Playmate choice driven by play style",
+        "where": "Results; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b136",
+            "end": 620,
+            "exact": "in the stereotypic condition, boys were more supportive of gender-based exclusion than were girls",
+            "start": 523
+          },
+          {
+            "blockId": "b9",
+            "end": 1190,
+            "exact": "boys in the stereotypic condition were more accepting of gender-based exclusion than were girls",
+            "start": 1095
+          },
+          {
+            "blockId": "b159",
+            "end": 516,
+            "exact": "boys’ stronger endorsement of social exclusion in the stereotypic condition was attenuated in the counter-stereotypic condition",
+            "start": 389
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "The conclusion describes boys' exclusion endorsement as 'attenuated' in the counter-stereotypic condition, which implies boys changed across conditions; the source's own pairwise comparisons across conditions were not significant for either gender and the main effect of condition was null. What is supported is a boy–girl difference inside one condition only; girls' mean was in fact numerically higher in the counter-stereotypic condition.",
+        "flagKind": "unsupported-generalization",
+        "id": "C7",
+        "kind": "claim",
+        "label": "Boys endorsed gender-based exclusion more than girls in the stereotypic condition, but boys and girls did not differ in the counter-stereotypic condition.",
+        "main": false,
+        "short": "Boy–girl exclusion gap only in stereotypic condition",
+        "where": "Abstract; Results; Discussion; Conclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b139",
+            "end": 436,
+            "exact": "This suggests that pictured ex-amples of actual children engaged in counter-stereotypic toy play (in a media format) may be more effective at changing children’s gender-typed attitudes than the use of fictional characters.",
+            "start": 214
+          },
+          {
+            "blockId": "b152",
+            "end": 770,
+            "exact": "the use of pictures of actual children in a magazine format may overcome some of the difficulties in adjusting boys’ gender-typed attitudes",
+            "start": 631
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "No fictional-character condition was run; the comparison is between this study and a cited earlier study with a different design and outcome. The source lists a direct comparison as future work yet still uses the inference to explain why boys shifted.",
+        "flagKind": "missing-comparison",
+        "id": "C8",
+        "kind": "claim",
+        "label": "Pictures of actual children may change children's gender-typed attitudes more effectively than fictional characters do.",
+        "main": false,
+        "short": "Real peers more effective than fictional",
+        "where": "Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b155",
+            "end": 197,
+            "exact": "our findings suggest more regular exposure to counter-stereotypic content in the media could be an effective strategy to promote gender flexibility and combat gender-related bullying",
+            "start": 15
+          },
+          {
+            "blockId": "b155",
+            "end": 712,
+            "exact": "could be used to encourage children to play with their own and other-gender toys, play in mixed-gender groups, and reduce gender-based social exclusion and bullying for both gender-typical and gender-atypical children",
+            "start": 495
+          },
+          {
+            "blockId": "b154",
+            "end": 212,
+            "exact": "these findings suggest it is possible to shift children toward more gender flexible attitudes and change children’s views on gender-related play",
+            "start": 68
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The recommendation extends well beyond the results: the study found no change in children's own toy preferences, yet recommends the technique to encourage children to play with other-gender toys; exclusion was measured with a hypothetical scenario about the pictured child and showed no main effect of condition, yet the recommendation targets bullying; and only a single immediate exposure was tested, while 'regular exposure' is recommended. A study with repeated exposure, behavioral outcomes and a neutral control would be needed to close the gap.",
+        "flagKind": "scope-leap",
+        "id": "C9",
+        "kind": "claim",
+        "label": "Regular exposure to counter-stereotypic peers in media could be used to promote gender flexibility, encourage play with other-gender toys and mixed-gender groups, and reduce gender-based exclusion and bullying.",
+        "main": true,
+        "short": "Recommend counter-stereotypic media as intervention",
+        "where": "Practice Implications"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b156",
+            "end": 555,
+            "exact": "our research shows that children consider both play style and gender when selecting a playmate",
+            "start": 461
+          },
+          {
+            "blockId": "b157",
+            "end": 125,
+            "exact": "because boys and girls are willing to play with one another if they possess similar toy and play style interests",
+            "start": 13
+          },
+          {
+            "blockId": "b156",
+            "end": 667,
+            "exact": "This finding suggests that highlighting behavioral similarities in children could encourage mixed-gender play.",
+            "start": 557
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "'Willing to play with one another' is inferred from a forced choice between two pictured children with no 'both' option and no observed play; whether children would actually join mixed-gender play in a classroom was not measured.",
+        "flagKind": "scope-leap",
+        "id": "C10",
+        "kind": "claim",
+        "label": "Children consider both play style and gender when selecting a playmate, so highlighting behavioral similarities could encourage mixed-gender play.",
+        "main": false,
+        "short": "Play-style similarity can encourage mixed-gender play",
+        "where": "Practice Implications"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b74",
+            "end": 215,
+            "exact": "Power analyses indicated that the statistical tests were suffi-ciently powered and the sample size was adequate for each planned analysis, with power to find an effect ranging between 74% and 99% across all analyses",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "No target effect size or whether the analysis was a priori or post hoc is given, and the only citation is a general statistics textbook; the same source later says the sample was too small to detect small and moderate effects.",
+        "flagKind": "other",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "Power analyses are reported as showing 74%–99% power across all planned analyses.",
+        "short": "Reported power 74–99 percent",
+        "where": "Results – Preliminary Analyses"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b103",
+            "end": 575,
+            "exact": "we observed a significant interaction between participant gender and toy type, F(1, 75) = 197.55, MSE = 3.33, p < .001, ηp2 = .73",
+            "start": 446
+          },
+          {
+            "blockId": "b103",
+            "end": 992,
+            "exact": "the three-way interaction among participant gender, condition, and toy type was not significant, F (1, 75) = 1.60, MSE = 3.33, p = .210, ηp2 = .02",
+            "start": 846
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "A large gender × toy-type interaction was found for toy preferences, but the gender × condition × toy-type interaction was not significant.",
+        "note": "Pairwise effect sizes for the gender-typed preference were d = 2.21 (girls) and d = 2.27 (boys).",
+        "short": "Toy preference ANCOVA results",
+        "where": "Results – Toy Preferences"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b116",
+            "end": 253,
+            "exact": "there was a significant main effect of condition, F(1, 75) = 4.29, MSE = 5.03, p = .042, ηp2 = .05",
+            "start": 155
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "An ANCOVA on toy-play attitudes found a significant main effect of condition (means 3.64 vs. 2.60 on a 0–8 scale).",
+        "note": "The predicted main effect of participant gender was not significant (F = 3.02, p = .086).",
+        "short": "Condition effect on toy-play attitudes",
+        "where": "Results – Toy Play"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b119",
+            "end": 521,
+            "exact": "girls were significantly more likely to choose a same-gender playmate (91% vs. 9%) and boys were significantly more likely to choose a same-gender playmate (94% vs. 6%) compared to an other-gender playmate, χ2(1) = 26.51, p < .001, Cramer’s V = .85",
+            "start": 273
+          },
+          {
+            "blockId": "b129",
+            "end": 226,
+            "exact": "girls (50% vs. 50%) and boys (45% vs. 55%) were equally likely to select an other-gender versus same-gender playmate, χ2(1) = .00, p = 1.00, Cramer’s V = .05",
+            "start": 69
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Chi-square tests showed 91%/94% same-gender playmate choice in the stereotypic condition versus 50%/45% in the counter-stereotypic condition.",
+        "note": "Tests were run within each condition; the source does not report a direct test of the condition difference, and per-condition cell counts are not given.",
+        "short": "Playmate choice percentages by condition",
+        "where": "Results – Playmate Choice"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b130",
+            "end": 766,
+            "exact": "participants in the counter-stereotypic condition were significantly more likely to refer to the playmate’s play style (69%) than to the playmate’s gender (31%) when choosing one of the playmates, χ2(1) = 4.50, p = .034, Cramer’s V = .38",
+            "start": 529
+          },
+          {
+            "blockId": "b130",
+            "end": 1008,
+            "exact": "participants were not significantly more likely to refer to the playmate’s play style (66%) over the playmate’s gender (33%), χ2(2) = 3.00, p = .083, Cramer’s V = .33",
+            "start": 842
+          },
+          {
+            "blockId": "b130",
+            "end": 498,
+            "exact": "reasons which did not fall into one of these two categories (classified as ‘other’) were excluded from analysis (16% of overall reasons in the counter-stereotypic condition; 31% in the stereotypic condition)",
+            "start": 291
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "Percentages are given without raw counts after 16% and 31% of responses were dropped as 'other', so the two conditions rest on different and unstated denominators; the play-style proportions (69% vs. 66%) are nearly identical, and the contrast is significant-versus-not within each condition rather than a test between conditions. The stereotypic test is reported with 2 degrees of freedom for a two-category comparison.",
+        "flagKind": "no-denominator",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "In the counter-stereotypic condition 69% of retained reasons cited play style versus 31% gender (significant); in the stereotypic condition 66% versus 33% (not significant).",
+        "short": "Stated reasons for playmate choice",
+        "where": "Results – Playmate Choice"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b133",
+            "end": 466,
+            "exact": "the analysis did reveal a significant interaction between condition and participant gender, F(1, 77) = 4.59, MSE = 1.52, p = .035, ηp2 = .06",
+            "start": 326
+          },
+          {
+            "blockId": "b133",
+            "end": 843,
+            "exact": "significantly higher endorsement of gender-based social exclusion among boys (M = 3.27, SD = 1.63) compared to girls (M = 2.23, SD = .64) in the stereotypic condition (p = .008, d = .92), but not between boys (M = 2.82, SD = 1.17) and girls (M = 2.96, SD = 1.66) in the counter-stereotypic condition (p = .733, d = .06)",
+            "start": 524
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "A condition × gender interaction on exclusion scores was significant; boys exceeded girls in the stereotypic condition (d = .92) but not in the counter-stereotypic condition (d = .06).",
+        "short": "Exclusion interaction and pairwise comparisons",
+        "where": "Results – Social Exclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b133",
+            "end": 315,
+            "exact": "the effect of condition was not significant, F(1, 77) = .25, MSE = 1.52, p = .620, ηp2 = .00",
+            "start": 223
+          },
+          {
+            "blockId": "b133",
+            "end": 1177,
+            "exact": "pairwise comparisons examining differences in girls’ and boys’ gender-based social exclusion scores across conditions were not significant (ps > .05)",
+            "start": 1028
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "The main effect of condition on exclusion was null, and neither boys' nor girls' exclusion scores differed significantly across conditions.",
+        "note": "Hypothesis 4a (less exclusion in the counter-stereotypic condition) was not supported.",
+        "short": "No condition effect on exclusion scores",
+        "where": "Results – Social Exclusion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b139",
+            "end": 213,
+            "exact": "In contrast to Green et al. (2004) who used fictional characters to display counter-stereotypic gender models, we found that gender counter-stereotypic peers shifted boys’ as well as girls’ gender-typed attitudes.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "citation",
+        "flag": "By the source's own earlier description (b37), Green et al. measured toy play behavior in highly gender-typed children over four months, whereas here the outcome that shifted was attitudes about others' toy play and own toy preferences did not shift; the cross-study contrast compares different outcomes and populations.",
+        "flagKind": "missing-comparison",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "The source contrasts its result with Green et al. (2004), who used fictional characters and found a shift only in girls.",
+        "short": "Contrast with Green et al. fictional models",
+        "where": "Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b40",
+            "end": 803,
+            "exact": "They demonstrated that boys chose playmates based on the play style of the peer rather than the peer’s gender label, whereas girls chose playmates based on play style and peer gender label.",
+            "start": 614
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "Pasterski et al. (2011) are cited as showing that boys chose playmates by play style and girls by play style and gender.",
+        "note": "The present study's analogous prediction of a boy–girl difference (Hypothesis 3b) was not supported.",
+        "short": "Pasterski playmate-choice citation",
+        "where": "Introduction"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b144",
+            "end": 325,
+            "exact": "we did not include a control condition against which to compare the direction of the observed effects",
+            "start": 224
+          }
+        ],
+        "evidenceKind": "reasoning",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "The authors acknowledge that no control condition was included against which to determine the direction of the effects.",
+        "note": "The same paragraph recommends standardizing the peer images across conditions in future work, implying the photographs differed between conditions.",
+        "short": "Limitation: no control condition",
+        "where": "Limitations"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b145",
+            "end": 126,
+            "exact": "we examined behavioral intentions in the context of hypothetical scenarios and contrived stimuli presented to children",
+            "start": 8
+          }
+        ],
+        "evidenceKind": "reasoning",
+        "id": "E11",
+        "kind": "evidence",
+        "label": "The authors acknowledge that outcomes were behavioral intentions in hypothetical scenarios, not observed behavior.",
+        "short": "Limitation: hypothetical scenarios only",
+        "where": "Limitations"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b146",
+            "end": 163,
+            "exact": "we presented participants with one exposure to a single magazine page and the impact on gender attitudes and preferences was measured immediately afterwards",
+            "start": 7
+          },
+          {
+            "blockId": "b146",
+            "end": 714,
+            "exact": "Such research would also determine whether the effects observed are due to priming or to more substantial changes to children’s understanding of and adherence to gender stereotypes.",
+            "start": 533
+          }
+        ],
+        "evidenceKind": "reasoning",
+        "id": "E12",
+        "kind": "evidence",
+        "label": "The authors acknowledge a single exposure measured immediately afterward, which cannot separate priming from lasting change.",
+        "short": "Limitation: single immediate exposure",
+        "where": "Limitations"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b147",
+            "end": 182,
+            "exact": "our relatively small sample size limited our ability to detect small and moderate effects of the magazine exposure, and it also precluded us from making age-based comparisons",
+            "start": 8
+          }
+        ],
+        "evidenceKind": "reasoning",
+        "id": "E13",
+        "kind": "evidence",
+        "label": "The authors acknowledge that the small sample limited detection of small and moderate effects and prevented age comparisons.",
+        "short": "Limitation: small sample size",
+        "where": "Limitations"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b150",
+            "end": 312,
+            "exact": "it did mean the specific children targeted in the social exclusion scenarios varied by condition",
+            "start": 216
+          },
+          {
+            "blockId": "b150",
+            "end": 969,
+            "exact": "which may be masking children’s gender flexible preferences",
+            "start": 910
+          }
+        ],
+        "evidenceKind": "reasoning",
+        "id": "E14",
+        "kind": "evidence",
+        "label": "The authors acknowledge that the children targeted in the exclusion and playmate measures varied by condition and that the forced two-way choice may mask flexible preferences.",
+        "short": "Limitation: targets varied by condition",
+        "where": "Limitations"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b54",
+            "end": 506,
+            "exact": "The final sample for analysis included 82 children (40 boys and 42 girls) aged 4–7 years-old (Mage = 5.4 years)",
+            "start": 395
+          },
+          {
+            "blockId": "b54",
+            "end": 710,
+            "exact": "Participants were recruited from an urban primary school in a generally low SES neighborhood. The sample was predominantly White",
+            "start": 582
+          }
+        ],
+        "flag": "Ten children were dropped for not completing all measures and four 8-year-olds were excluded; whether these exclusions were balanced across the two conditions, and the number of children per condition, are not reported.",
+        "flagKind": "other",
+        "id": "M1",
+        "kind": "method",
+        "label": "The analyzed sample was 82 children aged 4–7 (40 boys, 42 girls) from one urban, low-SES, predominantly White British primary school, after excluding 14 of 96 recruited.",
+        "note": "No data deposit or analysis code is named.",
+        "short": "Sample: 82 children, one school",
+        "where": "Method – Participants"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b56",
+            "end": 465,
+            "exact": "participants were randomly assigned to the stereotypic or counter-stereotypic condition",
+            "start": 378
+          },
+          {
+            "blockId": "b57",
+            "end": 209,
+            "exact": "Participants viewed the magazine page for 2 min.",
+            "start": 161
+          }
+        ],
+        "flag": "The limitations section recommends that future work 'standardize the images of the peers across conditions', indicating the photographs of the children differed between conditions; any condition difference could therefore reflect the particular images rather than the toy swap alone.",
+        "flagKind": "other",
+        "id": "M2",
+        "kind": "method",
+        "label": "Children were randomly assigned to view for two minutes a mock reader's page showing a boy with a car and a girl with a pony (stereotypic) or the reverse (counter-stereotypic), with speech bubbles read aloud.",
+        "short": "Two-condition magazine-page manipulation",
+        "where": "Method – Procedure"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b61",
+            "end": 1076,
+            "exact": "Total scores were calculated separately for the feminine toys (α = .89) and masculine toys (α = .77) by summing the response for the four toys in each category separately.",
+            "start": 905
+          }
+        ],
+        "id": "M3",
+        "kind": "method",
+        "label": "Toy preference was measured by 3-point liking ratings of four feminine and four masculine toys, summed into two 4–12 scores.",
+        "short": "Toy preference rating scale",
+        "where": "Method – Measures"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b63",
+            "end": 719,
+            "exact": "Total scores were calculated by summing the assigned codes across the eight toys. Scores could range from 0 to 8, with higher scores indicating more gender flexible attitudes toward toy play.",
+            "start": 528
+          }
+        ],
+        "id": "M4",
+        "kind": "method",
+        "label": "Toy-play attitude was measured by asking who should play with each of eight toys, scoring 'both' as 1 and either-gender-only as 0, summed 0–8.",
+        "short": "Who-should-play flexibility score",
+        "where": "Method – Measures"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b65",
+            "end": 237,
+            "exact": "participants were presented with pictures of the children they had viewed on the magazine pages (i.e. either the boy and girl engaged in stereotypic or counter-stereotypic toy play)",
+            "start": 56
+          },
+          {
+            "blockId": "b65",
+            "end": 817,
+            "exact": "Responses were coded into categories based on whether they referred to the gender label of the child pictured (coded 1), the type of toy played with by the child pictured (coded 2), or some other feature (coded as 3)",
+            "start": 601
+          }
+        ],
+        "id": "M5",
+        "kind": "method",
+        "label": "Playmate choice was a forced choice between the two pictured children, followed by an open reason coded as gender, toy, or other.",
+        "note": "No 'both' option was offered; the source acknowledges this in its limitations. Coding procedure and inter-rater reliability for the reasons are not described.",
+        "short": "Forced playmate choice and reason coding",
+        "where": "Method – Measures"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b67",
+            "end": 112,
+            "exact": "We adapted a measure from Killen and Stangor (2001) to assess gender flexible attitudes around social exclusion.",
+            "start": 0
+          },
+          {
+            "blockId": "b71",
+            "end": 357,
+            "exact": "A total gender-based exclusion score was computed by summing the responses given for the two scenarios.",
+            "start": 254
+          }
+        ],
+        "id": "M6",
+        "kind": "method",
+        "label": "Gender-based exclusion was measured with two scenarios adapted from Killen and Stangor in which the pictured child is excluded, rated on a 3-point scale and summed 2–6.",
+        "note": "The excluded child in each scenario is the one from the viewed page, so in the counter-stereotypic condition the excluded child is already playing with the group's toy type.",
+        "short": "Two-scenario exclusion measure",
+        "where": "Method – Measures"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b75",
+            "end": 967,
+            "exact": "Given these associations with age, we included participants’ age as a covariate in our tests of the main gender flexibility hypotheses.",
+            "start": 832
+          },
+          {
+            "blockId": "b119",
+            "end": 212,
+            "exact": "we conducted two-way Chi-square tests with Yates correction for continuity to examine the association between participant gender and gender-typed playmate choice for each condition",
+            "start": 32
+          }
+        ],
+        "id": "M7",
+        "kind": "method",
+        "label": "Continuous outcomes were analyzed with 2 × 2 ANCOVAs with age as a covariate; playmate outcomes with chi-square tests run separately within each condition.",
+        "note": "Age was added as a covariate after observing age correlations in the same data.",
+        "short": "ANCOVA with age covariate; per-condition chi-square",
+        "where": "Results – Preliminary and Primary Analyses"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1",
+      "readingMode": "evidentiary",
+      "readingModeUsed": "evidentiary",
+      "recipeHash": "8ce2d9a3fc62ac3b65ee51cf2012304417bd74c7585b199d1d35dab76020b494",
+      "sourceVersion": "5a83bf732a6b664e490d777cba450a2c61c38cca203a6285135a051afcd10cd0"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "control-toy-play"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 8735,
+    "ratio": 0.09997024354513825,
+    "sourceCharacters": 87376
+  },
+  "readingId": "reading:6bf687f40f100411a685cfe9d347b8157c86a43920cf06efeb01d4c0f5a8522b",
+  "source": {
+    "authors": [
+      "Lauren Spinner",
+      "Lindsey Cameron",
+      "Rachel Calogero"
+    ],
+    "collection": "controls-2018-2022",
+    "format": "pdf-text",
+    "id": "control-toy-play",
+    "identifier": "doi:10.1007/s11199-017-0883-3",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "CC BY 4.0 version of record",
+    "sourceStatus": "published",
+    "stage": "unknown",
+    "title": "Peer Toy Play as a Gateway to Children’s Gender Flexibility: The Effect of (Counter)Stereotypic Portrayals of Peers in Children’s Magazines",
+    "url": "https://link.springer.com/content/pdf/10.1007/s11199-017-0883-3.pdf",
+    "venue": "Sex Roles",
+    "version": "5a83bf732a6b664e490d777cba450a2c61c38cca203a6285135a051afcd10cd0",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "doi",
+        "value": "10.1007/s11199-017-0883-3"
+      }
+    ],
+    "workId": "work:9730c84f613b25bc09cb4e1a7f47c0d843577bc5fb1c6f9152d2f5642f098e4e"
+  }
+}

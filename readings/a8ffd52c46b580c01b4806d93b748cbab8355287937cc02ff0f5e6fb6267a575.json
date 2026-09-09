@@ -1,0 +1,1453 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "fa37d30f2cb7998ff6cc4d7608ca4d59d06a6f43c3c947696d33f5579f27bfb1",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C2",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C4",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C5",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C7",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C15",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C8",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C9",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C10",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C11",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C12",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C13",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C14",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions"
+          ],
+          "claimId": "C16",
+          "level": "unsupported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "E1",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "C4",
+        "id": "e2",
+        "note": "The recipe finding establishes the baseline from which architectural steps are measured and frames training as one confound.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E2",
+        "id": "e3",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "E3",
+        "id": "e4",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "C5",
+        "id": "e5",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E4",
+        "id": "e6",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "C7",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "E5",
+        "id": "e8",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C15"
+      },
+      {
+        "from": "E5",
+        "id": "e9",
+        "note": "In the ResNet-200 regime the source reports saturation at kernel size 5, not 7.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "C15",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E6",
+        "id": "e11",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "C8",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "E7",
+        "id": "e13",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "C9",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "E8",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C10"
+      },
+      {
+        "from": "C10",
+        "id": "e16",
+        "note": "Offered as an ablation of the block design rather than as a headline result.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "E9",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C11"
+      },
+      {
+        "from": "C11",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "E10",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "C12",
+        "id": "e20",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "E11",
+        "id": "e21",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C13"
+      },
+      {
+        "from": "C13",
+        "id": "e22",
+        "note": "Bears on the 'efficiency' part of the main claim.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "E12",
+        "id": "e23",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C14"
+      },
+      {
+        "from": "C14",
+        "id": "e24",
+        "note": "Bears on the 'robustness' wording used in the Introduction version of the claim.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C16",
+        "id": "e25",
+        "note": "Limits the claim to the evaluated task families.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "M1",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M1",
+        "id": "e27",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M1",
+        "id": "e28",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M1",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M1",
+        "id": "e30",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e31",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M2",
+        "id": "e32",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M2",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M2",
+        "id": "e34",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E12"
+      },
+      {
+        "from": "M3",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M3",
+        "id": "e36",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M3",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E11"
+      },
+      {
+        "from": "M4",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M4",
+        "id": "e39",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M4",
+        "id": "e40",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E11"
+      },
+      {
+        "from": "M5",
+        "id": "e41",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E12"
+      }
+    ],
+    "id": "control-convnet-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b5",
+            "end": 1460,
+            "exact": "Constructed entirely from standard ConvNet modules, ConvNeXts compete favorably with Transformers in terms of accuracy and scalability, achieving 87.8% ImageNet top-1 accuracy and outperforming Swin Transformers on COCO detection and ADE20K segmentation, while maintaining the simplicity and efficiency of standard ConvNets.",
+            "start": 1136
+          },
+          {
+            "blockId": "b22",
+            "end": 857,
+            "exact": "Surprisingly, ConvNeXts, constructed entirely from standard ConvNet modules, compete favorably with Transformers in terms of accuracy, scalability and robustness across all major benchmarks.",
+            "start": 667
+          },
+          {
+            "blockId": "b223",
+            "end": 517,
+            "exact": "We propose ConvNeXts, a pure ConvNet model that can compete favorably with state-of-the-art hierarchical vision Transformers across multiple computer vision benchmarks, while retaining the simplicity and efficiency of standard ConvNets.",
+            "start": 281
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "The abstract says ConvNeXt is 'outperforming Swin Transformers on COCO detection and ADE20K segmentation', but the results section itself describes the ImageNet-1K-pretrained COCO rows as 'on-par or better' (e.g. 50.4 vs 50.4 box AP for Swin-T under Cascade Mask-RCNN). The comparators are specifically Swin, DeiT and ViT trained on ImageNet-1K/22K; 'Transformers' in general and larger-scale data regimes are not tested.",
+        "flagKind": "scope-leap",
+        "id": "C1",
+        "kind": "claim",
+        "label": "ConvNeXts, built entirely from standard ConvNet modules, compete favorably with hierarchical vision Transformers in accuracy and scalability across classification, detection and segmentation while keeping the simplicity and efficiency of standard ConvNets.",
+        "main": true,
+        "note": "Code is released at https://github.com/facebookresearch/ConvNeXt (b3), so the training and evaluation could in principle be re-run.",
+        "short": "Pure ConvNet matches Transformers across benchmarks",
+        "where": "Abstract; Introduction; Conclusions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b5",
+            "end": 1051,
+            "exact": "We gradually “modernize” a standard ResNet toward the design of a vision Transformer, and discover several key components that contribute to the performance difference along the way.",
+            "start": 869
+          },
+          {
+            "blockId": "b32",
+            "end": 543,
+            "exact": "Many Transformer architectural choices can be incorporated in a ConvNet, and they lead to increasingly better performance.",
+            "start": 421
+          },
+          {
+            "blockId": "b79",
+            "end": 266,
+            "exact": "Intriguingly, a significant portion of the design choices taken in a vision Transformer may be mapped to ConvNet instantiations.",
+            "start": 138
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "The roadmap is a single greedy path in a fixed order: each modification is tested only on top of all previous ones, and not every step increases accuracy (depthwise conv drops to 78.28, moving up the depthwise conv drops to 79.92 in Table 10). No ablation removes individual components from the final model, so the per-component contributions reported are order-dependent and a different ordering could attribute gains differently.",
+        "flagKind": "missing-comparison",
+        "id": "C2",
+        "kind": "claim",
+        "label": "Many architectural choices from vision Transformers can be incorporated into a plain ConvNet, and a ResNet gradually 'modernized' along this roadmap reaches increasingly better ImageNet-1K performance.",
+        "main": true,
+        "note": "The source states in §2.6 closing remarks that none of the design choices are novel in the ConvNet literature; the contribution claimed is their collective application.",
+        "short": "Transformer design choices transfer to ConvNets",
+        "where": "Abstract; Section 2 (Figure 2 caption, §2.5 closing)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b55",
+            "end": 114,
+            "exact": "implying that a significant portion of the performance difference between traditional ConvNets and vision",
+            "start": 9
+          },
+          {
+            "blockId": "b56",
+            "end": 51,
+            "exact": "Transformers may be due to the training techniques.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The inference rests on one architecture (ResNet-50) and one recipe change (+2.7%). The source does not show how much of the ResNet-50 vs Swin-T gap (78.8 vs 81.3 after the recipe) is closed for other ConvNets, so 'a significant portion' is a generalization from a single model, though it is hedged with 'may'.",
+        "flagKind": "scope-leap",
+        "id": "C4",
+        "kind": "claim",
+        "label": "A significant portion of the performance gap between traditional ConvNets and vision Transformers may be due to training techniques rather than architecture.",
+        "short": "Training recipe explains much of gap",
+        "where": "§2.1 Training Techniques"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b78",
+            "end": 300,
+            "exact": "Additionally, we observe that the benefit of larger kernel sizes reaches a saturation point at 7×7.",
+            "start": 201
+          },
+          {
+            "blockId": "b78",
+            "end": 200,
+            "exact": "The network’s performance increases from 79.9% (3×3) to 80.6% (7×7), while the network’s FLOPs stay roughly the same.",
+            "start": 83
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C5",
+        "kind": "claim",
+        "label": "Enlarging the depthwise kernel raises accuracy at roughly constant FLOPs, with the benefit saturating at 7×7.",
+        "note": "In Table 10 the 7×7 and 9×9 results are identical (80.57) with overlapping standard deviations, and 5×5 is 80.35; the differences between 5, 7 and 9 are within about two standard deviations. Appendix C reports saturation at 5×5 rather than 7×7 in the ResNet-200 regime.",
+        "short": "Large kernel benefit saturates at 7×7",
+        "where": "§2.5 Large Kernel Sizes"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b93",
+            "end": 710,
+            "exact": "We can improve the accuracy to 82.0%, significantly exceeding Swin-T’s 81.3%.",
+            "start": 633
+          },
+          {
+            "blockId": "b96",
+            "end": 194,
+            "exact": "discovered ConvNeXt, a pure ConvNet, that can outperform the Swin Transformer for ImageNet-1K classification in this compute regime.",
+            "start": 62
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "After all modifications, the resulting pure ConvNet (ConvNeXt-T) reaches 82.0% ImageNet-1K top-1, exceeding Swin-T's 81.3% at similar FLOPs.",
+        "note": "The Swin-T figure of 81.3% is cited from [45] rather than re-trained by the authors; the ConvNeXt-T number is a three-seed mean (81.97 ± 0.06).",
+        "short": "Final modernized ResNet beats Swin-T",
+        "where": "§2.6 Separate downsampling layers; Closing remarks"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b25",
+            "end": 496,
+            "exact": "The conclusions for higher capacity models are consistent and results can be found in Appendix C.",
+            "start": 399
+          },
+          {
+            "blockId": "b326",
+            "end": 52,
+            "exact": "The observations on the ResNet-200 regime are mostly",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C15",
+        "kind": "claim",
+        "label": "The roadmap's conclusions are mostly consistent in the higher-capacity ResNet-200 / Swin-B regime.",
+        "note": "Appendix C names two differences from the ResNet-50 regime: inverting dimensions helps more (+0.79% vs +0.14%) and kernel-size gains saturate at 5 rather than 7. Table 11 gives no standard deviations, and only the ResNet-50 regime is stated to use three seeds.",
+        "short": "Roadmap conclusions hold at larger scale",
+        "where": "§2 opening; Appendix C"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b109",
+            "end": 504,
+            "exact": "ConvNeXt also outperforms Swin Transformer of similar complexities across the",
+            "start": 427
+          },
+          {
+            "blockId": "b148",
+            "end": 70,
+            "exact": "board, sometimes with a substantial margin (e.g. 0.8% for ConvNeXt-T).",
+            "start": 0
+          },
+          {
+            "blockId": "b148",
+            "end": 221,
+            "exact": "ConvNeXts also enjoy improved throughput compared to Swin Transformers.",
+            "start": 150
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 2
+        },
+        "id": "C8",
+        "kind": "claim",
+        "label": "On ImageNet-1K, ConvNeXt outperforms Swin Transformers of similar complexity across all sizes, sometimes by a substantial margin, with higher inference throughput.",
+        "note": "The source also says ConvNeXt 'competes favorably' with RegNet and EfficientNet on the accuracy–computation trade-off, but concedes that EfficientNetV2-L achieves top ImageNet-1K performance without 22K pre-training (b162–b165).",
+        "short": "ConvNeXt beats Swin on ImageNet-1K",
+        "where": "§3.2 Results, ImageNet-1K"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b156",
+            "end": 55,
+            "exact": "Our results demonstrate that properly designed ConvNets",
+            "start": 0
+          },
+          {
+            "blockId": "b157",
+            "end": 56,
+            "exact": "are not inferior to vision Transformers when pre-trained",
+            "start": 0
+          },
+          {
+            "blockId": "b161",
+            "end": 106,
+            "exact": "a decent improvement over ConvNeXt-L at 3842, demonstrating that ConvNeXts",
+            "start": 32
+          },
+          {
+            "blockId": "b147",
+            "end": 185,
+            "exact": "Similar to Transformers, ConvNeXt also shows promising scaling behavior with higher-capacity models and a larger (pre-training) dataset.",
+            "start": 49
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "With ImageNet-22K pre-training, properly designed ConvNets are not inferior to vision Transformers; ConvNeXt-XL reaches 87.8%, showing the architecture scales with model size and data.",
+        "note": "The largest transformer comparators in Table 1 are Swin-L and ViT-L/16 (the latter with 90-epoch AugReg training obtained by personal communication); there is no Swin-XL, so the 87.8% figure has no size-matched Transformer counterpart in this source.",
+        "short": "ConvNeXt scales with 22K pre-training",
+        "where": "§3.2 Results, ImageNet-22K; Table 1 caption"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b177",
+            "end": 454,
+            "exact": "We observe ConvNeXt can perform generally on par with ViT, showing that our ConvNeXt block design is competitive when used in non-hierarchical models.",
+            "start": 304
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C10",
+        "kind": "claim",
+        "label": "The ConvNeXt block design remains competitive when used in a non-hierarchical, ViT-style isotropic architecture.",
+        "note": "ViT comparators use DeiT training for S/B and MAE for L, i.e. two different published training procedures rather than one recipe matched to the ConvNeXt setting.",
+        "short": "Block design works in isotropic models",
+        "where": "§3.3 Isotropic ConvNeXt vs. ViT"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b210",
+            "end": 250,
+            "exact": "Across different model complexities, ConvNeXt achieves on-par or better performance than Swin Transformer.",
+            "start": 144
+          },
+          {
+            "blockId": "b210",
+            "end": 443,
+            "exact": "in many cases ConvNeXt is significantly better (e.g. +1.0 AP) than Swin Transformers in terms of box and mask AP.",
+            "start": 330
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "ConvNeXt COCO results come from a hyper-parameter sweep over learning rate, layer-wise decay and stochastic depth (b285), whereas ImageNet-1K-pretrained Swin numbers are taken from the Swin GitHub repository. The source states the same sweep was applied only to ImageNet-22K-pretrained Swin-B/L, so the 1K-regime comparisons involve unequal tuning effort. Single runs without variance are reported, so differences of 0.1–0.2 AP cannot be distinguished from noise.",
+        "flagKind": "missing-comparison",
+        "id": "C11",
+        "kind": "claim",
+        "label": "On COCO detection and instance segmentation, ConvNeXt is on par with or better than Swin at every model size, and with ImageNet-22K pre-training is often significantly better (about +1.0 AP).",
+        "short": "ConvNeXt matches or beats Swin on COCO",
+        "where": "§4 Object detection and segmentation on COCO"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b211",
+            "end": 496,
+            "exact": "ConvNeXt models can achieve competitive performance across different model capacities, further validating the effectiveness of our architecture design.",
+            "start": 345
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C12",
+        "kind": "claim",
+        "label": "On ADE20K semantic segmentation, ConvNeXt backbones achieve competitive mIoU across model capacities.",
+        "note": "Swin numbers are cited from the Swin repository; ConvNeXt results use a small hyper-parameter sweep (b286) and multi-scale testing following Swin.",
+        "short": "ConvNeXt competitive on ADE20K segmentation",
+        "where": "§4 Semantic segmentation on ADE20K"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b217",
+            "end": 238,
+            "exact": "the inference throughputs of ConvNeXts are comparable to or exceed that of Swin Transformers.",
+            "start": 145
+          },
+          {
+            "blockId": "b217",
+            "end": 478,
+            "exact": "we notice that training ConvNeXts requires less memory than training Swin Transformers.",
+            "start": 391
+          },
+          {
+            "blockId": "b394",
+            "end": 207,
+            "exact": "ConvNeXts’ advantage is now significantly greater, sometimes up to 49% faster.",
+            "start": 129
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 1
+        },
+        "flag": "The training-memory statement is supported by a single example (ConvNeXt-B vs Swin-B in Cascade Mask-RCNN, 17.4 vs 18.5 GB) yet is phrased for ConvNeXts in general; no memory figures are given for other sizes or for classification training. The A100 study is described by the source itself as preliminary and uses a channels-last layout that benefits convolutions; it is unclear whether Swin was run with equivalent optimizations.",
+        "flagKind": "unsupported-generalization",
+        "id": "C13",
+        "kind": "claim",
+        "label": "Despite depthwise convolutions, ConvNeXt is practically efficient: its inference throughput matches or exceeds Swin's, it trains with less memory, and on A100 GPUs it is up to 49% faster.",
+        "short": "ConvNeXt is practically efficient in deployment",
+        "where": "§4 Remarks on model efficiency; Appendix E"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b300",
+            "end": 55,
+            "exact": "ConvNeXt (in particular the large-scale model variants)",
+            "start": 0
+          },
+          {
+            "blockId": "b301",
+            "end": 54,
+            "exact": "exhibits promising robustness behaviors, outperforming",
+            "start": 0
+          },
+          {
+            "blockId": "b302",
+            "end": 58,
+            "exact": "state-of-the-art robust transformer models [47] on several",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "At the tiny scale, RVT-S is better than ConvNeXt-T on every robustness column in Table 8 (e.g. mCE 49.4 vs 53.2, ImageNet-A 25.7 vs 24.2); the advantage appears only at the base scale on A/R/Sketch. The ImageNet-22K-pretrained rows, which show the strongest numbers (69.3/68.2/55.0), have no Transformer comparator trained on the same data, so the domain-generalization claim for ConvNeXt-XL is unbenchmarked against Transformers.",
+        "flagKind": "missing-comparison",
+        "id": "C14",
+        "kind": "claim",
+        "label": "ConvNeXt, particularly its larger variants, shows promising robustness, outperforming state-of-the-art robust Transformer models on several benchmarks without specialized modules.",
+        "short": "ConvNeXt robust without specialized modules",
+        "where": "Appendix B Robustness Evaluation"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b411",
+            "end": 414,
+            "exact": "ConvNeXt may be more suited for certain tasks, while Transformers may be more flexible for others.",
+            "start": 316
+          },
+          {
+            "blockId": "b412",
+            "end": 166,
+            "exact": "Transformers may be more flexible when used for tasks requiring discretized, sparse, or structured outputs.",
+            "start": 59
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C16",
+        "kind": "claim",
+        "label": "The authors acknowledge that ConvNeXt may suit some tasks while Transformers may be more flexible for others, such as multi-modal learning or structured outputs.",
+        "note": "Offered as reasoning, not tested; it bounds the scope of the main claim to the four evaluated task families.",
+        "short": "Task suitability may differ from Transformers",
+        "where": "Appendix F Limitations"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b54",
+            "end": 52,
+            "exact": "mance of the ResNet-50 model from 76.1% [1] to 78.8%",
+            "start": 0
+          },
+          {
+            "blockId": "b336",
+            "end": 10,
+            "exact": "76.13 4.09",
+            "start": 0
+          },
+          {
+            "blockId": "b337",
+            "end": 17,
+            "exact": "78.82 ± 0.07 4.09",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "Training ResNet-50 with the Transformer-style recipe raised ImageNet-1K top-1 from 76.1% (PyTorch reference) to 78.8% (three-seed mean 78.82 ± 0.07).",
+        "note": "The 76.1% baseline is the torchvision reference model [1], trained for 90 epochs; the enhanced recipe uses 300 epochs, so epoch count is bundled with optimizer and augmentation changes.",
+        "short": "Recipe alone gives ResNet-50 +2.7%",
+        "where": "§2.1; Table 10"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b354",
+            "end": 155,
+            "exact": "Detailed results for modernizing a ResNet-50. Mean and standard deviation are obtained by training the network with three different random seeds.",
+            "start": 10
+          },
+          {
+            "blockId": "b340",
+            "end": 17,
+            "exact": "78.28 ± 0.08 2.35",
+            "start": 0
+          },
+          {
+            "blockId": "b349",
+            "end": 17,
+            "exact": "81.27 ± 0.06 4.15",
+            "start": 0
+          },
+          {
+            "blockId": "b350",
+            "end": 17,
+            "exact": "81.41 ± 0.09 4.15",
+            "start": 0
+          },
+          {
+            "blockId": "b81",
+            "end": 1778,
+            "exact": "This process improves the result by 0.7% to 81.3%, practically matching the performance of Swin-T.",
+            "start": 1680
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "Table 10 tabulates ImageNet-1K accuracy and FLOPs after each roadmap step for the ResNet-50 regime, with three-seed means and standard deviations, e.g. depthwise conv 78.28, fewer activations 81.27, BN→LN 81.47.",
+        "note": "FLOPs vary between 2.35G and 5.27G across intermediate steps, which the source acknowledges; several micro-design steps change accuracy by 0.1–0.15, within about one standard deviation.",
+        "short": "Step-by-step ResNet-50 roadmap accuracies",
+        "where": "Appendix C, Table 10"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b344",
+            "end": 17,
+            "exact": "80.35 ± 0.08 4.10",
+            "start": 0
+          },
+          {
+            "blockId": "b345",
+            "end": 17,
+            "exact": "80.57 ± 0.14 4.15",
+            "start": 0
+          },
+          {
+            "blockId": "b346",
+            "end": 17,
+            "exact": "80.57 ± 0.06 4.21",
+            "start": 0
+          },
+          {
+            "blockId": "b347",
+            "end": 17,
+            "exact": "80.47 ± 0.11 4.29",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "In the ResNet-50 regime, kernel sizes 5, 7, 9 and 11 give 80.35, 80.57, 80.57 and 80.47 top-1 at 4.10–4.29 GFLOPs.",
+        "short": "Kernel size sweep results, Table 10",
+        "where": "Appendix C, Table 10"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b351",
+            "end": 62,
+            "exact": "separate d.s. conv (ConvNeXt-T) 81.97 ± 0.06",
+            "start": 18
+          },
+          {
+            "blockId": "b353",
+            "end": 10,
+            "exact": "81.30 4.50",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "The final step (separate downsampling conv, ConvNeXt-T) reaches 81.97 ± 0.06 at 4.49 GFLOPs versus Swin-T's cited 81.30 at 4.50 GFLOPs.",
+        "short": "ConvNeXt-T 81.97 vs Swin-T 81.30",
+        "where": "Appendix C, Table 10"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b386",
+            "end": 11,
+            "exact": "83.60 15.35",
+            "start": 0
+          },
+          {
+            "blockId": "b387",
+            "end": 11,
+            "exact": "83.50 15.43",
+            "start": 0
+          },
+          {
+            "blockId": "b328",
+            "end": 156,
+            "exact": "inverting dimensions brings a larger improvement at ResNet-200 regime than at ResNet-50 regime (+0.79% vs. +0.14%)",
+            "start": 42
+          },
+          {
+            "blockId": "b355",
+            "end": 86,
+            "exact": "gained by increasing kernel size also seems to saturate at kernel size 5 instead of 7.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "Table 11 reports single values with no standard deviation, and only the ResNet-50 regime is stated to use three seeds; the 0.1-point final margin over Swin-B (83.60 vs 83.50) is smaller than the seed-to-seed spread seen in Table 10.",
+        "flagKind": "missing-comparison",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "Table 11 repeats the roadmap in the ResNet-200 regime, ending at 83.60 for ConvNeXt-B versus 83.50 for Swin-B, with kernel-size gains saturating at 5 rather than 7.",
+        "short": "ResNet-200 regime roadmap, Table 11",
+        "where": "Appendix C, Table 11"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b149",
+            "end": 167,
+            "exact": "it outperforms Swin-B by 0.6% (85.1% vs. 84.5%), but with 12.5% higher inference throughput (95.7 vs. 85.1 image/s)",
+            "start": 52
+          },
+          {
+            "blockId": "b117",
+            "end": 19,
+            "exact": "2242 28M 4.5G 757.9",
+            "start": 0
+          },
+          {
+            "blockId": "b118",
+            "end": 19,
+            "exact": "2242 29M 4.5G 774.7",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "At 384² resolution ConvNeXt-B scores 85.1% versus Swin-B's 84.5% with 95.7 vs 85.1 images/s; at 224² ConvNeXt-T runs 774.7 vs Swin-T's 757.9 images/s on a V100.",
+        "note": "Whether Swin/DeiT accuracy numbers in Table 1 were re-measured or taken from their papers is not stated, unlike the ViT rows, which are explicitly attributed to personal communication with the AugReg authors.",
+        "short": "Table 1 ImageNet-1K accuracy and throughput",
+        "where": "§3.2; Table 1"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b161",
+            "end": 29,
+            "exact": "achieves an accuracy of 87.8%",
+            "start": 0
+          },
+          {
+            "blockId": "b318",
+            "end": 103,
+            "exact": "ConvNeXt-XL 22K/3842 179.0 / 350.2 87.8",
+            "start": 64
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "With ImageNet-22K pre-training and 384² fine-tuning, ConvNeXt-XL reaches 87.8% top-1, above ConvNeXt-L at the same resolution.",
+        "short": "ConvNeXt-XL reaches 87.8% ImageNet top-1",
+        "where": "§3.2; Table 8"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b180",
+            "end": 23,
+            "exact": "22M 4.6G 978.5 4.9 79.8",
+            "start": 0
+          },
+          {
+            "blockId": "b181",
+            "end": 20,
+            "exact": "4.3G 1038.7 4.2 79.7",
+            "start": 0
+          },
+          {
+            "blockId": "b182",
+            "end": 24,
+            "exact": "87M 17.6G 302.1 9.1 81.8",
+            "start": 0
+          },
+          {
+            "blockId": "b183",
+            "end": 14,
+            "exact": "320.1 7.7 82.0",
+            "start": 0
+          },
+          {
+            "blockId": "b185",
+            "end": 14,
+            "exact": "94.4 20.4 82.6",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "Isotropic ConvNeXt-S/B/L score 79.7/82.0/82.6 versus ViT-S/B/L 79.8/81.8/82.6 at matched parameters, with slightly higher throughput and lower training memory.",
+        "short": "Isotropic ConvNeXt vs ViT, Table 2",
+        "where": "Table 2"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b189",
+            "end": 39,
+            "exact": "267G 23.1 46.0 68.1 50.3 41.6 65.1 44.9",
+            "start": 0
+          },
+          {
+            "blockId": "b190",
+            "end": 39,
+            "exact": "262G 25.6 46.2 67.9 50.8 41.7 65.0 44.9",
+            "start": 0
+          },
+          {
+            "blockId": "b200",
+            "end": 39,
+            "exact": "982G 10.7 53.0 71.8 57.5 45.8 69.4 49.7",
+            "start": 0
+          },
+          {
+            "blockId": "b201",
+            "end": 39,
+            "exact": "964G 11.5 54.0 73.1 58.8 46.9 70.6 51.3",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "Table 3: with Mask-RCNN, ConvNeXt-T scores 46.2 box AP vs Swin-T 46.0; with 22K pre-training and Cascade Mask-RCNN, ConvNeXt-B scores 54.0 box / 46.9 mask AP vs Swin-B 53.0 / 45.8.",
+        "short": "COCO detection results, Table 3",
+        "where": "Table 3"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b214",
+            "end": 83,
+            "exact": "◦ Swin-T 5122 45.8 60M 945G • ConvNeXt-T 5122 46.7 60M 939G",
+            "start": 24
+          },
+          {
+            "blockId": "b214",
+            "end": 302,
+            "exact": "◦ Swin-B‡ 6402 51.7 121M 1841G • ConvNeXt-B‡ 6402 53.1 122M 1828G",
+            "start": 237
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "Table 4: ConvNeXt-T reaches 46.7 mIoU vs Swin-T 45.8 with 1K pre-training; with 22K pre-training ConvNeXt-B reaches 53.1 vs Swin-B 51.7 and ConvNeXt-XL 54.0.",
+        "short": "ADE20K mIoU results, Table 4",
+        "where": "Table 4"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b217",
+            "end": 656,
+            "exact": "training Cascade Mask-RCNN using ConvNeXt-B backbone consumes 17.4GB of peak memory with a per-GPU batch size of 2, while the reference number for Swin-B is 18.5GB.",
+            "start": 492
+          },
+          {
+            "blockId": "b398",
+            "end": 23,
+            "exact": "2242 4.5G 1943.5 (+47%)",
+            "start": 0
+          },
+          {
+            "blockId": "b400",
+            "end": 23,
+            "exact": "2242 8.7G 1275.3 (+49%)",
+            "start": 0
+          },
+          {
+            "blockId": "b408",
+            "end": 24,
+            "exact": "3842 101.0G 211.4 (+34%)",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E11",
+        "kind": "evidence",
+        "label": "Training Cascade Mask-RCNN with ConvNeXt-B peaks at 17.4 GB vs 18.5 GB for Swin-B; on an A100 with TF32 and channels-last, ConvNeXt-T/S/B run 47%/49%/46% faster than Swin at 224².",
+        "note": "The Swin-side absolute throughput values in Table 12 are not legible in this rendering; only the ConvNeXt values and the percentage gains survive.",
+        "short": "Memory and A100 throughput figures",
+        "where": "§4 Remarks on model efficiency; Table 12"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b312",
+            "end": 40,
+            "exact": "4.7 / 23.3 81.9 49.4 37.5 25.7 47.7 34.7",
+            "start": 0
+          },
+          {
+            "blockId": "b313",
+            "end": 40,
+            "exact": "4.5 / 28.6 82.1 53.2 40.0 24.2 47.2 33.8",
+            "start": 0
+          },
+          {
+            "blockId": "b315",
+            "end": 41,
+            "exact": "17.7 / 91.8 82.6 46.8 30.8 28.5 48.7 36.0",
+            "start": 0
+          },
+          {
+            "blockId": "b316",
+            "end": 41,
+            "exact": "15.4 / 88.6 83.8 46.8 34.4 36.7 51.3 38.2",
+            "start": 0
+          },
+          {
+            "blockId": "b305",
+            "end": 55,
+            "exact": "(e.g. achieving 69.3%/68.2%/55.0% accuracy on ImageNet-",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E12",
+        "kind": "evidence",
+        "label": "Table 8: ConvNeXt-B (1K) scores 46.8 mCE / 36.7 A / 51.3 R / 38.2 Sketch vs RVT-B 46.8 / 28.5 / 48.7 / 36.0, while ConvNeXt-T trails RVT-S on all columns; 22K ConvNeXt-XL reaches 69.3/68.2/55.0 on A/R/Sketch.",
+        "short": "Robustness benchmark results, Table 8",
+        "where": "Appendix B, Table 8"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b33",
+            "end": 821,
+            "exact": "the FLOPs are roughly controlled over the course of the exploration, though at intermediate steps the FLOPs might be higher or lower than the reference models. All models are trained and evaluated on ImageNet-1K.",
+            "start": 609
+          },
+          {
+            "blockId": "b56",
+            "end": 279,
+            "exact": "We will use this fixed training recipe with the same hyperparameters throughout the “modernization” process. Each reported accuracy on the ResNet-50 regime is an average obtained from training with three different random seeds.",
+            "start": 52
+          },
+          {
+            "blockId": "b230",
+            "end": 192,
+            "exact": "we also use Table 5’s setting for ImageNet-1K, except EMA is disabled, as we find using EMA severely hurts models with BatchNorm layers.",
+            "start": 56
+          }
+        ],
+        "id": "M1",
+        "kind": "method",
+        "label": "The modernization study trains every variant on ImageNet-1K with one fixed DeiT/Swin-style recipe (300 epochs, AdamW, Mixup/CutMix/RandAugment/Random Erasing, stochastic depth, label smoothing, EMA disabled), keeps FLOPs roughly controlled, and averages ResNet-50-regime results over three seeds.",
+        "note": "The recipe is held fixed while architecture changes, so hyper-parameters tuned for the starting ResNet or for Swin may favor some intermediate steps over others; the source does not re-tune per step.",
+        "short": "Fixed recipe, controlled FLOPs, three seeds",
+        "where": "§2; §2.1; Appendix A.1"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b99",
+            "end": 111,
+            "exact": "We construct different ConvNeXt variants, ConvNeXt-T/S/B/L, to be of similar complexities to Swin-T/S/B/L [45].",
+            "start": 0
+          },
+          {
+            "blockId": "b102",
+            "end": 375,
+            "exact": "We report ImageNet-1K top-1 accuracy on the validation set. We also conduct pre-training on ImageNet-22K, a larger dataset of 21841 classes (a super-set of the 1000 ImageNet-1K classes) with ∼14M images for pre-training, and then fine-tune the pre-trained model on ImageNet-1K for evaluation.",
+            "start": 83
+          },
+          {
+            "blockId": "b103",
+            "end": 105,
+            "exact": "We train ConvNeXts for 300 epochs using AdamW [46] with a learning rate of 4e-3.",
+            "start": 25
+          },
+          {
+            "blockId": "b177",
+            "end": 244,
+            "exact": "ConvNeXt models are trained with the same settings as before, but with longer warmup epochs.",
+            "start": 152
+          }
+        ],
+        "id": "M2",
+        "kind": "method",
+        "label": "ConvNeXt-T/S/B/L/XL are sized to match Swin-T/S/B/L; models are trained 300 epochs on ImageNet-1K or pre-trained 90 epochs on ImageNet-22K (~14M images) and fine-tuned 30 epochs on 1K, with top-1 reported on the ImageNet-1K validation set at 224² or 384²; isotropic variants use the same settings with longer warmup.",
+        "short": "ImageNet-1K/22K training and evaluation protocol",
+        "where": "§3; §3.1; §3.3"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b147",
+            "end": 249,
+            "exact": "Inference throughput is measured on a V100 GPU, following [45].",
+            "start": 186
+          },
+          {
+            "blockId": "b393",
+            "end": 442,
+            "exact": "We employ PyTorch [50] version 1.10 to use the latest “Channel Last” memory layout [22] for further speedup.",
+            "start": 334
+          },
+          {
+            "blockId": "b207",
+            "end": 254,
+            "exact": "We measure FPS on an A100 GPU.",
+            "start": 224
+          }
+        ],
+        "id": "M3",
+        "kind": "method",
+        "label": "Inference throughput in Table 1 is measured on a V100 following the Swin protocol; Appendix E re-benchmarks on an A100 with TF32 and PyTorch 1.10 channels-last layout; COCO FPS is measured on an A100.",
+        "short": "Throughput measurement on V100 and A100",
+        "where": "Table 1 caption; Appendix E; Table 3 caption"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b209",
+            "end": 241,
+            "exact": "Following Swin Transformer [45], we use multi-scale training, AdamW optimizer, and a 3× schedule.",
+            "start": 144
+          },
+          {
+            "blockId": "b285",
+            "end": 286,
+            "exact": "We conduct a lightweight sweep for COCO experiments including learning rate {1e-4, 2e-4}, layer-wise learning rate decay [6] {0.7, 0.8, 0.9, 0.95}, and stochastic depth rate {0.3, 0.4, 0.5, 0.6, 0.7, 0.8}. We fine-tune the ImageNet-22K pre-trained Swin-B/L on COCO using the same sweep.",
+            "start": 0
+          },
+          {
+            "blockId": "b207",
+            "end": 164,
+            "exact": "ImageNet-1K pre-trained Swin results are from their Github repository [3].",
+            "start": 90
+          },
+          {
+            "blockId": "b211",
+            "end": 204,
+            "exact": "All model variants are trained for 160K iterations with a batch size of 16.",
+            "start": 129
+          },
+          {
+            "blockId": "b216",
+            "end": 201,
+            "exact": "Swins’ results are from its GitHub repository [2]. Following Swin, we report mIoU results with multi-scale testing.",
+            "start": 86
+          }
+        ],
+        "id": "M4",
+        "kind": "method",
+        "label": "Downstream experiments follow BEiT/Swin settings with MMDetection/MMSegmentation: Mask R-CNN and Cascade Mask R-CNN with multi-scale training and a 3× schedule on COCO, UperNet for 160K iterations on ADE20K, a lightweight hyper-parameter sweep for ConvNeXt (and for 22K-pretrained Swin-B/L), and Swin's 1K-pretrained results taken from its GitHub repositories.",
+        "short": "Downstream fine-tuning protocol and comparators",
+        "where": "§4; Appendix A.3; Table 3 and 4 captions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b294",
+            "end": 60,
+            "exact": "ImageNet-1K trained/fine-tuned classification models on sev-",
+            "start": 0
+          },
+          {
+            "blockId": "b297",
+            "end": 55,
+            "exact": "C/C¯ [31, 48] datasets. We report mean corruption error",
+            "start": 0
+          },
+          {
+            "blockId": "b319",
+            "end": 127,
+            "exact": "We do not make use of any specialized modules or additional fine-tuning procedures.",
+            "start": 44
+          }
+        ],
+        "id": "M5",
+        "kind": "method",
+        "label": "Robustness is assessed by directly testing the ImageNet-trained/fine-tuned classifiers on ImageNet-A, -R, -Sketch and -C/C̄ without any specialized modules or extra fine-tuning, reporting mCE for ImageNet-C and top-1 accuracy elsewhere.",
+        "short": "Zero-shot robustness benchmark protocol",
+        "where": "Appendix B"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1",
+      "readingMode": "evidentiary",
+      "readingModeUsed": "evidentiary",
+      "recipeHash": "8ce2d9a3fc62ac3b65ee51cf2012304417bd74c7585b199d1d35dab76020b494",
+      "sourceVersion": "fa37d30f2cb7998ff6cc4d7608ca4d59d06a6f43c3c947696d33f5579f27bfb1"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "control-convnet"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 7561,
+    "ratio": 0.10637609386870761,
+    "sourceCharacters": 71078
+  },
+  "readingId": "reading:a8ffd52c46b580c01b4806d93b748cbab8355287937cc02ff0f5e6fb6267a575",
+  "source": {
+    "authors": [
+      "Zhuang Liu",
+      "Hanzi Mao",
+      "Chao-Yuan Wu",
+      "Christoph Feichtenhofer",
+      "Trevor Darrell",
+      "Saining Xie"
+    ],
+    "collection": "controls-2018-2022",
+    "format": "pdf-text",
+    "id": "control-convnet",
+    "identifier": "doi:10.1109/CVPR52688.2022.01167",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "accepted version, CC BY",
+    "sourceStatus": "published",
+    "stage": "unknown",
+    "title": "A ConvNet for the 2020s",
+    "url": "https://arxiv.org/abs/2201.03545v2",
+    "venue": "CVPR",
+    "version": "fa37d30f2cb7998ff6cc4d7608ca4d59d06a6f43c3c947696d33f5579f27bfb1",
+    "year": 2022
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "arxiv",
+        "value": "2201.03545"
+      },
+      {
+        "scheme": "doi",
+        "value": "10.1109/cvpr52688.2022.01167"
+      }
+    ],
+    "workId": "work:3771a45e66616611741212669788a93546cc5eadab3ae587881be409893e1e10"
+  }
+}

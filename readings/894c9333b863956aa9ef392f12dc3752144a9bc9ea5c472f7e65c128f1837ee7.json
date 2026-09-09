@@ -1,0 +1,992 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "da6c544648d297d33b1c34674704d6e18abc3e6e16ac2260cadd723c497f17ed",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C2",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C3",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C4",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions",
+            "attacked"
+          ],
+          "claimId": "C5",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C6",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "partial-strength-only"
+          ],
+          "claimId": "C7",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "flagged"
+          ],
+          "claimId": "C8",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions"
+          ],
+          "claimId": "C9",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions"
+          ],
+          "claimId": "C10",
+          "level": "unsupported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C3",
+        "id": "e1",
+        "note": "The author's own sustaining by the sisterhood is the article's central illustration of feminist spirituality as a center of sisterhood.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C4",
+        "id": "e2",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C7",
+        "id": "e3",
+        "note": "Bears on the 'feminist disruption' half of C1.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C5",
+        "id": "e4",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "C9",
+        "id": "e5",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "C6",
+        "id": "e6",
+        "note": "Brewing history is offered as part of what the meetings celebrate.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "C8",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C7"
+      },
+      {
+        "from": "C10",
+        "id": "e8",
+        "note": "The author's own hedge that the rituals are metaphors and might be silly.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "E1",
+        "id": "e9",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E2",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E3",
+        "id": "e11",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "E4",
+        "id": "e12",
+        "note": "The poems demonstrate the method in use rather than test its claims.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E4",
+        "id": "e13",
+        "note": "The poems document the pain the sisterhood is said to have helped with.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "E5",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "E6",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E7",
+        "id": "e16",
+        "note": "The citation supports the historical takeover but explicitly hedges the witch connection.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "E8",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E9",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "E10",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "M1",
+        "id": "e20",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M1",
+        "id": "e21",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M1",
+        "id": "e22",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M1",
+        "id": "e23",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M1",
+        "id": "e24",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M1",
+        "id": "e25",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M2",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e27",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M2",
+        "id": "e28",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M2",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      }
+    ],
+    "id": "moon-meetings-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b6",
+            "end": 135,
+            "exact": "Feminist spirituality is a center of sisterhood and feminist disruption that is often underappreciated within the scholarly literature.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The source asserts the scholarly literature underappreciates feminist spirituality but cites no survey of that literature; the only scholarly work on the movement cited is Eller (1995). What is missing is any indication of what the literature does say, so the reader cannot tell whether 'underappreciated' is a documented gap or the author's impression.",
+        "flagKind": "unsourced",
+        "id": "C1",
+        "kind": "claim",
+        "label": "Feminist spirituality is a center of sisterhood and feminist disruption that scholarly literature often underappreciates.",
+        "main": true,
+        "note": "This is the framing claim of the article; the body supports it only indirectly, by portraying one eleven-member group.",
+        "short": "Feminist spirituality underappreciated sisterhood center",
+        "where": "Abstract (b6)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b14",
+            "end": 87,
+            "exact": "There is a bridge between raw poetry and effectual scholarship known as poetic inquiry.",
+            "start": 0
+          },
+          {
+            "blockId": "b14",
+            "end": 756,
+            "exact": "Poetry captures something beyond what statistics, facts, and arguments can capture",
+            "start": 674
+          },
+          {
+            "blockId": "b15",
+            "end": 830,
+            "exact": "It is for this reason that we turn to it to chronicle our Moon Meetings ethnographically, so that their essential character is not lost.",
+            "start": 694
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "The claim that poetry captures what statistics, facts, and arguments cannot is supported only by quotations from other poetic-inquiry practitioners; no comparison with another way of representing the same group is offered or shown. A reader would need some account of what a non-poetic description would miss to weigh this.",
+        "flagKind": "missing-comparison",
+        "id": "C2",
+        "kind": "claim",
+        "label": "Poetic inquiry bridges raw poetry and scholarship, capturing something ineffable that statistics, facts, and arguments cannot, which is why the author uses it to chronicle the Moon Meetings.",
+        "main": true,
+        "note": "Support here is entirely appeal to cited authorities (McCulliss, Reale, Faulkner, Glenn); the poems that follow serve as a demonstration rather than a test.",
+        "short": "Poetic inquiry captures the ineffable",
+        "where": "Methodological section (b14–b17)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b6",
+            "end": 477,
+            "exact": "the sisterhood that kept me strong as I coped with it",
+            "start": 424
+          },
+          {
+            "blockId": "b32",
+            "end": 124,
+            "exact": "It is so good, so important, so necessary to have sisters.",
+            "start": 66
+          },
+          {
+            "blockId": "b65",
+            "end": 169,
+            "exact": "my sisters did not fail me",
+            "start": 143
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 1
+        },
+        "flag": "The personal part of the claim (the sisters helped the author) is directly grounded in her own account, but the source moves from one author's two-year experience to a general statement that having sisters is 'necessary.' Nothing in the source addresses women who coped without such a group or through other means, so the general form outruns what one autoethnographic case can show.",
+        "flagKind": "scope-leap",
+        "id": "C3",
+        "kind": "claim",
+        "label": "The sisterhood of the Moon Meetings kept the author strong through her failing marriage and divorce, and having sisters is necessary.",
+        "main": true,
+        "note": "The source is explicit that this is autoethnography; the flag concerns only the generalized form of the claim, not the personal testimony.",
+        "short": "Sisterhood kept the author strong",
+        "where": "Abstract (b6), vignette (b32), closing (b65)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b9",
+            "end": 587,
+            "exact": "which give us access to female energy and comradeship—and a needed reprieve from our husbands, boyfriends, jobs, and children",
+            "start": 462
+          },
+          {
+            "blockId": "b13",
+            "end": 191,
+            "exact": "Our Moon Meetings are a celebration of our sisterhood and sisterhood around the world, inspired by need as much as by the Feminist Spirituality Movement which has informed them (Eller, 1995).",
+            "start": 0
+          },
+          {
+            "blockId": "b12",
+            "end": 132,
+            "exact": "Our monthly Moon Meetings are about this, even if the magic we achieve is only our sisterhood and an escape from quotidian existence",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C4",
+        "kind": "claim",
+        "label": "The monthly Moon Meetings, inspired by the Feminist Spirituality Movement, give the members female energy, comradeship, and a reprieve from husbands, boyfriends, jobs, and children.",
+        "note": "The author herself allows that the 'magic' may amount only to sisterhood and escape, which frames how much the ritual content should be read as doing.",
+        "short": "Moon Meetings give comradeship and reprieve",
+        "where": "Opening description (b9, b12, b13)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b40",
+            "end": 193,
+            "exact": "maybe the goddesses themselves have the power to bind a sisterhood and heal its wounded sisters.",
+            "start": 97
+          },
+          {
+            "blockId": "b38",
+            "end": 282,
+            "exact": "her influence was sorely needed",
+            "start": 251
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C5",
+        "kind": "claim",
+        "label": "The rituals, chants, and perhaps the goddesses themselves may have the power to bind a sisterhood and heal its wounded sisters.",
+        "note": "Offered tentatively ('maybe'); the source does not separate any effect of ritual from the effect of companionship, and elsewhere (b12) allows that the magic may be only the sisterhood itself.",
+        "short": "Rituals may bind and heal sisters",
+        "where": "Ritual vignette (b38, b40)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b33",
+            "end": 39,
+            "exact": "Historically, women were the brewsters.",
+            "start": 0
+          },
+          {
+            "blockId": "b34",
+            "end": 46,
+            "exact": "It is believed that ale was a female invention",
+            "start": 0
+          },
+          {
+            "blockId": "b34",
+            "end": 616,
+            "exact": "Brewsters became witches.",
+            "start": 591
+          },
+          {
+            "blockId": "b35",
+            "end": 176,
+            "exact": "We re the witches of brewsters past.",
+            "start": 140
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "Two parts of this passage are stated more strongly than their support: the suggestion that ale 'gave birth to capitalism' carries no citation, and 'Brewsters became witches' is asserted flatly while the quoted historian (Nurin) says in the same paragraph that no one can prove the connection. A reader would need the historical work itself to judge how settled either point is.",
+        "flagKind": "unsourced",
+        "id": "C6",
+        "kind": "claim",
+        "label": "Historically women were the brewsters; men took control of brewing and brewsters became witches, so the group are the witches of brewsters past.",
+        "note": "The historical claims about women's brewing and men's takeover are cited (Bennett, Nurin, Baugher, Delyser & Kasper); the flag concerns the two extensions beyond those citations.",
+        "short": "Brewsters became witches; group inherits this",
+        "where": "Brewing vignette (b33–b35)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b49",
+            "end": 113,
+            "exact": "Most of our meetings go this way because, frankly, for the same reason we need feminism: men are still being men.",
+            "start": 0
+          },
+          {
+            "blockId": "b49",
+            "end": 354,
+            "exact": "their purpose is symbolic womanhood, including symbolic menstruation of our emotional frustrations.",
+            "start": 255
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "Most Moon Meetings serve as a symbolic menstruation of emotional frustrations, needed for the same reason feminism is needed: men are still being men.",
+        "note": "'Most of our meetings go this way' is illustrated by a single vignette (Claire); the source cites Selvidge (1984) on Old Testament menstrual separation to frame the symbolism.",
+        "short": "Meetings symbolically discharge frustrations with men",
+        "where": "Claire vignette conclusion (b49)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b48",
+            "end": 178,
+            "exact": "not a one of us sisters said a bad word about Chad—that s forbidden.",
+            "start": 110
+          },
+          {
+            "blockId": "b48",
+            "end": 398,
+            "exact": "own stories tell the story that our hurting, angry, frustrated, lonely sisters need to hear",
+            "start": 307
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "The source states that criticizing a sister's partner 'would backfire' as a known fact but shows no instance where it did, nor what backfiring would look like. The rule may be sound practice, but its causal justification is asserted rather than shown.",
+        "flagKind": "causal-language-without-design",
+        "id": "C8",
+        "kind": "claim",
+        "label": "Sisters do not criticize each other's men because that would backfire; instead their own stories do the work for hurting sisters.",
+        "short": "Own stories, not criticism, help sisters",
+        "where": "Claire vignette (b48)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b24",
+            "end": 938,
+            "exact": "It celebrates womanhood. It is our sisterhood symbolized and made sacred.",
+            "start": 865
+          },
+          {
+            "blockId": "b24",
+            "end": 828,
+            "exact": "an object of (male, thus cultural) abjection, horror, and disgust",
+            "start": 763
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "The communal vulva shrine celebrates womanhood, including menstruation as an object of male-cultural abjection, and is the sisterhood symbolized and made sacred.",
+        "note": "The equation of male perception with cultural perception ('male, thus cultural') is asserted in passing without argument or citation.",
+        "short": "Vulva shrine is sisterhood made sacred",
+        "where": "Shrine vignette (b24)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b39",
+            "end": 510,
+            "exact": "we don t take them too literally",
+            "start": 478
+          },
+          {
+            "blockId": "b40",
+            "end": 48,
+            "exact": "They might be silly, who knows in today s world?",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C10",
+        "kind": "claim",
+        "label": "The rituals are metaphors not taken literally by most members and might be silly.",
+        "note": "This is the author's own hedge on the healing power of ritual; it is recorded as weakening C5 rather than supporting it.",
+        "short": "Rituals are metaphors, possibly silly",
+        "where": "Ritual vignette (b39–b40)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 408,
+            "exact": "the crones talk among themselves about what it s like to be an older woman",
+            "start": 334
+          },
+          {
+            "blockId": "b9",
+            "end": 283,
+            "exact": "in replication of the Crone Ceremony, as depicted by Cynthia Eller",
+            "start": 217
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "Eller's (1995) ethnographic description of a Crone Ceremony at a Feminist Spiritual Community celebration is the model the group replicates.",
+        "note": "Situates the group's practice within a documented movement rather than establishing the meetings' effects.",
+        "short": "Eller's Crone Ceremony description",
+        "where": "Epigraph and opening (b8–b9)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b10",
+            "end": 344,
+            "exact": "Menstruation is marked as an opportunity for women to connect to nature",
+            "start": 273
+          },
+          {
+            "blockId": "b11",
+            "end": 225,
+            "exact": "to experience death and rebirth on a monthly basis. (Eller, 1995, p. 85)",
+            "start": 153
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "Eller's (1995) account of Budapest's menstrual and life-event rituals frames what the Moon Meetings are 'about.'",
+        "short": "Eller on Budapest's menstrual rituals",
+        "where": "Block quotation (b10–b11)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b14",
+            "end": 440,
+            "exact": "Poetry, perhaps more than any other approach or discipline, gets to the essence of qualitative methodology.",
+            "start": 333
+          },
+          {
+            "blockId": "b15",
+            "end": 666,
+            "exact": "connect empathically and understand more com - plex psychosocial processes",
+            "start": 592
+          },
+          {
+            "blockId": "b16",
+            "end": 212,
+            "exact": "use poetic representation as a means to evoke emotional response in leaders and listen-ers",
+            "start": 122
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "Quotations from McCulliss, Reale, Faulkner, and Glenn assert that poetry gets to the essence of qualitative method and evokes shared experience.",
+        "note": "All quoted sources are practitioners of the method being justified; McCulliss appeared in the same journal.",
+        "short": "Poetic-inquiry practitioners quoted",
+        "where": "Methodological section (b14–b16)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b18",
+            "end": 191,
+            "exact": "I present a series of poems I person - ally contributed to the group over the course of a very rocky two years with my ex-husband",
+            "start": 62
+          },
+          {
+            "blockId": "b20",
+            "end": 57,
+            "exact": "Flying high, so high Risking everything To feel like I do",
+            "start": 0
+          },
+          {
+            "blockId": "b64",
+            "end": 154,
+            "exact": "Our hearts will heal One day.",
+            "start": 125
+          }
+        ],
+        "evidenceKind": "demonstration",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Six poems, renamed for moon phases, chronicle the author's two rocky years of marriage and are presented as a testament to the rawest aspect of the meetings.",
+        "note": "The poems are the author's own and were retitled for publication; they demonstrate the method and the author's state rather than documenting other members' experiences.",
+        "short": "Six moon-phase poems presented",
+        "where": "Poems (b18, b20–b22, b27–b31, b37, b42–b45, b51–b54, b59–b64)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b23",
+            "end": 223,
+            "exact": "Sara walked this path before, and she heard herself in my poems.",
+            "start": 159
+          },
+          {
+            "blockId": "b32",
+            "end": 65,
+            "exact": "We drank to that one. A lot. And then we cried before we laughed.",
+            "start": 0
+          },
+          {
+            "blockId": "b38",
+            "end": 110,
+            "exact": "Things were getting bad. My sisters held me. Our beloved crones spoke calming wisdom to me and for the others.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "Vignettes report that Sara heard herself in the poems, the sisters drank and cried together, and the sisters and crones held and counseled the author as things got bad.",
+        "short": "Sisters held and counseled the author",
+        "where": "Vignettes (b23, b32, b38)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b46",
+            "end": 201,
+            "exact": "Claire, our youngest sister, first revealed to us—to anyone—that not all is perfect in her marriage.",
+            "start": 101
+          },
+          {
+            "blockId": "b48",
+            "end": 105,
+            "exact": "She opened up to us on one of her bleeding nights, and we heard her like she had never been heard before.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "Claire, the youngest sister, revealed her unhappy marriage on a bleeding night and was heard as never before, without anyone criticizing her husband.",
+        "note": "The account of Claire's husband is given from the author's perspective; Claire's own words are not quoted.",
+        "short": "Claire's disclosure vignette",
+        "where": "Vignette (b46–b48)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b34",
+            "end": 346,
+            "exact": "Hopping beer to preserve it was the invention of St. Hildegard of Bingen almost five hundred years ahead of mainstream society",
+            "start": 220
+          },
+          {
+            "blockId": "b34",
+            "end": 589,
+            "exact": "men took control of the brewing then, set up trade guilds, and applied law and custom to keep women out of brewing (Nurin, 2016; cf. Baugher, 2013)",
+            "start": 442
+          },
+          {
+            "blockId": "b34",
+            "end": 845,
+            "exact": "Although no one can prove a connection, some his - torians see clear similarities between brewsters and illustrations selected for anti-witch propaganda.",
+            "start": 692
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "Cited histories state that Hildegard invented hopping, that men used guilds and law to exclude women from brewing, and that some historians see similarities between brewsters and anti-witch imagery, though no one can prove a connection.",
+        "note": "Nurin is identified as historian of the Pink Boots Society, a magazine source; the quoted passage itself hedges the witch connection the claim states flatly.",
+        "short": "Brewing history and witch-imagery citations",
+        "where": "Brewing vignette (b34)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b55",
+            "end": 169,
+            "exact": "Breast cancer. Forty-seven.",
+            "start": 142
+          },
+          {
+            "blockId": "b56",
+            "end": 221,
+            "exact": "our September Moon Meeting is always dedicated to her and her memory.",
+            "start": 152
+          },
+          {
+            "blockId": "b57",
+            "end": 24,
+            "exact": "To us, that s sisterhood",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "After sister Jaimee died of breast cancer at forty-seven, the group dedicated its September meeting to her memory with toasts, stories, and dancing.",
+        "short": "Jaimee's Night memorial vignette",
+        "where": "Vignette (b55–b57)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b65",
+            "end": 57,
+            "exact": "In the end, I divorced. My marriage of seven years ended.",
+            "start": 0
+          },
+          {
+            "blockId": "b65",
+            "end": 231,
+            "exact": "As it turns out, I was right: our hearts will heal, one day.",
+            "start": 171
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "The author reports that she divorced after seven years, did not fail, and that her heart healed sooner than expected.",
+        "note": "Self-reported outcome by the author about herself; attribution of the healing to the sisterhood is the author's interpretation.",
+        "short": "Author's divorce and healing outcome",
+        "where": "Closing (b65)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b24",
+            "end": 181,
+            "exact": "Presently, we have thirty-three and a half vulvas on our shrine",
+            "start": 118
+          },
+          {
+            "blockId": "b25",
+            "end": 712,
+            "exact": "One by one, ritualistically, we took our turns rubbing it smoother with fine-grit sandpaper, inside and out.",
+            "start": 604
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "The shrine holds thirty-three and a half vulva objects, and the members ritually took turns sanding Mary's new rosewood carving.",
+        "short": "Communal sanding of shrine carving",
+        "where": "Shrine vignette (b24–b25)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b6",
+            "end": 285,
+            "exact": "I use poetic inquiry combined with autoethnography to open a window into the real-world practice of feminist spirituality in a small sisterhood",
+            "start": 142
+          },
+          {
+            "blockId": "b17",
+            "end": 224,
+            "exact": "so I pursue it in alternating verse and prose.",
+            "start": 178
+          },
+          {
+            "blockId": "b18",
+            "end": 439,
+            "exact": "They were read aloud in their raw forms during our Moon Meetings",
+            "start": 375
+          },
+          {
+            "blockId": "b18",
+            "end": 373,
+            "exact": "I have renamed each here for a phase of the moon",
+            "start": 325
+          }
+        ],
+        "id": "M1",
+        "kind": "method",
+        "label": "The author combines poetic inquiry with autoethnography, alternating her own poems (read raw at meetings, renamed for moon phases) with prose vignettes of the group.",
+        "note": "The author is both the sole observer and a participant; no other member's account or consent process is described, and no dates or number of meetings observed are given.",
+        "short": "Poetic inquiry plus autoethnography",
+        "where": "Abstract and framing (b6, b17, b18)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b9",
+            "end": 160,
+            "exact": "Our small group of women, our secret Feminist Spiritual Community, has eleven members and four crones, these being women of or over the sacred age of fifty-six.",
+            "start": 0
+          },
+          {
+            "blockId": "b9",
+            "end": 426,
+            "exact": "We meet for a few hours at a time",
+            "start": 393
+          }
+        ],
+        "id": "M2",
+        "kind": "method",
+        "label": "The observed group is a secret eleven-member community with four crones aged fifty-six or over, meeting monthly for a few hours.",
+        "note": "This is the whole frame of observation; members are referred to by first names (some apparently chosen names) and no further demographic detail is given.",
+        "short": "Eleven-member secret group, monthly",
+        "where": "Opening description (b9)"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+8d238ac227c26add0748de1a140f2c2dd6c75eda5f0a64272cac5d69dbad53d0; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+8d238ac227c26add0748de1a140f2c2dd6c75eda5f0a64272cac5d69dbad53d0",
+      "readingMode": "expository",
+      "readingModeUsed": "expository",
+      "recipeHash": "7f65732355e6dcd91aad3e5e38439047b35fba56251fcc9a35d1935651080bca",
+      "sourceVersion": "da6c544648d297d33b1c34674704d6e18abc3e6e16ac2260cadd723c497f17ed"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "moon-meetings"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 4428,
+    "ratio": 0.19260548064375815,
+    "sourceCharacters": 22990
+  },
+  "readingId": "reading:894c9333b863956aa9ef392f12dc3752144a9bc9ea5c472f7e65c128f1837ee7",
+  "source": {
+    "authors": [
+      "Carol Miller"
+    ],
+    "collection": "grievance-studies-affair-2018",
+    "format": "pdf-text",
+    "id": "moon-meetings",
+    "identifier": "url:https://drive.google.com/uc?export=download&id=1Q70Ttx_MKFrg2J-riShwQOWnVrB4G9-6",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "sourceStatus": "accepted-not-published",
+    "stage": "unknown",
+    "title": "Moon Meetings and the Meaning of Sisterhood: A Poetic Portrayal of Lived Feminist Spirituality",
+    "url": "https://drive.google.com/file/d/1Q70Ttx_MKFrg2J-riShwQOWnVrB4G9-6/view",
+    "venue": "Journal of Poetry Therapy",
+    "version": "da6c544648d297d33b1c34674704d6e18abc3e6e16ac2260cadd723c497f17ed",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "url",
+        "value": "https://drive.google.com/uc?export=download&id=1q70ttx_mkfrg2j-rishwqownvrb4g9-6"
+      }
+    ],
+    "workId": "work:25b0286d58ff13343bf1abfefce4be50cbe092828c22f082910097edf13af26c"
+  }
+}

@@ -1,0 +1,1415 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "b4591b3e2b19a1c090bc0be9a8ea86904932410c5209e801a776ddb15f28a454",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C2",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "flagged"
+          ],
+          "claimId": "C3",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions"
+          ],
+          "claimId": "C4",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked"
+          ],
+          "claimId": "C5",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C6",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C7",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions"
+          ],
+          "claimId": "C8",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "high-dimensions"
+          ],
+          "claimId": "C9",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C10",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C11",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C12",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions"
+          ],
+          "claimId": "C13",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C14",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions"
+          ],
+          "claimId": "C15",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C16",
+          "level": "partially-supported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "id": "e2",
+        "note": "Recommendations follow from, rather than establish, the title's claim.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C4",
+        "id": "e3",
+        "note": "The Medina framework is the source's explanation for why positionality determines whether satire truly engages.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C5",
+        "id": "e4",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C6",
+        "id": "e5",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C7",
+        "id": "e6",
+        "note": "Establishes that disparagement humor serves dominant groups; the identification of dominant-group 'satire' as disparagement humor is a further step.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "C8",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C9",
+        "id": "e8",
+        "note": "Offered as a reason the argument focuses on satire rather than ambiguous irony.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C9",
+        "id": "e9",
+        "note": "Double-voiced irony may be read literally and reinforce the structures it targets.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "C10",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "C11",
+        "id": "e11",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "C12",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "C13",
+        "id": "e13",
+        "note": "Reads the Sokal hoax as itself deconstructive rather than as active ignorance.",
+        "relation": "contradicts",
+        "strength": "partial",
+        "to": "C14"
+      },
+      {
+        "from": "C14",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "C15",
+        "id": "e15",
+        "note": "Sokal and Bricmont deny that positionality bears on argument validity; Baldwin treats the denial itself as the evidence.",
+        "relation": "contradicts",
+        "strength": "partial",
+        "to": "C14"
+      },
+      {
+        "from": "C16",
+        "id": "e16",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "E1",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C7"
+      },
+      {
+        "from": "E2",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C8"
+      },
+      {
+        "from": "E3",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "E4",
+        "id": "e20",
+        "note": "Shows satire bypassing framed debate, but from privileged rather than marginalized humorists.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "E5",
+        "id": "e21",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C10"
+      },
+      {
+        "from": "E6",
+        "id": "e22",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C10"
+      },
+      {
+        "from": "E7",
+        "id": "e23",
+        "note": "Hypothetical illustrations offered to show the difference in impact.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C11"
+      },
+      {
+        "from": "E8",
+        "id": "e24",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C11"
+      },
+      {
+        "from": "E9",
+        "id": "e25",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C11"
+      },
+      {
+        "from": "E10",
+        "id": "e26",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "E11",
+        "id": "e27",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C14"
+      },
+      {
+        "from": "E12",
+        "id": "e28",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C14"
+      },
+      {
+        "from": "E13",
+        "id": "e29",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C16"
+      },
+      {
+        "from": "E14",
+        "id": "e30",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "E15",
+        "id": "e31",
+        "note": "Offered as a classroom model; the extension to institutional sanctions is Baldwin's own.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "M1",
+        "id": "e32",
+        "note": "'Third-order change' is defined by Dotson's framework.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "M1",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "M2",
+        "id": "e34",
+        "note": "The main claim holds only under the two-factor definition; identity alone is contradicted by E4.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "M3",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "M3",
+        "id": "e36",
+        "note": "'Epistemic friction' as used in the claim is Medina's term.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "M3",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C11"
+      },
+      {
+        "from": "M3",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C12"
+      }
+    ],
+    "id": "satire-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b3",
+            "end": 35,
+            "exact": "How Positionality Influences Satire",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C1",
+        "kind": "claim",
+        "label": "Title (Baldwin): positionality influences how satire functions.",
+        "main": false,
+        "note": "The title asserts a relationship that the two main claims spell out; it is recorded so the main claims have a target.",
+        "short": "Positionality influences satire",
+        "where": "Title, b3"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b6",
+            "end": 411,
+            "exact": "this article will argue that these effects depend upon the would-be humorists’ positionality",
+            "start": 319
+          },
+          {
+            "blockId": "b19",
+            "end": 742,
+            "exact": "This article argues that when such humor is used by marginalized individuals to critique power structures, it provides the epistemic friction necessary to expand knowledge and address injustice.",
+            "start": 548
+          },
+          {
+            "blockId": "b79",
+            "end": 811,
+            "exact": "This indicates the subtle mechanisms by which positionality determines whether satire and irony become either effective social critique or a form of disparagement humor.",
+            "start": 642
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The criterion used to sort examples into 'subversive satire' versus 'disparagement humor' (the humorist's identity plus stance toward social justice) is the same variable the claim says determines the outcome, so no example offered could count against it. Closing the gap would require an independent way of checking whether a given piece of humor generated epistemic friction in its audience, which the source never supplies.",
+        "flagKind": "other",
+        "id": "C2",
+        "kind": "claim",
+        "label": "Baldwin argues that the social function of ironic or satirical humor depends on the humorist's positionality: it generates epistemic friction and subverts power when used by marginalized people against oppressive structures, but is superiority/disparagement humor (a shadow text) when used by privileged people against marginalized groups or social-justice scholarship.",
+        "main": true,
+        "short": "Humor's function depends on humorist positionality",
+        "where": "Abstract b6; b19; b79"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b6",
+            "end": 1018,
+            "exact": "I make recommendations for those engaged in social-justice pedagogy to take humor seriously regarding its dual functions and impacts within the classroom, in popular culture, and even within the academic canon.",
+            "start": 808
+          },
+          {
+            "blockId": "b18",
+            "end": 1005,
+            "exact": "Those engaged in social-justice pedagogy would do well to take humor seriously and recognize its dual functions and social impacts.",
+            "start": 874
+          },
+          {
+            "blockId": "b110",
+            "end": 224,
+            "exact": "At a minimum, such work should engage with its targets’ foundational claims on their own terms.",
+            "start": 129
+          },
+          {
+            "blockId": "b111",
+            "end": 651,
+            "exact": "Individual professors and university administrators can introduce simple but formalized methods for adjudicating and then sanctioning members of culturally dominant groups who misuse irony, satire, hoaxes, and double-voiced humor to preserve hegemony over their own epistemic terrain and inhibit the ability of marginalized groups to contribute to knowledge production.",
+            "start": 282
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "The sanctions recommendation turns on 'misuse', but the source gives no procedure for distinguishing misuse from disagreement beyond the humorist's group membership and stance. Applebaum's disagreement-versus-denial distinction (b83) is cited but not turned into a test an adjudicator could apply, and the source itself notes (b105) the difficulty of identifying shadow texts without recentering privileged groups.",
+        "flagKind": "undefined-term",
+        "id": "C3",
+        "kind": "claim",
+        "label": "Baldwin recommends that social-justice pedagogues take humor's dual functions seriously, that any scholarship addressing social justice engage its targets' foundational claims on their own terms, and that institutions adjudicate and sanction members of dominant groups who misuse irony, satire, hoaxes, and double-voiced humor.",
+        "main": true,
+        "note": "The source acknowledges (b106) a tension between identifying shadow texts and not amplifying them, and (b113) that wider cultural change will be 'less straightforward'.",
+        "short": "Take humor seriously; engage; sanction misuse",
+        "where": "Abstract b6; b18; Conclusion b110–b111"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b12",
+            "end": 586,
+            "exact": "Due to the constant validation of epistemic systems that favor privileged groups, privileged individuals become unable to spot bias or error and develop three vices—epistemic arrogance, epistemic laziness, and closed-mindedness—that Medina summarizes with the term active ignorance (30–35).",
+            "start": 296
+          },
+          {
+            "blockId": "b90",
+            "end": 947,
+            "exact": "This enables members of marginalized groups to understand and push back upon dominant epistemologies while introducing their own, which produces a genuinely subversive, satirical challenge to the reigning epistemology that truly engages with the target it addresses.",
+            "start": 681
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C4",
+        "kind": "claim",
+        "label": "Baldwin, following Medina and Dotson, holds that oppressive epistemic systems are upheld by the active ignorance (arrogance, laziness, closed-mindedness) of privileged groups, while the oppressed acquire epistemic virtues and a 'kaleidoscopic consciousness' that lets them engage dominant epistemologies from genuine understanding.",
+        "main": false,
+        "note": "This is the theoretical framework the whole argument rests on; it is imported from Medina (2013) and Dotson (2014) by citation and not independently argued here. The source uses it in b90–b91 to explain why marginalized satire 'truly engages' while dominant satire cannot.",
+        "short": "Privileged active ignorance vs. marginalized kaleidoscopic consciousness",
+        "where": "b12; b90–b91"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b13",
+            "end": 817,
+            "exact": "it bears the potential for ironic, double-voiced, satirical humor to break through the intransigence of exclusionary epistemic systems, spark recognition of the existence of alternative epistemologies, undermine active ignorance (Medina 2013), and, ultimately, effect third-order change (Dotson 2014).",
+            "start": 516
+          },
+          {
+            "blockId": "b38",
+            "end": 299,
+            "exact": "ironic, satirical, and double-voiced humor is powerful in its ability to defamiliarize established power structures and disrupt and destabilize hegemonic certainties.",
+            "start": 133
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The support consists of examples of satire being produced and theorists' statements about what such satire can do; no instance is offered in which a dominant organizational schema actually changed as a result. Moving from 'this satire exists and is clever' to 'it effects third-order change' would need some observation of audience or institutional change.",
+        "flagKind": "scope-leap",
+        "id": "C5",
+        "kind": "claim",
+        "label": "Baldwin claims that ironic, double-voiced, satirical humor, especially from marginalized groups, can break through exclusionary epistemic systems, undermine active ignorance, and ultimately effect third-order epistemic change.",
+        "main": false,
+        "short": "Marginalized satire can effect third-order change",
+        "where": "b13; b38"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b14",
+            "end": 328,
+            "exact": "when these same ironic, satirical, double-voiced tools of humor are used by members of dominant groups to disparage, mock, or discredit marginalized groups or social-justice scholarship that seeks to make oppression visible, they serve no such purpose but rather perpetuate dominant epistemologies and power structures.",
+            "start": 9
+          },
+          {
+            "blockId": "b67",
+            "end": 693,
+            "exact": "abuses of this mode of humor by members of privileged groups who attack social-justice scholarship and activism are best understood as forms of superiority/disparagement humor. They are, in fact, tactics within privilege-preserving epistemic pushback.",
+            "start": 442
+          },
+          {
+            "blockId": "b83",
+            "end": 1619,
+            "exact": "Its intention and impact are precisely the opposite: to maintain and reinforce those oppressive structures. It must, therefore, be considered superiority/disparagement humor.",
+            "start": 1445
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The claim asserts both intention and impact ('to maintain and reinforce those oppressive structures'), but the impact side rests on Bailey's stated belief (b112, 'I believe that their uninterrupted circulation does psychological and epistemic harm') rather than any observed effect on audiences or marginalized groups. The alternative that some such humor is received as critique, or ignored, is not ruled out.",
+        "flagKind": "causal-language-without-design",
+        "id": "C6",
+        "kind": "claim",
+        "label": "Baldwin claims that when the same ironic/satirical tools are used by members of dominant groups against marginalized groups or social-justice scholarship, they produce no epistemic friction, perpetuate dominant epistemologies, and must be classified as superiority/disparagement humor functioning as privilege-preserving epistemic pushback.",
+        "main": false,
+        "note": "b83 also argues that this humor cannot be 'deconstruction' because social-justice scholarship is not a dominant epistemology; that premise is asserted, not argued.",
+        "short": "Dominant-group 'satire' is disparagement humor",
+        "where": "b14; b67; b83"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b25",
+            "end": 1213,
+            "exact": "Disparagement humor, then, is frequently a tool used by dominant groups in society to maintain power structures that work to their advantage.",
+            "start": 1072
+          },
+          {
+            "blockId": "b18",
+            "end": 439,
+            "exact": "humor has frequently been used for upholding dominant epistemologies, power structures, and hierarchies; belittling and intimidating marginalized groups in society; and asserting the superiority of dominant ones",
+            "start": 228
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The cited finding is that individuals' affinity for disparagement humor correlates with less favorable opinions about marginalized groups. The claim converts that individual-level attitude correlation into a statement about dominant groups using humor as a tool to maintain power; neither group membership of the respondents nor any 'maintenance' effect is reported in what the source quotes.",
+        "flagKind": "scope-leap",
+        "id": "C7",
+        "kind": "claim",
+        "label": "Baldwin, drawing on Neuendorf and colleagues, claims that disparagement humor is frequently a tool used by dominant groups to maintain power structures that work to their advantage.",
+        "main": false,
+        "short": "Disparagement humor maintains dominant power",
+        "where": "b18; b25"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b30",
+            "end": 1486,
+            "exact": "satire, irony, parody, and dual meaning—a text that is innocuous on the surface but contains a hidden deconstructive social critique—tends to characterize the humor of marginalized groups and critics of oppressive structures, while direct and disparaging humor is associated more with dominant groups, men, and defenders of oppressive structures.",
+            "start": 1140
+          },
+          {
+            "blockId": "b43",
+            "end": 163,
+            "exact": "Although the humor of marginalized people tends toward the ironic, satirical, and double-voiced, it would be a mistake to think it lacks seriousness (Walker 1988).",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C8",
+        "kind": "claim",
+        "label": "Baldwin, synthesizing Walker, Dresner, Abrams, Gilbert, Showalter and others, claims that double-voiced satire and irony characteristically belong to the humor of marginalized groups and critics of oppression, while direct disparaging humor is associated with dominant groups and men.",
+        "main": false,
+        "note": "The source's own later cases (b74, b80–b81, b85) are of dominant-group humor that is ironic or satirical in form, which is why the argument shifts from form to positionality to sort the categories.",
+        "short": "Irony marks marginalized humor; disparagement marks dominant",
+        "where": "b30; b43"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b35",
+            "end": 1133,
+            "exact": "postmodern irony (or that double-voiced, palimpsest mode of subversion) is vulnerable to being read literally and upholding the very structures of power it wishes to disrupt, complicate, or expand to include other voices.",
+            "start": 912
+          },
+          {
+            "blockId": "b36",
+            "end": 40,
+            "exact": "This is much less of a risk with satire.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "Baldwin, following Shugart and Walker, claims that postmodern double-voiced irony is politically ambiguous and vulnerable to being read literally so that it upholds the structures it targets, a risk that is much smaller for satire.",
+        "main": false,
+        "note": "This is the source's own caveat: the subversive reading depends on the audience being prepared to look for it, which means audience position, not only humorist position, shapes the effect. The source does not develop the audience side further.",
+        "short": "Irony ambiguous; satire less at risk",
+        "where": "b35–b36"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b59",
+            "end": 664,
+            "exact": "people working within established epistemologies and experiencing the “calm of comprehending” are suddenly startled into discomfort by the impact of the satire, which she refers to as the “disquiet of puzzlement.” That is, it generates epistemic friction.",
+            "start": 409
+          },
+          {
+            "blockId": "b62",
+            "end": 874,
+            "exact": "By defamiliarizing those discourses that have been acceptably applied to women and people of color and instead applying them to white men, white and male listeners have the opportunity to see the structural imbalance and understand the anger of women and people of color.",
+            "start": 603
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The mechanism is described in terms of what happens in listeners (startle, discomfort, re-evaluation of bias), but no listener responses to the Miller, Hofheimer, Childress or Simien examples are reported. The source itself concedes (b61) that speakers cannot assume audiences possess the needed openness, which leaves open that the same satire is dismissed or read literally.",
+        "flagKind": "causal-language-without-design",
+        "id": "C10",
+        "kind": "claim",
+        "label": "Baldwin, drawing on Haroutunian-Gordon and Mayo, claims that marginalized satire works by startling listeners out of the 'calm of comprehending' into puzzlement, which generates epistemic friction and lets white and male listeners see structural imbalance.",
+        "main": false,
+        "short": "Satire startles listeners into epistemic friction",
+        "where": "b59–b62"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b74",
+            "end": 1268,
+            "exact": "“satire” positioned against social justice and from a perspective of cultural dominance is revealed as superiority/disparagement humor used as privilege-preserving epistemic pushback.",
+            "start": 1085
+          },
+          {
+            "blockId": "b76",
+            "end": 220,
+            "exact": "Satirical mockery of social-justice concepts also commonly appears within wider culture, where it feeds into dominant cultural discourses in an organized and systemic way via mainstream television shows and social media.",
+            "start": 0
+          },
+          {
+            "blockId": "b83",
+            "end": 111,
+            "exact": "this kind of disengaged mockery cannot be considered a form of critique because it refuses engagement.",
+            "start": 9
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "id": "C11",
+        "kind": "claim",
+        "label": "Baldwin claims that ironic mockery of social-justice concepts by dominant-group students, by mainstream television, and by 'satirical' social-media accounts is superiority/disparagement humor used as privilege-preserving epistemic pushback and cannot count as critique because it refuses engagement.",
+        "main": false,
+        "short": "Classroom, TV, social-media mockery is pushback",
+        "where": "b74; b76; b83"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b85",
+            "end": 237,
+            "exact": "The epitome of the shadow text is the academic hoax perpetrated against fields of scholarship that seek to disrupt power structures, challenge dominant epistemologies, and make oppression visible to those who are actively ignorant of it.",
+            "start": 0
+          },
+          {
+            "blockId": "b92",
+            "end": 431,
+            "exact": "Because the academic hoax nearly always comes from a position of dominance",
+            "start": 357
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "'Nearly always comes from a position of dominance' is generalized from two cases plus Fredal's characterization of hoaxers, while the source itself states (b93) that few such hoaxes exist. No count of hoaxes by the hoaxer's position is offered, and hoaxes aimed at dominant fields are not considered.",
+        "flagKind": "unsupported-generalization",
+        "id": "C12",
+        "kind": "claim",
+        "label": "Baldwin claims that the academic hoax against social-justice scholarship is the ultimate shadow text: it mimics without engaging, offers no epistemic friction, nearly always comes from a position of dominance, and is disparagement humor rather than subversive satire.",
+        "main": false,
+        "short": "Academic hoax is the ultimate shadow text",
+        "where": "b85; b92"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b95",
+            "end": 715,
+            "exact": "Fleming and O’Carroll, among others, argued that Sokal’s hoax was a form of deconstruction and an ironic play on postmodern relativism that was itself postmodern (Fleming and O’Carroll 2010)",
+            "start": 525
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C13",
+        "kind": "claim",
+        "label": "Fleming and O'Carroll (as reported by Baldwin) argue that Sokal's hoax was itself a postmodern act of deconstruction and ironic play on relativism.",
+        "main": false,
+        "note": "Baldwin reports this reading only to set it against Fredal's; the same authors are elsewhere (b88–b92) cited in Baldwin's favor.",
+        "short": "Fleming & O'Carroll: Sokal hoax was postmodern",
+        "where": "b95"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b97",
+            "end": 221,
+            "exact": "Aronowitz accused Sokal of epistemological arrogance, laziness, and closed-mindedness—Medina’s three markers of active ignorance—which are likely indicators of criticizing from a position of epistemic privilege.",
+            "start": 10
+          },
+          {
+            "blockId": "b98",
+            "end": 1200,
+            "exact": "This assertion, that those asking them to consider their positionality, values, and epistemological shortcomings had not offered anything valid, is a perfect example of active ignorance (Medina 2013; cf. Wolf 2017).",
+            "start": 985
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "Three speakers disagree here and the source does not adjudicate on the merits. Fleming and O'Carroll read the hoax as itself postmodern deconstruction (C13); Sokal and Bricmont hold that their positionality implies nothing about the validity of their arguments (C15); Baldwin, via Aronowitz, treats that very reply as evidence of active ignorance. The source also concedes 'any validity possessed in his critiques of postmodern relativism' (b95) without saying how much.",
+        "flagKind": "speaker-conflict",
+        "id": "C14",
+        "kind": "claim",
+        "label": "Baldwin claims that Sokal's hoax was produced from a dominant scientific positionality and that Sokal and Bricmont's response to critics exhibits Medina's active ignorance.",
+        "main": false,
+        "note": "Aronowitz was the editor of the journal Sokal hoaxed, which the source states; the reader should weigh his characterization accordingly.",
+        "short": "Sokal hoax exhibits active ignorance",
+        "where": "b95–b98"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b98",
+            "end": 949,
+            "exact": "But please tell us what this implies concerning the validity or invalidity of our arguments",
+            "start": 858
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C15",
+        "kind": "claim",
+        "label": "Sokal and Bricmont (quoted by Baldwin) claim that critics' characterizations of their positionality, ideology or character imply nothing about the validity or invalidity of their arguments.",
+        "main": false,
+        "note": "Baldwin quotes this as a specimen of active ignorance; the source also reports that the passage appeared only in the French edition and was removed later.",
+        "short": "Sokal & Bricmont: positionality irrelevant to validity",
+        "where": "b98"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b103",
+            "end": 827,
+            "exact": "This attempted hoax—in which the joke was on the hoaxers—thus reveals itself as a form of superiority/disparagement humor, a tactic of privilege-preserving epistemic pushback, and a shadow text.",
+            "start": 633
+          },
+          {
+            "blockId": "b100",
+            "end": 320,
+            "exact": "it can be afforded far less latitude in interpretation than the more thoughtful Sokal affair.",
+            "start": 227
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C16",
+        "kind": "claim",
+        "label": "Baldwin claims that the 'Conceptual Penis' hoax, whose explicit purpose was to delegitimize gender studies, reveals itself as disparagement humor, privilege-preserving epistemic pushback and a shadow text, with the joke ending up on the hoaxers.",
+        "main": false,
+        "note": "The source states the hoax was 'universally heralded as a failure' because of the journal's low peer-review standards; that failure concerns whether the hoax proved anything about gender studies, which is a separate question from whether it is disparagement humor.",
+        "short": "Conceptual Penis hoax is a shadow text",
+        "where": "b100–b103"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b25",
+            "end": 1071,
+            "exact": "They found that “appreciation for disparagement humor . . . presag[ed] lesser support for affirmative action and greater satisfaction with the current treatment of women, minorities, and immigrants” (9).",
+            "start": 868
+          },
+          {
+            "blockId": "b25",
+            "end": 407,
+            "exact": "a predilection to disparagement humor related to greater endorsement of the value of social power and lower endorsement of the values of equality and helpfulness",
+            "start": 246
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "Neuendorf and colleagues found that appreciation for disparagement humor presaged less support for affirmative action and greater satisfaction with current treatment of women, minorities and immigrants, and earlier that such a predilection related to endorsing social power over equality.",
+        "note": "The source calls this 'the most comprehensive investigation' of the link; sample, design and effect sizes are not reported here.",
+        "short": "Neuendorf: disparagement affinity predicts anti-equality views",
+        "where": "b25"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b28",
+            "end": 190,
+            "exact": "of social criticism or even rebellion by those in subordinate positions against injustices perpetuated by existing power structures is at the root of much of women’s humor” (Abrams 2017, 6).",
+            "start": 0
+          },
+          {
+            "blockId": "b29",
+            "end": 983,
+            "exact": "“throughout history, humor has provided a safe way for marginalized people to criticize oppressive social orders” (Witkin 1999, 102).",
+            "start": 850
+          },
+          {
+            "blockId": "b30",
+            "end": 699,
+            "exact": "“The feminist content in feminine art is typically oblique, displaced, ironic, and subversive. One has to read it between the lines in the missed possibilities of the text” (Showalter 1985, 270).",
+            "start": 504
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "Abrams, Witkin and Showalter are quoted characterizing women's and marginalized humor as masked social criticism, a safe way to criticize oppressive orders, and oblique, ironic feminist content read between the lines.",
+        "short": "Scholars: marginalized humor is masked critique",
+        "where": "b27–b30"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b35",
+            "end": 761,
+            "exact": "“[s]ignificantly, although the subversive function of irony in this instance may be apparent to a postmodern audience, the text may be just as likely to function hegemonically for other audiences” (Shugart 2009, 433).",
+            "start": 544
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "Shugart is quoted that ironic texts subversive to a postmodern audience may function hegemonically for other audiences, echoing Walker's concern that subversion is missed unless the reader is prepared for it.",
+        "short": "Shugart: irony can function hegemonically",
+        "where": "b35"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b39",
+            "end": 629,
+            "exact": "“The satire does not counter moral claim with moral claim or political argument with political argument, and for good reason. Direct challenges to the radical agenda of the neoconservatives have not been effective because the debate has already been framed by their rhetoric” (3).",
+            "start": 349
+          },
+          {
+            "blockId": "b40",
+            "end": 655,
+            "exact": "Colbert, Stewart, and Moore, as wealthy white men, hold privileged positions in society and are both more likely to be given credibility and limited in the extent to which they can represent the experiences of marginalized groups, which often shows. They can, nevertheless, use that position effectively to critique dominant narratives.",
+            "start": 319
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Willett's analysis of Colbert and Day's of Stewart and Moore are cited to show satire bypasses debates already framed by dominant rhetoric; Baldwin notes these are wealthy white men who nevertheless critique dominant narratives effectively.",
+        "note": "These examples cut against a purely identity-based reading of positionality; the source responds by adding stance toward social justice as a second factor (M2).",
+        "short": "Willett/Day: Colbert-style satire bypasses framed debate",
+        "where": "b39–b40"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b45",
+            "end": 319,
+            "exact": "Critical race humor provides a pathway to parrhesia for speakers who are underpowered in relation to their audience.",
+            "start": 203
+          },
+          {
+            "blockId": "b60",
+            "end": 285,
+            "exact": "The disruptions to habitual ways of thinking in humor remind them of possibilities of thinking that were only just out of sight, already embedded within concepts already familiar to them, concepts that perhaps just needed a subtle nudge from someone who sees them at a different angle.",
+            "start": 0
+          },
+          {
+            "blockId": "b64",
+            "end": 342,
+            "exact": "Humor can show us that we do not have the full sense of what something can mean and do this in an environment of amusement or wonder at amusement.",
+            "start": 196
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "Rossing on critical race humor as parrhesia and Mayo on humor's disruptions of habitual thinking are quoted as accounts of how humor opens listeners to unfamiliar perspectives.",
+        "short": "Rossing and Mayo on humor opening minds",
+        "where": "b45; b60; b64"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b50",
+            "end": 194,
+            "exact": "5. Because men are too emotional to vote. Their conduct at baseball games and political conventions shows this",
+            "start": 84
+          },
+          {
+            "blockId": "b53",
+            "end": 260,
+            "exact": "9. Carry a rape whistle. If you find you are about to rape someone, blow the whistle until someone comes to stop you.",
+            "start": 143
+          },
+          {
+            "blockId": "b57",
+            "end": 271,
+            "exact": "To which Mildred responds, “On second thought, you folks look real clean, too.”",
+            "start": 192
+          },
+          {
+            "blockId": "b54",
+            "end": 217,
+            "exact": "In both of these cases, the female feminist-as-humorist satirizes dominant discourses that oppress women—anti-female-suffrage and victim-blaming rape-prevention discourses—to considerable subversive/disruptive effect.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "demonstration",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "Baldwin presents Alice Duer Miller's 'Why We Oppose Votes for Men', Hofheimer's '10 Rape Prevention Tips', Childress's health-card exchange and Simien's Dear White People as cases where reversing a dominant discourse onto the dominant group produces subversive effect.",
+        "note": "The 'considerable subversive/disruptive effect' is the author's reading of the texts; no reception data accompany the examples.",
+        "short": "Miller, Hofheimer, Childress, Simien reversal examples",
+        "where": "b46–b58"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b73",
+            "end": 611,
+            "exact": "Imagine, for example, a female student responding to a male classmate who refuses to credit her account of continuous sexual harassment with, “Yes, sir. Of course, you are right. Would you like me to make you a sandwich now?”",
+            "start": 386
+          },
+          {
+            "blockId": "b74",
+            "end": 320,
+            "exact": "Think of the male student who responds to a female student commenting upon the physical attractiveness of a man with, “Can you not objectify men, please?” and receives a laugh from his friends.",
+            "start": 127
+          }
+        ],
+        "evidenceKind": "reasoning",
+        "flag": "These are constructed illustrations ('Imagine', 'Think of'), not observed classroom exchanges, and their 'profound difference in impact' is stipulated by the author. They illustrate the classification rather than test it; observed exchanges with student reactions would be needed to show the impact difference.",
+        "flagKind": "other",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "Baldwin contrasts imagined classroom ripostes by a harassed female student, a Black woman and a Muslim student with imagined jokes by dominant-group students ('Can you not objectify men, please?', 'Black privilege', 'Did you just assume my gender?').",
+        "short": "Hypothetical classroom joke contrasts",
+        "where": "b73–b74"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b76",
+            "end": 360,
+            "exact": "The Simpsons, season 28, episode 19, mocked collegiate social-justice activists in a scene that likened them to robots (The Simpsons 2017).",
+            "start": 221
+          },
+          {
+            "blockId": "b76",
+            "end": 661,
+            "exact": "having used the n-word forty-two times in its season 11 premiere (South Park 2007)",
+            "start": 579
+          },
+          {
+            "blockId": "b77",
+            "end": 318,
+            "exact": "The creators of South Park call themselves “equal opportunity offenders” (Raphael 1998), revealing an assumption of a level cultural playing field that does not exist.",
+            "start": 151
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "Baldwin cites a Simpsons episode likening campus activists to robots, criticism of Apu, South Park's forty-two uses of the n-word and its creators' 'equal opportunity offenders' self-description as mainstream television mockery of social-justice concepts.",
+        "short": "Simpsons and South Park examples",
+        "where": "b76–b77"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b80",
+            "end": 159,
+            "exact": "a Twitter account called “SJW Nonsense” has nearly 40,000 followers (@SJW_Nonsense).",
+            "start": 75
+          },
+          {
+            "blockId": "b80",
+            "end": 877,
+            "exact": "It is typical for these accounts to describe themselves as “satirical” despite their lack of engagement",
+            "start": 774
+          },
+          {
+            "blockId": "b81",
+            "end": 598,
+            "exact": "Despite presenting excerpts of scholarly literature, New Real Peer Review makes no attempts to engage with that scholarship on",
+            "start": 472
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "flag": "The key characterization, that the accounts 'lack engagement' and are read through 'hyper-rationalism', is asserted without any quoted post or follower response, so the reader cannot check it. Follower counts show reach but not the claimed mode of reception; a sample of posts and replies would be needed.",
+        "flagKind": "unsourced",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "Baldwin describes the Twitter account 'SJW Nonsense' (nearly 40,000 followers), r/sjwhate (over 50,000 members) and 'New Real Peer Review' (over 50,000 followers) as self-described satirical accounts that post social-justice material for ridicule without engaging it.",
+        "short": "SJW Nonsense and RealPeerReview accounts",
+        "where": "b80–b82"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b87",
+            "end": 445,
+            "exact": "though often seeming iconoclastic and antiauthoritarian, hoaxes typically arise out of deeply conservative or reactionary sentiments that mock the superficial pretensions of the hoaxed genre to point to more substantial verities in more authentic forms.",
+            "start": 192
+          },
+          {
+            "blockId": "b88",
+            "end": 813,
+            "exact": "“[T]here is a tendency to narcissism and self-flattery in the hoax. It commences with the premise that it has superior knowledge of some kind, and that the hoax will reveal something critical (and usually negatively so) about the state of things in a given field” (Fleming and O’Carroll 2010, 57).",
+            "start": 516
+          },
+          {
+            "blockId": "b89",
+            "end": 647,
+            "exact": "the hoax “shares formal features with the system upon which it is parasitic” (Fleming and O’Carroll 2010, 57, emphasis added)",
+            "start": 522
+          },
+          {
+            "blockId": "b92",
+            "end": 559,
+            "exact": "Fleming and O’Carroll conclude: “Its humour is inherently mean-spirited and unethical” (Fleming and O’Carroll 2010, 58).",
+            "start": 439
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "Fredal and Fleming & O'Carroll are quoted that hoaxes typically arise from conservative or reactionary sentiments, begin from a premise of superior knowledge, share formal features with the system they parasitize, and are inherently mean-spirited.",
+        "short": "Fredal, Fleming & O'Carroll on hoaxes",
+        "where": "b86–b92"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b96",
+            "end": 193,
+            "exact": "He believes that reason, logic, and truth are entirely unproblematic. He has an abiding faith that through the rigorous application of scientific method, nature will yield its unmediated truth.",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E11",
+        "kind": "evidence",
+        "label": "Aronowitz, editor of Social Text, is quoted accusing Sokal of treating reason, logic and truth as unproblematic and never interrogating the nature of evidence.",
+        "note": "The source identifies Aronowitz as the editor of the journal that was hoaxed.",
+        "short": "Aronowitz on Sokal's epistemic narrowness",
+        "where": "b96"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b98",
+            "end": 984,
+            "exact": "“Well! Let’s concede once and for all that we are arrogant, mediocre, sexually frustrated scientists, ignorant in philosophy and enslaved by a scientistic ideology (neoconservative or hard-line Marxist, take your pick). But please tell us what this implies concerning the validity or invalidity of our arguments” (Sokal and Bricmont 1997, xviii).",
+            "start": 638
+          },
+          {
+            "blockId": "b98",
+            "end": 1424,
+            "exact": "appeared only in the original French version of the book and was removed from subsequent editions.",
+            "start": 1326
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E12",
+        "kind": "evidence",
+        "label": "Sokal and Bricmont's rejoinder conceding every ad hominem 'once and for all' and asking what it implies for the validity of their arguments is quoted, with the note that it appeared only in the French edition.",
+        "short": "Sokal & Bricmont's 'arrogant, mediocre' rejoinder",
+        "where": "b98"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b100",
+            "end": 705,
+            "exact": "This (attempted) hoax’s explicit purpose was to delegitimize gender studies (Boghossian and Lindsay 2017)",
+            "start": 600
+          },
+          {
+            "blockId": "b101",
+            "end": 454,
+            "exact": "Its authors, two cisgendered, heterosexual, white men who affirm deep commitments to the prevailing Western philosophical tradition (Lindsay is a mathematician; Boghossian a “Socratic” philosopher) and antipathy to social-justice activism (Torres 2017)",
+            "start": 202
+          },
+          {
+            "blockId": "b103",
+            "end": 632,
+            "exact": "“Boghossian and Lindsay are white men working in the most male-dominated academic fields (philosophy and math) attempting to humiliate through bullying one of the few academic fields dominated by women” (McWilliams 2017, n.p.).",
+            "start": 405
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E13",
+        "kind": "evidence",
+        "label": "Baldwin cites the hoaxers' own stated purpose to delegitimize gender studies, their identities as cisgender heterosexual white men in mathematics and philosophy, and McWilliams's description of the hoax as bullying a female-dominated field.",
+        "note": "McWilliams's piece is a magazine opinion column; the source treats its characterization as consistent with Fleming and O'Carroll rather than as independent evidence.",
+        "short": "Conceptual Penis authors' purpose and positionality",
+        "where": "b100–b103"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b105",
+            "end": 454,
+            "exact": "“It’s essential for them to understand that tracking ignorance requires that our attention be focused not on a few problem individuals, but on learning to identify patterns of resistance and tying ignorance-producing habits to a strategic refusal to understand” (Bailey 2017, 887).",
+            "start": 173
+          },
+          {
+            "blockId": "b105",
+            "end": 712,
+            "exact": "“Treating privilege-preserving epistemic pushback as a form of critical engagement validates it and allows it to circulate more freely; this . . . can do epistemic violence to oppressed groups” (881).",
+            "start": 512
+          },
+          {
+            "blockId": "b112",
+            "end": 294,
+            "exact": "I believe that their uninterrupted circulation does psychological and epistemic harm to members of marginalized groups” (Bailey 2017, 877).",
+            "start": 155
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E14",
+        "kind": "evidence",
+        "label": "Bailey is quoted urging that students learn to track patterns of resistance, warning that treating pushback as critical engagement validates it, and stating her belief that its circulation harms marginalized groups.",
+        "short": "Bailey's two-pronged response to shadow texts",
+        "where": "b105; b112"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b106",
+            "end": 544,
+            "exact": "“Systemically marginalized students may be offended, hurt and feel unsafe (and feel that their humanity is denied) in classrooms where such systemically privileged students are allowed to recenter their privilege” (Applebaum 2010, 107).",
+            "start": 308
+          },
+          {
+            "blockId": "b108",
+            "end": 305,
+            "exact": "students will “acknowledge that racism, classism, sexism, heterosexism, and other institutionalized forms of oppression exist”",
+            "start": 179
+          }
+        ],
+        "evidenceKind": "authority",
+        "id": "E15",
+        "kind": "evidence",
+        "label": "Applebaum's account of a white male student dismissing wage-gap data and Lynn Weber's classroom guidelines requiring students to acknowledge that institutionalized oppression exists are cited as models for classroom expectations.",
+        "note": "The source records that Weber's guidelines were challenged by FIRE and relays Applebaum's reply that they demand engagement, not agreement.",
+        "short": "Applebaum and Weber classroom guidelines",
+        "where": "b106–b109"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b8",
+            "end": 642,
+            "exact": "Dotson identifies three “orders” of epistemic oppression—to oversimplify: testimonial injustice, hermeneutical injustice, and (irreducible) epistemic exclusion—that result when dominant epistemologies fail to include the experiences and perspectives of marginalized groups. In the third order, the epistemic system itself, rather than any tangible institutional or social injustice, is exclusionary.",
+            "start": 243
+          }
+        ],
+        "id": "M1",
+        "kind": "method",
+        "label": "Baldwin adopts Dotson's framework of three orders of epistemic oppression, with third-order oppression located in the exclusionary epistemic system itself, as the frame for what humor is supposed to change.",
+        "short": "Dotson's three orders of epistemic oppression",
+        "where": "b8–b11"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b40",
+            "end": 1011,
+            "exact": "positionality, where it comes to utilizing humor for social critique, is to be understood not only in terms of the position individuals’ identity gives them within society but also the position they take in relation to social justice.",
+            "start": 777
+          },
+          {
+            "blockId": "b74",
+            "end": 992,
+            "exact": "both the humorists’ position on social justice and social position bear relevance.",
+            "start": 910
+          }
+        ],
+        "id": "M2",
+        "kind": "method",
+        "label": "Baldwin defines positionality as two-factored: the position an individual's identity gives them in society and the position they take in relation to social justice.",
+        "note": "This definition is introduced after the Colbert/Stewart/Moore examples (E4) and is what allows privileged satirists to count as subversive and marginalized humorists to count as upholding oppression; the second factor is judged from the humor's target.",
+        "short": "Two-factor definition of positionality",
+        "where": "b40; b74"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b69",
+            "end": 363,
+            "exact": "privilege-preserving epistemic pushback is a family of cognitive, affective, nonverbal, and discursive tactics that are used habitually to avoid engaging ideas that threaten us.",
+            "start": 186
+          },
+          {
+            "blockId": "b78",
+            "end": 440,
+            "exact": "Bailey defines shadow texts in classroom contexts as a form of “discursive resistance” that offers no epistemic friction but only serves as an obstacle (Bailey 2017).",
+            "start": 274
+          },
+          {
+            "blockId": "b78",
+            "end": 883,
+            "exact": "Beneficial epistemic friction, to Medina, forces an individual “to be self-critical, to compare and contrast one’s beliefs, to meet justificatory demands, [and] to recognize cognitive gaps” (51).",
+            "start": 688
+          }
+        ],
+        "id": "M3",
+        "kind": "method",
+        "label": "Baldwin adopts Bailey's definitions of privilege-preserving epistemic pushback and shadow text, and Medina's definition of beneficial epistemic friction, as the criteria for sorting humor.",
+        "note": "Bailey's terms were coined for classroom discussion; the source extends them to television, social media and academic publishing without stating additional criteria for those settings.",
+        "short": "Bailey's shadow text; Medina's epistemic friction",
+        "where": "b69; b78–b79"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a",
+      "readingMode": "conversational",
+      "readingModeUsed": "argumentative",
+      "recipeHash": "908873a3e58b8ab6a7b3672dff53f4c18a125fb7c36c519dd3a50e6b6d4385de",
+      "sourceVersion": "b4591b3e2b19a1c090bc0be9a8ea86904932410c5209e801a776ddb15f28a454"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "satire"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 14675,
+    "ratio": 0.18480040297191788,
+    "sourceCharacters": 79410
+  },
+  "readingId": "reading:36d57353f39c76de1e70d1e0e5783a30ff57e6ee7a4a543daaf3fc300efc2c11",
+  "source": {
+    "authors": [
+      "Richard Baldwin"
+    ],
+    "collection": "grievance-studies-affair-2018",
+    "format": "pdf-text",
+    "id": "satire",
+    "identifier": "url:https://drive.google.com/uc?export=download&id=1V7zyFi8DYopNLzOGAtsYiHYWihDk1Pl-",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "sourceStatus": "accepted-not-published",
+    "stage": "unknown",
+    "title": "When the Joke Is on You: A Feminist Perspective on How Positionality Influences Satire",
+    "url": "https://drive.google.com/file/d/1V7zyFi8DYopNLzOGAtsYiHYWihDk1Pl-/view",
+    "venue": "Hypatia",
+    "version": "b4591b3e2b19a1c090bc0be9a8ea86904932410c5209e801a776ddb15f28a454",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "url",
+        "value": "https://drive.google.com/uc?export=download&id=1v7zyfi8dyopnlzogatsyihywihdk1pl-"
+      }
+    ],
+    "workId": "work:fa3a10d92d4db1fa0e4b09947c0c8cc025730f737cd1bf4b78240db1eea503fb"
+  }
+}

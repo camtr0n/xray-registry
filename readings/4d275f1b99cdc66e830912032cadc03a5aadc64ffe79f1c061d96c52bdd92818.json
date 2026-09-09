@@ -1,0 +1,1804 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "32162baa3e23b92f538b8834a06eea0be2c53a1a73427738cc998f20ddbad97f",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C2",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C3",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C4",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C5",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C6",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C7",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C8",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C9",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "mid-dimensions",
+            "flagged"
+          ],
+          "claimId": "C10",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C11",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C12",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions"
+          ],
+          "claimId": "C13",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions"
+          ],
+          "claimId": "C14",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "supporting-claim-flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C15",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions",
+            "flagged",
+            "attacked"
+          ],
+          "claimId": "C16",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "soft-evidence-only",
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C17",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C18",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions"
+          ],
+          "claimId": "C19",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions",
+            "flagged",
+            "attacked"
+          ],
+          "claimId": "C20",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions"
+          ],
+          "claimId": "C21",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C22",
+          "level": "partially-supported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "id": "e2",
+        "note": "The title asserts the themes, not the preserve framing; the framing is offered as the interpretation of them.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C4",
+        "id": "e3",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C5",
+        "id": "e4",
+        "note": "Presented by the source as a consequence of the findings; recorded here to place the recommendation in the hierarchy, not as grounds for the title.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C9",
+        "id": "e5",
+        "note": "Naturalization is the mechanism by which the source says themes are treated as authentic within the pastiche hegemony.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C10",
+        "id": "e6",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "C11",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C12",
+        "id": "e8",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C13",
+        "id": "e9",
+        "note": "Bears on the ersatz, job-contextual character of the interplay.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C12"
+      },
+      {
+        "from": "C14",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C9"
+      },
+      {
+        "from": "C15",
+        "id": "e11",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C16",
+        "id": "e12",
+        "note": "Offered as the possession/violence facet linked to masculinity.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C15"
+      },
+      {
+        "from": "C17",
+        "id": "e13",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "C18",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C19",
+        "id": "e15",
+        "note": "Confirms compulsory order-taking while bounding it; the author uses it to restrict the power claim to service-relevant orders.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C18"
+      },
+      {
+        "from": "C20",
+        "id": "e16",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C18"
+      },
+      {
+        "from": "C21",
+        "id": "e17",
+        "note": "Carl rejects the view Randy voices; the men then continue joking about it.",
+        "relation": "contradicts",
+        "strength": "partial",
+        "to": "C20"
+      },
+      {
+        "from": "C22",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "C6",
+        "id": "e19",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C7",
+        "id": "e20",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "C8",
+        "id": "e21",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E1",
+        "id": "e22",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "E2",
+        "id": "e23",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C10"
+      },
+      {
+        "from": "E3",
+        "id": "e24",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "E4",
+        "id": "e25",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C11"
+      },
+      {
+        "from": "E5",
+        "id": "e26",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "E6",
+        "id": "e27",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "E7",
+        "id": "e28",
+        "note": "Offered for the flirtation/solicitation subtheme and the servers' deflecting boundaries.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C12"
+      },
+      {
+        "from": "E8",
+        "id": "e29",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C15"
+      },
+      {
+        "from": "E9",
+        "id": "e30",
+        "note": "Offered for the possession facet.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C15"
+      },
+      {
+        "from": "E10",
+        "id": "e31",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C17"
+      },
+      {
+        "from": "E10",
+        "id": "e32",
+        "note": "Pete and the gym member, and George at the table, reject the claim Matt and Eric endorse.",
+        "relation": "contradicts",
+        "strength": "partial",
+        "to": "C16"
+      },
+      {
+        "from": "E11",
+        "id": "e33",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C18"
+      },
+      {
+        "from": "E12",
+        "id": "e34",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C22"
+      },
+      {
+        "from": "M1",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M1",
+        "id": "e36",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M1",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M1",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M1",
+        "id": "e39",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M1",
+        "id": "e40",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M1",
+        "id": "e41",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M1",
+        "id": "e42",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M1",
+        "id": "e43",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M1",
+        "id": "e44",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E11"
+      },
+      {
+        "from": "M1",
+        "id": "e45",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E12"
+      },
+      {
+        "from": "M1",
+        "id": "e46",
+        "note": "Obtained by brief unstructured interview within the fieldwork frame; no evidence node mediates.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C13"
+      },
+      {
+        "from": "M1",
+        "id": "e47",
+        "note": "Obtained by brief unstructured interview within the fieldwork frame; no evidence node mediates.",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C19"
+      },
+      {
+        "from": "M2",
+        "id": "e48",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M2",
+        "id": "e49",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M2",
+        "id": "e50",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M2",
+        "id": "e51",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e52",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M2",
+        "id": "e53",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M2",
+        "id": "e54",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M2",
+        "id": "e55",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M2",
+        "id": "e56",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M2",
+        "id": "e57",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E11"
+      },
+      {
+        "from": "M2",
+        "id": "e58",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E12"
+      },
+      {
+        "from": "M3",
+        "id": "e59",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M3",
+        "id": "e60",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M3",
+        "id": "e61",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M3",
+        "id": "e62",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M3",
+        "id": "e63",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M3",
+        "id": "e64",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M3",
+        "id": "e65",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M3",
+        "id": "e66",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M3",
+        "id": "e67",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E11"
+      },
+      {
+        "from": "M3",
+        "id": "e68",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E12"
+      }
+    ],
+    "id": "breastaurant-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b3",
+            "end": 70,
+            "exact": "An Ethnography of Breastaurant Masculinity: Themes of Objectification,",
+            "start": 0
+          },
+          {
+            "blockId": "b4",
+            "end": 68,
+            "exact": "Sexual Conquest, Male Control, and Masculine Toughness in a Sexually",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C1",
+        "kind": "claim",
+        "label": "The title asserts that themes of objectification, sexual conquest, male control, and masculine toughness characterize masculinity in a sexually objectifying restaurant.",
+        "main": false,
+        "short": "Title: four themes define breastaurant masculinity",
+        "where": "Title"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b9",
+            "end": 613,
+            "exact": "I identify four major and one minor theme of Bbreastaurant masculinity^ as distinctive to that environment.",
+            "start": 506
+          },
+          {
+            "blockId": "b71",
+            "end": 405,
+            "exact": "Four significantly overlapping and interrelated major themes—sexual objectification, sexual conquest, male dominance and control over women, and masculine toughness—were regular features of breastaurant discussions.",
+            "start": 190
+          },
+          {
+            "blockId": "b141",
+            "end": 315,
+            "exact": "those centered upon viewing masculinity in terms of sexual objectification, sexual conquest, male control over women, and masculine toughness dominated sufficiently so as to define them.",
+            "start": 129
+          },
+          {
+            "blockId": "b154",
+            "end": 976,
+            "exact": "themes that connect masculinity to sexual objectification, sexual conquest, masculine toughness, and the routine domination of women are especially prominent and paradigmatically significant.",
+            "start": 785
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 1
+        },
+        "flag": "The claim names a general 'breastaurant masculinity' that is 'distinctive to that environment', but all data come from one friendship group of 15 white men at one franchise in one city, and the judgment of distinctiveness rests on the author's impressions of the same men at their gym plus comparison with literature on other venues. Closing the gap would require other groups, other breastaurants, or systematically coded comparison settings.",
+        "flagKind": "scope-leap",
+        "id": "C2",
+        "kind": "claim",
+        "label": "The author (Baldwin) claims that four major themes (sexual objectification, sexual conquest, male control of women, masculine toughness) and one minor theme (rationalization of patronage) characterize breastaurant masculinity and are distinctive to that environment.",
+        "main": true,
+        "note": "The source itself limits representativeness (C7) but still names and defines the phenomenon generally in the title, abstract and conclusion.",
+        "short": "Four major themes plus rationalization theme",
+        "where": "Abstract; Results; Discussion; Conclusions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b9",
+            "end": 986,
+            "exact": "my study interprets the breastaurant as a type of male preserve that erects a local pastiche hegemony in which these themes gain protected status.",
+            "start": 840
+          },
+          {
+            "blockId": "b22",
+            "end": 537,
+            "exact": "Results indicate breastaurants represent unique public spaces that generate a socially complex local pastiche hegemony",
+            "start": 419
+          },
+          {
+            "blockId": "b154",
+            "end": 340,
+            "exact": "Breastaurants form a unique male preserve in which many masculine themes gain protected status.",
+            "start": 245
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "'Protected status' and themes that 'go uncontested' (b154) are interpretive labels imported from Matthews' sporting-enclave framework; the source offers no test of whether challenges are suppressed. Its own data record in-group challenges (George challenging the 'fuck-and-kill' remark, b123; Carl calling the dominance talk 'fucked up' with most of the table agreeing, b128), an alternative reading the source does not reconcile with 'uncontested'.",
+        "flagKind": "other",
+        "id": "C3",
+        "kind": "claim",
+        "label": "The author claims that the breastaurant is a type of male preserve that erects a local pastiche hegemony in which these masculine themes gain protected status.",
+        "main": true,
+        "note": "The abstract uses the word 'interprets'; this is presented as a theoretical framing of the observations rather than a finding derived from them.",
+        "short": "Breastaurant is male preserve with pastiche hegemony",
+        "where": "Abstract; Introduction; Conclusions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b9",
+            "end": 1271,
+            "exact": "It also theorizes that the unique interactive environment of the breastaurant between (mostly) male patrons and attractive female servers who provide heterosexual aesthetic labor to the patrons, primarily in the form of ersatz sexual availability, produces these masculinity features.",
+            "start": 987
+          },
+          {
+            "blockId": "b140",
+            "end": 1126,
+            "exact": "it appears that the breastaurant environment itself is directly involved in the gen-eration of this breastaurant masculinity.",
+            "start": 1001
+          },
+          {
+            "blockId": "b141",
+            "end": 1747,
+            "exact": "the breastaurant apparently main-tains a unique local pastiche hegemony that supports this particular masculinity primarily due to the enforced and scripted interactive relationships that are encouraged between the servers and the (mostly male) patrons.",
+            "start": 1494
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The source uses causal language ('produces', 'directly involved in the generation') but observed only one venue with no comparison setting recorded under the same conditions. Its grounds are the author's impression that the gym talk differed (C10), one secondhand report by Pete (E10), and an argument from literature that boxing gyms and strip clubs do not show these themes (b141). Alternative explanations not ruled out include alcohol, post-training group ritual, the presence of the recorder, and the friendship group's own norms; the author's own selection rule favoured server-interaction quotes because they were assumed to be environment-evoked (M3).",
+        "flagKind": "causal-language-without-design",
+        "id": "C4",
+        "kind": "claim",
+        "label": "The author theorizes that the interactive environment between (mostly) male patrons and attractive female servers providing ersatz sexual availability produces these masculinity features, rather than the venue's status as a male preserve or as a sexually objectifying environment per se.",
+        "main": true,
+        "note": "The abstract labels this a theorization; the Discussion words it as 'apparently' and 'it appears'.",
+        "short": "Server–patron ersatz interaction produces the masculinity",
+        "where": "Abstract; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b9",
+            "end": 1442,
+            "exact": "the breastaurant therefore becomes an important site for critical masculinities research.",
+            "start": 1353
+          },
+          {
+            "blockId": "b150",
+            "end": 768,
+            "exact": "counselors could interrogate men (or their partners) about whether they frequent breastaurants and contextualize these issues in terms of breastaurant masculinity as a possible avenue toward remediation.",
+            "start": 565
+          },
+          {
+            "blockId": "b154",
+            "end": 244,
+            "exact": "there is considerable need to examine them as local pastiche hegemonies that produce and reinforce sexual and routine forms of male domination over women.",
+            "start": 90
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The counseling recommendations extend a descriptive study of one group to clinical practice by way of cited literature linking objectification to relationship and harassment outcomes; the source offers no evidence that breastaurant patronage itself predicts those outcomes or that the proposed interventions help. What would be needed is data linking patronage to the cited harms or evaluation of the recommended practice.",
+        "flagKind": "scope-leap",
+        "id": "C5",
+        "kind": "claim",
+        "label": "The author claims that breastaurants are an important site for further critical masculinities research and that the findings have practice implications for counselors and managers, including asking men whether they frequent breastaurants as an avenue toward remediation.",
+        "main": false,
+        "note": "Attached to the title claim because the source presents it as a consequence of the findings rather than as grounds for any of them.",
+        "short": "Findings warrant further research and counseling use",
+        "where": "Abstract; Discussion; Practice Implications; Conclusions"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b61",
+            "end": 488,
+            "exact": "it was at times certain that the masculinities being performed were in some cases muted or exaggerated in response to an awareness of being recorded as a part of my study",
+            "start": 318
+          },
+          {
+            "blockId": "b61",
+            "end": 1086,
+            "exact": "no claims will be made here to know the true identities/masculinities of the men under observation.",
+            "start": 987
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C6",
+        "kind": "claim",
+        "label": "The author acknowledges that participants at times muted or exaggerated their masculinity performances in response to being recorded, and states that no claims are made to know the men's true masculinities.",
+        "main": false,
+        "note": "The author says closeness to the group made it 'relatively easy to tell' when performances were false (b61); that judgment rests on the single researcher's discretion, which C8 acknowledges as a bias source.",
+        "short": "Recording altered performances; no true-identity claims",
+        "where": "Method: Procedure"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b63",
+            "end": 203,
+            "exact": "the present account is restricted to a small group of men and not to be taken as necessarily representative of all patrons or the whole restaurant/franchise/ genre of eatery.",
+            "start": 29
+          },
+          {
+            "blockId": "b144",
+            "end": 206,
+            "exact": "A serious limitation of this ethnography is that I was only able to elicit data from one relatively small but (mostly) stable group of racially homogeneous men in one breastaurant franchise in one location.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "The author acknowledges that the account is restricted to one small, racially homogeneous group at one franchise in one location and is not necessarily representative of all patrons or the genre.",
+        "main": false,
+        "short": "One group, one franchise, not representative",
+        "where": "Method: Procedure; Limitations"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b64",
+            "end": 471,
+            "exact": "other relevant features of their masculinity may have become emphasized, deemphasized, or even blurred by subjectivity.",
+            "start": 352
+          },
+          {
+            "blockId": "b145",
+            "end": 730,
+            "exact": "closeness to my participants inevita-bly also colored my data analysis in ways that are potentially biasing.",
+            "start": 622
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C8",
+        "kind": "claim",
+        "label": "The author acknowledges that as a single participant-observer, bias was unavoidable and closeness to participants colored the data analysis.",
+        "main": false,
+        "short": "Single-researcher bias acknowledged as unavoidable",
+        "where": "Method: Procedure; Limitations"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b71",
+            "end": 902,
+            "exact": "all of these themes were routinely tied to perceptions of presumed authentic masculinity by group members.",
+            "start": 796
+          },
+          {
+            "blockId": "b102",
+            "end": 353,
+            "exact": "not only were such performances coded as intrinsically masculine, they were often rationalized as being naturally masculine",
+            "start": 230
+          },
+          {
+            "blockId": "b140",
+            "end": 987,
+            "exact": "persistent meta-level themes of how the emerging breastaurant masculinity can be rationalized as a part of being authentically masculine.",
+            "start": 850
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "The author claims that all of the themes were routinely tied by group members to a presumed authentic or natural masculinity (a running thread of naturalization).",
+        "main": false,
+        "note": "Supported by participant statements (C14, C16, E6). Whether such statements are sincere or performed for the recorder is the concern the author raises in C6.",
+        "short": "Themes routinely naturalized as authentic masculinity",
+        "where": "Results; Sexual Objectification; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b72",
+            "end": 270,
+            "exact": "these themes, although not unique to discussions in the breastaurant, were both more prominent while in the breastaurant and apparently evoked by being there",
+            "start": 113
+          },
+          {
+            "blockId": "b140",
+            "end": 231,
+            "exact": "patterns of masculinity I recognized as largely typical within the breastaurant, although atypical to the participants outside that context.",
+            "start": 91
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "The comparison rests on the author's unrecorded impression of gym conversations; no gym talk was recorded, transcribed or coded under the same procedure. Without a comparably sampled comparison setting, greater prominence cannot be distinguished from greater attention (the author coded breastaurant talk for exactly these themes).",
+        "flagKind": "missing-comparison",
+        "id": "C10",
+        "kind": "claim",
+        "label": "The author claims that the themes, though not unique to the breastaurant, were more prominent there than in the gym and were apparently evoked by being there.",
+        "main": false,
+        "short": "Themes more prominent in breastaurant than gym",
+        "where": "Results; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b74",
+            "end": 163,
+            "exact": "For many of the men in our group, the opportunity to Bcheck out^ and flirt with the servers was the expressed purpose of choosing a breastaurant over other venues.",
+            "start": 0
+          },
+          {
+            "blockId": "b75",
+            "end": 853,
+            "exact": "this (minor) theme reveals that men in breastaurants realize they are enacting a breastaurant-specific masculine performance while in that environment and rationalize this (uncomfortable) fact by attempting to connect it to an alleged natural and authentic masculine identity.",
+            "start": 577
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C11",
+        "kind": "claim",
+        "label": "The author claims (minor theme) that men expressly chose the breastaurant to look at and flirt with servers, and that this shows they realize they are enacting a venue-specific performance which they rationalize by tying it to natural masculinity.",
+        "main": false,
+        "note": "The quoted remarks (E4) state a preference for the servers; that the men 'realize' they are enacting a performance and find it 'uncomfortable' is the author's interpretation, not stated by the speakers.",
+        "short": "Men choose venue for servers, rationalize it",
+        "where": "Results: Why Breastaurants?"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b77",
+            "end": 352,
+            "exact": "my observations noted men regularly subject-ing servers to the male gaze, making no secret of staring at women’s breasts and buttocks as well as making sexualized, even rapacious, comments about them behind their backs.",
+            "start": 133
+          },
+          {
+            "blockId": "b82",
+            "end": 284,
+            "exact": "involve a performative dynamic interplay of masculine and feminine in the sense of male objectifier and female sexual object",
+            "start": 160
+          },
+          {
+            "blockId": "b107",
+            "end": 627,
+            "exact": "Thus, insofar as breastaurants are clearly SO(R)Es, male patrons objectify the servers, who are in turn contractually clad and otherwise encouraged to amplify this objectification through uniform, personal presentation and open flirtation as a form of ersatz sexual availability",
+            "start": 349
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 2
+        },
+        "id": "C12",
+        "kind": "claim",
+        "label": "The author claims that men regularly subjected servers to the male gaze and sexualized comments, and that patron–server exchanges form a performative, knowingly ersatz interplay of objectifier and object encouraged by the servers' scripted role.",
+        "main": false,
+        "short": "Male gaze and ersatz objectifying interplay",
+        "where": "Results: Sexual Objectification"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b82",
+            "end": 599,
+            "exact": "We just play around, you know. Have fun. It works with cool guys, and they tip us more, but we don’t really do it with the",
+            "start": 477
+          },
+          {
+            "blockId": "b99",
+            "end": 62,
+            "exact": "Valentina told me when I asked her about this dynamic",
+            "start": 9
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 1
+        },
+        "id": "C13",
+        "kind": "claim",
+        "label": "Valentina (server) states that the flirtation is play that earns bigger tips from 'cool guys' and is not done with 'creeps'.",
+        "main": false,
+        "note": "One server speaking for 'we'; obtained in a brief unstructured interview. The author says servers' perspectives are not the study's object (b27, b61).",
+        "short": "Valentina: flirting is play for tips",
+        "where": "Results: Sexual Objectification"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b102",
+            "end": 452,
+            "exact": "It’s natural for men to want to see sexy young women in short shorts and showing their cleavage.",
+            "start": 356
+          }
+        ],
+        "dimensions": {
+          "directness": 0,
+          "inferentialGap": 3,
+          "scopeMatch": 0
+        },
+        "id": "C14",
+        "kind": "claim",
+        "label": "Carl (participant) asserts that it is natural for men to want to see sexy young women in revealing clothing.",
+        "main": false,
+        "note": "Offered by the author as a prototypical naturalization remark; Carl offers no grounds. Elsewhere Carl challenges the dominance talk (C21).",
+        "short": "Carl: looking is natural for men",
+        "where": "Results: Sexual Objectification"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b117",
+            "end": 188,
+            "exact": "for some men the dynamic interplay between server and customer in breastaurants easily leads from objectification to themes and fantasies of sexual conquest.",
+            "start": 31
+          },
+          {
+            "blockId": "b117",
+            "end": 607,
+            "exact": "this theme often took shape in expressing themes of male possession of Bhis^ female conquest",
+            "start": 515
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C15",
+        "kind": "claim",
+        "label": "The author claims that objectification easily leads to themes and fantasies of sexual conquest, including possession of 'his' conquest and insinuations of sexual violence reinforced as masculine by peers.",
+        "main": false,
+        "note": "Both extended examples (E8, E9) involve the same speaker (Matt) and the same server (Valentina) one week apart; the author states the theme was frequent among most men (Table 1) but the quoted instances are narrow.",
+        "short": "Objectification flows into conquest and possession",
+        "where": "Results: Sexual Conquest"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b121",
+            "end": 185,
+            "exact": "a fundamental part of being a man means seeing at least one person you want to kill and at least one person you want to fuck every day of your life",
+            "start": 38
+          },
+          {
+            "blockId": "b122",
+            "end": 99,
+            "exact": "That’s exactly what being a man is about!",
+            "start": 58
+          }
+        ],
+        "dimensions": {
+          "directness": 0,
+          "inferentialGap": 3,
+          "scopeMatch": 0
+        },
+        "flag": "Speakers disagree. George challenged the statement at the table (b123, not quoted verbatim); Carl called it 'a bit extreme'; Randy said it 'used to be' true for him; and Pete, retelling it to a gym member outside the breastaurant, agreed with him that it was 'largely untrue' and 'cavemanish' (E10). The source records both sides and uses the disagreement itself as evidence for C17; the reader should not take the remark as a group consensus.",
+        "flagKind": "speaker-conflict",
+        "id": "C16",
+        "kind": "claim",
+        "label": "Matt (participant) asserts that a fundamental part of being a man is seeing someone you want to kill and someone you want to fuck every day, and Eric endorses this as exactly what being a man is about.",
+        "main": false,
+        "note": "Delivered to group laughter; the author elsewhere notes performances were sometimes exaggerated for humorous effect (C6).",
+        "short": "Matt/Eric: kill-and-fuck is being a man",
+        "where": "Results: Sexual Conquest"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b124",
+            "end": 354,
+            "exact": "This indicates that the breastaurant social environment was somehow integral to producing, legitimating, and treating as authentic this alarming expression of masculinity.",
+            "start": 183
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The inference from one secondhand report of one conversation between Pete and one gym member to the environment being 'integral' is not supported by comparison data. Alternatives not ruled out: the different interlocutor (a non-group member), the absence of the original speaker and of group laughter, the absence of the recorder, or Pete's own prior ambivalence. Multiple such cross-setting comparisons, or the same men discussing the remark in both settings, would be needed.",
+        "flagKind": "unsupported-generalization",
+        "id": "C17",
+        "kind": "claim",
+        "label": "The author claims that Pete's outside-the-breastaurant rejection of the 'fuck-and-kill' remark indicates the breastaurant environment was integral to producing and legitimating that expression.",
+        "main": false,
+        "short": "Environment integral to legitimating the remark",
+        "where": "Results: Sexual Conquest"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b126",
+            "end": 714,
+            "exact": "this job-required dynamic of power always flows from customer to server.",
+            "start": 642
+          },
+          {
+            "blockId": "b128",
+            "end": 627,
+            "exact": "central to the nature of the breastaurant is casting attractive female servers into a scripted",
+            "start": 533
+          },
+          {
+            "blockId": "b129",
+            "end": 309,
+            "exact": "This dynamic is not just routine but paradigmatic of the breastaurant and its business model.",
+            "start": 216
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C18",
+        "kind": "claim",
+        "label": "The author claims that the order-taking dynamic makes power flow from customer to server, that men are aware attractive women must compliantly take their orders, and that casting servers into a scripted servant role is paradigmatic of the breastaurant business model.",
+        "main": false,
+        "note": "The author qualifies that the relationship is 'in many ways veridically inverted' and servers keep their agency (b126); the 'always flows' statement is restricted to service-relevant orders.",
+        "short": "Order-taking dynamic paradigmatic male control",
+        "where": "Results: Male Dominance and Control over Women"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b126",
+            "end": 891,
+            "exact": "you have to take their [food and drink] orders and pretty much do whatever [customers] say on that, but, no, we don’t have to put up with anyone’s crap and usually don’t",
+            "start": 722
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 2
+        },
+        "id": "C19",
+        "kind": "claim",
+        "label": "Valentina (server) states that servers must take food and drink orders but do not have to put up with customers' 'crap' and that management supports them in this.",
+        "main": false,
+        "note": "The author uses this to bound the power claim to service-relevant orders; it also limits the reach of 'power always flows from customer to server'.",
+        "short": "Valentina: take orders, not abuse",
+        "where": "Results: Male Dominance and Control over Women"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b128",
+            "end": 159,
+            "exact": "tell hot young girls what to do and have them do it for you with a smile",
+            "start": 87
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "Speakers disagree. Carl openly challenged this view as 'fucked up' and most of the men at the table agreed with him (C21), then continued joking about the allure of it. The source reports both the endorsement and the challenge; it reads the continued joking as enjoyment, but the exchange can also be read as group disavowal.",
+        "flagKind": "speaker-conflict",
+        "id": "C20",
+        "kind": "claim",
+        "label": "Randy (participant) asserts, with several others agreeing, that being able to tell hot young girls what to do and have them do it with a smile is integral to the breastaurant experience.",
+        "main": false,
+        "short": "Randy: commanding girls integral to experience",
+        "where": "Results: Male Dominance and Control over Women"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b128",
+            "end": 376,
+            "exact": "Carl, for his part, openly challenged this view by calling the discussion Bfucked up,^ which most of the men at the table agreed with",
+            "start": 243
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C21",
+        "kind": "claim",
+        "label": "Carl (participant) challenges the dominance talk by calling the discussion 'fucked up', a judgment most of the men at the table agreed with.",
+        "main": false,
+        "short": "Carl: dominance talk is 'fucked up'",
+        "where": "Results: Male Dominance and Control over Women"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b131",
+            "end": 316,
+            "exact": "only the last is clearly identifiable within the breastaurant environment",
+            "start": 243
+          },
+          {
+            "blockId": "b138",
+            "end": 259,
+            "exact": "these themes are then projected onto the servers as a means of male peacocking.",
+            "start": 180
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 1
+        },
+        "flag": "The source ties this theme to 'the one we frequented, which is known for serving very spicy hot chicken wings as its signature dish' (b131), yet the title, abstract and conclusion list masculine toughness as a theme of breastaurant masculinity generally. Establishing it as a breastaurant theme rather than a hot-wing-restaurant theme would require venues without that signature dish.",
+        "flagKind": "scope-leap",
+        "id": "C22",
+        "kind": "claim",
+        "label": "The author claims that among toughness themes only allowable strength versus weakness (handling spicy wings 'like a man') is clearly identifiable within the breastaurant, and that toughness and competition are projected onto servers as peacocking.",
+        "main": false,
+        "short": "Hot-wing toughness and peacocking theme",
+        "where": "Results: Masculine Toughness"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b34",
+            "end": 1266,
+            "exact": "These include lower relationship satisfaction (Ramsey et al. 2017), rape blame reinforced by decreased perception of victim suffering (Loughnan et al. 2013)",
+            "start": 1110
+          },
+          {
+            "blockId": "b150",
+            "end": 357,
+            "exact": "connecting themes of sexual objectification (and, by extension, conquest) to perceived authentic masculinity can reduce relationship satisfaction (Ramsey et al. 2017), reinforce rape blame (Loughnan et al. 2013), perpetuate rape culture, and increase rates of verbal sexual harassment (Davidson et al. 2015).",
+            "start": 49
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "The author cites prior studies linking sexual objectification to lower relationship satisfaction, rape blame, rape culture and verbal sexual harassment.",
+        "note": "The cited studies concern objectification generally; none is reported as concerning breastaurant patrons.",
+        "short": "Cited harms of objectification",
+        "where": "Literature review; Practice Implications"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b58",
+            "end": 769,
+            "exact": "I noticed these themes differed in certain ways from those typical in the gym where we trained together.",
+            "start": 665
+          },
+          {
+            "blockId": "b72",
+            "end": 125,
+            "exact": "As a benefit of knowing and training with these men in an alternative environment (the BJJ gym), it was apparent these themes",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "The author reports noticing, from training with the same men at the BJJ gym, that the breastaurant conversation themes differed from those typical in the gym.",
+        "short": "Author's impression of gym contrast",
+        "where": "Method: Procedure; Results"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b71",
+            "end": 189,
+            "exact": "various themes ap-peared frequently, repeatedly, and consistently in the conversation data, most of these occurring at nearly every breastaurant outing.",
+            "start": 37
+          },
+          {
+            "blockId": "b83",
+            "end": 27,
+            "exact": "Ubiquitous:All men",
+            "prefix": "Frequency",
+            "start": 9
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "Frequencies are reported as labels ('ubiquitous', 'frequent', 'common', 'rare') with speaker categories ('all men', 'most men', 'a few men'), not as counts per outing or per man against the roughly 10,000 minutes recorded; the labels are not defined numerically, so prominence cannot be checked.",
+        "flagKind": "no-denominator",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "The author reports that the themes appeared at nearly every outing and gives categorical frequency labels per subtheme in Table 1.",
+        "note": "Table 1 text is garbled in the extraction; only a fragment is anchored.",
+        "short": "Themes at nearly every outing",
+        "where": "Results; Table 1"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b74",
+            "end": 302,
+            "exact": "It’s got to be [the breastaurant] because of the babes",
+            "start": 248
+          },
+          {
+            "blockId": "b74",
+            "end": 952,
+            "exact": "Where else can you hang out, just guys being guys after a hard workout, and flirt with hot girls who have to bring you food and beer all night?",
+            "start": 809
+          },
+          {
+            "blockId": "b75",
+            "end": 221,
+            "exact": "I don’t come here for these crappy wings and cheap beer; I come here for the girls.",
+            "start": 138
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Recorded remarks by Matt, Paul, Pete and Jim give the servers as the reason for choosing the breastaurant over venues with better food.",
+        "short": "Quotes: here for the girls",
+        "where": "Results: Why Breastaurants?"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b78",
+            "end": 224,
+            "exact": "You know, Valentina, I couldn’t help noticing just how nice your… eyes are tonight.",
+            "start": 141
+          },
+          {
+            "blockId": "b79",
+            "end": 126,
+            "exact": "you know how much I love it when you notice my… eyes.",
+            "start": 73
+          },
+          {
+            "blockId": "b81",
+            "end": 84,
+            "exact": "This is why yours is always my favorite table.",
+            "start": 38
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "A recorded exchange in which Scott compliments Valentina's 'eyes' while looking at her chest and she plays along, pushing up her breasts and calling his table her favorite.",
+        "short": "Scott–Valentina 'nice eyes' exchange",
+        "where": "Results: Sexual Objectification"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b101",
+            "end": 201,
+            "exact": "Scott readily connected his masculinity to his ability to objectify Valentina.",
+            "start": 123
+          },
+          {
+            "blockId": "b101",
+            "end": 465,
+            "exact": "You stud, Scott.",
+            "start": 449
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "After Valentina leaves, Matt praises Scott ('You stud, Scott') and the author reports Scott connecting his masculinity to his ability to objectify her.",
+        "short": "Group confirms Scott's masculinity",
+        "where": "Results: Sexual Objectification"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b104",
+            "end": 59,
+            "exact": "I’ve got hot sauce all over my fingers, but I have to",
+            "start": 6
+          },
+          {
+            "blockId": "b106",
+            "end": 59,
+            "exact": "Now, you know this isn’t that kind of place",
+            "start": 16
+          },
+          {
+            "blockId": "b107",
+            "end": 44,
+            "exact": "feel the burn! (Field notes, March 10, 2016)",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "A recorded exchange in which Carl solicits Kellye to accompany him to the restroom and she jokingly deflects.",
+        "short": "Carl–Kellye solicitation deflected",
+        "where": "Results: Sexual Objectification"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b113",
+            "end": 140,
+            "exact": "I’d absolutely wreck her tight little body. She’d walk funny for days when I get done with her.",
+            "start": 45
+          },
+          {
+            "blockId": "b116",
+            "end": 102,
+            "exact": "Just man up.",
+            "start": 90
+          },
+          {
+            "blockId": "b116",
+            "end": 311,
+            "exact": "If she has a boyfriend, I’ll steal his girlfriend.",
+            "start": 261
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "A recorded exchange in which Matt describes what he would do to Valentina, peers urge him to 'man up', and he says he would steal her from a boyfriend.",
+        "short": "Matt's conquest fantasy dialogue",
+        "where": "Results: Sexual Conquest"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b118",
+            "end": 71,
+            "exact": "Valentina is over there with that total Chad",
+            "start": 27
+          },
+          {
+            "blockId": "b119",
+            "end": 441,
+            "exact": "She likes alphas, not Mickis.",
+            "start": 412
+          },
+          {
+            "blockId": "b120",
+            "end": 146,
+            "exact": "It’s an act. Look at her face and compare that to how she looks at and smiles at us.",
+            "start": 62
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "A recorded exchange in which the group watches Valentina flirt with another customer and Matt asserts she is faking it and prefers 'alphas', treating her as his.",
+        "short": "Matt watches Valentina with 'Chad'",
+        "where": "Results: Sexual Conquest"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b123",
+            "end": 1099,
+            "exact": "When challenged (by George) about this point, in fact, Eric held his ground",
+            "start": 1024
+          },
+          {
+            "blockId": "b123",
+            "end": 1592,
+            "exact": "Pete reported relating the Bfuck-and-kill^ discussion with another (heterosexual male) member of the BJJ",
+            "start": 1488
+          },
+          {
+            "blockId": "b124",
+            "end": 153,
+            "exact": "in that context both Pete and the other man agreed it was largely untrue and Bcavemanish^",
+            "start": 64
+          }
+        ],
+        "evidenceKind": "anecdote",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "George challenged the 'fuck-and-kill' remark at the table, and Pete reported that when he related it to a gym member outside the breastaurant, both agreed it was largely untrue and 'cavemanish'.",
+        "note": "Secondhand: the author did not observe the gym conversation; Pete reported it back at the breastaurant table.",
+        "short": "Pete's out-of-venue rejection report",
+        "where": "Results: Sexual Conquest"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b127",
+            "end": 264,
+            "exact": "I get to come in here, see hot chicks, give them my orders, and then they have to smile and flirt with me—if they want a good tip, anyway—and do exactly what I say",
+            "start": 101
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E11",
+        "kind": "evidence",
+        "label": "Paul's recorded remark that he enjoys giving orders to 'hot chicks' who must smile, flirt and do exactly what he says.",
+        "short": "Paul: they do what I say",
+        "where": "Results: Male Dominance and Control over Women"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b131",
+            "end": 1232,
+            "exact": "so common that they occurred at our table in nearly every visit to the breastaurant in the course of the 2-year span of my study.",
+            "start": 1103
+          },
+          {
+            "blockId": "b133",
+            "end": 108,
+            "exact": "Carl’s a real man, though. Look at that. He just put down twenty of those [hottest] wings, no problem.",
+            "start": 6
+          },
+          {
+            "blockId": "b136",
+            "end": 87,
+            "exact": "I’m pretty manly, I guess, but I’m not [hottest]-wings manly.",
+            "start": 26
+          },
+          {
+            "blockId": "b138",
+            "end": 412,
+            "exact": "would you be more or less likely to go out with me if I ordered the [hottest] wings instead of the [second hottest] ones?",
+            "start": 291
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E12",
+        "kind": "evidence",
+        "label": "Hot-wing talk occurred at nearly every visit; recorded exchanges rate Carl a 'real man' for eating the hottest wings, Eric admits he is not 'wings manly', and Paul asks Kellye whether eating hotter wings would make her date him.",
+        "short": "Hot-wing toughness and peacocking quotes",
+        "where": "Results: Masculine Toughness"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b49",
+            "end": 325,
+            "exact": "data were collected in situ by personally at-tending a sexually objectifying restaurant in northern Florida approximately weekly over a roughly 2-year span (July 2015– September 2017) in the company of other men with whom I had personal relationships.",
+            "start": 74
+          },
+          {
+            "blockId": "b59",
+            "end": 719,
+            "exact": "Management did not permit me to walk around the restaurant as a researcher, so all observations were con-fined to my table",
+            "start": 597
+          },
+          {
+            "blockId": "b60",
+            "end": 1205,
+            "exact": "slightly fewer than 10,000 min of recorded conversation at the breastaurant (and interviews) and over 600 pages of field notes",
+            "start": 1079
+          },
+          {
+            "blockId": "b60",
+            "end": 1358,
+            "exact": "which span the 99 group visits made to the breastaurant during the observational phase.",
+            "start": 1271
+          }
+        ],
+        "id": "M1",
+        "kind": "method",
+        "label": "Fieldwork frame: roughly weekly visits over about two years (July 2015–September 2017) with a friendship group, 99 recorded visits, nearly 10,000 minutes of table recordings and over 600 pages of after-the-fact field notes, with observation confined to the author's own table plus brief unstructured interviews.",
+        "note": "Participants and management consented and a recorder sat visibly on the table (b60–b61). Visits were a post-training ritual of a Brazilian jiu jitsu group, mostly Thursday evenings around 20:00 (b49).",
+        "short": "Two-year table-confined recorded ethnography",
+        "where": "Method: Overview; Procedure"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b55",
+            "end": 200,
+            "exact": "a total of 15 different men and seven servers consented to participate",
+            "start": 130
+          },
+          {
+            "blockId": "b56",
+            "end": 105,
+            "exact": "all are White, which excluded the possibility in this study of investigating diverse racial dynamics.",
+            "start": 4
+          },
+          {
+            "blockId": "b56",
+            "end": 808,
+            "exact": "Ages of the men ranged from 19 to 62 years-old (excluding myself, age 71)",
+            "start": 735
+          }
+        ],
+        "id": "M2",
+        "kind": "method",
+        "label": "Sampling frame: 15 men and seven servers consented; the men were all White, self-identified heterosexual, mostly working class, aged 19–62, drawn from one BJJ gym's social core at one franchise in Panama City, Florida.",
+        "note": "The group was not selected by the researcher; it was the pre-existing friendship group he had joined (b56: 'I in a sense had my research participants chosen for me').",
+        "short": "15 white heterosexual men, one franchise",
+        "where": "Method: Participants"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b58",
+            "end": 878,
+            "exact": "This gave me certain initial themes (sexual objectification and male control of women) that seemed prevalent",
+            "start": 770
+          },
+          {
+            "blockId": "b60",
+            "end": 1036,
+            "exact": "Quotations were selected for transcription and incorporation into this report for being typical of the themes in question, with some preference being given to those obtained while interacting with or commenting directly upon the servers because these are most likely to have been evoked by the breastaurant’s unique environment.",
+            "start": 708
+          },
+          {
+            "blockId": "b66",
+            "end": 168,
+            "exact": "I analyzed data by thematic analysis of the recorded conversations (Braun and Clarke 2006; Nowell et al. 2017), which were selectively (due to their volume) transcribed",
+            "start": 0
+          },
+          {
+            "blockId": "b67",
+            "end": 592,
+            "exact": "data were selectively (concept-driven) coded for themes I had already identified and wished to develop, and data-driven (open) coding was utilized to identify new themes in the data until I felt all significant themes identifiable in the data had been found.",
+            "start": 334
+          }
+        ],
+        "flag": "The selection rule prefers quotations from server interactions on the stated ground that they are 'most likely to have been evoked by the breastaurant's unique environment', which is the conclusion the study then draws (C4); and two of the four major themes were fixed before data collection and steered transcription. The source states this plainly but relies on the resulting corpus to establish which themes dominate. Reporting the proportion of transcribed versus untranscribed talk, or coding a random sample of recordings, would show whether the themes dominate independently of the selection.",
+        "flagKind": "cherry-picked",
+        "id": "M3",
+        "kind": "method",
+        "label": "Analytic procedure: selective transcription of recordings guided by themes, with initial themes (sexual objectification, male control) fixed before formal data collection, concept-driven plus open coding, and quotations chosen for typicality with preference for server-interaction remarks because these were assumed most likely evoked by the environment.",
+        "note": "Each recording was listened to in full at least three times (b68), which bears on completeness of listening but not on the stated selection preference for transcription.",
+        "short": "Theme-guided selective transcription and coding",
+        "where": "Method: Procedure; Data Analytic Strategy"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+a207e79b28cdda1574bc96109cf6bfd6d1a0e4d488278b7f1a28b7fd017cd77a",
+      "readingMode": "conversational",
+      "readingModeUsed": "conversational",
+      "recipeHash": "908873a3e58b8ab6a7b3672dff53f4c18a125fb7c36c519dd3a50e6b6d4385de",
+      "sourceVersion": "32162baa3e23b92f538b8834a06eea0be2c53a1a73427738cc998f20ddbad97f"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "breastaurant"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 10976,
+    "ratio": 0.12527392257121986,
+    "sourceCharacters": 87616
+  },
+  "readingId": "reading:4d275f1b99cdc66e830912032cadc03a5aadc64ffe79f1c061d96c52bdd92818",
+  "source": {
+    "authors": [
+      "Richard Baldwin"
+    ],
+    "collection": "grievance-studies-affair-2018",
+    "format": "pdf-text",
+    "id": "breastaurant",
+    "identifier": "doi:10.1007/s11199-018-0962-0",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "sourceStatus": "retracted",
+    "stage": "unknown",
+    "title": "An Ethnography of Breastaurant Masculinity: Themes of Objectification, Sexual Conquest, Male Control, and Masculine Toughness in a Sexually Objectifying Restaurant",
+    "url": "https://drive.google.com/file/d/1P7iCbvdsvdkuFYw_ibEfg__B7HHPKTkc/view",
+    "venue": "Sex Roles",
+    "version": "32162baa3e23b92f538b8834a06eea0be2c53a1a73427738cc998f20ddbad97f",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "doi",
+        "value": "10.1007/s11199-018-0962-0"
+      }
+    ],
+    "workId": "work:2924f8be73e0d1fbe3ad2cded19b57aa2b3436fbb7d3cd88d7e752425b353817"
+  }
+}

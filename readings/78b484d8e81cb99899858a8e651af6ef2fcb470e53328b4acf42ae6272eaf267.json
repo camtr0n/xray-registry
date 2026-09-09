@@ -1,0 +1,1475 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "3cc9adadec7bef6f511a0d2ed4eb02737628c97e56913488c5e91da3b4fb6675",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C2",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C3",
+          "level": "well-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C4",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C5",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "high-dimensions",
+            "flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C6",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "attacked",
+            "partial-strength-only"
+          ],
+          "claimId": "C7",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C8",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C9",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C10",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C11",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions"
+          ],
+          "claimId": "C12",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "high-dimensions"
+          ],
+          "claimId": "C13",
+          "level": "unsupported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C2",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "id": "e2",
+        "note": "Offered as showing masculinist norms enforced specifically by male companions.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C4",
+        "id": "e3",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C5",
+        "id": "e4",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C6",
+        "id": "e5",
+        "note": "Grounds the premise that a canine analogue of rape culture exists to be responded to.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C8",
+        "id": "e6",
+        "note": "The recommendations are offered as the practical payoff of treating the dog park as a model.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C7"
+      },
+      {
+        "from": "C12",
+        "id": "e7",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C9",
+        "id": "e8",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "C10",
+        "id": "e9",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C7"
+      },
+      {
+        "from": "C11",
+        "id": "e10",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "C13",
+        "id": "e11",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "C12",
+        "id": "e12",
+        "note": "Under the source's adopted definition, raped female dogs were not oppressed; the Application section nonetheless calls female dogs oppressed as a class.",
+        "relation": "contradicts",
+        "strength": "partial",
+        "to": "C5"
+      },
+      {
+        "from": "E1",
+        "id": "e13",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "E2",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "E3",
+        "id": "e15",
+        "note": "Baseline comparison: near-universal intervention in fights versus selective intervention in humping.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C2"
+      },
+      {
+        "from": "E4",
+        "id": "e16",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C2"
+      },
+      {
+        "from": "E5",
+        "id": "e17",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "E6",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "E7",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "E8",
+        "id": "e20",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "E9",
+        "id": "e21",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "E10",
+        "id": "e22",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C5"
+      },
+      {
+        "from": "E11",
+        "id": "e23",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C8"
+      },
+      {
+        "from": "E12",
+        "id": "e24",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E13",
+        "id": "e25",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C1"
+      },
+      {
+        "from": "M1",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M1",
+        "id": "e27",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M1",
+        "id": "e28",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M1",
+        "id": "e29",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M1",
+        "id": "e30",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M1",
+        "id": "e31",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M1",
+        "id": "e32",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M1",
+        "id": "e33",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M1",
+        "id": "e34",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M1",
+        "id": "e35",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M1",
+        "id": "e36",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E11"
+      },
+      {
+        "from": "M2",
+        "id": "e37",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M2",
+        "id": "e38",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M2",
+        "id": "e39",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M2",
+        "id": "e40",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M2",
+        "id": "e41",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M2",
+        "id": "e42",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M2",
+        "id": "e43",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E11"
+      },
+      {
+        "from": "M3",
+        "id": "e44",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M3",
+        "id": "e45",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M3",
+        "id": "e46",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E3"
+      },
+      {
+        "from": "M3",
+        "id": "e47",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M3",
+        "id": "e48",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M3",
+        "id": "e49",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M3",
+        "id": "e50",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M3",
+        "id": "e51",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M3",
+        "id": "e52",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M3",
+        "id": "e53",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M3",
+        "id": "e54",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E11"
+      },
+      {
+        "from": "M3",
+        "id": "e55",
+        "note": "Methods state no rigorous statistical analysis was used; Results assert a variable was not statistically significant.",
+        "relation": "contradicts",
+        "strength": "partial",
+        "to": "E2"
+      },
+      {
+        "from": "M4",
+        "id": "e56",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E1"
+      },
+      {
+        "from": "M4",
+        "id": "e57",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E2"
+      },
+      {
+        "from": "M4",
+        "id": "e58",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E4"
+      },
+      {
+        "from": "M4",
+        "id": "e59",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E5"
+      },
+      {
+        "from": "M4",
+        "id": "e60",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E6"
+      },
+      {
+        "from": "M4",
+        "id": "e61",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E7"
+      },
+      {
+        "from": "M4",
+        "id": "e62",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E8"
+      },
+      {
+        "from": "M4",
+        "id": "e63",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E9"
+      },
+      {
+        "from": "M4",
+        "id": "e64",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "E10"
+      },
+      {
+        "from": "M5",
+        "id": "e65",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "M6",
+        "id": "e66",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C1"
+      }
+    ],
+    "id": "dog-park-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b24",
+            "end": 2139,
+            "exact": "with the hope of delineating the features of a surprisingly oppressive and violent space",
+            "start": 2051
+          },
+          {
+            "blockId": "b76",
+            "end": 775,
+            "exact": "Dog parks are therefore spaces remarkably opposed to progress in both feminist geography and the geographies of sexuality, these being reflective of broader hegemonic constraints of society at large.",
+            "start": 576
+          },
+          {
+            "blockId": "b81",
+            "end": 199,
+            "exact": "In essence, dog parks become rape-condoning spaces in which human rape culture plays out by the moral permissiveness we extend to animals.",
+            "start": 61
+          },
+          {
+            "blockId": "b77",
+            "end": 308,
+            "exact": "dog parks are spaces in which these acts of oppression aren’t merely tolerated but are actively encouraged",
+            "start": 202
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "The observational data come from three parks in Southeast Portland, and the source itself says generalizing to other urban spaces falls outside its scope (b34); the Discussion nonetheless describes dog parks in general as 'reflective of broader hegemonic constraints of society at large'. Nothing in the results compares Portland parks to other places or to non-park spaces, which is what the wider claim would need.",
+        "flagKind": "scope-leap",
+        "id": "C1",
+        "kind": "claim",
+        "label": "Urban dog parks are oppressive, rape-condoning spaces in which hegemonic masculinist norms and human rape culture are enacted and reinforced through human companions' responses to dogs, reflecting broader constraints of society at large.",
+        "main": true,
+        "note": "The claim is interpreted through Potter's Black feminist criminology categories (M6); the source states this framework was adopted as an 'interpretative grounding' rather than tested.",
+        "short": "Dog parks are oppressive rape-condoning spaces",
+        "where": "Introduction; Discussion (Social structural oppression; Intersection of communities)"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b51",
+            "end": 238,
+            "exact": "The data suggest that the deciding variable for whether or not a human would interfere in a dog’s rape/humping incident was the dog’s gender.",
+            "start": 97
+          },
+          {
+            "blockId": "b55",
+            "end": 125,
+            "exact": "human companions, especially human males, were more likely to intervene in a male dog’s rape/humping incident",
+            "start": 16
+          },
+          {
+            "blockId": "b75",
+            "end": 593,
+            "exact": "male–male raping/humping was intervened upon 97% of the time versus only 32% of the time in male–female incidents",
+            "start": 480
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "The source calls dog gender 'the deciding variable' but reports no analysis that held other features of the incidents constant. It does not rule out that male–male mounting differs in other ways that prompt intervention (for example, likelihood of escalating into a fight, which the source reports humans interrupt 99% of the time, or size and resistance of the dogs). Showing that gender decides intervention would require comparing incidents matched on those features.",
+        "flagKind": "causal-language-without-design",
+        "id": "C2",
+        "kind": "claim",
+        "label": "Whether humans intervened in a dog rape/humping incident depended chiefly on the gender of the dogs involved: male–male incidents were intervened upon far more often than male–female incidents.",
+        "main": true,
+        "note": "Percentages are given without the number of male–male versus male–female incidents in each cell; the overall totals (1004 incidents, 86% female victims, 12% male) allow only rough back-calculation.",
+        "short": "Dog gender decided human intervention",
+        "where": "Results: Navigating 'Dog Rape Culture'; Issues of queer performativity; Discussion"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b52",
+            "end": 303,
+            "exact": "Male human companions were far less likely to intervene in the rape/humping of a female dog than a male dog",
+            "start": 196
+          },
+          {
+            "blockId": "b56",
+            "end": 154,
+            "exact": "When a male dog ‘dry humped’ or penetrated a female dog who showed no signs of resisting, 81% of female human companions attempted to stop the engagement.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C3",
+        "kind": "claim",
+        "label": "Male human companions were far less likely than female human companions to intervene when a female dog was being humped or raped.",
+        "short": "Male companions rarely protect female dogs",
+        "where": "Results: Navigating 'Dog Rape Culture'; Issues of queer performativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b57",
+            "end": 372,
+            "exact": "possibly implying homophobic shame trig-gering a violent response in the dogs’ male human companions",
+            "start": 272
+          },
+          {
+            "blockId": "b75",
+            "end": 337,
+            "exact": "we should expect male human companions to enforce heterosexuality upon dogs in order to control them while responding to and reinforcing their own hegemonic patterns of masculinity, and this I witnessed in full display",
+            "start": 119
+          },
+          {
+            "blockId": "b89",
+            "end": 713,
+            "exact": "male dogs who discharge their sexual urges on other male dogs or on humans rather than females are disproportionately subject to physical punishment",
+            "start": 565
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "The motive attributed to owners (homophobic shame) is inferred from the fact that shocks and many strikes followed male–male sexual acts. The Results hedge this as 'possibly implying', but the Discussion states it was 'witnessed in full display'. The source did not ask owners why they punished, and does not rule out other reasons owners might treat male–male mounting differently (for example, viewing it as aggression or dominance rather than sex). Owner interviews or a comparison of punishment for non-sexual male–male aggression would be needed.",
+        "flagKind": "causal-language-without-design",
+        "id": "C4",
+        "kind": "claim",
+        "label": "Male human companions physically punished male dogs for sexual acts with other male dogs, which the source reads as homophobic shame enforcing compulsory heterosexuality on dogs.",
+        "short": "Male owners punish queer-performing male dogs",
+        "where": "Results: Issues of queer performativity; Discussion; Application"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b60",
+            "end": 58,
+            "exact": "Gender had an apparent effect on the way a dog was treated",
+            "start": 0
+          },
+          {
+            "blockId": "b89",
+            "end": 563,
+            "exact": "Female dogs are relatively oppressed as a class compared with male dogs",
+            "start": 492
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "The 'oppressed as a class' conclusion rests on raw counts (uses of 'girl', leashing incidents, strikes) with no report of how many male versus female dogs, or male versus female companions, were present, so higher counts cannot be separated from higher attendance. The source's own null observations on leashing (C13) and its own definition of oppression (C12, under which raped female dogs were not oppressed) are not reconciled with this statement.",
+        "flagKind": "unsupported-generalization",
+        "id": "C5",
+        "kind": "claim",
+        "label": "Dogs were treated differently on the basis of gender: female dogs were leashed more, struck more, and addressed with gendered terms, so that female dogs are relatively oppressed as a class compared with male dogs.",
+        "short": "Female dogs oppressed as a class",
+        "where": "Results: Oppression of dogs; Application"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b49",
+            "end": 300,
+            "exact": "In general, more dog rapes/humping incidents occurred when more male dogs were present, and, somewhat surprisingly, 100% of dog rapes/humping incidents were perpetrated by male dogs.",
+            "start": 118
+          },
+          {
+            "blockId": "b34",
+            "end": 1109,
+            "exact": "because of frequent incidents of unwanted penetration (dog humping/rape) that take place in full view",
+            "start": 1008
+          },
+          {
+            "blockId": "b89",
+            "end": 323,
+            "exact": "the chronic and perennial rape emergency dog parks pose to female dogs",
+            "start": 253
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "The source states plainly that it cannot tell unwanted sexual advances from dominance displays (C9), yet the Application section relies on the coded counts to describe a 'chronic and perennial rape emergency' for female dogs. The counts depend entirely on one observer's judgment of whether the humped dog 'appeared' unwilling; no second coder or behavioral criteria beyond the observer's impression are described.",
+        "flagKind": "other",
+        "id": "C6",
+        "kind": "claim",
+        "label": "Dog rape/humping incidents were frequent at the parks, rose with the number of male dogs present, and were perpetrated exclusively by male dogs, mostly against female dogs.",
+        "short": "Frequent male-perpetrated dog rape/humping",
+        "where": "Introduction; Results: Navigating 'Dog Rape Culture'; Application"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b92",
+            "end": 990,
+            "exact": "‘dog rape culture’ can serve as a proxy that informs the problem of rape culture in humans",
+            "start": 900
+          },
+          {
+            "blockId": "b92",
+            "end": 1214,
+            "exact": "I therefore posit that recognizing the urban dog park as a conceptual model for (dog and human) rape-condoning spaces that perpetuate and amplify rape culture is a fitting interpretation of this study.",
+            "start": 1013
+          },
+          {
+            "blockId": "b79",
+            "end": 53,
+            "exact": "Dog parks are petri dishes for canine ‘rape culture.’",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 0
+        },
+        "flag": "The bridge from dog-park observations to human rape culture is an asserted analogy ('similar systemic roots'); the source presents no observation of human sexual behavior or human spaces. In the same paragraph it states that it is unclear in what direct ways the two analogize (C10), and then posits the model anyway. Establishing the proxy would require some independent measure of human rape culture in the same or comparable settings.",
+        "flagKind": "metaphor-as-evidence",
+        "id": "C7",
+        "kind": "claim",
+        "label": "'Dog rape culture' can serve as a proxy that informs the problem of human rape culture, and the urban dog park is a conceptual model for rape-condoning spaces that perpetuate and amplify rape culture.",
+        "main": true,
+        "short": "Dog park models human rape culture",
+        "where": "Discussion; Application"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b93",
+            "end": 1377,
+            "exact": "human males may be metaphorically ‘shocked’ out of regarding sexual violence, sexual harassment, and rape culture as normative, which may decrease rape rates and disrupt rape culture and eman-cipate rape-condoning spaces.",
+            "start": 1156
+          },
+          {
+            "blockId": "b96",
+            "end": 1038,
+            "exact": "human men could benefit likewise from being socialized not to rape, not to abuse women (or dogs) and to become active bystanders in public and private spaces",
+            "start": 881
+          },
+          {
+            "blockId": "b19",
+            "end": 1310,
+            "exact": "suggest practical applications that disrupts hegemonic masculinities and improves access to emancipatory spaces",
+            "start": 1199
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 0
+        },
+        "flag": "The recommendation for human institutions (mandatory diversity, harassment and bystander training) is derived from the observation that shocked dogs stopped humping. No evidence about the effect of such training on human behavior is offered, and the source explicitly labels the transfer as metaphorical. The claim's scope (human rape rates) is not covered by any observation in the study.",
+        "flagKind": "scope-leap",
+        "id": "C8",
+        "kind": "claim",
+        "label": "By analogy to shocking and leashing dogs, human men could be metaphorically 'shocked' and 'leashed' out of rape culture through interruption of sexual advances and mandatory training, which may decrease rape rates.",
+        "short": "Men can be metaphorically shocked and leashed",
+        "where": "Abstract; Application"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b30",
+            "end": 393,
+            "exact": "it is difficult if not impossible to ascertain when canine sexual advances are un/wanted, or when they are rapes rather than performances of canine dominance, which introduces considerable unavoidable ambiguity in my interpretations of this variable",
+            "start": 144
+          },
+          {
+            "blockId": "b47",
+            "end": 376,
+            "exact": "noting my anthropomorphic limitations in assessing when a humping incident constitutes rape in dogs",
+            "start": 277
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C9",
+        "kind": "claim",
+        "label": "The author acknowledges that, from a human frame, it is difficult or impossible to determine when canine sexual advances are unwanted or when they are rape rather than dominance, introducing unavoidable ambiguity in the rape/humping variable.",
+        "note": "A stated limitation. It bears on every count that depends on the rape/humping coding (M2).",
+        "short": "Rape versus dominance cannot be determined",
+        "where": "Introduction; Results: Navigating 'Dog Rape Culture'"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b92",
+            "end": 758,
+            "exact": "it is unclear in what direct ways the ‘rape culture’ of dogs analogizes to the rape cultures constructed by male humans",
+            "start": 639
+          },
+          {
+            "blockId": "b92",
+            "end": 355,
+            "exact": "it is unclear whether or not these interventions analogize outward to human women and girls",
+            "start": 264
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C10",
+        "kind": "claim",
+        "label": "The author acknowledges it is unclear whether the interventions analogize to human women and girls or in what direct ways dog 'rape culture' analogizes to human rape culture.",
+        "note": "Stated in the same paragraph that then posits the dog park as a conceptual model for human rape-condoning spaces (C7).",
+        "short": "Dog–human analogy acknowledged unclear",
+        "where": "Application"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b34",
+            "end": 508,
+            "exact": "aware that it may not necessarily generalize to other urban spaces of different spatial politics and social relations",
+            "start": 391
+          },
+          {
+            "blockId": "b34",
+            "end": 679,
+            "exact": "While it falls outside of the scope of this study to generalize to other urban spaces",
+            "start": 594
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 0,
+          "scopeMatch": 3
+        },
+        "id": "C11",
+        "kind": "claim",
+        "label": "The author acknowledges that findings from Portland, a highly progressive and largely white city, may not generalize to other urban spaces and that generalizing falls outside the study's scope.",
+        "short": "Portland findings may not generalize",
+        "where": "Introduction"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b85",
+            "end": 332,
+            "exact": "In this sense the only dogs who were oppressed were those engaging in queering behavior.",
+            "start": 244
+          },
+          {
+            "blockId": "b85",
+            "end": 633,
+            "exact": "on Taylor’s definition, raped female dogs were not oppressed because rape was normative at dog parks",
+            "start": 533
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C12",
+        "kind": "claim",
+        "label": "Under Taylor's definition of oppression as occupying public space in non-normative ways, only dogs engaging in queering behavior were oppressed; raped female dogs were not oppressed because rape was normative at the parks.",
+        "note": "The source flags this as 'only a single lens' and calls the result 'highly problematic', but it sits in tension with the Application section's statement that female dogs are oppressed as a class (C5).",
+        "short": "Only queering dogs oppressed under Taylor",
+        "where": "Discussion: The oppressed dog"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b63",
+            "end": 680,
+            "exact": "In these occurrences both dogs either were or were not leashed, independent of gender.",
+            "start": 594
+          },
+          {
+            "blockId": "b63",
+            "end": 897,
+            "exact": "There was no apparent difference in the amount of time a dog spent on a leash between male and female dogs or between male and female owners.",
+            "start": 756
+          }
+        ],
+        "dimensions": {
+          "directness": 3,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C13",
+        "kind": "claim",
+        "label": "When a companion had one male and one female dog, both were leashed or unleashed independent of gender, and there was no apparent difference in time on leash by dog or owner gender.",
+        "note": "A null result the source reports alongside the leash counts (E10); it is not revisited in the Discussion.",
+        "short": "Leashing null results within companions",
+        "where": "Results: Oppression of dogs"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b47",
+            "end": 227,
+            "exact": "approximately one dog rape/humping incident every 60 min (1004 documented dog rapes/ humping incidents) and one dog fight every 71 min (847 documented dog fights)",
+            "start": 65
+          },
+          {
+            "blockId": "b49",
+            "end": 666,
+            "exact": "Overall, 86% of dogs raped/humped were female dogs, 12% were males, and the gender of the victimized dog could not be determined in 2% of the cases.",
+            "start": 518
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "Across the observation period the author documented 1004 dog rape/humping incidents (about one per 60 minutes) and 847 dog fights, with 86% of humped dogs female, 12% male and 2% undetermined.",
+        "note": "One incident per 60 minutes over 1004 incidents implies roughly 1000 observation hours, consistent with the 'nearly 1000 h' stated in b34.",
+        "short": "1004 incidents; 86% female victims",
+        "where": "Results: Navigating 'Dog Rape Culture'"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b49",
+            "end": 517,
+            "exact": "Neither the time of day of the incident, weather, the number of human spectators present, or the gender of the dogs or humans in the vicinity was a statically significant variable in dog rape/humping incidents rates.",
+            "start": 301
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "No statistical test, model, or threshold is described anywhere in the source, and the Methods state the study 'did not make use of rigorous statistical analysis'. A reader cannot tell what 'statistically significant' means here or how it was computed.",
+        "flagKind": "other",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "The author reports that time of day, weather, number of spectators, and gender of nearby dogs or humans were not statistically significant variables in rape/humping incident rates.",
+        "short": "Other variables not statistically significant",
+        "where": "Results: Navigating 'Dog Rape Culture'"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b50",
+            "end": 379,
+            "exact": "Humans made some attempt to intervene in dog fights 99% of the time, by raising voice(s) (91%), attempting to physically intervene (19%), and other behaviors (29%)",
+            "start": 216
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "Humans attempted to intervene in dog fights 99% of the time, by raising voices (91%), physical intervention (19%), and other behaviors (29%).",
+        "note": "Serves as the comparison baseline against which the lower intervention in male–female humping is contrasted.",
+        "short": "Fights intervened 99% of time",
+        "where": "Results: Navigating 'Dog Rape Culture'"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b51",
+            "end": 439,
+            "exact": "When a male dog was raping/humping another male dog, humans attempted to intervene 97% of the time. When a male dog was raping/humping a female dog, humans only attempted to intervene 32% of the time.",
+            "start": 239
+          },
+          {
+            "blockId": "b51",
+            "end": 674,
+            "exact": "Humans only laughed 7% of the time when a male dog was raped/humped",
+            "start": 607
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Humans attempted to intervene in 97% of male–male rape/humping incidents but only 32% of male–female incidents; they encouraged the male dog 12% and laughed 18% of the time when a female dog was humped, versus laughing 7% when a male dog was humped.",
+        "short": "97% vs 32% intervention by dog gender",
+        "where": "Results: Navigating 'Dog Rape Culture'"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b52",
+            "end": 195,
+            "exact": "Female human companions attempted to intervene in a dog’s rape/humping incident, regardless of the dog’s gender, 98% of the time.",
+            "start": 66
+          },
+          {
+            "blockId": "b52",
+            "end": 354,
+            "exact": "with interventions occurring only 18% of the time",
+            "start": 305
+          },
+          {
+            "blockId": "b56",
+            "end": 227,
+            "exact": "81% of female human companions attempted to stop the engagement. Only 13% of male companions attempted to interrupt the humping behavior.",
+            "start": 90
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "Percentages are reported without the number of incidents in which a female or male companion was present and identified, and without saying how incidents with multiple or mixed-gender companions were assigned. The 18% figure is ambiguous in the text between male companions overall and male companions of female dogs. The counts behind each percentage would be needed to assess them.",
+        "flagKind": "no-denominator",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "Female companions intervened in 98% of rape/humping incidents regardless of dog gender, male companions in only 18% of incidents involving a female dog; for unresisted humping of a female dog, 81% of female versus 13% of male companions intervened.",
+        "short": "98% vs 18% intervention by human gender",
+        "where": "Results: Navigating 'Dog Rape Culture'; Issues of queer performativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b57",
+            "end": 270,
+            "exact": "there were 29 incidents among 15 dogs in which dogs controlled by shock collars were delivered an electric shock. All of those 15 dogs were male with male owners, and all 15 of the incidents involved a sexual act with another male dog",
+            "start": 36
+          },
+          {
+            "blockId": "b57",
+            "end": 893,
+            "exact": "Overall, there were 27 occurrences of dogs with shock collars engaged in sex acts with female dogs (whether shocked for it or not); 20 of these were aggressive enough to be deemed rapes and 7 showed no sign of resistance.",
+            "start": 672
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "The passage states 29 shock incidents and then refers to 'all 15 of the incidents', so the incident count is internally inconsistent. It is also not stated how the observer knew a shock had been delivered from a distance, or how many shock-collared dogs were present in total (the source notes collars were 'fairly common on female dogs' but reports no denominator).",
+        "flagKind": "other",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "Shock-collar shocks were delivered in 29 incidents among 15 dogs, all male dogs with male owners, and all involved a sexual act with another male dog; 27 sex acts by shock-collared dogs with female dogs (20 deemed rapes) drew no shock.",
+        "short": "All shocks followed male–male sex acts",
+        "where": "Results: Issues of queer performativity"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b75",
+            "end": 903,
+            "exact": "among the 39 times dogs were struck by an adult human companion, 14 times (more than any other single reason) were accounted for male–male rape/humping incidents",
+            "start": 742
+          },
+          {
+            "blockId": "b75",
+            "end": 731,
+            "exact": "100% of physical punishment in response to a rape/humping incident by means of shock collar was for male–male rape/humping incidents",
+            "start": 599
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "Of 39 strikes by adult companions, 14 (more than any other single reason) followed male–male rape/humping incidents, and 100% of shock-collar punishment for rape/humping was for male–male incidents.",
+        "note": "The 14 male–male strike count appears only in the Discussion, not in the Results section reporting the 39 strikes (E8), where 29 of the struck dogs are said to be female.",
+        "short": "14 of 39 strikes for male–male humping",
+        "where": "Discussion: Social structural oppression"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b64",
+            "end": 242,
+            "exact": "there were 39 incidents of an adult human companion striking a dog (I did not count striking by children). All 39 of these incidents were perpetrated by male companions and 29 of the dogs struck were female.",
+            "start": 35
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "There were 39 incidents of an adult companion striking a dog, all by male companions, and 29 of the struck dogs were female; most strikes used a leash or ball thrower.",
+        "note": "Striking by children was observed but not counted; the source says a count was not kept.",
+        "short": "39 strikes, all by men, 29 female dogs",
+        "where": "Results: Oppression of dogs"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b60",
+            "end": 197,
+            "exact": "Male human companions referred to their male dogs as ‘buddy’ 97% more often than did female human companions",
+            "start": 89
+          },
+          {
+            "blockId": "b62",
+            "end": 97,
+            "exact": "3543 incidents versus 1872",
+            "start": 71
+          },
+          {
+            "blockId": "b62",
+            "end": 300,
+            "exact": "this word was heard a total of 108 times by male human companions",
+            "start": 235
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "The 'more often' figures are ratios of raw utterance counts, not rates per companion or per hour; the source never reports how many male versus female companions (or male versus female dogs) were observed, so the counts cannot distinguish differences in speech from differences in attendance.",
+        "flagKind": "no-denominator",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "Male companions called male dogs 'buddy' 97% more often than female companions (4426 vs 2247), called female dogs 'girl' 89% more often (3543 vs 1872), and used 'bitch' 108 times versus zero uses by female companions.",
+        "short": "Gendered naming counts by companion gender",
+        "where": "Results: Oppression of dogs"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b63",
+            "end": 490,
+            "exact": "Males were 68% more likely to leash their dogs than females (3266 documented incidents versus 1945, including only those in which the gender of the human companion was determined). And female dogs were 70% more likely to be leashed than male dogs (1641 documented female leashing incidents versus 965 male leashing incidents, limited to those cases in which the sex of the dog was known).",
+            "start": 102
+          }
+        ],
+        "evidenceKind": "data",
+        "flag": "'More likely' is computed from raw counts of leashing incidents without the number of male and female companions or dogs present; a likelihood requires a denominator of opportunities. The two sets of counts also sum to different totals (5211 versus 2606), and the source does not explain the discrepancy beyond noting cases with unknown sex were excluded.",
+        "flagKind": "no-denominator",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "Male companions were 68% more likely to leash their dogs than female companions (3266 vs 1945 leashing incidents), and female dogs were 70% more likely to be leashed than male dogs (1641 vs 965).",
+        "short": "Leashing counts by human and dog gender",
+        "where": "Results: Oppression of dogs"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b57",
+            "end": 981,
+            "exact": "In every occurrence, when a dog was shocked, he immediately desisted from his behavior.",
+            "start": 894
+          },
+          {
+            "blockId": "b93",
+            "end": 799,
+            "exact": "the administration of an electric shock at the first signs of rape-like behavior within my observations always elicited a rapid cessation of an ongoing dog rape/humping",
+            "start": 631
+          }
+        ],
+        "evidenceKind": "data",
+        "id": "E11",
+        "kind": "evidence",
+        "label": "In every observed case, a dog that was shocked immediately stopped its behavior, and yelling was also effective at stopping rape/humping incidents.",
+        "short": "Shocks always stopped the behavior",
+        "where": "Results: Issues of queer performativity; Application"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b51",
+            "end": 813,
+            "exact": "many male owners showed shame consistent with a homophobic response in many such instances (Anderson 2004; Doherty and Anderson 2004)",
+            "start": 680
+          }
+        ],
+        "evidenceKind": "citation",
+        "flag": "The cited works (per their reference titles) concern perceptions of human male rape victims; the source applies them to dog owners' facial or bodily expressions without saying how 'shame' was recognized or counted. Neither the observation nor the citation covers dog-park owners.",
+        "flagKind": "scope-leap",
+        "id": "E12",
+        "kind": "evidence",
+        "label": "The author reports that many male owners showed shame consistent with a homophobic response when a male dog was humped, citing Anderson (2004) and Doherty and Anderson (2004).",
+        "short": "Owner shame read via homophobia literature",
+        "where": "Results: Navigating 'Dog Rape Culture'"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b73",
+            "end": 135,
+            "exact": "I am particularly struck by the similarities to the literature on compulsory heterosexuality (Rich 1980)",
+            "start": 31
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E13",
+        "kind": "evidence",
+        "label": "The author frames male companions' treatment of male–male dog sex through Rich's (1980) literature on compulsory heterosexuality.",
+        "note": "Offered as an interpretive parallel, not as an empirical finding about dog parks.",
+        "short": "Compulsory heterosexuality framing (Rich 1980)",
+        "where": "Discussion: Social structural oppression"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b34",
+            "end": 297,
+            "exact": "draws on nearly 1000 h of public observations of dogs and their human companions conducted at three dog parks in Southeast Portland, Oregon, beginning on 10 June 2016, and ending on 10 June 2017",
+            "start": 103
+          },
+          {
+            "blockId": "b36",
+            "end": 225,
+            "exact": "I stationed myself on benches that were in central observational locations at three dog parks in Southeast Portland, Oregon.",
+            "start": 101
+          },
+          {
+            "blockId": "b36",
+            "end": 417,
+            "exact": "These, however, lasted a minimum of two and no more than 7 h and concluded by 7:30 pm (due to visibility).",
+            "start": 311
+          }
+        ],
+        "flag": "Every count in the Results derives from one observer's real-time notes; no second observer, recording, inter-rater check, or count of dogs and people present per session is described. Given the volume reported (thousands of utterances, ~10,000 genital inspections, 1004 incidents), a reader cannot assess how counts were kept or how much of the park was visible at once.",
+        "flagKind": "single-observer",
+        "id": "M1",
+        "kind": "method",
+        "label": "The author alone observed three dog parks in Southeast Portland from benches for nearly 1000 hours between 10 June 2016 and 10 June 2017, in sessions of two to seven hours ending by 7:30 pm and never in heavy rain, taking notes, talking with people and inspecting dogs.",
+        "note": "No data deposit, code, or field-note archive is named anywhere in the source; the observer's affiliation is given as the Portland Ungendering Research Initiative (b18). The source notes the observations were sited under 'multispecies urban ethnography' and lists the behavioral categories scrutinized in b39.",
+        "short": "Single-observer year at three parks",
+        "where": "Introduction; Methods"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b28",
+            "end": 194,
+            "exact": "Throughout this work the word ‘rape’ describes human perceptions of dogs forcefully penetrating other dogs who have given no indication of wishing to engage in sexual activity (see Palmer 1989).",
+            "start": 0
+          },
+          {
+            "blockId": "b47",
+            "end": 600,
+            "exact": "the phrase ‘dog rape/humping incident’ documents only those incidents in which the activity appeared unwanted from my perspective – the humped dog having given no encouragement and apparently not enjoying the activity.",
+            "start": 382
+          }
+        ],
+        "id": "M2",
+        "kind": "method",
+        "label": "'Rape' is defined as human perceptions of dogs forcefully penetrating other dogs that gave no indication of wanting sex (after Palmer 1989), and a 'dog rape/humping incident' counts only activity that appeared unwanted from the observer's perspective.",
+        "note": "The source itself says in C9 that this determination is 'difficult if not impossible'; the coding therefore rests on the observer's impression of the humped dog's attitude.",
+        "short": "Observer-judged definition of dog rape",
+        "where": "Introduction; Results: Navigating 'Dog Rape Culture'"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b38",
+            "end": 472,
+            "exact": "this study is best considered mostly qualitative in nature and did not make use of rigorous statistical analysis",
+            "start": 360
+          },
+          {
+            "blockId": "b40",
+            "end": 468,
+            "exact": "I used a slightly modified inductive grounded theory approach that articulated and generated emerging themes from my recorded observations (Thomas 2006).",
+            "start": 315
+          }
+        ],
+        "id": "M3",
+        "kind": "method",
+        "label": "The study is described as mostly qualitative, using a slightly modified inductive grounded theory approach to generate themes, with some quantitative data collected but no rigorous statistical analysis.",
+        "note": "Despite this statement, the Results report percentages to the unit and one statement of statistical (non)significance (E2).",
+        "short": "Qualitative grounded theory, no rigorous statistics",
+        "where": "Methods"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b41",
+            "end": 156,
+            "exact": "While I closely and respectfully examined the genitals of slightly fewer than ten thousand dogs",
+            "start": 61
+          },
+          {
+            "blockId": "b41",
+            "end": 827,
+            "exact": "I attempted to address this shortcoming by asking human companions their preferred pronouns",
+            "start": 736
+          },
+          {
+            "blockId": "b45",
+            "end": 1309,
+            "exact": "Early on I aban-doned my attempt to collect this data due to the high likelihood of making errors.",
+            "start": 1211
+          }
+        ],
+        "flag": "The source acknowledges a margin of error in dog gender and inevitable misgendering of humans, but reports no count of uncertain or excluded cases and does not say how ambiguous cases were handled in the percentages. Because most results are cross-tabulated by dog and human gender, the size of this error matters and is not quantified.",
+        "flagKind": "other",
+        "id": "M4",
+        "kind": "method",
+        "label": "Dog gender was determined by visually examining the genitals of slightly fewer than ten thousand dogs; human gender was tagged by the observer, with preferred pronouns asked only in extreme cases; breed, neuter status, class, income, education and race were not recorded.",
+        "short": "Gender by genital inspection and observer tagging",
+        "where": "Methods"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b85",
+            "end": 243,
+            "exact": "I’ll borrow from Taylor’s definition which has gained considerable traction, ‘What it means to occupy a public space in non-normative ways’ (Taylor 2013).",
+            "start": 89
+          }
+        ],
+        "id": "M5",
+        "kind": "method",
+        "label": "Oppression is defined, following Taylor (2013), as what it means to occupy a public space in non-normative ways.",
+        "short": "Taylor's non-normative definition of oppression",
+        "where": "Discussion: The oppressed dog"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b69",
+            "end": 947,
+            "exact": "Potter integrates feminist and intersectional theory with criminology (Potter 2006, 2009, 2013, 2015), particularly in terms of understanding and utilizing three factors of systematic and hegemonic oppression: (1) social structural oppression, (2) the intersection and covariant relationship between communities and cultures, (3) the oppressed person as individual.",
+            "start": 582
+          }
+        ],
+        "id": "M6",
+        "kind": "method",
+        "label": "Observations are interpreted through Potter's Black feminist criminology categories of social structural oppression, the intersection of communities and cultures, and the oppressed individual, extended from people to dogs.",
+        "note": "The source says the framework is applied only to behaviors documented five or more times (b70).",
+        "short": "Potter's three-category interpretive framework",
+        "where": "Discussion"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1",
+      "readingMode": "evidentiary",
+      "readingModeUsed": "evidentiary",
+      "recipeHash": "8ce2d9a3fc62ac3b65ee51cf2012304417bd74c7585b199d1d35dab76020b494",
+      "sourceVersion": "3cc9adadec7bef6f511a0d2ed4eb02737628c97e56913488c5e91da3b4fb6675"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "dog-park"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 9320,
+    "ratio": 0.15038321903993546,
+    "sourceCharacters": 61975
+  },
+  "readingId": "reading:78b484d8e81cb99899858a8e651af6ef2fcb470e53328b4acf42ae6272eaf267",
+  "source": {
+    "authors": [
+      "Helen Wilson"
+    ],
+    "collection": "grievance-studies-affair-2018",
+    "format": "pdf-text",
+    "id": "dog-park",
+    "identifier": "doi:10.1080/0966369X.2018.1475346",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "sourceStatus": "retracted",
+    "stage": "unknown",
+    "title": "Human reactions to rape culture and queer performativity at urban dog parks in Portland, Oregon",
+    "url": "https://drive.google.com/file/d/1Gdb3QAJtyixuNTvDFBBvh__LQD4gLTJj/view",
+    "venue": "Gender, Place & Culture",
+    "version": "3cc9adadec7bef6f511a0d2ed4eb02737628c97e56913488c5e91da3b4fb6675",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "doi",
+        "value": "10.1080/0966369x.2018.1475346"
+      }
+    ],
+    "workId": "work:8477807f226d417d27577ffaccf77755b694bdb48a3c3bb825dd36a9b0b3ff31"
+  }
+}
