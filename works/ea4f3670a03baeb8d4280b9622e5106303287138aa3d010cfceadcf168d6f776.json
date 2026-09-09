@@ -1,0 +1,29 @@
+{
+  "aliases": [
+    {
+      "scheme": "url",
+      "value": "https://drive.google.com/uc?export=download&id=1mttdilyqszfz2oxf-whqtf-tcvzcjyzd"
+    }
+  ],
+  "readings": [
+    {
+      "completeness": "complete",
+      "contributor": "cam",
+      "normalizerVersion": "normalizer.v3",
+      "readingId": "reading:064ce4915bfc260b616b77e1dd7b2756008e2f8c950813e63ac24ce0c4e8e7f1",
+      "sourceVersion": "c5e11e4b4b7503cd1e288a4665b6e9b0be55e90595f2cff5a37e9b8bc68008d4",
+      "submittedOn": "2026-09-09",
+      "workId": "work:ea4f3670a03baeb8d4280b9622e5106303287138aa3d010cfceadcf168d6f776"
+    },
+    {
+      "completeness": "complete",
+      "contributor": "cam",
+      "normalizerVersion": "normalizer.v3",
+      "readingId": "reading:6e99651280fb6614b3b4c7f0dfa55c6d48305ee9608b7403ff7de37044d298bf",
+      "sourceVersion": "c5e11e4b4b7503cd1e288a4665b6e9b0be55e90595f2cff5a37e9b8bc68008d4",
+      "submittedOn": "2026-09-09",
+      "workId": "work:ea4f3670a03baeb8d4280b9622e5106303287138aa3d010cfceadcf168d6f776"
+    }
+  ],
+  "workId": "work:ea4f3670a03baeb8d4280b9622e5106303287138aa3d010cfceadcf168d6f776"
+}
