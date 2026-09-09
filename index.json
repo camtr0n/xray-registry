@@ -5,10 +5,28 @@
       "completeness": "complete",
       "contributor": "cam",
       "normalizerVersion": "normalizer.v3",
+      "readingId": "reading:03914d0053ccf6d80028756fd9961f602a8414b2674ea881632e2439f80b5f0e",
+      "sourceVersion": "0423089f291e1ebdb6b77d0413dfd2a4c4da11227b5d4a8a562d8f7a1c476a80",
+      "submittedOn": "2026-09-09",
+      "workId": "work:a2b05ce98cf59f6cd8ded3630548cc0415076290d4ddb4264ad210aaed6496a7"
+    },
+    {
+      "completeness": "complete",
+      "contributor": "cam",
+      "normalizerVersion": "normalizer.v3",
       "readingId": "reading:78b484d8e81cb99899858a8e651af6ef2fcb470e53328b4acf42ae6272eaf267",
       "sourceVersion": "3cc9adadec7bef6f511a0d2ed4eb02737628c97e56913488c5e91da3b4fb6675",
       "submittedOn": "2026-09-09",
       "workId": "work:8477807f226d417d27577ffaccf77755b694bdb48a3c3bb825dd36a9b0b3ff31"
+    },
+    {
+      "completeness": "complete",
+      "contributor": "cam",
+      "normalizerVersion": "normalizer.v3",
+      "readingId": "reading:ce7ce4d911da83f81444ccb86466605eac8cb0212c0ab566ca45bce2a245684f",
+      "sourceVersion": "0423089f291e1ebdb6b77d0413dfd2a4c4da11227b5d4a8a562d8f7a1c476a80",
+      "submittedOn": "2026-09-09",
+      "workId": "work:a2b05ce98cf59f6cd8ded3630548cc0415076290d4ddb4264ad210aaed6496a7"
     },
     {
       "completeness": "complete",
@@ -49,6 +67,35 @@
         }
       ],
       "workId": "work:8477807f226d417d27577ffaccf77755b694bdb48a3c3bb825dd36a9b0b3ff31"
+    },
+    {
+      "aliases": [
+        {
+          "scheme": "doi",
+          "value": "10.1080/21604851.2018.1453622"
+        }
+      ],
+      "readings": [
+        {
+          "completeness": "complete",
+          "contributor": "cam",
+          "normalizerVersion": "normalizer.v3",
+          "readingId": "reading:03914d0053ccf6d80028756fd9961f602a8414b2674ea881632e2439f80b5f0e",
+          "sourceVersion": "0423089f291e1ebdb6b77d0413dfd2a4c4da11227b5d4a8a562d8f7a1c476a80",
+          "submittedOn": "2026-09-09",
+          "workId": "work:a2b05ce98cf59f6cd8ded3630548cc0415076290d4ddb4264ad210aaed6496a7"
+        },
+        {
+          "completeness": "complete",
+          "contributor": "cam",
+          "normalizerVersion": "normalizer.v3",
+          "readingId": "reading:ce7ce4d911da83f81444ccb86466605eac8cb0212c0ab566ca45bce2a245684f",
+          "sourceVersion": "0423089f291e1ebdb6b77d0413dfd2a4c4da11227b5d4a8a562d8f7a1c476a80",
+          "submittedOn": "2026-09-09",
+          "workId": "work:a2b05ce98cf59f6cd8ded3630548cc0415076290d4ddb4264ad210aaed6496a7"
+        }
+      ],
+      "workId": "work:a2b05ce98cf59f6cd8ded3630548cc0415076290d4ddb4264ad210aaed6496a7"
     }
   ]
 }

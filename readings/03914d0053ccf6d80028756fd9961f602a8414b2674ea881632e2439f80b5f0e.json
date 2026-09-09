@@ -1,0 +1,1094 @@
+{
+  "capture": {
+    "completeness": "complete",
+    "format": "pdf-text",
+    "normalizerVersion": "normalizer.v3",
+    "sourceVersion": "0423089f291e1ebdb6b77d0413dfd2a4c4da11227b5d4a8a562d8f7a1c476a80",
+    "stage": "unknown"
+  },
+  "contributor": {
+    "handle": "cam"
+  },
+  "envelopeVersion": "registry-envelope.v1",
+  "graph": {
+    "assessment": {
+      "claims": [
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged"
+          ],
+          "claimId": "C1",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "low-dimensions",
+            "flagged"
+          ],
+          "claimId": "C2",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "supporting-claim-flagged",
+            "attacked",
+            "grounded-evidence"
+          ],
+          "claimId": "C3",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged",
+            "supporting-claim-flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C4",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions",
+            "flagged"
+          ],
+          "claimId": "C5",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C6",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C7",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "no-support",
+            "mid-dimensions"
+          ],
+          "claimId": "C8",
+          "level": "unsupported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "partial-strength-only",
+            "grounded-evidence"
+          ],
+          "claimId": "C9",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C10",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "flagged"
+          ],
+          "claimId": "C11",
+          "level": "weakly-supported"
+        },
+        {
+          "basis": [
+            "mid-dimensions",
+            "grounded-evidence"
+          ],
+          "claimId": "C12",
+          "level": "partially-supported"
+        },
+        {
+          "basis": [
+            "low-dimensions",
+            "flagged",
+            "grounded-evidence"
+          ],
+          "claimId": "C13",
+          "level": "weakly-supported"
+        }
+      ],
+      "ruleVersion": "support-rule.v1"
+    },
+    "edges": [
+      {
+        "from": "C3",
+        "id": "e1",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C1"
+      },
+      {
+        "from": "C2",
+        "id": "e2",
+        "note": "The absence of fat activism in bodybuilding is offered as the gap the proposal fills.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C4",
+        "id": "e3",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C5",
+        "id": "e4",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "C6",
+        "id": "e5",
+        "note": "If fat's negative attributes are constructed, showcasing fat bodies can change them; the source concedes the weakness construction has been least moved.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "C7",
+        "id": "e6",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C8",
+        "id": "e7",
+        "note": "The source's own caveats about pushback, the access Catch-22 and visibility perils.",
+        "relation": "undercuts",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "C9",
+        "id": "e8",
+        "note": "The built-body ontology is named as the 'point of contact' for the proposal.",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C10",
+        "id": "e9",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "C11",
+        "id": "e10",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C3"
+      },
+      {
+        "from": "C12",
+        "id": "e11",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C11"
+      },
+      {
+        "from": "C13",
+        "id": "e12",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "E1",
+        "id": "e13",
+        "note": "Establishes anthropometry as exclusionary; the link to bodybuilding is the author's.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C4"
+      },
+      {
+        "from": "E2",
+        "id": "e14",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "E3",
+        "id": "e15",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C6"
+      },
+      {
+        "from": "E4",
+        "id": "e16",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C6"
+      },
+      {
+        "from": "E5",
+        "id": "e17",
+        "note": "Analogy from modeling to bodybuilding.",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "E6",
+        "id": "e18",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C7"
+      },
+      {
+        "from": "E7",
+        "id": "e19",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C9"
+      },
+      {
+        "from": "E8",
+        "id": "e20",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C3"
+      },
+      {
+        "from": "E9",
+        "id": "e21",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C10"
+      },
+      {
+        "from": "E10",
+        "id": "e22",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C4"
+      },
+      {
+        "from": "E11",
+        "id": "e23",
+        "relation": "supports",
+        "strength": "full",
+        "to": "C12"
+      },
+      {
+        "from": "E12",
+        "id": "e24",
+        "relation": "supports",
+        "strength": "partial",
+        "to": "C13"
+      },
+      {
+        "from": "M1",
+        "id": "e25",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C11"
+      },
+      {
+        "from": "M1",
+        "id": "e26",
+        "relation": "conditions",
+        "strength": "full",
+        "to": "C13"
+      }
+    ],
+    "id": "fat-bodybuilding-graph",
+    "nodes": [
+      {
+        "anchors": [
+          {
+            "blockId": "b4",
+            "end": 33,
+            "exact": "Who are they to judge? Overcoming",
+            "start": 0
+          },
+          {
+            "blockId": "b14",
+            "end": 47,
+            "exact": "Who are they to judge? Overcoming anthropometry",
+            "start": 0
+          },
+          {
+            "blockId": "b43",
+            "end": 1629,
+            "exact": "The ultimate question that underlies fat bodybuilding, then, is: Who are they to judge?",
+            "start": 1542
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C1",
+        "kind": "claim",
+        "label": "Fat bodybuilding can overcome anthropometry, and the underlying question is who has standing to judge the legitimacy of anyone's built body.",
+        "main": true,
+        "note": "The title asserts an outcome ('overcoming') for a practice that, by the source's own account, does not yet exist; everything below is offered as grounds for why it could.",
+        "short": "Fat bodybuilding overcomes anthropometric judgment",
+        "where": "Title; Why fat bodybuilding?"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b17",
+            "end": 230,
+            "exact": "it has not yet penetrated the realm of competitive",
+            "start": 180
+          },
+          {
+            "blockId": "b62",
+            "end": 322,
+            "exact": "fat activism has made absolutely no inroads into the realm of bodybuilding",
+            "start": 248
+          }
+        ],
+        "dimensions": {
+          "directness": 0,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "flag": "The absolute statement ('absolutely no inroads') is not sourced to any survey of bodybuilding federations, events, or fat-activist projects. The source itself cites fat-acceptance work 'in sport' (Chastain blogs, b64) without explaining why that does not count. A reader would need some review of existing fat-inclusive strength or physique events to accept the claim as stated.",
+        "flagKind": "unsupported-generalization",
+        "id": "C2",
+        "kind": "claim",
+        "label": "Fat activism has disrupted many dominant discourses but has made no inroads into competitive bodybuilding.",
+        "main": false,
+        "short": "Fat activism absent from bodybuilding",
+        "where": "Abstract; A new opportunity for fat"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b17",
+            "end": 690,
+            "exact": "he advocates for imagining a new classification within bodybuilding, termed fat bodybuilding, as a fat-inclusive politicized performance and a new culture to be embedded within bodybuilding.",
+            "start": 500
+          },
+          {
+            "blockId": "b21",
+            "end": 538,
+            "exact": "I advocate for a new classification within bodybuilding, termed fat bodybuilding, as a fat-inclusive, corporeal, politicized category to be embedded within bodybuilding",
+            "start": 370
+          },
+          {
+            "blockId": "b42",
+            "end": 91,
+            "exact": "goal of fat bodybuilding is therefore to disrupt sizeism and other variations of oppression",
+            "start": 0
+          },
+          {
+            "blockId": "b62",
+            "end": 64,
+            "exact": "Fat bodybuilding presents a unique opportunity for fat activism.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C3",
+        "kind": "claim",
+        "label": "The author advocates a new classification within bodybuilding, termed fat bodybuilding, as a fat-inclusive politicized performance embedded within bodybuilding that presents a unique opportunity for fat activism.",
+        "main": true,
+        "note": "This is a recommendation, not a finding. The proposal is supported by analogy (plus-size modeling, the Fattylympics, wheelchair bodybuilding) and by theoretical citations; no fat bodybuilding event has been staged or observed in the source.",
+        "short": "Proposes fat bodybuilding as new classification",
+        "where": "Abstract; Introduction; Why fat bodybuilding?; A new opportunity for fat"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b18",
+            "end": 725,
+            "exact": "reaching their zenith in the cultural space of competitive bodybuilding",
+            "start": 654
+          },
+          {
+            "blockId": "b23",
+            "end": 46,
+            "exact": "At the center of bodybuilding is anthropometry",
+            "start": 0
+          },
+          {
+            "blockId": "b27",
+            "end": 428,
+            "exact": "competitive bodybuilding spaces are the apotheosis of an adipophobic society",
+            "start": 352
+          },
+          {
+            "blockId": "b41",
+            "end": 436,
+            "exact": "competitive bodybuilding insists on situating itself as an exaggerated yet paradigmatic symbol of fatphobia, judgment, shame, and vilification",
+            "start": 294
+          },
+          {
+            "blockId": "b48",
+            "end": 246,
+            "exact": "Currently, bodybuilding is organized hyperexclusively",
+            "start": 193
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "flag": "The superlative ('zenith', 'apotheosis') is asserted without comparison to other body-judged or weight-classed sports (gymnastics, boxing, figure skating, modeling). The IFBB rules cited (E10) show that bodybuilding penalizes body fat, but not that it does so more than every other cultural space.",
+        "flagKind": "missing-comparison",
+        "id": "C4",
+        "kind": "claim",
+        "label": "Competitive bodybuilding is the zenith of anthropometric judgment and the apotheosis of an adipophobic society, making it a primary target for fat activism.",
+        "main": false,
+        "short": "Bodybuilding is apotheosis of fatphobic anthropometry",
+        "where": "Introduction; Anthropometry and fatphobia; Fat activism; Why fat bodybuilding?; Fat bodybuilding"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b18",
+            "end": 1036,
+            "exact": "A paradox of anthropometry thus arises: bodybuilders’ bodies exist outside anthropometric expectations yet are still afforded social prestige.",
+            "start": 894
+          },
+          {
+            "blockId": "b18",
+            "end": 1372,
+            "exact": "The explanation for this paradox seems to be fatphobic",
+            "start": 1318
+          },
+          {
+            "blockId": "b21",
+            "end": 206,
+            "exact": "because bodybuilding is currently funda-mentally fat-exclusionary, its deviations from thin ideals are considered justified in a way that remains inaccessible to fat bodies",
+            "start": 34
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "The source itself states in the same paragraph that bodybuilders are respected 'because of their association with strength, fitness, and health', which is an alternative explanation for the prestige gap (perceived effort or health rather than fat-exclusion per se). The source does not rule this out or explain why fatphobia is the better account; the explanation is offered with 'seems'.",
+        "flagKind": "other",
+        "id": "C5",
+        "kind": "claim",
+        "label": "A paradox of anthropometry exists—bodybuilders' bodies defy thin ideals yet receive prestige denied to fat bodies—and the explanation seems to be fatphobic: bodybuilding's deviations are considered justified because it is fat-exclusionary.",
+        "main": false,
+        "short": "Paradox of anthropometry explained by fatphobia",
+        "where": "Introduction"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b25",
+            "end": 1088,
+            "exact": "their true source lies in contemporary dominant socially constructed narratives around fat and fat bodies",
+            "start": 983
+          },
+          {
+            "blockId": "b25",
+            "end": 1201,
+            "exact": "these narratives can be overcome through fat activism that showcases fat bodies as acceptable as they are",
+            "start": 1096
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 2,
+          "scopeMatch": 1
+        },
+        "id": "C6",
+        "kind": "claim",
+        "label": "Negative attributes assigned to fat (unhealthy, ugly, weak-willed) are socially constructed narratives rather than intrinsic properties, and so can be overcome through fat activism that showcases fat bodies as acceptable.",
+        "main": false,
+        "note": "The source concedes that 'overcoming constructions seeing fat as weakness/incompetence has gained less ground' (b25), which is the specific construction fat bodybuilding would need to address.",
+        "short": "Fat's negative attributes are socially constructed",
+        "where": "Anthropometry and fatphobia"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b27",
+            "end": 717,
+            "exact": "Conceptually, fat bodybuilding emerged from applying that lens to a prototype: a disruptive “fathletic” event, the “Fattylympics.”",
+            "start": 587
+          },
+          {
+            "blockId": "b31",
+            "end": 478,
+            "exact": "the Fattylympics is an effective form of fat activism",
+            "start": 425
+          },
+          {
+            "blockId": "b31",
+            "end": 882,
+            "exact": "fat bodybuilding repre-sents a unique form of fat activism operating in parallel to parodic performances such as Fattylympics",
+            "start": 757
+          },
+          {
+            "blockId": "b33",
+            "end": 122,
+            "exact": "Because fat bodybuilding diverges from parodic satire, it is conceptually and practically different than the Fattylympics.",
+            "start": 0
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C7",
+        "kind": "claim",
+        "label": "Fat bodybuilding emerged from applying the Fattylympics lens to bodybuilding, and it operates in parallel to but diverges from parodic performance because parody risks mocking fat rather than bodybuilding.",
+        "main": false,
+        "note": "The effectiveness of the Fattylympics is asserted via a quoted secondary characterization (E6); the source gives no attendance, media, or outcome measures for that event.",
+        "short": "Parallel to Fattylympics but non-parodic",
+        "where": "Fat activism; The ontology of a built body"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b31",
+            "end": 1078,
+            "exact": "people both within and without bodybuilding culture are likely to exhibit a considerable degree of fatphobic pushback",
+            "start": 961
+          },
+          {
+            "blockId": "b39",
+            "end": 758,
+            "exact": "to change the culture, fat bodies need access to those spaces in which they are most unwelcome, and yet to gain access, the culture must change to allow space for fat bodies",
+            "start": 585
+          },
+          {
+            "blockId": "b39",
+            "end": 1571,
+            "exact": "participants will face ridicule, shame, and disgust while risking that their visibility will provoke backlash and greater exclusion, marginalization, and oppression",
+            "start": 1407
+          },
+          {
+            "blockId": "b44",
+            "end": 214,
+            "exact": "introducing fat body-building will present considerable fat-exclusionary pushback",
+            "start": 133
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C8",
+        "kind": "claim",
+        "label": "Introducing fat bodybuilding will provoke considerable fatphobic pushback, faces a Catch-22 between access and cultural change, and exposes participants to the perils of visibility politics including ridicule, backlash and tokenized acceptance.",
+        "main": false,
+        "note": "This is the source's own stated caveat, drawn from Bailey (2017), Duggan (2003) and Kargbo (2013). It is recorded as weakening the proposal because the source acknowledges the risks and proceeds without describing how they would be mitigated beyond 'proceed aware'.",
+        "short": "Pushback, Catch-22 and visibility perils",
+        "where": "Fat activism; Fat activism and visibility politics; Why fat bodybuilding?"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b33",
+            "end": 579,
+            "exact": "the fat body is a body built by time and work and deserves to be respected",
+            "start": 505
+          },
+          {
+            "blockId": "b34",
+            "end": 341,
+            "exact": "The ontological designation of a fat body as a built body, made through time and effort and presented against dominant assumptions and judgments, therefore becomes the point of contact",
+            "start": 157
+          },
+          {
+            "blockId": "b35",
+            "end": 1423,
+            "exact": "The prevailing notion that the bodybuilder’s body has been built whereas the fat body has not is one that requires reconsideration",
+            "start": 1293
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 2
+        },
+        "flag": "'Built' is redefined from construction toward a blueprint to any body made through time and effort, but the source does not say what time or work distinguishes building a fat body from simply inhabiting one, nor whether all fat bodies count or only 'politicized' ones. Without that, the parallel to muscle-building (which has a specified practice) rests on the word rather than a shared activity.",
+        "flagKind": "undefined-term",
+        "id": "C9",
+        "kind": "claim",
+        "label": "The fat body is a legitimately built body, made through time and work, so the prevailing notion that only the muscular body has been 'built' requires reconsideration and the fat body deserves similar respect.",
+        "main": false,
+        "short": "Fat body is a built body",
+        "where": "The ontology of a built body"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b44",
+            "end": 845,
+            "exact": "building a (politicized) fat body already falls under the designation of bodybuilding as sport as technology of the self, and fat bodybuilding is already a sport",
+            "start": 684
+          },
+          {
+            "blockId": "b46",
+            "end": 812,
+            "exact": "fat bodybuilding will (at first) need to exist in parallel with its own unique set of rules",
+            "start": 721
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "id": "C10",
+        "kind": "claim",
+        "label": "Understood through Foucault's technologies of the self, building a politicized fat body already falls under bodybuilding as sport, so fat bodybuilding is already a sport, though it will need its own parallel rules to satisfy the competitive aspect.",
+        "main": false,
+        "note": "The source distinguishes two aspects of sport (self-technology and rule-governed competition) and grants that fat bodybuilding currently satisfies only the first; the 'already a sport' conclusion follows by definition from the chosen framework rather than from any observed practice.",
+        "short": "Fat bodybuilding already qualifies as sport",
+        "where": "Why fat bodybuilding?"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b50",
+            "end": 155,
+            "exact": "I therefore offer the following template for “rules” governing a competitive aesthetic sport of fat bodybuilding:",
+            "start": 42
+          },
+          {
+            "blockId": "b51",
+            "end": 70,
+            "exact": "Any-body can enter. There are no weight classes, size, ability, or",
+            "start": 4
+          },
+          {
+            "blockId": "b53",
+            "end": 71,
+            "exact": "Entrants are judged on their capacity to showcase fat through poses",
+            "start": 4
+          },
+          {
+            "blockId": "b56",
+            "end": 210,
+            "exact": "All participants are given equal posing opportunities as other body-",
+            "start": 142
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 2,
+          "scopeMatch": 2
+        },
+        "flag": "Rule 2 institutes judging of bodies, while the source elsewhere says fat activism seeks 'to remove judgment from any body' (b49) and any extension 'must remain true to this defining goal'; the title asks who has standing to judge. The source does not explain who the judges would be, what 'capacity to showcase fat' means operationally, or how judging fat display avoids re-creating the anthropometric ranking it opposes. The source does acknowledge 'no single approach can be perfect'.",
+        "flagKind": "other",
+        "id": "C11",
+        "kind": "claim",
+        "label": "The author offers a rules template for competitive fat bodybuilding: any-body can enter with no weight, size, ability or gender restrictions; entrants are judged on their capacity to showcase fat through body-positive poses; entrants may wear fatshion of their choice; and all participants get equal posing opportunities.",
+        "main": false,
+        "short": "Four-rule template for fat bodybuilding",
+        "where": "Fat bodybuilding"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b58",
+            "end": 319,
+            "exact": "the purpose of fat bodybuilding cannot be to provide a “safe space” for fat bodies",
+            "start": 237
+          },
+          {
+            "blockId": "b58",
+            "end": 1006,
+            "exact": "fat bodybuilding officials must remain anthropometrically neutral",
+            "start": 941
+          }
+        ],
+        "dimensions": {
+          "directness": 2,
+          "inferentialGap": 1,
+          "scopeMatch": 2
+        },
+        "id": "C12",
+        "kind": "claim",
+        "label": "The any-body rule exists to avoid complicity in exclusion; fat bodybuilding cannot be a 'safe space' for fat bodies only, and its officials must remain anthropometrically neutral.",
+        "main": false,
+        "note": "The source flags an implementation parallel to trans inclusion in women's sports (b60) but does not address how anthropometric neutrality of officials coexists with judging entrants on showcasing fat.",
+        "short": "Not a safe space; anthropometrically neutral",
+        "where": "Fat bodybuilding"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b60",
+            "end": 233,
+            "exact": "The value of such an endeavor for fat activism is almost beyond question, even if only in concept",
+            "start": 136
+          },
+          {
+            "blockId": "b60",
+            "end": 952,
+            "exact": "not only would fat activism benefit from the inclusion of fat and fat bodies within bodybuilding, bodybuilding itself would be improved",
+            "start": 817
+          }
+        ],
+        "dimensions": {
+          "directness": 1,
+          "inferentialGap": 3,
+          "scopeMatch": 1
+        },
+        "flag": "'Almost beyond question' is asserted for an untested concept. The only support is a Levan (2014) remark about weight-loss programs, which the author then extends by assertion to 'all programs demanding bodily conformity' and to competitive bodybuilding. The source's own caveat (C8) that visibility can produce backlash and tokenization is in tension with the claim that the value is nearly unquestionable.",
+        "flagKind": "unsupported-generalization",
+        "id": "C13",
+        "kind": "claim",
+        "label": "Fat activism would benefit from inclusion of fat bodies within bodybuilding, bodybuilding itself would be improved, and the value of the endeavor for fat activism is almost beyond question even if only in concept.",
+        "main": false,
+        "short": "Value to activism and bodybuilding",
+        "where": "Fat bodybuilding"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b23",
+            "end": 583,
+            "exact": "Standardization regarding physical shape and corporeal form is often exclusionary of larger (or other [e.g., disabled]) bodies",
+            "start": 457
+          },
+          {
+            "blockId": "b23",
+            "end": 1155,
+            "exact": "Levan (2014) developed the concept of “blueprinting” the human body as a problematic consequence of anthropometry",
+            "start": 1042
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E1",
+        "kind": "evidence",
+        "label": "Levan (2014) is cited for the concept of 'blueprinting' and for anthropometric standardization being exclusionary of larger and disabled bodies.",
+        "note": "Levan's paper concerns visual representation and spaces (furniture, clothing, Vitruvian Man); the application to bodybuilding is the author's extension.",
+        "short": "Levan 2014 on anthropometric blueprinting",
+        "where": "Anthropometry and fatphobia"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b25",
+            "end": 61,
+            "exact": "As noted by Hoskin (2017), discourses about fat are normative",
+            "start": 0
+          },
+          {
+            "blockId": "b25",
+            "end": 491,
+            "exact": "fat is unhealthy (Burgard 2009; Campos 2004; Gaesser 2002), ugly (Levan 2014), and associated with physical weakness, ineptitude, and weakness of will (Fontana et al. 2013)",
+            "start": 319
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E2",
+        "kind": "evidence",
+        "label": "Hoskin (2017) and a cluster of citations are offered for the existence of dominant discourses casting fat as unhealthy, ugly, and associated with weakness of will.",
+        "note": "The source says these discourses are 'common within bodybuilding' but the cited works (Fontana et al. on physical education teachers; Hoskin a book review) do not study bodybuilding.",
+        "short": "Citations for dominant anti-fat discourses",
+        "where": "Anthropometry and fatphobia"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b25",
+            "end": 671,
+            "exact": "drawing on survey data of 5,000 primary care physicians, Foster et al. (2003) wrote, “Physicians, like the rest of our society, hold critical views of [fat] patients",
+            "start": 506
+          }
+        ],
+        "evidenceKind": "citation",
+        "flag": "A physician survey is used as an example of discourses 'common within bodybuilding'. The population (primary care physicians) and setting differ from bodybuilders, judges or gym culture; no response rate or denominator beyond the '5,000' figure is given, and the quoted sentence is an interpretive statement rather than a reported result.",
+        "flagKind": "scope-leap",
+        "id": "E3",
+        "kind": "evidence",
+        "label": "Foster et al. (2003), reported as survey data from 5,000 primary care physicians, is quoted for physicians stereotyping fat patients as weak-willed, ugly, awkward and lazy.",
+        "short": "Foster 2003 physician survey stereotypes",
+        "where": "Anthropometry and fatphobia"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b25",
+            "end": 981,
+            "exact": "as illustrated by some historical preferences for fat wherein fat bodies are seen as healthy, strong, and beautiful (Stearns 2002)",
+            "start": 851
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E4",
+        "kind": "evidence",
+        "label": "Stearns (2002) is cited for historical periods in which fat bodies were seen as healthy, strong and beautiful.",
+        "short": "Stearns 2002 historical fat preferences",
+        "where": "Anthropometry and fatphobia"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b27",
+            "end": 178,
+            "exact": "the considerable success at penetrating and disrupting adipophobic environments that fat activism has achieved within professional modeling (Czerniawski 2015)",
+            "start": 20
+          },
+          {
+            "blockId": "b64",
+            "end": 314,
+            "exact": "drawing upon the methods and successes in pushing fat acceptance into culture achieved by fatshion modeling and blogging (Brown 2017; Czerniawski 2015), including in sport (Chastain n.d.a, n.d.b)",
+            "start": 119
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E5",
+        "kind": "evidence",
+        "label": "Czerniawski (2015) and related work are cited for fat activism's success in penetrating plus-size modeling, offered as a model for bodybuilding.",
+        "note": "The transfer from modeling to competitive bodybuilding is by analogy; the source does not compare the two arenas' gatekeeping structures.",
+        "short": "Fat activism success in modeling",
+        "where": "Fat activism; A new opportunity for fat"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b27",
+            "end": 858,
+            "exact": "The Fattylympics was an act of cultural disruption undertaken as a nonprofit community event in East London in 2012 to satirize the Olympics",
+            "start": 718
+          },
+          {
+            "blockId": "b29",
+            "end": 142,
+            "exact": "“Fattylympics illustrated the possibility of claiming a public space for resist-ing the dominant anti-fat ethic of sport and physical activity",
+            "start": 0
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E6",
+        "kind": "evidence",
+        "label": "The 2012 East London Fattylympics is described as a nonprofit community event satirizing the Olympics, with Monaghan, Colls and Evans (2015) quoted that it illustrated the possibility of claiming public space against sport's anti-fat ethic.",
+        "note": "Sources are a video (Cooper 2013), a blog, an interview and an edited volume; no outcome or reception data are reported.",
+        "short": "Fattylympics 2012 as prototype",
+        "where": "Fat activism"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b33",
+            "end": 442,
+            "exact": "As Mitchell (2017) wrote, “It takes time to make a fat body. It takes even more time to make a politicized fat body” (11).",
+            "start": 320
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E7",
+        "kind": "evidence",
+        "label": "Mitchell (2017) is quoted: it takes time to make a fat body and even more time to make a politicized fat body.",
+        "short": "Mitchell quote on making fat bodies",
+        "where": "The ontology of a built body"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b37",
+            "end": 422,
+            "exact": "finds specific theoretical grounding within Cooper’s (2016) view of fat activism as cultural work",
+            "start": 325
+          },
+          {
+            "blockId": "b39",
+            "end": 262,
+            "exact": "The ability to enter a place creates the ability to transform it” (162).",
+            "start": 190
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E8",
+        "kind": "evidence",
+        "label": "Cooper (2016) is quoted on fat activism as cultural work and on access: the ability to enter a place creates the ability to transform it.",
+        "short": "Cooper 2016 on access and transformation",
+        "where": "Fat activism and visibility politics"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b44",
+            "end": 559,
+            "exact": "it embodies Foucault’s (1988) “technologies of the self” applied to the realm of sport (Markula 2003; cf. Scraton and Flintoff 2002)",
+            "start": 427
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E9",
+        "kind": "evidence",
+        "label": "Foucault's technologies of the self, via Markula (2003) and others, are cited as one of two aspects defining sport.",
+        "short": "Foucault technologies of self in sport",
+        "where": "Why fat bodybuilding?"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b48",
+            "end": 599,
+            "exact": "Competitors are segregated according to embodied characteristics such as weight, sex/gender, physicality, size, and competition type (Santonja 2017).",
+            "start": 450
+          },
+          {
+            "blockId": "b48",
+            "end": 888,
+            "exact": "extre-mely low body-fat composition",
+            "start": 853
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E10",
+        "kind": "evidence",
+        "label": "IFBB rules (Santonja 2017) are cited: competitors are segregated by weight, sex/gender, physicality, size and competition type, and scored on muscularity, symmetry, waist thinness and extremely low body-fat composition.",
+        "note": "The cited rulebook is a public IFBB document (IFBB General Rules 2017, URL in references); a reader could check the scoring criteria directly. The source cites one federation.",
+        "short": "IFBB judging rules exclude fat",
+        "where": "Fat bodybuilding"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b58",
+            "end": 445,
+            "exact": "“While the impetus to create safe space is laudable, the reality of its policing is troubling.",
+            "start": 351
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E11",
+        "kind": "evidence",
+        "label": "Cooper (2016) is quoted that the policing of 'safe space' is troubling and that safe spaces are not safe for everyone with a claim to them.",
+        "short": "Cooper 2016 on safe-space policing",
+        "where": "Fat bodybuilding"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b60",
+            "end": 1102,
+            "exact": "As Levan (2014) noted, “Far from promoting healthy lifestyles, weight-loss programs focus on reshaping the body in order to conform to beauty ideals",
+            "start": 954
+          }
+        ],
+        "evidenceKind": "citation",
+        "id": "E12",
+        "kind": "evidence",
+        "label": "Levan (2014) is quoted that weight-loss programs reshape bodies to beauty ideals through symbolic self-mutilation, which the author extends to competitive bodybuilding.",
+        "note": "The quoted passage concerns weight-loss programs; the extension to 'all programs demanding bodily conformity' and to bodybuilding is the author's.",
+        "short": "Levan on weight-loss programs",
+        "where": "Fat bodybuilding"
+      },
+      {
+        "anchors": [
+          {
+            "blockId": "b46",
+            "end": 1937,
+            "exact": "I proceed combining 50 years’ experience in professional bodybuilding with having been introduced (by my granddaugh-ter) to fat studies literature and perspectives",
+            "start": 1774
+          },
+          {
+            "blockId": "b46",
+            "end": 2073,
+            "exact": "which limits my perspective",
+            "start": 2046
+          },
+          {
+            "blockId": "b66",
+            "end": 250,
+            "exact": "He is a professional bodybuilder with more than 50 years of experience in the sport.",
+            "start": 166
+          }
+        ],
+        "flag": "The rules template and the judgment that bodybuilding would be improved rest on one insider's experience. The author states that 'this subject is best discussed by fat scholars and fathletes', yet no fat activists, fathletes or bodybuilding judges were consulted; no interviews, observation or pilot event is reported. Closing the gap would require input from the people the proposal is for.",
+        "flagKind": "single-observer",
+        "id": "M1",
+        "kind": "method",
+        "label": "The author proceeds from 50 years' experience as a professional bodybuilder combined with an introduction to fat studies literature via his granddaughter, and acknowledges that his thin and other privilege limits his perspective.",
+        "note": "The source states this limitation plainly; it is flagged because the proposal is nonetheless advanced on that basis.",
+        "short": "Insider bodybuilder plus fat studies reading",
+        "where": "Why fat bodybuilding?; Notes on contributor"
+      }
+    ],
+    "provenance": {
+      "author": "ai",
+      "method": "Extracted by claude-fable-5-1 with prompt argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1; quotes located and verified deterministically.",
+      "model": "claude-fable-5-1",
+      "producedOn": "2026-09-09",
+      "promptVersion": "argument-graph.v1+policy.v2+2e4bf57129040ef79116e9c7b91296581065f677cef337ee3beedb016ff6aef1",
+      "readingMode": "evidentiary",
+      "readingModeUsed": "argumentative",
+      "recipeHash": "8ce2d9a3fc62ac3b65ee51cf2012304417bd74c7585b199d1d35dab76020b494",
+      "sourceVersion": "0423089f291e1ebdb6b77d0413dfd2a4c4da11227b5d4a8a562d8f7a1c476a80"
+    },
+    "schemaVersion": "0.2",
+    "sourceId": "fat-bodybuilding"
+  },
+  "licence": "CC0-1.0",
+  "quotation": {
+    "quotedCharacters": 6593,
+    "ratio": 0.16608726320032244,
+    "sourceCharacters": 39696
+  },
+  "readingId": "reading:03914d0053ccf6d80028756fd9961f602a8414b2674ea881632e2439f80b5f0e",
+  "source": {
+    "authors": [
+      "Richard Baldwin"
+    ],
+    "format": "pdf-text",
+    "id": "fat-bodybuilding",
+    "identifier": "doi:10.1080/21604851.2018.1453622",
+    "medium": "article",
+    "normalizerVersion": "normalizer.v3",
+    "provenance": "Original graph contributions are CC0; source quotations remain under their respective copyrights and are excluded from CC0. Public availability/retraction grants no reuse licence. Quotations support criticism and analysis with source/version attribution. The 35% ceiling is an internal maximum, not permission or a fair-use safe harbour; each reading requires context-specific assessment.",
+    "stage": "unknown",
+    "title": "Who are they to judge? Overcoming anthropometry through fat bodybuilding",
+    "url": "https://drive.google.com/uc?export=download&id=1Dl2AeQX9ZXmCYBVfKEmDvT-BHcghc9sr",
+    "venue": "Fat Studies",
+    "version": "0423089f291e1ebdb6b77d0413dfd2a4c4da11227b5d4a8a562d8f7a1c476a80",
+    "year": 2018
+  },
+  "submittedOn": "2026-09-09",
+  "work": {
+    "aliases": [
+      {
+        "scheme": "doi",
+        "value": "10.1080/21604851.2018.1453622"
+      }
+    ],
+    "workId": "work:a2b05ce98cf59f6cd8ded3630548cc0415076290d4ddb4264ad210aaed6496a7"
+  }
+}
